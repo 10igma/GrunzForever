@@ -1,0 +1,1003 @@
+[
+  {
+    "ID": 1,
+    "Name_lang": "Development",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 2,
+    "Name_lang": "United States",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 3,
+    "Name_lang": "Oceanic",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 4,
+    "Name_lang": "Latin America",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 5,
+    "Name_lang": "Tournament",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 1,
+    "Order": 50,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 6,
+    "Name_lang": "Korea",
+    "LocaleMask": 0,
+    "Create_charsetMask": 10,
+    "Existing_charsetMask": 10,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 7,
+    "Name_lang": "Tournament",
+    "LocaleMask": 0,
+    "Create_charsetMask": 10,
+    "Existing_charsetMask": 10,
+    "Flags": 1,
+    "Order": 50,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 8,
+    "Name_lang": "English",
+    "LocaleMask": 3533,
+    "Create_charsetMask": 5,
+    "Existing_charsetMask": 5,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2PlusHotfix",
+    "_HotfixPushID": 113441
+  },
+  {
+    "ID": 9,
+    "Name_lang": "German",
+    "LocaleMask": 3277,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 10,
+    "Name_lang": "French",
+    "LocaleMask": 3277,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 11,
+    "Name_lang": "Spanish",
+    "LocaleMask": 3277,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 12,
+    "Name_lang": "Russian",
+    "LocaleMask": 256,
+    "Create_charsetMask": 4,
+    "Existing_charsetMask": 4,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 13,
+    "Name_lang": "Tournament",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 1,
+    "Order": 50,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 14,
+    "Name_lang": "Taiwan",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 15,
+    "Name_lang": "Tournament",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 1,
+    "Order": 50,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 16,
+    "Name_lang": "China",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 17,
+    "Name_lang": "CN1",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 18,
+    "Name_lang": "CN2",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 19,
+    "Name_lang": "CN3",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 20,
+    "Name_lang": "CN4",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 21,
+    "Name_lang": "CN5",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 22,
+    "Name_lang": "CN6",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 23,
+    "Name_lang": "CN7",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 24,
+    "Name_lang": "CN8",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 25,
+    "Name_lang": "Tournament",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 1,
+    "Order": 50,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 26,
+    "Name_lang": "Test Server",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 27,
+    "Name_lang": "Tournament",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 1,
+    "Order": 50,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 28,
+    "Name_lang": "QA Server",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 29,
+    "Name_lang": "CN9",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 30,
+    "Name_lang": "Test Server 2",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 31,
+    "Name_lang": "CN10",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 32,
+    "Name_lang": "CTC",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 33,
+    "Name_lang": "CNC",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 34,
+    "Name_lang": "CN1/4",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 35,
+    "Name_lang": "CN2/6/9",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 36,
+    "Name_lang": "CN3/7",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 37,
+    "Name_lang": "CN5/8",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 38,
+    "Name_lang": "Russian Tournament",
+    "LocaleMask": 256,
+    "Create_charsetMask": 4,
+    "Existing_charsetMask": 4,
+    "Flags": 1,
+    "Order": 51,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 39,
+    "Name_lang": "CN11",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 40,
+    "Name_lang": "CN12",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 41,
+    "Name_lang": "CN13",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 42,
+    "Name_lang": "CN14",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 43,
+    "Name_lang": "CN15",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 44,
+    "Name_lang": "CN16",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 45,
+    "Name_lang": "CN17",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 46,
+    "Name_lang": "CN18",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 47,
+    "Name_lang": "CN19",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 48,
+    "Name_lang": "CN20",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 49,
+    "Name_lang": "Brazil",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 50,
+    "Name_lang": "Italian",
+    "LocaleMask": 3277,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 51,
+    "Name_lang": "Hyrule",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 52,
+    "Name_lang": "QA2 Test",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 55,
+    "Name_lang": "Recommended Realm",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 56,
+    "Name_lang": "Test",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 80,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 58,
+    "Name_lang": "Future Test",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 80,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 159,
+    "Name_lang": "Regional Test",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 80,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 160,
+    "Name_lang": "Classic",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 161,
+    "Name_lang": "Classic",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 162,
+    "Name_lang": "US West",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": -50,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 163,
+    "Name_lang": "US East",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": -49,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 164,
+    "Name_lang": "Automation",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 165,
+    "Name_lang": "Era Test",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 166,
+    "Name_lang": "Classic Era",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 167,
+    "Name_lang": "Classic Era",
+    "LocaleMask": 3277,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 168,
+    "Name_lang": "Classic Era",
+    "LocaleMask": 0,
+    "Create_charsetMask": 10,
+    "Existing_charsetMask": 10,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 169,
+    "Name_lang": "Classic Era",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 170,
+    "Name_lang": "Classic Era",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 171,
+    "Name_lang": "Seasonal",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 172,
+    "Name_lang": "Seasonal",
+    "LocaleMask": 3277,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 173,
+    "Name_lang": "Seasonal",
+    "LocaleMask": 0,
+    "Create_charsetMask": 10,
+    "Existing_charsetMask": 10,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 174,
+    "Name_lang": "Seasonal",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 175,
+    "Name_lang": "Seasonal",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 179,
+    "Name_lang": "Test Copy",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 180,
+    "Name_lang": "Global",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 181,
+    "Name_lang": "Hardcore",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 182,
+    "Name_lang": "Seasonal",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 183,
+    "Name_lang": "Internal Dev",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 2,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 184,
+    "Name_lang": "Dev 3",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 2,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 185,
+    "Name_lang": "PS",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 2,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 186,
+    "Name_lang": "Beta",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 187,
+    "Name_lang": "NetEase Test",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 188,
+    "Name_lang": "Return To Northrend",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 2,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 189,
+    "Name_lang": "Progression",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 190,
+    "Name_lang": "Progression",
+    "LocaleMask": 3277,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 191,
+    "Name_lang": "Progression",
+    "LocaleMask": 0,
+    "Create_charsetMask": 10,
+    "Existing_charsetMask": 10,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 192,
+    "Name_lang": "Progression",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 193,
+    "Name_lang": "Progression",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 194,
+    "Name_lang": "Anniversary",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 195,
+    "Name_lang": "Anniversary",
+    "LocaleMask": 0,
+    "Create_charsetMask": 10,
+    "Existing_charsetMask": 10,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 196,
+    "Name_lang": "Anniversary",
+    "LocaleMask": 3277,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 197,
+    "Name_lang": "Anniversary",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 198,
+    "Name_lang": "Anniversary",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": -127,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 199,
+    "Name_lang": "Classic Era",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 201,
+    "Name_lang": "Classic Era",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 202,
+    "Name_lang": "Anniversary",
+    "LocaleMask": 0,
+    "Create_charsetMask": 0,
+    "Existing_charsetMask": 0,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 203,
+    "Name_lang": "Active",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": -50,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 204,
+    "Name_lang": "Legacy",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": -49,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 205,
+    "Name_lang": "Active",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": -50,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 206,
+    "Name_lang": "Legacy",
+    "LocaleMask": 0,
+    "Create_charsetMask": 1,
+    "Existing_charsetMask": 1,
+    "Flags": 0,
+    "Order": -49,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 207,
+    "Name_lang": "Titan-Reforged",
+    "LocaleMask": 0,
+    "Create_charsetMask": 17,
+    "Existing_charsetMask": 17,
+    "Flags": 0,
+    "Order": 0,
+    "_DataSource": "Db2"
+  }
+]

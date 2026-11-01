@@ -1,0 +1,917 @@
+[
+  {
+    "ID": 1,
+    "DisplayName_lang": "Self Only",
+    "DisplayNameShort_lang": "Self",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      0,
+      0
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 2,
+    "DisplayName_lang": "Combat Range",
+    "DisplayNameShort_lang": "Combat",
+    "Flags": 1,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      5,
+      5
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 3,
+    "DisplayName_lang": "Short Range",
+    "DisplayNameShort_lang": "Short",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      20,
+      20
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 4,
+    "DisplayName_lang": "Medium Range",
+    "DisplayNameShort_lang": "Medium",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      30,
+      30
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 5,
+    "DisplayName_lang": "Long Range",
+    "DisplayNameShort_lang": "Long",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      40,
+      40
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 6,
+    "DisplayName_lang": "Vision Range",
+    "DisplayNameShort_lang": "Vision",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      100,
+      100
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 7,
+    "DisplayName_lang": "Very Short Range",
+    "DisplayNameShort_lang": "Very Short",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      10,
+      10
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 8,
+    "DisplayName_lang": "Short Range",
+    "DisplayNameShort_lang": "Short",
+    "Flags": 0,
+    "RangeMin": [
+      10,
+      10
+    ],
+    "RangeMax": [
+      20,
+      20
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 9,
+    "DisplayName_lang": "Medium Range",
+    "DisplayNameShort_lang": "Medium",
+    "Flags": 0,
+    "RangeMin": [
+      10,
+      10
+    ],
+    "RangeMax": [
+      30,
+      30
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 10,
+    "DisplayName_lang": "Long Range",
+    "DisplayNameShort_lang": "Long",
+    "Flags": 0,
+    "RangeMin": [
+      10,
+      10
+    ],
+    "RangeMax": [
+      40,
+      40
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 11,
+    "DisplayName_lang": "Shorter Range",
+    "DisplayNameShort_lang": "Shorter",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      15,
+      15
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 12,
+    "DisplayName_lang": "Interact Range",
+    "DisplayNameShort_lang": "Interact",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      5,
+      5
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 13,
+    "DisplayName_lang": "Anywhere",
+    "DisplayNameShort_lang": "Anywhere",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      50000,
+      50000
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 14,
+    "DisplayName_lang": "Extra Long Range",
+    "DisplayNameShort_lang": "Extra Long",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      60,
+      60
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 34,
+    "DisplayName_lang": "Medium-Short Range",
+    "DisplayNameShort_lang": "Medium-Short",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      25,
+      25
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 35,
+    "DisplayName_lang": "Medium-Long Range",
+    "DisplayNameShort_lang": "Medium-Long",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      35,
+      35
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 36,
+    "DisplayName_lang": "Longer Range",
+    "DisplayNameShort_lang": "Longer",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      45,
+      45
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 37,
+    "DisplayName_lang": "Extended Range",
+    "DisplayNameShort_lang": "Extended",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      50,
+      50
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 38,
+    "DisplayName_lang": "Extra Medium Range",
+    "DisplayNameShort_lang": "Extra Medium",
+    "Flags": 0,
+    "RangeMin": [
+      10,
+      10
+    ],
+    "RangeMax": [
+      25,
+      25
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 54,
+    "DisplayName_lang": "Geoff Monster Shoot",
+    "DisplayNameShort_lang": "Geoff",
+    "Flags": 0,
+    "RangeMin": [
+      5,
+      5
+    ],
+    "RangeMax": [
+      30,
+      30
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 74,
+    "DisplayName_lang": "Ranged Weapon",
+    "DisplayNameShort_lang": "Ranged",
+    "Flags": 0,
+    "RangeMin": [
+      8,
+      8
+    ],
+    "RangeMax": [
+      30,
+      30
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 94,
+    "DisplayName_lang": "Sting",
+    "DisplayNameShort_lang": "Sting",
+    "Flags": 0,
+    "RangeMin": [
+      8,
+      8
+    ],
+    "RangeMax": [
+      40,
+      40
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 95,
+    "DisplayName_lang": "Charge",
+    "DisplayNameShort_lang": "Charge",
+    "Flags": 0,
+    "RangeMin": [
+      8,
+      8
+    ],
+    "RangeMax": [
+      25,
+      25
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 96,
+    "DisplayName_lang": "Trap",
+    "DisplayNameShort_lang": "Trap",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      2,
+      2
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 114,
+    "DisplayName_lang": "Hunter Range",
+    "DisplayNameShort_lang": "Hunter",
+    "Flags": 0,
+    "RangeMin": [
+      8,
+      8
+    ],
+    "RangeMax": [
+      35,
+      35
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 134,
+    "DisplayName_lang": "Tower 80",
+    "DisplayNameShort_lang": "Tower",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      80,
+      80
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 135,
+    "DisplayName_lang": "Tower 100",
+    "DisplayNameShort_lang": "Tower",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      100,
+      100
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 136,
+    "DisplayName_lang": "Artillery Range",
+    "DisplayNameShort_lang": "Artillery",
+    "Flags": 0,
+    "RangeMin": [
+      30,
+      30
+    ],
+    "RangeMax": [
+      80,
+      80
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 152,
+    "DisplayName_lang": "Super Long",
+    "DisplayNameShort_lang": "Super Long",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      150,
+      150
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 476,
+    "DisplayName_lang": "200 - Two Hundred Yards",
+    "DisplayNameShort_lang": "200",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      200,
+      200
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 478,
+    "DisplayName_lang": "Tim Test Range",
+    "DisplayNameShort_lang": "Tim",
+    "Flags": 0,
+    "RangeMin": [
+      3,
+      3
+    ],
+    "RangeMax": [
+      15,
+      15
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 479,
+    "DisplayName_lang": "Extra Long Range (20-40)",
+    "DisplayNameShort_lang": "Extra Long",
+    "Flags": 0,
+    "RangeMin": [
+      20,
+      20
+    ],
+    "RangeMax": [
+      40,
+      40
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 484,
+    "DisplayName_lang": "Combat Range (0-8)",
+    "DisplayNameShort_lang": "Combat",
+    "Flags": 1,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      8,
+      8
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 500,
+    "DisplayName_lang": "Medium Hostile / Long Friendly",
+    "DisplayNameShort_lang": "Medium / Long",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      30,
+      40
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 505,
+    "DisplayName_lang": "Tim Monster Shoot",
+    "DisplayNameShort_lang": "Tim",
+    "Flags": 2,
+    "RangeMin": [
+      5,
+      5
+    ],
+    "RangeMax": [
+      30,
+      30
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 510,
+    "DisplayName_lang": "Very Short Range (13)",
+    "DisplayNameShort_lang": "Very Short (13)",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      13,
+      13
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 511,
+    "DisplayName_lang": "Fifteen to Thirty",
+    "DisplayNameShort_lang": "Fifteen to Thirty",
+    "Flags": 0,
+    "RangeMin": [
+      15,
+      15
+    ],
+    "RangeMax": [
+      30,
+      30
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 517,
+    "DisplayName_lang": "1 Yard",
+    "DisplayNameShort_lang": "1 Yard",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      1,
+      1
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 528,
+    "DisplayName_lang": "[DNT] Long Not Close 100-200 YD",
+    "DisplayNameShort_lang": "[DNT] Long NOT CLOSE",
+    "Flags": 0,
+    "RangeMin": [
+      100,
+      100
+    ],
+    "RangeMax": [
+      200,
+      200
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 529,
+    "DisplayName_lang": "Twenty-Five yards",
+    "DisplayNameShort_lang": "Twenty-Five",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      25,
+      25
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 531,
+    "DisplayName_lang": "[DNT] 400",
+    "DisplayNameShort_lang": "400 Yards",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      400,
+      400
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 543,
+    "DisplayName_lang": "Shortish Range (11 Yards)",
+    "DisplayNameShort_lang": "Eleven Yard (11 Yard)",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      11,
+      11
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 545,
+    "DisplayName_lang": "Long Range with Deadzone",
+    "DisplayNameShort_lang": "Long",
+    "Flags": 0,
+    "RangeMin": [
+      10,
+      10
+    ],
+    "RangeMax": [
+      200,
+      200
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 552,
+    "DisplayName_lang": "Anywhere (Min 50 yds)",
+    "DisplayNameShort_lang": "Anywhere (Min 50 yds)",
+    "Flags": 0,
+    "RangeMin": [
+      50,
+      50
+    ],
+    "RangeMax": [
+      50000,
+      50000
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 554,
+    "DisplayName_lang": "Short to Medium",
+    "DisplayNameShort_lang": "Toss",
+    "Flags": 0,
+    "RangeMin": [
+      5,
+      5
+    ],
+    "RangeMax": [
+      20,
+      20
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 555,
+    "DisplayName_lang": "Caster Range",
+    "DisplayNameShort_lang": "Caster",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      36,
+      36
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 556,
+    "DisplayName_lang": "Medium Hostile / Longer Friendly",
+    "DisplayNameShort_lang": "Medium / Long",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      36,
+      40
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 559,
+    "DisplayName_lang": "Seventy Yard Range",
+    "DisplayNameShort_lang": "Extra Long",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      70,
+      70
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 566,
+    "DisplayName_lang": "Campfire",
+    "DisplayNameShort_lang": "Campfire",
+    "Flags": 0,
+    "RangeMin": [
+      2,
+      2
+    ],
+    "RangeMax": [
+      3,
+      3
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 570,
+    "DisplayName_lang": "Magic Shot (no min range)",
+    "DisplayNameShort_lang": "Tim",
+    "Flags": 2,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      30,
+      30
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 571,
+    "DisplayName_lang": "Hunter Range (no min)",
+    "DisplayNameShort_lang": "Hunter",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      35,
+      35
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 572,
+    "DisplayName_lang": "Ten yards",
+    "DisplayNameShort_lang": "Very Short",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      10,
+      10
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 573,
+    "DisplayName_lang": "Medium to Long",
+    "DisplayNameShort_lang": "Throw",
+    "Flags": 0,
+    "RangeMin": [
+      20,
+      20
+    ],
+    "RangeMax": [
+      50,
+      50
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 575,
+    "DisplayName_lang": "99 yard range",
+    "DisplayNameShort_lang": "Tower",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      99,
+      99
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 576,
+    "DisplayName_lang": "Super Artillery",
+    "DisplayNameShort_lang": "Super Artillery",
+    "Flags": 0,
+    "RangeMin": [
+      45,
+      45
+    ],
+    "RangeMax": [
+      175,
+      175
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 577,
+    "DisplayName_lang": "Eight yards",
+    "DisplayNameShort_lang": "Shorter",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      8,
+      8
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 578,
+    "DisplayName_lang": "Short Hostile / Long Friendly",
+    "DisplayNameShort_lang": "Short / Long",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      20,
+      40
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 582,
+    "DisplayName_lang": "Longer Range (Hunter)",
+    "DisplayNameShort_lang": "Longer",
+    "Flags": 0,
+    "RangeMin": [
+      8,
+      8
+    ],
+    "RangeMax": [
+      45,
+      45
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 583,
+    "DisplayName_lang": "Six Yards",
+    "DisplayNameShort_lang": "Six",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      6,
+      6
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 584,
+    "DisplayName_lang": "Seven Yards",
+    "DisplayNameShort_lang": "Seven",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      7,
+      7
+    ],
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 585,
+    "DisplayName_lang": "Nine yards",
+    "DisplayNameShort_lang": "Nine",
+    "Flags": 0,
+    "RangeMin": [
+      0,
+      0
+    ],
+    "RangeMax": [
+      9,
+      9
+    ],
+    "_DataSource": "Db2"
+  }
+]

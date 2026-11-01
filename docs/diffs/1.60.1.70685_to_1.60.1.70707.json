@@ -1,0 +1,6392 @@
+{
+  "OldVersion": "1.60.1.70685",
+  "NewVersion": "1.60.1.70707",
+  "OldBuildKey": "002a8047a7c3a53de5e981936db76cce",
+  "NewBuildKey": "7feb61f3c994bcb168526b8db521514a",
+  "OldTableCount": 261,
+  "NewTableCount": 287,
+  "OldTotalRows": 1081464,
+  "NewTotalRows": 1417978,
+  "OldValidHotfixes": 8636,
+  "NewValidHotfixes": 12867,
+  "OldDeleteHotfixes": 9919,
+  "NewDeleteHotfixes": 11095,
+  "AddedTables": [
+    {
+      "TableName": "Cfg_Categories",
+      "TableHash": "C7ED797D",
+      "LayoutHash": "8710BE94",
+      "ColumnCount": 7,
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "Cfg_Regions",
+      "TableHash": "A77E7F0D",
+      "LayoutHash": "66694D4D",
+      "ColumnCount": 8,
+      "BaseDb2Rows": 247,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 247
+    },
+    {
+      "TableName": "ChrCustomizationChoice",
+      "TableHash": "681D0F3D",
+      "LayoutHash": "9559C358",
+      "ColumnCount": 11,
+      "BaseDb2Rows": 10449,
+      "HotfixUpserts": 18,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 10449
+    },
+    {
+      "TableName": "ChrCustomizationOption",
+      "TableHash": "2FB7905B",
+      "LayoutHash": "DCC2A86E",
+      "ColumnCount": 13,
+      "BaseDb2Rows": 1173,
+      "HotfixUpserts": 4,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1173
+    },
+    {
+      "TableName": "ChrCustomizationReq",
+      "TableHash": "61431A65",
+      "LayoutHash": "CA154412",
+      "ColumnCount": 10,
+      "BaseDb2Rows": 496,
+      "HotfixUpserts": 4,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 496
+    },
+    {
+      "TableName": "ChrCustomizationReqChoice",
+      "TableHash": "9B1BEE48",
+      "LayoutHash": "F925BC6F",
+      "ColumnCount": 3,
+      "BaseDb2Rows": 450,
+      "HotfixUpserts": 4,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 450
+    },
+    {
+      "TableName": "CreatureSoundFidget",
+      "TableHash": "3B57C0A1",
+      "LayoutHash": "9BDF9BD7",
+      "ColumnCount": 4,
+      "BaseDb2Rows": 262,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 264
+    },
+    {
+      "TableName": "GlobalColor",
+      "TableHash": "B8BA5FB3",
+      "LayoutHash": "760E0516",
+      "ColumnCount": 3,
+      "BaseDb2Rows": 337,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 337
+    },
+    {
+      "TableName": "GradientEffect",
+      "TableHash": "0B685935",
+      "LayoutHash": "AFB2AC4C",
+      "ColumnCount": 19,
+      "BaseDb2Rows": 38,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 38
+    },
+    {
+      "TableName": "ItemCurrencyCost",
+      "TableHash": "6FE05AE9",
+      "LayoutHash": "8950022B",
+      "ColumnCount": 1,
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 21,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 21
+    },
+    {
+      "TableName": "ItemDisplayInfoMaterialRes",
+      "TableHash": "F35AF3DB",
+      "LayoutHash": "AA462C0E",
+      "ColumnCount": 4,
+      "BaseDb2Rows": 55647,
+      "HotfixUpserts": 3,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 55647
+    },
+    {
+      "TableName": "Light",
+      "TableHash": "5CCAA0BA",
+      "LayoutHash": "5F16BC84",
+      "ColumnCount": 6,
+      "BaseDb2Rows": 621,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 2,
+      "FinalRowCount": 619
+    },
+    {
+      "TableName": "LightData",
+      "TableHash": "0AD67EBF",
+      "LayoutHash": "360DA016",
+      "ColumnCount": 63,
+      "BaseDb2Rows": 5910,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 5912
+    },
+    {
+      "TableName": "Lightning",
+      "TableHash": "E5945573",
+      "LayoutHash": "645F11FD",
+      "ColumnCount": 35,
+      "BaseDb2Rows": 3,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3
+    },
+    {
+      "TableName": "LightParams",
+      "TableHash": "C67F0D98",
+      "LayoutHash": "A7F31923",
+      "ColumnCount": 40,
+      "BaseDb2Rows": 873,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 874
+    },
+    {
+      "TableName": "Locale",
+      "TableHash": "3F85ABB7",
+      "LayoutHash": "70ECE967",
+      "ColumnCount": 7,
+      "BaseDb2Rows": 12,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 12
+    },
+    {
+      "TableName": "ModelFileData",
+      "TableHash": "A161E42C",
+      "LayoutHash": "2AE4E788",
+      "ColumnCount": 5,
+      "BaseDb2Rows": 121131,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 121131
+    },
+    {
+      "TableName": "MountTypeXCapability",
+      "TableHash": "28D9DEA9",
+      "LayoutHash": "218BBE7F",
+      "ColumnCount": 4,
+      "BaseDb2Rows": 30,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 31
+    },
+    {
+      "TableName": "RaceStat",
+      "TableHash": "4D07E2FC",
+      "LayoutHash": "32BA64EF",
+      "ColumnCount": 3,
+      "BaseDb2Rows": 43,
+      "HotfixUpserts": 9,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 43
+    },
+    {
+      "TableName": "SoundKitChild",
+      "TableHash": "2BE0E266",
+      "LayoutHash": "2927CB50",
+      "ColumnCount": 3,
+      "BaseDb2Rows": 2942,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2943
+    },
+    {
+      "TableName": "SoundKitEntry",
+      "TableHash": "C2B150C7",
+      "LayoutHash": "8F82FF7D",
+      "ColumnCount": 6,
+      "BaseDb2Rows": 91051,
+      "HotfixUpserts": 76,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 91065
+    },
+    {
+      "TableName": "SpellScriptText",
+      "TableHash": "12A212A9",
+      "LayoutHash": "9BF410C7",
+      "ColumnCount": 0,
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "TraitEdge",
+      "TableHash": "94D0AF81",
+      "LayoutHash": "907C9B77",
+      "ColumnCount": 5,
+      "BaseDb2Rows": 99,
+      "HotfixUpserts": 6,
+      "HotfixDeletes": 6,
+      "FinalRowCount": 99
+    },
+    {
+      "TableName": "UiTextureAtlas",
+      "TableHash": "894D3B63",
+      "LayoutHash": "91378408",
+      "ColumnCount": 6,
+      "BaseDb2Rows": 2826,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2826
+    },
+    {
+      "TableName": "UiTextureAtlasElement",
+      "TableHash": "306150EA",
+      "LayoutHash": "7CCBD18F",
+      "ColumnCount": 2,
+      "BaseDb2Rows": 20816,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 20817
+    },
+    {
+      "TableName": "UiTextureAtlasMember",
+      "TableHash": "B5307A56",
+      "LayoutHash": "75E12F73",
+      "ColumnCount": 14,
+      "BaseDb2Rows": 20684,
+      "HotfixUpserts": 25,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 20685
+    }
+  ],
+  "RemovedTables": [],
+  "ChangedTables": [
+    {
+      "TableName": "AnimKit",
+      "OldLayoutHash": "DA4C91AF",
+      "NewLayoutHash": "DA4C91AF",
+      "OldBaseRows": 806,
+      "NewBaseRows": 806,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 806,
+      "NewFinalRows": 807,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "AnimKitSegment",
+      "OldLayoutHash": "A6C970CA",
+      "NewLayoutHash": "A6C970CA",
+      "OldBaseRows": 1079,
+      "NewBaseRows": 1079,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1079,
+      "NewFinalRows": 1080,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "AreaTable",
+      "OldLayoutHash": "9995B797",
+      "NewLayoutHash": "9995B797",
+      "OldBaseRows": 1375,
+      "NewBaseRows": 1375,
+      "OldHotfixUpserts": 16,
+      "NewHotfixUpserts": 19,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1375,
+      "NewFinalRows": 1375,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Cfg_GameRules",
+      "OldLayoutHash": "41B88A54",
+      "NewLayoutHash": "41B88A54",
+      "OldBaseRows": 222,
+      "NewBaseRows": 223,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 222,
+      "NewFinalRows": 223,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "Cfg_SuperDistrict",
+      "OldLayoutHash": "71CA0374",
+      "NewLayoutHash": "71CA0374",
+      "OldBaseRows": 8,
+      "NewBaseRows": 8,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 4,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 8,
+      "NewFinalRows": 8,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ChrRaceRacialAbility",
+      "OldLayoutHash": "0FC0F0D5",
+      "NewLayoutHash": "0FC0F0D5",
+      "OldBaseRows": 40,
+      "NewBaseRows": 40,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 11,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 40,
+      "NewFinalRows": 40,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ChrRaces",
+      "OldLayoutHash": "4F44C796",
+      "NewLayoutHash": "4F44C796",
+      "OldBaseRows": 58,
+      "NewBaseRows": 58,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 19,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 58,
+      "NewFinalRows": 58,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ConversationLine",
+      "OldLayoutHash": "AA1E7988",
+      "NewLayoutHash": "AA1E7988",
+      "OldBaseRows": 634,
+      "NewBaseRows": 638,
+      "OldHotfixUpserts": 40,
+      "NewHotfixUpserts": 40,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 638,
+      "NewFinalRows": 638,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CooldownSet",
+      "OldLayoutHash": "AA6C140C",
+      "NewLayoutHash": "AA6C140C",
+      "OldBaseRows": 31,
+      "NewBaseRows": 32,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 32,
+      "NewFinalRows": 32,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CooldownSetLinkedSpell",
+      "OldLayoutHash": "11E4972F",
+      "NewLayoutHash": "11E4972F",
+      "OldBaseRows": 1884,
+      "NewBaseRows": 1899,
+      "OldHotfixUpserts": 37,
+      "NewHotfixUpserts": 46,
+      "OldHotfixDeletes": 8,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1895,
+      "NewFinalRows": 1903,
+      "LayoutChanged": false,
+      "RowDelta": 8
+    },
+    {
+      "TableName": "CooldownSetSpell",
+      "OldLayoutHash": "0AC7B8F5",
+      "NewLayoutHash": "0AC7B8F5",
+      "OldBaseRows": 607,
+      "NewBaseRows": 612,
+      "OldHotfixUpserts": 194,
+      "NewHotfixUpserts": 203,
+      "OldHotfixDeletes": 2,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 611,
+      "NewFinalRows": 612,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "CreatureDifficultyTreasure",
+      "OldLayoutHash": "75E963A9",
+      "NewLayoutHash": "75E963A9",
+      "OldBaseRows": 13977,
+      "NewBaseRows": 13995,
+      "OldHotfixUpserts": 334,
+      "NewHotfixUpserts": 367,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 14304,
+      "NewFinalRows": 14317,
+      "LayoutChanged": false,
+      "RowDelta": 13
+    },
+    {
+      "TableName": "CreatureDisplayInfo",
+      "OldLayoutHash": "7275F5F6",
+      "NewLayoutHash": "7275F5F6",
+      "OldBaseRows": 14204,
+      "NewBaseRows": 14207,
+      "OldHotfixUpserts": 4,
+      "NewHotfixUpserts": 4,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 14207,
+      "NewFinalRows": 14207,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CreatureDisplayInfoExtra",
+      "OldLayoutHash": "4D9FE25C",
+      "NewLayoutHash": "4D9FE25C",
+      "OldBaseRows": 8994,
+      "NewBaseRows": 8994,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 8994,
+      "NewFinalRows": 8994,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CreatureModelData",
+      "OldLayoutHash": "0F5449F8",
+      "NewLayoutHash": "0F5449F8",
+      "OldBaseRows": 1193,
+      "NewBaseRows": 1194,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1194,
+      "NewFinalRows": 1194,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CreatureMovementInfo",
+      "OldLayoutHash": "30A3C9CA",
+      "NewLayoutHash": "30A3C9CA",
+      "OldBaseRows": 92,
+      "NewBaseRows": 93,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 93,
+      "NewFinalRows": 93,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Criteria",
+      "OldLayoutHash": "53D03513",
+      "NewLayoutHash": "53D03513",
+      "OldBaseRows": 3297,
+      "NewBaseRows": 3291,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 0,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3297,
+      "NewFinalRows": 3291,
+      "LayoutChanged": false,
+      "RowDelta": -6
+    },
+    {
+      "TableName": "CriteriaTree",
+      "OldLayoutHash": "FF97AE12",
+      "NewLayoutHash": "FF97AE12",
+      "OldBaseRows": 6771,
+      "NewBaseRows": 6759,
+      "OldHotfixUpserts": 21,
+      "NewHotfixUpserts": 22,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6771,
+      "NewFinalRows": 6759,
+      "LayoutChanged": false,
+      "RowDelta": -12
+    },
+    {
+      "TableName": "Curve",
+      "OldLayoutHash": "D362535A",
+      "NewLayoutHash": "D362535A",
+      "OldBaseRows": 19594,
+      "NewBaseRows": 19605,
+      "OldHotfixUpserts": 15,
+      "NewHotfixUpserts": 59,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 19604,
+      "NewFinalRows": 19621,
+      "LayoutChanged": false,
+      "RowDelta": 17
+    },
+    {
+      "TableName": "CurvePoint",
+      "OldLayoutHash": "7D4954A1",
+      "NewLayoutHash": "7D4954A1",
+      "OldBaseRows": 41746,
+      "NewBaseRows": 41752,
+      "OldHotfixUpserts": 16,
+      "NewHotfixUpserts": 156,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 19,
+      "OldFinalRows": 41749,
+      "NewFinalRows": 41790,
+      "LayoutChanged": false,
+      "RowDelta": 41
+    },
+    {
+      "TableName": "DungeonEncounter",
+      "OldLayoutHash": "35863DC4",
+      "NewLayoutHash": "35863DC4",
+      "OldBaseRows": 342,
+      "NewBaseRows": 342,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 4,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 342,
+      "NewFinalRows": 342,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "EdgeGlowEffect",
+      "OldLayoutHash": "ED9B01C2",
+      "NewLayoutHash": "ED9B01C2",
+      "OldBaseRows": 21,
+      "NewBaseRows": 22,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 21,
+      "NewFinalRows": 22,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "FactionTemplate",
+      "OldLayoutHash": "22B6DC22",
+      "NewLayoutHash": "22B6DC22",
+      "OldBaseRows": 453,
+      "NewBaseRows": 454,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 454,
+      "NewFinalRows": 454,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "GameObjectDisplayInfo",
+      "OldLayoutHash": "16D1DD61",
+      "NewLayoutHash": "16D1DD61",
+      "OldBaseRows": 3245,
+      "NewBaseRows": 3248,
+      "OldHotfixUpserts": 5,
+      "NewHotfixUpserts": 9,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3248,
+      "NewFinalRows": 3248,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "GlobalStrings",
+      "OldLayoutHash": "D40F6D96",
+      "NewLayoutHash": "D40F6D96",
+      "OldBaseRows": 27400,
+      "NewBaseRows": 27399,
+      "OldHotfixUpserts": 115,
+      "NewHotfixUpserts": 133,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 27400,
+      "NewFinalRows": 27400,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "GossipNPCOption",
+      "OldLayoutHash": "5247127B",
+      "NewLayoutHash": "5247127B",
+      "OldBaseRows": 1577,
+      "NewBaseRows": 1581,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 8,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1579,
+      "NewFinalRows": 1581,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "Item",
+      "OldLayoutHash": "9A2A4834",
+      "NewLayoutHash": "9A2A4834",
+      "OldBaseRows": 31850,
+      "NewBaseRows": 31956,
+      "OldHotfixUpserts": 852,
+      "NewHotfixUpserts": 1005,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 31877,
+      "NewFinalRows": 31975,
+      "LayoutChanged": false,
+      "RowDelta": 98
+    },
+    {
+      "TableName": "ItemAppearance",
+      "OldLayoutHash": "481C4281",
+      "NewLayoutHash": "481C4281",
+      "OldBaseRows": 9042,
+      "NewBaseRows": 9043,
+      "OldHotfixUpserts": 244,
+      "NewHotfixUpserts": 247,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 9042,
+      "NewFinalRows": 9043,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "ItemDisplayInfo",
+      "OldLayoutHash": "9F3AB8A9",
+      "NewLayoutHash": "9F3AB8A9",
+      "OldBaseRows": 42525,
+      "NewBaseRows": 42527,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 4,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 42525,
+      "NewFinalRows": 42528,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "ItemDisplayInfoModelMatRes",
+      "OldLayoutHash": "52510D63",
+      "NewLayoutHash": "52510D63",
+      "OldBaseRows": 11147,
+      "NewBaseRows": 11147,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 11147,
+      "NewFinalRows": 11148,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "ItemEffect",
+      "OldLayoutHash": "4CA77678",
+      "NewLayoutHash": "4CA77678",
+      "OldBaseRows": 12635,
+      "NewBaseRows": 12646,
+      "OldHotfixUpserts": 32,
+      "NewHotfixUpserts": 37,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 12664,
+      "NewFinalRows": 12667,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "ItemExtendedCost",
+      "OldLayoutHash": "22331DAB",
+      "NewLayoutHash": "22331DAB",
+      "OldBaseRows": 1101,
+      "NewBaseRows": 1101,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 7,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1101,
+      "NewFinalRows": 1101,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemModifiedAppearance",
+      "OldLayoutHash": "03A6C979",
+      "NewLayoutHash": "03A6C979",
+      "OldBaseRows": 16791,
+      "NewBaseRows": 16884,
+      "OldHotfixUpserts": 103,
+      "NewHotfixUpserts": 105,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 16893,
+      "NewFinalRows": 16893,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemSalvageLoot",
+      "OldLayoutHash": "D8C41341",
+      "NewLayoutHash": "D8C41341",
+      "OldBaseRows": 524,
+      "NewBaseRows": 527,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 527,
+      "NewFinalRows": 527,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemSearchName",
+      "OldLayoutHash": "4516C8B0",
+      "NewLayoutHash": "4516C8B0",
+      "OldBaseRows": 6625,
+      "NewBaseRows": 6626,
+      "OldHotfixUpserts": 666,
+      "NewHotfixUpserts": 763,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 7262,
+      "NewFinalRows": 7349,
+      "LayoutChanged": false,
+      "RowDelta": 87
+    },
+    {
+      "TableName": "ItemSet",
+      "OldLayoutHash": "F79068A4",
+      "NewLayoutHash": "F79068A4",
+      "OldBaseRows": 536,
+      "NewBaseRows": 545,
+      "OldHotfixUpserts": 9,
+      "NewHotfixUpserts": 9,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 545,
+      "NewFinalRows": 545,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemSetSpell",
+      "OldLayoutHash": "2666A73F",
+      "NewLayoutHash": "2666A73F",
+      "OldBaseRows": 1477,
+      "NewBaseRows": 1505,
+      "OldHotfixUpserts": 28,
+      "NewHotfixUpserts": 28,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1505,
+      "NewFinalRows": 1505,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemSparse",
+      "OldLayoutHash": "6FCC3191",
+      "NewLayoutHash": "6FCC3191",
+      "OldBaseRows": 19231,
+      "NewBaseRows": 19241,
+      "OldHotfixUpserts": 852,
+      "NewHotfixUpserts": 1005,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 19941,
+      "NewFinalRows": 20073,
+      "LayoutChanged": false,
+      "RowDelta": 132
+    },
+    {
+      "TableName": "ItemXItemEffect",
+      "OldLayoutHash": "96F083AD",
+      "NewLayoutHash": "96F083AD",
+      "OldBaseRows": 12627,
+      "NewBaseRows": 12638,
+      "OldHotfixUpserts": 30,
+      "NewHotfixUpserts": 33,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 12656,
+      "NewFinalRows": 12659,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "Map",
+      "OldLayoutHash": "D43AFAC3",
+      "NewLayoutHash": "D43AFAC3",
+      "OldBaseRows": 73,
+      "NewBaseRows": 73,
+      "OldHotfixUpserts": 4,
+      "NewHotfixUpserts": 5,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 73,
+      "NewFinalRows": 73,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ModifierTree",
+      "OldLayoutHash": "F13BB1D8",
+      "NewLayoutHash": "F13BB1D8",
+      "OldBaseRows": 2845,
+      "NewBaseRows": 2848,
+      "OldHotfixUpserts": 4,
+      "NewHotfixUpserts": 16,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2848,
+      "NewFinalRows": 2852,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "Mount",
+      "OldLayoutHash": "E4B71B79",
+      "NewLayoutHash": "E4B71B79",
+      "OldBaseRows": 141,
+      "NewBaseRows": 141,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 141,
+      "NewFinalRows": 141,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "MountCapability",
+      "OldLayoutHash": "A0297DBC",
+      "NewLayoutHash": "A0297DBC",
+      "OldBaseRows": 26,
+      "NewBaseRows": 26,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 26,
+      "NewFinalRows": 27,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "MountType",
+      "OldLayoutHash": "D7BB0C67",
+      "NewLayoutHash": "D7BB0C67",
+      "OldBaseRows": 29,
+      "NewBaseRows": 29,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 29,
+      "NewFinalRows": 30,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "NameGen",
+      "OldLayoutHash": "584300FA",
+      "NewLayoutHash": "584300FA",
+      "OldBaseRows": 2738,
+      "NewBaseRows": 2737,
+      "OldHotfixUpserts": 5,
+      "NewHotfixUpserts": 5,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2737,
+      "NewFinalRows": 2737,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "NamesReserved",
+      "OldLayoutHash": "2B2D5D97",
+      "NewLayoutHash": "2B2D5D97",
+      "OldBaseRows": 710,
+      "NewBaseRows": 710,
+      "OldHotfixUpserts": 714,
+      "NewHotfixUpserts": 710,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1424,
+      "NewFinalRows": 710,
+      "LayoutChanged": false,
+      "RowDelta": -714
+    },
+    {
+      "TableName": "NPCModelItemSlotDisplayInfo",
+      "OldLayoutHash": "C2057F5B",
+      "NewLayoutHash": "C2057F5B",
+      "OldBaseRows": 53120,
+      "NewBaseRows": 53120,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 53120,
+      "NewFinalRows": 53120,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "PlayerCondition",
+      "OldLayoutHash": "1D743D99",
+      "NewLayoutHash": "1D743D99",
+      "OldBaseRows": 1949,
+      "NewBaseRows": 1950,
+      "OldHotfixUpserts": 9,
+      "NewHotfixUpserts": 11,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1950,
+      "NewFinalRows": 1951,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "QuestV2",
+      "OldLayoutHash": "1854BDB9",
+      "NewLayoutHash": "1854BDB9",
+      "OldBaseRows": 6614,
+      "NewBaseRows": 6614,
+      "OldHotfixUpserts": 430,
+      "NewHotfixUpserts": 458,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6614,
+      "NewFinalRows": 6614,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ScreenEffect",
+      "OldLayoutHash": "35A3B574",
+      "NewLayoutHash": "35A3B574",
+      "OldBaseRows": 77,
+      "NewBaseRows": 78,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 78,
+      "NewFinalRows": 78,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SkillLineAbility",
+      "OldLayoutHash": "224F7EA0",
+      "NewLayoutHash": "224F7EA0",
+      "OldBaseRows": 7846,
+      "NewBaseRows": 7843,
+      "OldHotfixUpserts": 7,
+      "NewHotfixUpserts": 24,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 7846,
+      "NewFinalRows": 7849,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "SoundKit",
+      "OldLayoutHash": "A7FB0451",
+      "NewLayoutHash": "A7FB0451",
+      "OldBaseRows": 23355,
+      "NewBaseRows": 23360,
+      "OldHotfixUpserts": 4,
+      "NewHotfixUpserts": 19,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 23355,
+      "NewFinalRows": 23367,
+      "LayoutChanged": false,
+      "RowDelta": 12
+    },
+    {
+      "TableName": "SoundKitAdvanced",
+      "OldLayoutHash": "F65DB810",
+      "NewLayoutHash": "F65DB810",
+      "OldBaseRows": 16436,
+      "NewBaseRows": 16442,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 16,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 16436,
+      "NewFinalRows": 16448,
+      "LayoutChanged": false,
+      "RowDelta": 12
+    },
+    {
+      "TableName": "Spell",
+      "OldLayoutHash": "E3D134FB",
+      "NewLayoutHash": "E3D134FB",
+      "OldBaseRows": 31948,
+      "NewBaseRows": 32007,
+      "OldHotfixUpserts": 467,
+      "NewHotfixUpserts": 787,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 9,
+      "OldFinalRows": 32047,
+      "NewFinalRows": 32070,
+      "LayoutChanged": false,
+      "RowDelta": 23
+    },
+    {
+      "TableName": "SpellActionBarPref",
+      "OldLayoutHash": "45039384",
+      "NewLayoutHash": "45039384",
+      "OldBaseRows": 631,
+      "NewBaseRows": 633,
+      "OldHotfixUpserts": 631,
+      "NewHotfixUpserts": 633,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 631,
+      "NewFinalRows": 633,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "SpellAuraOptions",
+      "OldLayoutHash": "95F4D5E1",
+      "NewLayoutHash": "95F4D5E1",
+      "OldBaseRows": 12789,
+      "NewBaseRows": 12799,
+      "OldHotfixUpserts": 34,
+      "NewHotfixUpserts": 55,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 11,
+      "OldFinalRows": 12807,
+      "NewFinalRows": 12805,
+      "LayoutChanged": false,
+      "RowDelta": -2
+    },
+    {
+      "TableName": "SpellAuraRestrictions",
+      "OldLayoutHash": "E7F2E213",
+      "NewLayoutHash": "E7F2E213",
+      "OldBaseRows": 319,
+      "NewBaseRows": 319,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 320,
+      "NewFinalRows": 321,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellCastingRequirements",
+      "OldLayoutHash": "02074290",
+      "NewLayoutHash": "02074290",
+      "OldBaseRows": 3272,
+      "NewBaseRows": 3274,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 5,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3274,
+      "NewFinalRows": 3277,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "SpellCategories",
+      "OldLayoutHash": "679EF94C",
+      "NewLayoutHash": "679EF94C",
+      "OldBaseRows": 10665,
+      "NewBaseRows": 10678,
+      "OldHotfixUpserts": 53,
+      "NewHotfixUpserts": 75,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 10694,
+      "NewFinalRows": 10703,
+      "LayoutChanged": false,
+      "RowDelta": 9
+    },
+    {
+      "TableName": "SpellCategory",
+      "OldLayoutHash": "B79B78E1",
+      "NewLayoutHash": "B79B78E1",
+      "OldBaseRows": 266,
+      "NewBaseRows": 266,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 266,
+      "NewFinalRows": 266,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellChainEffects",
+      "OldLayoutHash": "4B046A55",
+      "NewLayoutHash": "4B046A55",
+      "OldBaseRows": 137,
+      "NewBaseRows": 139,
+      "OldHotfixUpserts": 6,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 139,
+      "NewFinalRows": 139,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellClassOptions",
+      "OldLayoutHash": "1F8E4FD7",
+      "NewLayoutHash": "1F8E4FD7",
+      "OldBaseRows": 6085,
+      "NewBaseRows": 6086,
+      "OldHotfixUpserts": 6,
+      "NewHotfixUpserts": 26,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6085,
+      "NewFinalRows": 6104,
+      "LayoutChanged": false,
+      "RowDelta": 19
+    },
+    {
+      "TableName": "SpellCooldowns",
+      "OldLayoutHash": "DC945B8C",
+      "NewLayoutHash": "DC945B8C",
+      "OldBaseRows": 4494,
+      "NewBaseRows": 4506,
+      "OldHotfixUpserts": 22,
+      "NewHotfixUpserts": 39,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 4508,
+      "NewFinalRows": 4516,
+      "LayoutChanged": false,
+      "RowDelta": 8
+    },
+    {
+      "TableName": "SpellDescriptionVariables",
+      "OldLayoutHash": "33868CFD",
+      "NewLayoutHash": "33868CFD",
+      "OldBaseRows": 44,
+      "NewBaseRows": 45,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 45,
+      "NewFinalRows": 45,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellDiminish",
+      "OldLayoutHash": "6E3341BA",
+      "NewLayoutHash": "6E3341BA",
+      "OldBaseRows": 11,
+      "NewBaseRows": 12,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 12,
+      "NewFinalRows": 12,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellDuration",
+      "OldLayoutHash": "A931BD2B",
+      "NewLayoutHash": "4FDF0951",
+      "OldBaseRows": 134,
+      "NewBaseRows": 134,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 134,
+      "NewFinalRows": 134,
+      "LayoutChanged": true,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellEffect",
+      "OldLayoutHash": "5362E3D4",
+      "NewLayoutHash": "5362E3D4",
+      "OldBaseRows": 42725,
+      "NewBaseRows": 42830,
+      "OldHotfixUpserts": 279,
+      "NewHotfixUpserts": 608,
+      "OldHotfixDeletes": 2,
+      "NewHotfixDeletes": 12,
+      "OldFinalRows": 42899,
+      "NewFinalRows": 42961,
+      "LayoutChanged": false,
+      "RowDelta": 62
+    },
+    {
+      "TableName": "SpellEquippedItems",
+      "OldLayoutHash": "D9177916",
+      "NewLayoutHash": "D9177916",
+      "OldBaseRows": 1886,
+      "NewBaseRows": 1886,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 4,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1887,
+      "NewFinalRows": 1889,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "SpellInterrupts",
+      "OldLayoutHash": "6FFC0306",
+      "NewLayoutHash": "6FFC0306",
+      "OldBaseRows": 9895,
+      "NewBaseRows": 9903,
+      "OldHotfixUpserts": 15,
+      "NewHotfixUpserts": 23,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 9907,
+      "NewFinalRows": 9913,
+      "LayoutChanged": false,
+      "RowDelta": 6
+    },
+    {
+      "TableName": "SpellItemEnchantment",
+      "OldLayoutHash": "952B72B2",
+      "NewLayoutHash": "952B72B2",
+      "OldBaseRows": 2217,
+      "NewBaseRows": 2217,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2217,
+      "NewFinalRows": 2218,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellLabel",
+      "OldLayoutHash": "2B9F0138",
+      "NewLayoutHash": "2B9F0138",
+      "OldBaseRows": 4654,
+      "NewBaseRows": 4656,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 20,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 4655,
+      "NewFinalRows": 4673,
+      "LayoutChanged": false,
+      "RowDelta": 18
+    },
+    {
+      "TableName": "SpellLevels",
+      "OldLayoutHash": "7EB86FDC",
+      "NewLayoutHash": "7EB86FDC",
+      "OldBaseRows": 12950,
+      "NewBaseRows": 12958,
+      "OldHotfixUpserts": 34,
+      "NewHotfixUpserts": 61,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 12974,
+      "NewFinalRows": 12993,
+      "LayoutChanged": false,
+      "RowDelta": 19
+    },
+    {
+      "TableName": "SpellMisc",
+      "OldLayoutHash": "434B3607",
+      "NewLayoutHash": "434B3607",
+      "OldBaseRows": 31928,
+      "NewBaseRows": 31987,
+      "OldHotfixUpserts": 256,
+      "NewHotfixUpserts": 1734,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 32027,
+      "NewFinalRows": 32057,
+      "LayoutChanged": false,
+      "RowDelta": 30
+    },
+    {
+      "TableName": "SpellName",
+      "OldLayoutHash": "782EE721",
+      "NewLayoutHash": "782EE721",
+      "OldBaseRows": 31948,
+      "NewBaseRows": 32007,
+      "OldHotfixUpserts": 467,
+      "NewHotfixUpserts": 787,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 9,
+      "OldFinalRows": 32047,
+      "NewFinalRows": 32070,
+      "LayoutChanged": false,
+      "RowDelta": 23
+    },
+    {
+      "TableName": "SpellPower",
+      "OldLayoutHash": "61AD223F",
+      "NewLayoutHash": "61AD223F",
+      "OldBaseRows": 3462,
+      "NewBaseRows": 3467,
+      "OldHotfixUpserts": 10,
+      "NewHotfixUpserts": 22,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 3467,
+      "NewFinalRows": 3476,
+      "LayoutChanged": false,
+      "RowDelta": 9
+    },
+    {
+      "TableName": "SpellProceduralEffect",
+      "OldLayoutHash": "B442AB81",
+      "NewLayoutHash": "B442AB81",
+      "OldBaseRows": 991,
+      "NewBaseRows": 993,
+      "OldHotfixUpserts": 10,
+      "NewHotfixUpserts": 12,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 996,
+      "NewFinalRows": 998,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "SpellReagents",
+      "OldLayoutHash": "FF40D202",
+      "NewLayoutHash": "FF40D202",
+      "OldBaseRows": 3300,
+      "NewBaseRows": 3300,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3300,
+      "NewFinalRows": 3301,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellShapeshift",
+      "OldLayoutHash": "E9111399",
+      "NewLayoutHash": "E9111399",
+      "OldBaseRows": 3457,
+      "NewBaseRows": 3462,
+      "OldHotfixUpserts": 7,
+      "NewHotfixUpserts": 13,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3462,
+      "NewFinalRows": 3466,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "SpellTargetRestrictions",
+      "OldLayoutHash": "1EAB753E",
+      "NewLayoutHash": "1EAB753E",
+      "OldBaseRows": 4454,
+      "NewBaseRows": 4500,
+      "OldHotfixUpserts": 61,
+      "NewHotfixUpserts": 70,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 4510,
+      "NewFinalRows": 4516,
+      "LayoutChanged": false,
+      "RowDelta": 6
+    },
+    {
+      "TableName": "SpellTotems",
+      "OldLayoutHash": "03B23619",
+      "NewLayoutHash": "03B23619",
+      "OldBaseRows": 1121,
+      "NewBaseRows": 1121,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1121,
+      "NewFinalRows": 1122,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellVisual",
+      "OldLayoutHash": "4B85C90F",
+      "NewLayoutHash": "4B85C90F",
+      "OldBaseRows": 6112,
+      "NewBaseRows": 6137,
+      "OldHotfixUpserts": 43,
+      "NewHotfixUpserts": 52,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6139,
+      "NewFinalRows": 6145,
+      "LayoutChanged": false,
+      "RowDelta": 6
+    },
+    {
+      "TableName": "SpellVisualAnim",
+      "OldLayoutHash": "F233613A",
+      "NewLayoutHash": "F233613A",
+      "OldBaseRows": 2814,
+      "NewBaseRows": 2837,
+      "OldHotfixUpserts": 36,
+      "NewHotfixUpserts": 40,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2836,
+      "NewFinalRows": 2840,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "SpellVisualEffectName",
+      "OldLayoutHash": "2245CEE6",
+      "NewLayoutHash": "2245CEE6",
+      "OldBaseRows": 2969,
+      "NewBaseRows": 2985,
+      "OldHotfixUpserts": 22,
+      "NewHotfixUpserts": 23,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2984,
+      "NewFinalRows": 2987,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "SpellVisualEvent",
+      "OldLayoutHash": "865F512E",
+      "NewLayoutHash": "865F512E",
+      "OldBaseRows": 15703,
+      "NewBaseRows": 15768,
+      "OldHotfixUpserts": 119,
+      "NewHotfixUpserts": 139,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 15773,
+      "NewFinalRows": 15787,
+      "LayoutChanged": false,
+      "RowDelta": 14
+    },
+    {
+      "TableName": "SpellVisualKit",
+      "OldLayoutHash": "C069D9C4",
+      "NewLayoutHash": "C069D9C4",
+      "OldBaseRows": 7976,
+      "NewBaseRows": 8026,
+      "OldHotfixUpserts": 67,
+      "NewHotfixUpserts": 79,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 8027,
+      "NewFinalRows": 8039,
+      "LayoutChanged": false,
+      "RowDelta": 12
+    },
+    {
+      "TableName": "SpellVisualKitEffect",
+      "OldLayoutHash": "E3206CA2",
+      "NewLayoutHash": "E3206CA2",
+      "OldBaseRows": 18299,
+      "NewBaseRows": 18388,
+      "OldHotfixUpserts": 159,
+      "NewHotfixUpserts": 182,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 18393,
+      "NewFinalRows": 18415,
+      "LayoutChanged": false,
+      "RowDelta": 22
+    },
+    {
+      "TableName": "SpellVisualKitModelAttach",
+      "OldLayoutHash": "02CF8554",
+      "NewLayoutHash": "02CF8554",
+      "OldBaseRows": 8995,
+      "NewBaseRows": 9045,
+      "OldHotfixUpserts": 87,
+      "NewHotfixUpserts": 94,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 9047,
+      "NewFinalRows": 9053,
+      "LayoutChanged": false,
+      "RowDelta": 6
+    },
+    {
+      "TableName": "SpellVisualMissile",
+      "OldLayoutHash": "EC765EB2",
+      "NewLayoutHash": "EC765EB2",
+      "OldBaseRows": 734,
+      "NewBaseRows": 737,
+      "OldHotfixUpserts": 9,
+      "NewHotfixUpserts": 9,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 737,
+      "NewFinalRows": 737,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellXDescriptionVariables",
+      "OldLayoutHash": "23F4E51E",
+      "NewLayoutHash": "23F4E51E",
+      "OldBaseRows": 181,
+      "NewBaseRows": 187,
+      "OldHotfixUpserts": 6,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 187,
+      "NewFinalRows": 187,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellXSpellVisual",
+      "OldLayoutHash": "7994A890",
+      "NewLayoutHash": "7994A890",
+      "OldBaseRows": 20416,
+      "NewBaseRows": 20455,
+      "OldHotfixUpserts": 105,
+      "NewHotfixUpserts": 132,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 8,
+      "OldFinalRows": 20489,
+      "NewFinalRows": 20497,
+      "LayoutChanged": false,
+      "RowDelta": 8
+    },
+    {
+      "TableName": "SummonProperties",
+      "OldLayoutHash": "A4CA5ECF",
+      "NewLayoutHash": "A4CA5ECF",
+      "OldBaseRows": 127,
+      "NewBaseRows": 128,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 128,
+      "NewFinalRows": 128,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TaxiPath",
+      "OldLayoutHash": "A303DE51",
+      "NewLayoutHash": "A303DE51",
+      "OldBaseRows": 329,
+      "NewBaseRows": 330,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 5,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 329,
+      "NewFinalRows": 328,
+      "LayoutChanged": false,
+      "RowDelta": -1
+    },
+    {
+      "TableName": "TaxiPathNode",
+      "OldLayoutHash": "FE362E70",
+      "NewLayoutHash": "FE362E70",
+      "OldBaseRows": 10782,
+      "NewBaseRows": 11012,
+      "OldHotfixUpserts": 74,
+      "NewHotfixUpserts": 304,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 47,
+      "OldFinalRows": 10782,
+      "NewFinalRows": 10965,
+      "LayoutChanged": false,
+      "RowDelta": 183
+    },
+    {
+      "TableName": "TradeSkillCategory",
+      "OldLayoutHash": "7F2B6CD0",
+      "NewLayoutHash": "7F2B6CD0",
+      "OldBaseRows": 216,
+      "NewBaseRows": 216,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 216,
+      "NewFinalRows": 216,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TradeSkillItem",
+      "OldLayoutHash": "05D8D675",
+      "NewLayoutHash": "05D8D675",
+      "OldBaseRows": 3240,
+      "NewBaseRows": 3240,
+      "OldHotfixUpserts": 110,
+      "NewHotfixUpserts": 115,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3240,
+      "NewFinalRows": 3240,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TraitCurrencySource",
+      "OldLayoutHash": "4C49B6AA",
+      "NewLayoutHash": "4C49B6AA",
+      "OldBaseRows": 187,
+      "NewBaseRows": 187,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 187,
+      "NewFinalRows": 187,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TraitDefinition",
+      "OldLayoutHash": "060A9F4C",
+      "NewLayoutHash": "060A9F4C",
+      "OldBaseRows": 659,
+      "NewBaseRows": 659,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 18,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 659,
+      "NewFinalRows": 662,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "TraitDefinitionEffectPoints",
+      "OldLayoutHash": "7E18C372",
+      "NewLayoutHash": "7E18C372",
+      "OldBaseRows": 645,
+      "NewBaseRows": 646,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 12,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 3,
+      "OldFinalRows": 646,
+      "NewFinalRows": 653,
+      "LayoutChanged": false,
+      "RowDelta": 7
+    },
+    {
+      "TableName": "TraitNode",
+      "OldLayoutHash": "A01A518A",
+      "NewLayoutHash": "A01A518A",
+      "OldBaseRows": 557,
+      "NewBaseRows": 556,
+      "OldHotfixUpserts": 4,
+      "NewHotfixUpserts": 49,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 557,
+      "NewFinalRows": 557,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TraitNodeEntry",
+      "OldLayoutHash": "733B015D",
+      "NewLayoutHash": "733B015D",
+      "OldBaseRows": 659,
+      "NewBaseRows": 659,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 17,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 659,
+      "NewFinalRows": 662,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "TraitNodeGroupXTraitNode",
+      "OldLayoutHash": "B9288EB8",
+      "NewLayoutHash": "B9288EB8",
+      "OldBaseRows": 2152,
+      "NewBaseRows": 2145,
+      "OldHotfixUpserts": 6,
+      "NewHotfixUpserts": 75,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 65,
+      "OldFinalRows": 2152,
+      "NewFinalRows": 2148,
+      "LayoutChanged": false,
+      "RowDelta": -4
+    },
+    {
+      "TableName": "TraitNodeXTraitNodeEntry",
+      "OldLayoutHash": "802ED455",
+      "NewLayoutHash": "802ED455",
+      "OldBaseRows": 560,
+      "NewBaseRows": 559,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 560,
+      "NewFinalRows": 560,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "UiModelScene",
+      "OldLayoutHash": "F48839BD",
+      "NewLayoutHash": "F48839BD",
+      "OldBaseRows": 304,
+      "NewBaseRows": 305,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 305,
+      "NewFinalRows": 305,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "UiModelSceneActor",
+      "OldLayoutHash": "B777EC3A",
+      "NewLayoutHash": "B777EC3A",
+      "OldBaseRows": 1009,
+      "NewBaseRows": 1011,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1011,
+      "NewFinalRows": 1011,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "UiModelSceneCamera",
+      "OldLayoutHash": "413EC033",
+      "NewLayoutHash": "413EC033",
+      "OldBaseRows": 303,
+      "NewBaseRows": 304,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 304,
+      "NewFinalRows": 304,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "UnitCondition",
+      "OldLayoutHash": "215FAF83",
+      "NewLayoutHash": "215FAF83",
+      "OldBaseRows": 357,
+      "NewBaseRows": 358,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 358,
+      "NewFinalRows": 358,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "WMOAreaTable",
+      "OldLayoutHash": "C5A7B977",
+      "NewLayoutHash": "C5A7B977",
+      "OldBaseRows": 52737,
+      "NewBaseRows": 52737,
+      "OldHotfixUpserts": 101,
+      "NewHotfixUpserts": 184,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 52737,
+      "NewFinalRows": 52737,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "WorldEffect",
+      "OldLayoutHash": "B841BBEE",
+      "NewLayoutHash": "B841BBEE",
+      "OldBaseRows": 193,
+      "NewBaseRows": 195,
+      "OldHotfixUpserts": 10,
+      "NewHotfixUpserts": 11,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 195,
+      "NewFinalRows": 196,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "WorldState",
+      "OldLayoutHash": "B5EE0DCB",
+      "NewLayoutHash": "B5EE0DCB",
+      "OldBaseRows": 0,
+      "NewBaseRows": 0,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 5,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3,
+      "NewFinalRows": 4,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "WorldStateExpression",
+      "OldLayoutHash": "CA33F540",
+      "NewLayoutHash": "CA33F540",
+      "OldBaseRows": 3977,
+      "NewBaseRows": 3983,
+      "OldHotfixUpserts": 17,
+      "NewHotfixUpserts": 19,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3994,
+      "NewFinalRows": 3995,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    }
+  ],
+  "NewHotfixWaves": [
+    {
+      "PushId": 112617,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellVisualKitModelAttach"
+      ]
+    },
+    {
+      "PushId": 112623,
+      "AddedValidCount": 36,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure",
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 112635,
+      "AddedValidCount": 12,
+      "AddedDeleteCount": 8,
+      "AffectedTables": [
+        "SpellCategories",
+        "SpellClassOptions",
+        "SpellCooldowns",
+        "SpellEffect",
+        "SpellInterrupts",
+        "SpellLabel",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellTargetRestrictions",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 112659,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GossipNPCOption"
+      ]
+    },
+    {
+      "PushId": 112692,
+      "AddedValidCount": 37,
+      "AddedDeleteCount": 2,
+      "AffectedTables": [
+        "SoundKit",
+        "SoundKitAdvanced",
+        "SoundKitEntry",
+        "SpellVisual",
+        "SpellVisualAnim",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "SpellVisualKitModelAttach",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 112701,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "WorldState",
+        "WorldStateExpression"
+      ]
+    },
+    {
+      "PushId": 112726,
+      "AddedValidCount": 23,
+      "AddedDeleteCount": 2,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "Light",
+        "LightData",
+        "LightParams",
+        "Map"
+      ]
+    },
+    {
+      "PushId": 112758,
+      "AddedValidCount": 426,
+      "AddedDeleteCount": 18,
+      "AffectedTables": [
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 112765,
+      "AddedValidCount": 8,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName",
+        "SpellVisual",
+        "SpellVisualEvent",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 112799,
+      "AddedValidCount": 30,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "ChrCustomizationChoice",
+        "ChrCustomizationOption",
+        "ChrCustomizationReq",
+        "ChrCustomizationReqChoice"
+      ]
+    },
+    {
+      "PushId": 112848,
+      "AddedValidCount": 231,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "TaxiPath",
+        "TaxiPathNode"
+      ]
+    },
+    {
+      "PushId": 112852,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellEquippedItems",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 112870,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellActionBarPref"
+      ]
+    },
+    {
+      "PushId": 112921,
+      "AddedValidCount": 12,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure"
+      ]
+    },
+    {
+      "PushId": 112922,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellAuraOptions",
+        "SpellEffect",
+        "SpellLevels",
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 112935,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 112957,
+      "AddedValidCount": 35,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "CreatureDisplayInfoExtra",
+        "GossipNPCOption",
+        "Item",
+        "ItemAppearance",
+        "ItemDisplayInfo",
+        "ItemDisplayInfoMaterialRes",
+        "ItemModifiedAppearance",
+        "ItemModifiedAppearanceExtra",
+        "ItemSparse",
+        "NPCModelItemSlotDisplayInfo",
+        "SkillLineAbility",
+        "SpellEffect",
+        "TradeSkillCategory"
+      ]
+    },
+    {
+      "PushId": 112996,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 113032,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 18,
+      "AffectedTables": [
+        "Criteria",
+        "CriteriaTree"
+      ]
+    },
+    {
+      "PushId": 113037,
+      "AddedValidCount": 74,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CooldownSetLinkedSpell",
+        "CooldownSetSpell"
+      ]
+    },
+    {
+      "PushId": 113044,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect",
+        "SpellMisc",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 113051,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113061,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 2,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113063,
+      "AddedValidCount": 9,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "RaceStat"
+      ]
+    },
+    {
+      "PushId": 113070,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "ItemEffect"
+      ]
+    },
+    {
+      "PushId": 113077,
+      "AddedValidCount": 62,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SoundKit",
+        "SoundKitAdvanced",
+        "SoundKitEntry",
+        "SpellVisual",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "WMOAreaTable"
+      ]
+    },
+    {
+      "PushId": 113082,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure"
+      ]
+    },
+    {
+      "PushId": 113085,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect",
+        "SpellMisc",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 113092,
+      "AddedValidCount": 8,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure",
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 113093,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellEquippedItems",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113131,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 4,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellCategories",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellName",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 113136,
+      "AddedValidCount": 9,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113139,
+      "AddedValidCount": 535,
+      "AddedDeleteCount": 205,
+      "AffectedTables": [
+        "AnimKit",
+        "AnimKitSegment",
+        "CooldownSetLinkedSpell",
+        "CooldownSetSpell",
+        "Curve",
+        "CurvePoint",
+        "ModifierTree",
+        "PlayerCondition",
+        "SkillLineAbility",
+        "SoundKit",
+        "SoundKitAdvanced",
+        "SoundKitChild",
+        "SoundKitEntry",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellAuraRestrictions",
+        "SpellCategories",
+        "SpellClassOptions",
+        "SpellCooldowns",
+        "SpellEffect",
+        "SpellInterrupts",
+        "SpellLabel",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellProceduralEffect",
+        "SpellScript",
+        "SpellScriptText",
+        "SpellTargetRestrictions",
+        "SpellVisual",
+        "SpellVisualAnim",
+        "SpellVisualEffectName",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "SpellVisualKitModelAttach",
+        "SpellXSpellVisual",
+        "TraitDefinition",
+        "TraitDefinitionEffectPoints",
+        "TraitEdge",
+        "TraitNode",
+        "TraitNodeEntry",
+        "TraitNodeGroupXTraitNode",
+        "TraitNodeXTraitNodeEntry"
+      ]
+    },
+    {
+      "PushId": 113145,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 113151,
+      "AddedValidCount": 68,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Lightning",
+        "SoundKit",
+        "SoundKitAdvanced",
+        "SoundKitEntry"
+      ]
+    },
+    {
+      "PushId": 113152,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "WorldState"
+      ]
+    },
+    {
+      "PushId": 113154,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 113156,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "EdgeGlowEffect",
+        "SpellVisualKitEffect"
+      ]
+    },
+    {
+      "PushId": 113162,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "Item",
+        "ItemModifiedAppearance",
+        "ItemModifiedAppearanceExtra",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 113163,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 113164,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "Spell",
+        "SpellInterrupts",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113167,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "CreatureImmunities"
+      ]
+    },
+    {
+      "PushId": 113187,
+      "AddedValidCount": 10,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "ChrRaces"
+      ]
+    },
+    {
+      "PushId": 113191,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 113206,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113214,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113227,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "DungeonEncounter"
+      ]
+    },
+    {
+      "PushId": 113257,
+      "AddedValidCount": 7,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemEffect",
+        "ItemSparse",
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113269,
+      "AddedValidCount": 9,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "ChrRaces"
+      ]
+    },
+    {
+      "PushId": 113272,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113273,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellEffect",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113275,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113276,
+      "AddedValidCount": 67,
+      "AddedDeleteCount": 14,
+      "AffectedTables": [
+        "ChrRaceRacialAbility",
+        "SkillLineAbility",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellCooldowns",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellMisc",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellShapeshift",
+        "SpellTargetRestrictions",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 113277,
+      "AddedValidCount": 25,
+      "AddedDeleteCount": 16,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "SkillLineAbility",
+        "Spell",
+        "SpellCategories",
+        "SpellCooldowns",
+        "SpellEffect",
+        "SpellName",
+        "TraitDefinition",
+        "TraitNode",
+        "TraitNodeEntry",
+        "TraitNodeGroupXTraitNode",
+        "TraitNodeXTraitNodeEntry"
+      ]
+    },
+    {
+      "PushId": 113279,
+      "AddedValidCount": 22,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellClassOptions",
+        "SpellEffect",
+        "SpellLabel",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellShapeshift",
+        "TraitDefinition"
+      ]
+    },
+    {
+      "PushId": 113280,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellCategories",
+        "SpellCategory"
+      ]
+    },
+    {
+      "PushId": 113283,
+      "AddedValidCount": 178,
+      "AddedDeleteCount": 11,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "SkillLineAbility",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellCategories",
+        "SpellClassOptions",
+        "SpellCooldowns",
+        "SpellEffect",
+        "SpellLabel",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellShapeshift",
+        "SpellXSpellVisual",
+        "TraitDefinition",
+        "TraitDefinitionEffectPoints",
+        "TraitEdge",
+        "TraitNode",
+        "TraitNodeEntry",
+        "TraitNodeGroupXTraitNode"
+      ]
+    },
+    {
+      "PushId": 113284,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 38,
+      "AffectedTables": [
+        "CreatureLabel",
+        "GradientEffect",
+        "PlayerCondition",
+        "Spell",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113286,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 49,
+      "AffectedTables": [
+        "TaxiPath",
+        "TaxiPathNode"
+      ]
+    },
+    {
+      "PushId": 113291,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "GossipNPCOption"
+      ]
+    },
+    {
+      "PushId": 113296,
+      "AddedValidCount": 36,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "AreaTable",
+        "WMOAreaTable"
+      ]
+    },
+    {
+      "PushId": 113305,
+      "AddedValidCount": 27,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "UiTextureAtlas",
+        "UiTextureAtlasElement",
+        "UiTextureAtlasMember"
+      ]
+    },
+    {
+      "PushId": 113321,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "CreatureModelData",
+        "ModelFileData"
+      ]
+    },
+    {
+      "PushId": 113323,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 113324,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 6,
+      "AffectedTables": [
+        "GameObjectDisplayInfo",
+        "ModelFileData"
+      ]
+    },
+    {
+      "PushId": 113329,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellAuraOptions"
+      ]
+    },
+    {
+      "PushId": 113330,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113331,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 113334,
+      "AddedValidCount": 13,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 113335,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellCooldowns"
+      ]
+    },
+    {
+      "PushId": 113336,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 2,
+      "AffectedTables": [
+        "TraitNode",
+        "TraitNodeGroupXTraitNode"
+      ]
+    },
+    {
+      "PushId": 113340,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 113341,
+      "AddedValidCount": 1469,
+      "AddedDeleteCount": 29,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellLabel",
+        "SpellMisc",
+        "SpellName",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 113343,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113344,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113348,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113350,
+      "AddedValidCount": 9,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "Spell",
+        "SpellEffect",
+        "SpellName",
+        "TraitDefinitionEffectPoints"
+      ]
+    },
+    {
+      "PushId": 113367,
+      "AddedValidCount": 33,
+      "AddedDeleteCount": 4,
+      "AffectedTables": [
+        "Spell",
+        "SpellCategories",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName",
+        "SpellPowerDifficulty",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 113372,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure"
+      ]
+    },
+    {
+      "PushId": 113375,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 113377,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureSoundFidget"
+      ]
+    },
+    {
+      "PushId": 113378,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 7,
+      "AffectedTables": [
+        "QuestPOIBlob",
+        "QuestPOIPoint"
+      ]
+    },
+    {
+      "PushId": 113382,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 113384,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 2,
+      "AffectedTables": [
+        "QuestPOIBlob",
+        "QuestPOIPoint"
+      ]
+    },
+    {
+      "PushId": 113388,
+      "AddedValidCount": 64,
+      "AddedDeleteCount": 3,
+      "AffectedTables": [
+        "Item",
+        "ItemCurrencyCost",
+        "ItemEffect",
+        "ItemExtendedCost",
+        "ItemSparse",
+        "ItemXItemEffect",
+        "SkillLineAbility",
+        "Spell",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellInterrupts",
+        "SpellItemEnchantment",
+        "SpellMisc",
+        "SpellName",
+        "SpellPowerDifficulty",
+        "SpellReagents",
+        "SpellTargetRestrictions",
+        "SpellTotems",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 113391,
+      "AddedValidCount": 710,
+      "AddedDeleteCount": 716,
+      "AffectedTables": [
+        "NamesReserved"
+      ]
+    },
+    {
+      "PushId": 113396,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellInterrupts",
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 113405,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "WorldEffect"
+      ]
+    },
+    {
+      "PushId": 113406,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "AreaTable"
+      ]
+    },
+    {
+      "PushId": 113411,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "WorldStateExpression"
+      ]
+    },
+    {
+      "PushId": 113413,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc",
+        "SpellShapeshift"
+      ]
+    },
+    {
+      "PushId": 113414,
+      "AddedValidCount": 14,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse",
+        "ModifierTree",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 113419,
+      "AddedValidCount": 13,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SoundKit",
+        "SoundKitAdvanced",
+        "SoundKitEntry",
+        "SpellVisual",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 113422,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 22,
+      "AffectedTables": [
+        "Cfg_Regions",
+        "NamesReserved"
+      ]
+    },
+    {
+      "PushId": 113428,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 113429,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "AreaTable"
+      ]
+    },
+    {
+      "PushId": 113431,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 113439,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "GameObjectDisplayInfo",
+        "ModelFileData"
+      ]
+    },
+    {
+      "PushId": 113440,
+      "AddedValidCount": 10,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellCategories",
+        "SpellCooldowns"
+      ]
+    },
+    {
+      "PushId": 113441,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Cfg_Categories"
+      ]
+    },
+    {
+      "PushId": 113445,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "ModelFileData"
+      ]
+    },
+    {
+      "PushId": 113448,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SkillLineAbility"
+      ]
+    },
+    {
+      "PushId": 113449,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SkillLineAbility"
+      ]
+    },
+    {
+      "PushId": 113450,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SkillLineAbility"
+      ]
+    },
+    {
+      "PushId": 113457,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "TaxiPath"
+      ]
+    },
+    {
+      "PushId": 113463,
+      "AddedValidCount": 11,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "PlayerCondition",
+        "QuestV2",
+        "Spell",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName",
+        "SpellVisual",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 113468,
+      "AddedValidCount": 8,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "ModifierTree",
+        "Mount",
+        "MountCapability",
+        "MountType",
+        "MountTypeXCapability",
+        "PlayerCondition"
+      ]
+    },
+    {
+      "PushId": 113473,
+      "AddedValidCount": 13,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 113476,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalColor"
+      ]
+    },
+    {
+      "PushId": 113478,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "DungeonEncounter"
+      ]
+    },
+    {
+      "PushId": 113479,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "WorldStateExpression"
+      ]
+    },
+    {
+      "PushId": 113486,
+      "AddedValidCount": 23,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "SpellEffect",
+        "SpellMisc",
+        "TraitNodeEntry"
+      ]
+    },
+    {
+      "PushId": 113488,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "ItemAppearance",
+        "ItemDisplayInfo",
+        "ItemDisplayInfoModelMatRes"
+      ]
+    },
+    {
+      "PushId": 113492,
+      "AddedValidCount": 75,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 113496,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CriteriaTree",
+        "SpellEffect",
+        "TraitCurrencySource"
+      ]
+    },
+    {
+      "PushId": 113500,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellDuration"
+      ]
+    },
+    {
+      "PushId": 113501,
+      "AddedValidCount": 12,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 113505,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellVisualKitEffect"
+      ]
+    },
+    {
+      "PushId": 113516,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Cfg_SuperDistrict"
+      ]
+    },
+    {
+      "PushId": 113531,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 113554,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Locale"
+      ]
+    },
+    {
+      "PushId": 113557,
+      "AddedValidCount": 153,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113562,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "AvailableSuperDistrict"
+      ]
+    },
+    {
+      "PushId": 16780035,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16780185,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16780208,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16780255,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16780273,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16781267,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16781270,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16781283,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16781303,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16781793,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16781925,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16781930,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16781949,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16781951,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16782428,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783602,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783614,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783620,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783621,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783634,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783638,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783644,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783744,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783811,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783824,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16783826,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784324,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784328,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784329,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784637,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784673,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784693,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784699,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784711,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784746,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784758,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16784950,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16785336,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16785410,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16785518,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16785525,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16785529,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16786972,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16786991,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16786993,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16786999,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787000,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787018,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787025,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787036,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787050,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787060,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787141,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787149,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787156,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787157,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787166,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787174,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787280,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787319,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787340,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787342,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787345,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787355,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787356,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787360,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787368,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787370,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787373,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787384,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787389,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787396,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787444,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787463,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787469,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787494,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16787584,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16789189,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16789194,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16789204,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16789207,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16789239,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16790267,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16790295,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16791389,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16792449,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16792455,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16792479,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16792480,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16792492,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16792497,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16792507,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16793111,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    }
+  ],
+  "AddedItems": [
+    {
+      "Id": 2819,
+      "Name": "Cross Dagger",
+      "Quality": 2,
+      "ItemLevel": 28,
+      "RequiredLevel": 23,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16780035,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 2969,
+      "Name": "Spellbinder Vest",
+      "Quality": 2,
+      "ItemLevel": 17,
+      "RequiredLevel": 12,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16780185,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 2992,
+      "Name": "Burnished Gloves",
+      "Quality": 2,
+      "ItemLevel": 20,
+      "RequiredLevel": 15,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16780208,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 3039,
+      "Name": "Short Ash Bow",
+      "Quality": 2,
+      "ItemLevel": 23,
+      "RequiredLevel": 18,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16780255,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 3057,
+      "Name": "Forest Leather Boots",
+      "Quality": 2,
+      "ItemLevel": 24,
+      "RequiredLevel": 19,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16780273,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 4051,
+      "Name": "Emblazoned Boots",
+      "Quality": 2,
+      "ItemLevel": 30,
+      "RequiredLevel": 25,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16781267,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 4054,
+      "Name": "Insignia Leggings",
+      "Quality": 2,
+      "ItemLevel": 35,
+      "RequiredLevel": 30,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16781270,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 4067,
+      "Name": "Glyphed Buckler",
+      "Quality": 2,
+      "ItemLevel": 39,
+      "RequiredLevel": 34,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16781283,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 4087,
+      "Name": "Trueshot Bow",
+      "Quality": 2,
+      "ItemLevel": 41,
+      "RequiredLevel": 36,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16781303,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 4577,
+      "Name": "Compact Shotgun",
+      "Quality": 2,
+      "ItemLevel": 13,
+      "RequiredLevel": 8,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16781793,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 4709,
+      "Name": "Forest Leather Mantle",
+      "Quality": 2,
+      "ItemLevel": 25,
+      "RequiredLevel": 20,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16781925,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 4714,
+      "Name": "Silver-thread Sash",
+      "Quality": 2,
+      "ItemLevel": 27,
+      "RequiredLevel": 22,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16781930,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 4733,
+      "Name": "Blackforge Pauldrons",
+      "Quality": 2,
+      "ItemLevel": 46,
+      "RequiredLevel": 41,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16781949,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 4735,
+      "Name": "Mistscape Cloak",
+      "Quality": 2,
+      "ItemLevel": 41,
+      "RequiredLevel": 36,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16781951,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 5212,
+      "Name": "Blazing Wand",
+      "Quality": 2,
+      "ItemLevel": 17,
+      "RequiredLevel": 12,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16782428,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6386,
+      "Name": "Glimmering Mail Legguards",
+      "Quality": 2,
+      "ItemLevel": 30,
+      "RequiredLevel": 25,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783602,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6398,
+      "Name": "Emblazoned Belt",
+      "Quality": 2,
+      "ItemLevel": 29,
+      "RequiredLevel": 24,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783614,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6404,
+      "Name": "Mail Combat Spaulders",
+      "Quality": 2,
+      "ItemLevel": 35,
+      "RequiredLevel": 30,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783620,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6405,
+      "Name": "Nightsky Trousers",
+      "Quality": 2,
+      "ItemLevel": 36,
+      "RequiredLevel": 31,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783621,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6418,
+      "Name": "Aurora Sash",
+      "Quality": 2,
+      "ItemLevel": 37,
+      "RequiredLevel": 32,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783634,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6422,
+      "Name": "Glyphed Helm",
+      "Quality": 2,
+      "ItemLevel": 39,
+      "RequiredLevel": 34,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783638,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6428,
+      "Name": "Mistscape Gloves",
+      "Quality": 2,
+      "ItemLevel": 43,
+      "RequiredLevel": 38,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783644,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6528,
+      "Name": "Spellbinder Robe",
+      "Quality": 2,
+      "ItemLevel": 17,
+      "RequiredLevel": 12,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783744,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6595,
+      "Name": "Battleforge Gauntlets",
+      "Quality": 2,
+      "ItemLevel": 28,
+      "RequiredLevel": 23,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783811,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6608,
+      "Name": "Bright Armor",
+      "Quality": 2,
+      "ItemLevel": 27,
+      "RequiredLevel": 22,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783824,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 6610,
+      "Name": "Sage's Robe",
+      "Quality": 2,
+      "ItemLevel": 32,
+      "RequiredLevel": 27,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16783826,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7108,
+      "Name": "Infantry Shield",
+      "Quality": 2,
+      "ItemLevel": 11,
+      "RequiredLevel": 6,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784324,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7112,
+      "Name": "Aurora Armor",
+      "Quality": 2,
+      "ItemLevel": 41,
+      "RequiredLevel": 36,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784328,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7113,
+      "Name": "Mistscape Armor",
+      "Quality": 2,
+      "ItemLevel": 46,
+      "RequiredLevel": 41,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784329,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7190,
+      "Name": "Scorched Rocket Boots",
+      "Quality": 0,
+      "ItemLevel": 26,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7421,
+      "Name": "Phalanx Gauntlets",
+      "Quality": 2,
+      "ItemLevel": 33,
+      "RequiredLevel": 28,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784637,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7457,
+      "Name": "Knight's Gauntlets",
+      "Quality": 2,
+      "ItemLevel": 37,
+      "RequiredLevel": 32,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784673,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7477,
+      "Name": "Ranger Tunic",
+      "Quality": 2,
+      "ItemLevel": 45,
+      "RequiredLevel": 40,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784693,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7483,
+      "Name": "Ranger Cloak",
+      "Quality": 2,
+      "ItemLevel": 40,
+      "RequiredLevel": 35,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784699,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7495,
+      "Name": "Captain's Buckler",
+      "Quality": 2,
+      "ItemLevel": 44,
+      "RequiredLevel": 39,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784711,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7530,
+      "Name": "Cabalist Gloves",
+      "Quality": 2,
+      "ItemLevel": 46,
+      "RequiredLevel": 41,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784746,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7542,
+      "Name": "Champion's Greaves",
+      "Quality": 2,
+      "ItemLevel": 46,
+      "RequiredLevel": 41,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784758,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 7734,
+      "Name": "Six Demon Bag",
+      "Quality": 3,
+      "ItemLevel": 51,
+      "RequiredLevel": 46,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16784950,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 8120,
+      "Name": "Heraldic Cloak",
+      "Quality": 2,
+      "ItemLevel": 45,
+      "RequiredLevel": 40,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16785336,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 8194,
+      "Name": "Goblin Nutcracker",
+      "Quality": 2,
+      "ItemLevel": 43,
+      "RequiredLevel": 38,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16785410,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 8302,
+      "Name": "Hero's Bracers",
+      "Quality": 2,
+      "ItemLevel": 58,
+      "RequiredLevel": 53,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16785518,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 8309,
+      "Name": "Hero's Leggings",
+      "Quality": 2,
+      "ItemLevel": 61,
+      "RequiredLevel": 56,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16785525,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 8313,
+      "Name": "Hero's Buckler",
+      "Quality": 2,
+      "ItemLevel": 62,
+      "RequiredLevel": 57,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16785529,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9756,
+      "Name": "Nomad Trousers",
+      "Quality": 2,
+      "ItemLevel": 14,
+      "RequiredLevel": 9,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16786972,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9775,
+      "Name": "Bandit Cinch",
+      "Quality": 2,
+      "ItemLevel": 19,
+      "RequiredLevel": 14,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16786991,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9777,
+      "Name": "Bandit Bracers",
+      "Quality": 2,
+      "ItemLevel": 19,
+      "RequiredLevel": 14,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16786993,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9783,
+      "Name": "Raider's Chestpiece",
+      "Quality": 2,
+      "ItemLevel": 20,
+      "RequiredLevel": 15,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16786999,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9784,
+      "Name": "Raider's Boots",
+      "Quality": 2,
+      "ItemLevel": 19,
+      "RequiredLevel": 14,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787000,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9802,
+      "Name": "Superior Boots",
+      "Quality": 2,
+      "ItemLevel": 26,
+      "RequiredLevel": 21,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787018,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9809,
+      "Name": "Superior Tunic",
+      "Quality": 2,
+      "ItemLevel": 28,
+      "RequiredLevel": 23,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787025,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9820,
+      "Name": "Durable Boots",
+      "Quality": 2,
+      "ItemLevel": 31,
+      "RequiredLevel": 26,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787036,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9834,
+      "Name": "Scaled Leather Shoulders",
+      "Quality": 2,
+      "ItemLevel": 32,
+      "RequiredLevel": 27,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787050,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9844,
+      "Name": "Conjurer's Vest",
+      "Quality": 2,
+      "ItemLevel": 38,
+      "RequiredLevel": 33,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787060,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9925,
+      "Name": "Tracker's Wristguards",
+      "Quality": 2,
+      "ItemLevel": 44,
+      "RequiredLevel": 39,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787141,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9933,
+      "Name": "Brigade Leggings",
+      "Quality": 2,
+      "ItemLevel": 45,
+      "RequiredLevel": 40,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787149,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9940,
+      "Name": "Abjurer's Hood",
+      "Quality": 2,
+      "ItemLevel": 50,
+      "RequiredLevel": 45,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787156,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9941,
+      "Name": "Abjurer's Mantle",
+      "Quality": 2,
+      "ItemLevel": 49,
+      "RequiredLevel": 44,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787157,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9950,
+      "Name": "Chieftain's Breastplate",
+      "Quality": 2,
+      "ItemLevel": 53,
+      "RequiredLevel": 48,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787166,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 9958,
+      "Name": "Warmonger's Buckler",
+      "Quality": 2,
+      "ItemLevel": 50,
+      "RequiredLevel": 45,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787174,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10064,
+      "Name": "Duskwoven Pants",
+      "Quality": 2,
+      "ItemLevel": 53,
+      "RequiredLevel": 48,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787280,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10103,
+      "Name": "Councillor's Sash",
+      "Quality": 2,
+      "ItemLevel": 54,
+      "RequiredLevel": 49,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787319,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10124,
+      "Name": "Ornate Legguards",
+      "Quality": 2,
+      "ItemLevel": 57,
+      "RequiredLevel": 52,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787340,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10126,
+      "Name": "Ornate Bracers",
+      "Quality": 2,
+      "ItemLevel": 54,
+      "RequiredLevel": 49,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787342,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10129,
+      "Name": "Revenant Gauntlets",
+      "Quality": 2,
+      "ItemLevel": 50,
+      "RequiredLevel": 45,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787345,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10139,
+      "Name": "High Councillor's Circlet",
+      "Quality": 2,
+      "ItemLevel": 62,
+      "RequiredLevel": 57,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787355,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10140,
+      "Name": "High Councillor's Gloves",
+      "Quality": 2,
+      "ItemLevel": 61,
+      "RequiredLevel": 56,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787356,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10144,
+      "Name": "High Councillor's Sash",
+      "Quality": 2,
+      "ItemLevel": 60,
+      "RequiredLevel": 55,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787360,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10152,
+      "Name": "Mighty Leggings",
+      "Quality": 2,
+      "ItemLevel": 63,
+      "RequiredLevel": 58,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787368,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10154,
+      "Name": "Mercurial Girdle",
+      "Quality": 2,
+      "ItemLevel": 61,
+      "RequiredLevel": 56,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787370,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10157,
+      "Name": "Mercurial Breastplate",
+      "Quality": 2,
+      "ItemLevel": 64,
+      "RequiredLevel": 59,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787373,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10168,
+      "Name": "Templar Crown",
+      "Quality": 2,
+      "ItemLevel": 56,
+      "RequiredLevel": 51,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787384,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10173,
+      "Name": "Mystical Bracers",
+      "Quality": 2,
+      "ItemLevel": 53,
+      "RequiredLevel": 48,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787389,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10180,
+      "Name": "Mystical Belt",
+      "Quality": 2,
+      "ItemLevel": 52,
+      "RequiredLevel": 47,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787396,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10228,
+      "Name": "Nightshade Spaulders",
+      "Quality": 2,
+      "ItemLevel": 60,
+      "RequiredLevel": 55,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787444,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10247,
+      "Name": "Master's Boots",
+      "Quality": 2,
+      "ItemLevel": 63,
+      "RequiredLevel": 58,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787463,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10253,
+      "Name": "Master's Mantle",
+      "Quality": 2,
+      "ItemLevel": 63,
+      "RequiredLevel": 58,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787469,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10278,
+      "Name": "Emerald Girdle",
+      "Quality": 2,
+      "ItemLevel": 55,
+      "RequiredLevel": 50,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787494,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 10368,
+      "Name": "Imbued Plate Armor",
+      "Quality": 2,
+      "ItemLevel": 62,
+      "RequiredLevel": 57,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16787584,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 11973,
+      "Name": "Hematite Link",
+      "Quality": 2,
+      "ItemLevel": 43,
+      "RequiredLevel": 38,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16789189,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 11978,
+      "Name": "Jasper Link",
+      "Quality": 2,
+      "ItemLevel": 58,
+      "RequiredLevel": 53,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16789194,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 11988,
+      "Name": "Tellurium Band",
+      "Quality": 2,
+      "ItemLevel": 47,
+      "RequiredLevel": 42,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16789204,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 11991,
+      "Name": "Quicksilver Ring",
+      "Quality": 2,
+      "ItemLevel": 59,
+      "RequiredLevel": 54,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16789207,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 12023,
+      "Name": "Tellurium Necklace",
+      "Quality": 2,
+      "ItemLevel": 45,
+      "RequiredLevel": 40,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16789239,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 13051,
+      "Name": "Witchfury",
+      "Quality": 3,
+      "ItemLevel": 44,
+      "RequiredLevel": 39,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16790267,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 13079,
+      "Name": "Shield of Thorsen",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 25,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16790295,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 14173,
+      "Name": "Buccaneer's Cord",
+      "Quality": 2,
+      "ItemLevel": 20,
+      "RequiredLevel": 15,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16791389,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 15233,
+      "Name": "Savage Axe",
+      "Quality": 2,
+      "ItemLevel": 39,
+      "RequiredLevel": 34,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16792449,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 15239,
+      "Name": "Felstone Reaver",
+      "Quality": 2,
+      "ItemLevel": 61,
+      "RequiredLevel": 56,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16792455,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 15263,
+      "Name": "Royal Mallet",
+      "Quality": 2,
+      "ItemLevel": 50,
+      "RequiredLevel": 45,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16792479,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 15264,
+      "Name": "Backbreaker",
+      "Quality": 2,
+      "ItemLevel": 56,
+      "RequiredLevel": 51,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16792480,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 15276,
+      "Name": "Magus Long Staff",
+      "Quality": 2,
+      "ItemLevel": 58,
+      "RequiredLevel": 53,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16792492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 15281,
+      "Name": "Glowstar Rod",
+      "Quality": 2,
+      "ItemLevel": 57,
+      "RequiredLevel": 52,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16792497,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 15291,
+      "Name": "Harpy Needler",
+      "Quality": 2,
+      "ItemLevel": 51,
+      "RequiredLevel": 46,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16792507,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 15895,
+      "Name": "Burnt Buckler",
+      "Quality": 1,
+      "ItemLevel": 8,
+      "RequiredLevel": 3,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16793111,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 249519,
+      "Name": "Formula: Frozen Heart of the Mountain",
+      "Quality": 3,
+      "ItemLevel": 53,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 249520,
+      "Name": "Formula: Molten Heart of the Mountain",
+      "Quality": 3,
+      "ItemLevel": 53,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 249521,
+      "Name": "Formula: Dormant Heart of the Mountain",
+      "Quality": 3,
+      "ItemLevel": 53,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251340,
+      "Name": "Plans: Veteran's Chain Shirt",
+      "Quality": 3,
+      "ItemLevel": 20,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251342,
+      "Name": "Plans: Protector's Chain Shirt",
+      "Quality": 3,
+      "ItemLevel": 20,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251343,
+      "Name": "Plans: Acolyte's Chain Shirt",
+      "Quality": 3,
+      "ItemLevel": 20,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251344,
+      "Name": "Plans: Crusader's Chain Shirt",
+      "Quality": 3,
+      "ItemLevel": 20,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251345,
+      "Name": "Plans: Veteran's Chain Leggings",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251346,
+      "Name": "Plans: Guard's Chain Leggings",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251347,
+      "Name": "Plans: Protector's Chain Leggings",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251348,
+      "Name": "Plans: Acolyte's Chain Leggings",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251349,
+      "Name": "Plans: Crusader's Chain Leggings",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251350,
+      "Name": "Plans: Veteran's Chain Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251351,
+      "Name": "Plans: Guard's Chain Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251352,
+      "Name": "Plans: Protector's Chain Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251353,
+      "Name": "Plans: Acolyte's Chain Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251354,
+      "Name": "Plans: Crusader's Chain Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 251395,
+      "Name": "Plans: Shining Mithril Helm",
+      "Quality": 3,
+      "ItemLevel": 48,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252771,
+      "Name": "Pattern: Brawler's Leather Armor",
+      "Quality": 3,
+      "ItemLevel": 20,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252772,
+      "Name": "Pattern: Trapper's Leather Armor",
+      "Quality": 3,
+      "ItemLevel": 20,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252773,
+      "Name": "Pattern: Defender's Leather Armor",
+      "Quality": 3,
+      "ItemLevel": 20,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252774,
+      "Name": "Pattern: Totemic Leather Armor",
+      "Quality": 3,
+      "ItemLevel": 20,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252775,
+      "Name": "Pattern: Stormrider's Leather Armor",
+      "Quality": 3,
+      "ItemLevel": 20,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252776,
+      "Name": "Pattern: Wisdom's Leather Armor",
+      "Quality": 3,
+      "ItemLevel": 20,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252792,
+      "Name": "Pattern: Brawler's Leather Pants",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252793,
+      "Name": "Pattern: Trapper's Leather Pants",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252794,
+      "Name": "Pattern: Defender's Leather Pants",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252795,
+      "Name": "Pattern: Totemic Leather Pants",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252796,
+      "Name": "Pattern: Stormrider's Leather Pants",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252797,
+      "Name": "Pattern: Wisdom's Leather Pants",
+      "Quality": 3,
+      "ItemLevel": 25,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252814,
+      "Name": "Pattern: Brawler's Leather Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252815,
+      "Name": "Pattern: Trapper's Leather Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252816,
+      "Name": "Pattern: Defender's Leather Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252817,
+      "Name": "Pattern: Totemic Leather Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252818,
+      "Name": "Pattern: Stormrider's Leather Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 252819,
+      "Name": "Pattern: Wisdom's Leather Helm",
+      "Quality": 3,
+      "ItemLevel": 30,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113492,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 289559,
+      "Name": "Enchant Boots - Speed",
+      "Quality": 1,
+      "ItemLevel": 1,
+      "RequiredLevel": 1,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113388,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 289560,
+      "Name": "Formula: Enchant Boots - Speed",
+      "Quality": 2,
+      "ItemLevel": 50,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113388,
+      "ChangeDetails": null
+    }
+  ],
+  "RemovedItems": [],
+  "ModifiedItems": [
+    {
+      "Id": 2314,
+      "Name": "Toughened Leather Armor",
+      "Quality": 2,
+      "ItemLevel": 24,
+      "RequiredLevel": 19,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113414,
+      "ChangeDetails": "Quality: 1 -> 2; Stats geaendert"
+    },
+    {
+      "Id": 13484,
+      "Name": "Recipe: Transmute Earth to Water",
+      "Quality": 2,
+      "ItemLevel": 55,
+      "RequiredLevel": 0,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113531,
+      "ChangeDetails": "SellPrice: 0 -> 3000"
+    },
+    {
+      "Id": 250976,
+      "Name": "Recipe: Minor Spellblasting Potion",
+      "Quality": 1,
+      "ItemLevel": 1,
+      "RequiredLevel": 1,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113257,
+      "ChangeDetails": "SellPrice: 0 -> 100"
+    },
+    {
+      "Id": 271871,
+      "Name": "Gift of Galloping",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113257,
+      "ChangeDetails": "SellPrice: 1 -> 0"
+    },
+    {
+      "Id": 277154,
+      "Name": "Corrupted Gemstone",
+      "Quality": 1,
+      "ItemLevel": 1,
+      "RequiredLevel": 60,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113382,
+      "ChangeDetails": "ReqLvl: 0 -> 60"
+    }
+  ],
+  "AddedSpells": [
+    {
+      "Id": 20575,
+      "Name": "Command",
+      "Subtext": "Racial Passive",
+      "Description": "Damage dealt by Hunter and Warlock pets increased by $s1%.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113276,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 20576,
+      "Name": "Command",
+      "Subtext": "Racial Passive",
+      "Description": "Damage dealt by Hunter and Warlock pets increased by $s1%.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113276,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 21563,
+      "Name": "Command",
+      "Subtext": "Racial Passive",
+      "Description": "Damage dealt by Hunter and Warlock pets increased by $s1%.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113276,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1239570,
+      "Name": "Holy Shield",
+      "Subtext": "Rank 4",
+      "Description": "Increases chance to block by $s1% for $d, and deals $s2 Holy damage for each attack blocked while active.  Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. $n charges.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1326619,
+      "Name": "Ancestral Spirit",
+      "Subtext": "Rank 5",
+      "Description": "Returns the spirit to the body, restoring a dead target to life with $s1 health and $q1 mana.  Cannot be cast when in combat.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 112758,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328198,
+      "Name": "Echo of Light",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328206,
+      "Name": "Echo of Wisdom",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328370,
+      "Name": "Turn Evil",
+      "Subtext": "",
+      "Description": "Reduces the cast time of your Turn Undead spell by ${$s1/-1000}.1 sec, its cooldown by ${$s2/-1000} sec, and allows it to affect Demons.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328372,
+      "Name": "Turn Evil",
+      "Subtext": "Rank 3",
+      "Description": "The targeted Undead or Demon enemy will be compelled to flee for up to $d.  Damage caused may interrupt the effect.  Only one target can be turned at a time.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328373,
+      "Name": "Turn Evil",
+      "Subtext": "Rank 2",
+      "Description": "The targeted Undead or Demon enemy will be compelled to flee for up to $d.  Damage caused may interrupt the effect.  Only one target can be turned at a time.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328374,
+      "Name": "Turn Evil",
+      "Subtext": "Rank 1",
+      "Description": "The targeted Undead or Demon enemy will be compelled to flee for up to $d.  Damage caused may interrupt the effect.  Only one target can be turned at a time.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328544,
+      "Name": "Shieldsworn",
+      "Subtext": "",
+      "Description": "Reduces the cooldown of your Holy Strike ability by ${$m1/-1000} sec. Additionally, Holy Strike now strikes with your shield, triggering your active Holy Shield and Shield Specialization talents without consuming their charges or triggering their cooldowns, and allowing you to Block spells for $1328551d.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328546,
+      "Name": "Stoicism",
+      "Subtext": "",
+      "Description": "Reduces the duration of Stun and Charm effects on you by $s1%.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328548,
+      "Name": "Oath of Light",
+      "Subtext": "",
+      "Description": "Swear an Oath to protect target ally for $d, increasing the healing of your Holy Light on them by up to $s1, your Flash of Light by up to $s2, and your Holy Shock by up to $s3. Only one Oath of Light may be sworn by the Paladin at any one time.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328550,
+      "Name": "Boundless Light",
+      "Subtext": "",
+      "Description": "Increases the critical strike chance of your Holy Shock spell by $s1% when cast on allies not affected by your Oath of Light.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328551,
+      "Name": "Shieldsworn",
+      "Subtext": "",
+      "Description": "Able to Block spells for $d.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113139,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328569,
+      "Name": "Holy Binding",
+      "Subtext": "",
+      "Description": "Each time you heal a target other than yourself with Flash Heal, you are healed for $s1% as much. This healing generates no threat.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113279,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328570,
+      "Name": "Holy Binding",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113279,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328613,
+      "Name": "Predatory Discipline",
+      "Subtext": "",
+      "Description": "Your Ferocious Bite ability no longer converts extra Energy into damage, but still deals extra damage based on your excess Energy.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113283,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328616,
+      "Name": "Lacerate",
+      "Subtext": "Rank 2",
+      "Description": "Lacerates the enemy target, making them bleed for $o1 damage over $d plus $s2% weapon damage per existing application of Lacerate on the target. Causes a high amount of threat. This effect stacks up to $u times on the same target.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113283,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328617,
+      "Name": "Lacerate",
+      "Subtext": "Rank 1",
+      "Description": "Lacerates the enemy target, making them bleed for $o1 damage over $d plus $s2% weapon damage per existing application of Lacerate on the target. Causes a high amount of threat. This effect stacks up to $u times on the same target.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113283,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328618,
+      "Name": "Ferocious Bite",
+      "Subtext": "Rank 1",
+      "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 33-43 damage\r\n   2 points: 57-67 damage\r\n   3 points: 81-91 damage\r\n   4 points: 105-115 damage\r\n   5 points: 129-139 damage\r\n",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113283,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328621,
+      "Name": "Bloom",
+      "Subtext": "",
+      "Description": "When your Rejuvenation or Regrowth spell expires due to its duration, the target is instantly healed for an amount equal to $s1% of your Spirit. If either spell expires due to being dispelled, the target is healed for $s2% of your Spirit instead.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113283,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328622,
+      "Name": "Bloom",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113283,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328891,
+      "Name": "Enrage",
+      "Subtext": "",
+      "Description": "Increases the damage dealt by $s1 and casting speed by $s3% for the caster.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113367,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328904,
+      "Name": "Enrage",
+      "Subtext": "",
+      "Description": "Increases the damage dealt by $s1 and casting speed by $s3% for the caster.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113367,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328906,
+      "Name": "Love Crazed",
+      "Subtext": "",
+      "Description": "Increases your attack speed by $s2% and the Physical damage it deals by $s1 for $d.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113367,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328911,
+      "Name": "Enrage",
+      "Subtext": "",
+      "Description": "Increases the damage dealt by $s1 and casting speed by $s3% for the caster.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113367,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328913,
+      "Name": "Enrage",
+      "Subtext": "",
+      "Description": "Increases the damage dealt by $s1 and casting speed by $s3% for the caster.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113367,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328947,
+      "Name": "Speed",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113388,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328948,
+      "Name": "Enchant Boots - Speed",
+      "Subtext": "",
+      "Description": "Permanently enchant boots to increase movement speed by $1328947s1%.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113388,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329183,
+      "Name": "Dummy",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113463,
+      "ChangeDetails": null
+    }
+  ],
+  "RemovedSpells": [
+    {
+      "Id": 1038,
+      "Name": "Salvation",
+      "Subtext": "",
+      "Description": "Reduces all threat generated by target party member by $s1% for $d.",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1912,
+      "Name": "Salvation",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 19977,
+      "Name": "Blessing of Light",
+      "Subtext": "Rank 1",
+      "Description": "Places a Blessing on the friendly target, increasing the effects of Holy Light spells used on the target by up to $s1 and the effect Flash of Light spells used on the target by up to $s2.  Lasts $d.  Players may only have one Blessing on them per Paladin at any one time.",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 19978,
+      "Name": "Blessing of Light",
+      "Subtext": "Rank 2",
+      "Description": "Places a Blessing on the friendly target, increasing the effects of Holy Light spells used on the target by up to $s1 and the effect Flash of Light spells used on the target by up to $s2.  Lasts $d.  Players may only have one Blessing on them per Paladin at any one time.",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 19979,
+      "Name": "Blessing of Light",
+      "Subtext": "Rank 3",
+      "Description": "Places a Blessing on the friendly target, increasing the effects of Holy Light spells used on the target by up to $s1 and the effect Flash of Light spells used on the target by up to $s2.  Lasts $d.  Players may only have one Blessing on them per Paladin at any one time.",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 25890,
+      "Name": "Greater Blessing of Light",
+      "Subtext": "",
+      "Description": "Gives all members of the raid or group that share the same class with the target the Greater Blessing of Light, increasing the effects of Holy Light spells used on the target by up to $s1 and the effect Flash of Light spells used on the target by up to $s2.  Lasts $d.  Players may only have one Blessing on them per Paladin at any one time.",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 25895,
+      "Name": "Mass Salvation",
+      "Subtext": "",
+      "Description": "Gives all members of the raid or group that share the same class with the target a reduction to all threat generated by $s1% for $d.",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1311085,
+      "Name": "Instrument of Law",
+      "Subtext": "",
+      "Description": "Reduces the cast time of your Hammer of Wrath by ${$m1/-1000}.1 sec, and reduces all threat you generate by $m2% while Righteous Fury is not active.",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1325499,
+      "Name": "Revoke",
+      "Subtext": "",
+      "Description": "Remove target party or raid member's Salvation or Mass Salvation.",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    }
+  ],
+  "ModifiedSpells": [
+    {
+      "Id": 71,
+      "Name": "Defensive Stance",
+      "Subtext": "",
+      "Description": "A defensive combat stance.  Decreases damage taken by $7376s1% and damage caused by $7376s2%.  Increases all threat generated by $?a12792[${($7376s3+100)*($12792s1/100+1)-100)}.1%][$7376s3%].",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113136,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 2457,
+      "Name": "Battle Stance",
+      "Subtext": "",
+      "Description": "A balanced combat stance.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113136,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 2458,
+      "Name": "Berserker Stance",
+      "Subtext": "",
+      "Description": "An aggressive stance. Critical strike chance increased by $7381s1% and all damage taken is increased by $7381s2%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113136,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 2481,
+      "Name": "Find Treasure",
+      "Subtext": "Racial",
+      "Description": "Allows the dwarf to sense nearby treasure, making it appear on the minimap and sometimes increase treasure found. Lasts $d.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113276,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 2651,
+      "Name": "Elune's Grace",
+      "Subtext": "",
+      "Description": "Reduces the chance you'll be hit by melee and ranged attacks by $s1% for $d or until you are missed $n times.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113257,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 5923,
+      "Name": "Holy Power",
+      "Subtext": "",
+      "Description": "Increases the critical strike healing bonus of your Holy spells by $s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 9452,
+      "Name": "Vindication",
+      "Subtext": "",
+      "Description": "Gives your damaging melee attacks a chance to reduce the target's Attack Power by ${$m1/-3*$440667m1} for $440667d.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 11069,
+      "Name": "Accelerant",
+      "Subtext": "",
+      "Description": "Reduces the casting time of your Fireball, Frostfire Bolt, and Arcane Wrath spells by $/1000;S1 sec.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113277,
+      "ChangeDetails": "Name: 'Improved Fireball' -> 'Accelerant'; Beschreibung geaendert"
+    },
+    {
+      "Id": 13626,
+      "Name": "Enchant Chest - Minor Stats",
+      "Subtext": "",
+      "Description": "Permanently enchant a piece of chest armor to grant +$13624s1 to all stats.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113388,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 13890,
+      "Name": "Enchant Boots - Minor Speed",
+      "Subtext": "",
+      "Description": "Permanently enchant boots to increase movement speed by $13889s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113388,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 16757,
+      "Name": "Arctic Reach",
+      "Subtext": "",
+      "Description": "Increases the range of your Frostbolt, Frost Blast, Ice Lance, and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by $s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 112709,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 17007,
+      "Name": "Leader of the Pack",
+      "Subtext": "",
+      "Description": "While in Cat Form, Bear Form, or Dire Bear Form, the Leader of the Pack increases the Critical Strike chance of all party or raid members within $24932a1 yards by $24932s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 17069,
+      "Name": "Naturalist",
+      "Subtext": "",
+      "Description": "Reduces the cast time of your Healing Touch and Wild Growth spells by $/1000;S1 sec and increases all damage you deal by $m2%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 18562,
+      "Name": "Swiftmend",
+      "Subtext": "",
+      "Description": "Instantly heals a target with your active Rejuvenation or Regrowth effect for an amount equal to the full duration of the periodic effect of the consumed spell.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 20111,
+      "Name": "Two-Handed Weapon Specialization",
+      "Subtext": "",
+      "Description": "Increases the physical damage you deal by $s1%, and reduces all threat you generate by $m2% while a two-handed melee weapon is equipped.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 20117,
+      "Name": "Conviction",
+      "Subtext": "",
+      "Description": "Improves your chance to get a critical strike with all spells and attacks by $m1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 20293,
+      "Name": "Seal of Righteousness",
+      "Subtext": "Rank 8",
+      "Description": "Fills the Paladin with holy spirit for $d, granting each melee attack an additional ${($20286s3/87+$<1h>)*$<mult>} to ${($20286s3/25+$<2h>)*$<mult>} Holy damage.  Slower weapons cause more Holy damage per swing.  Only one Seal can be active on the Paladin at any one time.\r\n\r\nUnleashing this Seal's energy will cause $20286s1 Holy damage to an enemy.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 112709,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 20550,
+      "Name": "Endurance",
+      "Subtext": "Racial Passive",
+      "Description": "Total Health increased by $s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113276,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 22568,
+      "Name": "Ferocious Bite",
+      "Subtext": "Rank 2",
+      "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 50-66 damage\r\n   2 points: 86-102 damage\r\n   3 points: 122-138 damage\r\n   4 points: 158-174 damage\r\n   5 points: 194-210 damage\r\n",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Subtext: 'Rank 1' -> 'Rank 2'"
+    },
+    {
+      "Id": 22827,
+      "Name": "Ferocious Bite",
+      "Subtext": "Rank 3",
+      "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 79-103 damage\r\n   2 points: 138-162 damage\r\n   3 points: 197-221 damage\r\n   4 points: 256-280 damage\r\n   5 points: 315-339 damage",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Subtext: 'Rank 2' -> 'Rank 3'"
+    },
+    {
+      "Id": 22828,
+      "Name": "Ferocious Bite",
+      "Subtext": "Rank 4",
+      "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 122-162 damage\r\n   2 points: 214-254 damage\r\n   3 points: 306-346 damage\r\n   4 points: 398-438 damage\r\n   5 points: 490-530 damage",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Subtext: 'Rank 3' -> 'Rank 4'"
+    },
+    {
+      "Id": 22829,
+      "Name": "Ferocious Bite",
+      "Subtext": "Rank 5",
+      "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 173-223 damage\r\n   2 points: 301-351 damage\r\n   3 points: 429-479 damage\r\n   4 points: 557-607 damage\r\n   5 points: 685-735 damage",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Subtext: 'Rank 4' -> 'Rank 5'"
+    },
+    {
+      "Id": 24858,
+      "Name": "Moonkin Form",
+      "Subtext": "Shapeshift",
+      "Description": "Shapeshift into Moonkin Form, increasing Omen of Clarity's chance to trigger by $s5%, Armor contribution from items by $24905s1%, and all party or raid members within $24907a1 yards have their Critical Strike chance increased by $24907s1%. Also protects the caster from Polymorph effects and prevents the use of healing spells.\r\n\r\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 24907,
+      "Name": "Moonkin Aura",
+      "Subtext": "",
+      "Description": "Increases Critical Strike chance by $s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 112709,
+      "ChangeDetails": "Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 24932,
+      "Name": "Leader of the Pack",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 25780,
+      "Name": "Righteous Fury",
+      "Subtext": "",
+      "Description": "Increases all threat generated by $s5%, and all threat generated by your Holy attacks by an additional $s1%.  Lasts $d.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 29438,
+      "Name": "Precision",
+      "Subtext": "",
+      "Description": "Improves your chance to hit with all spells by $s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113277,
+      "ChangeDetails": "Name: 'Elemental Precision' -> 'Precision'; Beschreibung geaendert"
+    },
+    {
+      "Id": 31018,
+      "Name": "Ferocious Bite",
+      "Subtext": "Rank 6",
+      "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 199-259 damage\r\n   2 points: 346-406 damage\r\n   3 points: 493-553 damage\r\n   4 points: 640-700 damage\r\n   5 points: 787-847 damage",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Subtext: 'Rank 5' -> 'Rank 6'"
+    },
+    {
+      "Id": 403511,
+      "Name": "Improved Drains",
+      "Subtext": "",
+      "Description": "Increases Health drained, damage done, or Mana drained by your Drain Life, Drain Soul, and Drain Mana spells by $m1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113350,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 414644,
+      "Name": "Lacerate",
+      "Subtext": "Rank 3",
+      "Description": "Lacerates the enemy target, making them bleed for $o1 damage over $d plus $s2% weapon damage per existing application of Lacerate on the target. Causes a high amount of threat. This effect stacks up to $u times on the same target.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Subtext: 'Rank 1' -> 'Rank 3'"
+    },
+    {
+      "Id": 425280,
+      "Name": "Renewed Hope",
+      "Subtext": "",
+      "Description": "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain $m1% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by ${$m2/-1000} sec.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113279,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1224697,
+      "Name": "Sacred Duty",
+      "Subtext": "",
+      "Description": "Reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by ${$m2/-1000} sec, and reduces the duration of Forbearance by ${$m1/-1000} sec.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1235826,
+      "Name": "Lacerate",
+      "Subtext": "Rank 4",
+      "Description": "Lacerates the enemy target, making them bleed for $o1 damage over $d plus $s2% weapon damage per existing application of Lacerate on the target. Causes a high amount of threat. This effect stacks up to $u times on the same target.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Subtext: 'Rank 2' -> 'Rank 4'"
+    },
+    {
+      "Id": 1235827,
+      "Name": "Lacerate",
+      "Subtext": "Rank 5",
+      "Description": "Lacerates the enemy target, making them bleed for $o1 damage over $d plus $s2% weapon damage per existing application of Lacerate on the target. Causes a high amount of threat. This effect stacks up to $u times on the same target.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113283,
+      "ChangeDetails": "Subtext: 'Rank 3' -> 'Rank 5'"
+    },
+    {
+      "Id": 1259686,
+      "Name": "Skysight",
+      "Subtext": "Racial",
+      "Description": "Attempt to draw power from a convergence of elements and receive its blessing, increasing your movement and mounted movement speeds by $1259688s1% for $1259688d. If an elemental convergence is nearby, you will become Charged for the next $1270893d and the effect of this ability will be increased by $1270893s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113276,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1259688,
+      "Name": "Elemental Blessing",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113276,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1259691,
+      "Name": "Attuned",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113276,
+      "ChangeDetails": "Name: 'Energized' -> 'Attuned'; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1259705,
+      "Name": "Read Leyline",
+      "Subtext": "Racial",
+      "Description": "Attempt to tap into the power of a nearby leyline, increasing your Health and Mana regeneration by $1270842s1% for $1270842d. If a leyline is nearby, you will become Attuned for the next $1259691d and the effect of this ability will be increased by $1259691s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 112864,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1259719,
+      "Name": "Artisan's Precision",
+      "Subtext": "Racial Passive",
+      "Description": "Increases your chance to hit with all spells and attacks by $s1%.\r\n",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113276,
+      "ChangeDetails": "Name: 'Earth Fury' -> 'Artisan's Precision'; Beschreibung geaendert"
+    },
+    {
+      "Id": 1259918,
+      "Name": "Plainsrunning",
+      "Subtext": "Racial Passive",
+      "Description": "Gain $s1% increased movement speed every $s2 sec spent moving, up to a maximum of $s3% increase. Taking damage or standing still will reduce this effect.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113276,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1269603,
+      "Name": "Dire Laceration",
+      "Subtext": "",
+      "Description": "The Wild King tears at the target with his claws, causing them to bleed for $S1 physical damage every $T1 sec and reducing their healing received by $S3%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113061,
+      "ChangeDetails": "Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1270842,
+      "Name": "Energized",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113276,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1270893,
+      "Name": "Charged",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113276,
+      "ChangeDetails": "Name: 'Elemental Blessing' -> 'Charged'; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1310735,
+      "Name": "Unsealed Wrath",
+      "Subtext": "",
+      "Description": "Your melee attacks store a copy of your active Seal for $1311701d, stacking up to $1311701u times. Landing an attack with a different Seal consumes all stacks, giving the stored Seal its normal chance to activate once per stack.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Name: 'Twist of Light' -> 'Unsealed Wrath'; Beschreibung geaendert"
+    },
+    {
+      "Id": 1310904,
+      "Name": "Divine Precision",
+      "Subtext": "",
+      "Description": "Improves your chance to hit with Holy spells by $s1%, and reduces the duration of Silence effects on you by $s2%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1310911,
+      "Name": "Light's Vigil",
+      "Subtext": "Rank 1",
+      "Description": "Applies Light's Vigil to a friendly target for $1310909d. The caster's next Holy Shock on the target incurs no cooldown and heals the target and their party for $1310912s1. Only one Vigil per Paladin may be active in each party.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1310994,
+      "Name": "Swift Judgement",
+      "Subtext": "",
+      "Description": "Unleash the energy of a Seal spell upon an enemy. Does not consume the Seal. Refer to individual Seals for Judgement effect. Does not share a cooldown with your Judgement ability.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1311084,
+      "Name": "Champion of the Light",
+      "Subtext": "",
+      "Description": "Increases your spell damage by up to $m1% of your Intellect, and reduces the cast time of your Hammer of Wrath by ${$m2/-1000}.1 sec.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1311590,
+      "Name": "Light's Vigil",
+      "Subtext": "Rank 2",
+      "Description": "Applies Light's Vigil to a friendly target for $1311593d. The caster's next Holy Shock on the target incurs no cooldown and heals the target and their party for $1311591s1. Only one Vigil per Paladin may be active in each party.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1311595,
+      "Name": "Light's Vigil",
+      "Subtext": "Rank 3",
+      "Description": "Applies Light's Vigil to a friendly target for $1311597d. The caster's next Holy Shock on the target incurs no cooldown and heals the target and their party for $1311596s1. Only one Vigil per Paladin may be active in each party.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1311701,
+      "Name": "Echo of Fury",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1311703,
+      "Name": "Echo of Command",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1311704,
+      "Name": "Echo of Righteousness",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1311705,
+      "Name": "Echo of Justice",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113139,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    }
+  ],
+  "AddedTitles": []
+}

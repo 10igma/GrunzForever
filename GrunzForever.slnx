@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GrunzForever.Core/GrunzForever.Core.csproj" />
+    <Project Path="src/GrunzForever.Cli/GrunzForever.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GrunzForever.Tests/GrunzForever.Tests.csproj" />
+  </Folder>
+</Solution>

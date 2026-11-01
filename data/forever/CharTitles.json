@@ -1,0 +1,330 @@
+[
+  {
+    "ID": 144,
+    "Name_lang": "Bloodsail Admiral %s",
+    "Name1_lang": "Bloodsail Admiral %s",
+    "Mask_ID": 111,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1017,
+    "Name_lang": "%s of the Magram",
+    "Name1_lang": "%s of the Magram",
+    "Mask_ID": 1,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1018,
+    "Name_lang": "%s of the Gelkis",
+    "Name1_lang": "%s of the Gelkis",
+    "Mask_ID": 2,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1224,
+    "Name_lang": "%s the Alchemist",
+    "Name1_lang": "%s the Alchemist",
+    "Mask_ID": 3,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1225,
+    "Name_lang": "%s the Blacksmith",
+    "Name1_lang": "%s the Blacksmith",
+    "Mask_ID": 0,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1227,
+    "Name_lang": "%s the Enchanter",
+    "Name1_lang": "%s the Enchanter",
+    "Mask_ID": 4,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1228,
+    "Name_lang": "%s the Engineer",
+    "Name1_lang": "%s the Engineer",
+    "Mask_ID": 5,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1229,
+    "Name_lang": "%s the Leatherworker",
+    "Name1_lang": "%s the Leatherworker",
+    "Mask_ID": 6,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1230,
+    "Name_lang": "%s the Tailor",
+    "Name1_lang": "%s the Tailor",
+    "Mask_ID": 7,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1258,
+    "Name_lang": "Private %s",
+    "Name1_lang": "Private %s",
+    "Mask_ID": 8,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1259,
+    "Name_lang": "Corporal %s",
+    "Name1_lang": "Corporal %s",
+    "Mask_ID": 9,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1260,
+    "Name_lang": "Sergeant %s",
+    "Name1_lang": "Sergeant %s",
+    "Mask_ID": 10,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1261,
+    "Name_lang": "Master Sergeant %s",
+    "Name1_lang": "Master Sergeant %s",
+    "Mask_ID": 11,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1262,
+    "Name_lang": "Sergeant Major %s",
+    "Name1_lang": "Sergeant Major %s",
+    "Mask_ID": 12,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1263,
+    "Name_lang": "Knight %s",
+    "Name1_lang": "Knight %s",
+    "Mask_ID": 13,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1264,
+    "Name_lang": "Knight-Lieutenant %s",
+    "Name1_lang": "Knight-Lieutenant %s",
+    "Mask_ID": 14,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1265,
+    "Name_lang": "Knight-Champion %s",
+    "Name1_lang": "Knight-Champion %s",
+    "Mask_ID": 15,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1266,
+    "Name_lang": "Lieutenant Commander %s",
+    "Name1_lang": "Lieutenant Commander %s",
+    "Mask_ID": 16,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1267,
+    "Name_lang": "Commander %s",
+    "Name1_lang": "Commander %s",
+    "Mask_ID": 17,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1268,
+    "Name_lang": "Marshal %s",
+    "Name1_lang": "Marshal %s",
+    "Mask_ID": 18,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1269,
+    "Name_lang": "Field Marshal %s",
+    "Name1_lang": "Field Marshal %s",
+    "Mask_ID": 19,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1270,
+    "Name_lang": "Grand Marshal %s",
+    "Name1_lang": "Grand Marshal %s",
+    "Mask_ID": 20,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1271,
+    "Name_lang": "Scout %s",
+    "Name1_lang": "Scout %s",
+    "Mask_ID": 21,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1272,
+    "Name_lang": "Grunt %s",
+    "Name1_lang": "Grunt %s",
+    "Mask_ID": 22,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1273,
+    "Name_lang": "Sergeant %s",
+    "Name1_lang": "Sergeant %s",
+    "Mask_ID": 23,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1274,
+    "Name_lang": "Senior Sergeant %s",
+    "Name1_lang": "Senior Sergeant %s",
+    "Mask_ID": 24,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1275,
+    "Name_lang": "First Sergeant %s",
+    "Name1_lang": "First Sergeant %s",
+    "Mask_ID": 25,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1276,
+    "Name_lang": "Stone Guard %s",
+    "Name1_lang": "Stone Guard %s",
+    "Mask_ID": 26,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1277,
+    "Name_lang": "Blood Guard %s",
+    "Name1_lang": "Blood Guard %s",
+    "Mask_ID": 27,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1278,
+    "Name_lang": "Legionnaire %s",
+    "Name1_lang": "Legionnaire %s",
+    "Mask_ID": 28,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1279,
+    "Name_lang": "Centurion %s",
+    "Name1_lang": "Centurion %s",
+    "Mask_ID": 29,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1280,
+    "Name_lang": "Champion %s",
+    "Name1_lang": "Champion %s",
+    "Mask_ID": 30,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1281,
+    "Name_lang": "Lieutenant General %s",
+    "Name1_lang": "Lieutenant General %s",
+    "Mask_ID": 31,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1282,
+    "Name_lang": "General %s",
+    "Name1_lang": "General %s",
+    "Mask_ID": 32,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1283,
+    "Name_lang": "Warlord %s",
+    "Name1_lang": "Warlord %s",
+    "Mask_ID": 33,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1284,
+    "Name_lang": "High Warlord %s",
+    "Name1_lang": "High Warlord %s",
+    "Mask_ID": 34,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1309,
+    "Name_lang": "Knight-Captain %s",
+    "Name1_lang": "Knight-Captain %s",
+    "Mask_ID": 35,
+    "Flags": 4,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1312,
+    "Name_lang": "[DNT] Test %s",
+    "Name1_lang": "DNT Test %s",
+    "Mask_ID": 36,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1313,
+    "Name_lang": "Master Angler %s",
+    "Name1_lang": "Master Angler %s",
+    "Mask_ID": 37,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1330,
+    "Name_lang": "%s of the Nightclaw",
+    "Name1_lang": "%s of the Nightclaw",
+    "Mask_ID": 38,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 1352,
+    "Name_lang": "%s the Harbinger of Darkness",
+    "Name1_lang": "%s the Harbinger of Darkness",
+    "Mask_ID": 39,
+    "Flags": 0,
+    "_DataSource": "Db2"
+  }
+]

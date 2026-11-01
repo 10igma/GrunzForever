@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>CASC v7, BLTE, TSFM v2, WDC5 DB2, XFTH v9 DBCache.bin hotfix merger, build differ, and Camelot Lua API extractor for World of Warcraft: Classic Forever.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.14" />
+  </ItemGroup>
+
+</Project>

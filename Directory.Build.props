@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>14.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Authors>10igma</Authors>
+    <Product>GrunzForever</Product>
+    <Version>0.1.0</Version>
+    <Copyright>Copyright (c) 2026 10igma</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/10igma/GrunzForever</RepositoryUrl>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,2503 @@
+[
+  {
+    "ID": 2671,
+    "Name": "Mechanical Squirrel",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      7937,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7380,
+    "Name": "Siamese",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5585,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7381,
+    "Name": "Silver Tabby",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5555,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7382,
+    "Name": "Orange Tabby",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5554,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7383,
+    "Name": "Black Tabby",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5448,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7384,
+    "Name": "Cornish Rex",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5586,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7385,
+    "Name": "Bombay",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5556,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7386,
+    "Name": "White Kitten",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      9989,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7387,
+    "Name": "Green Wing Macaw",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5207,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7388,
+    "Name": "Cockatoo",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6189,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7389,
+    "Name": "Senegal",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6190,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7390,
+    "Name": "Cockatiel",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6191,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7391,
+    "Name": "Hyacinth Macaw",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6192,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7392,
+    "Name": "Prairie Chicken",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      304,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7394,
+    "Name": "Ancona Chicken",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      147417,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7395,
+    "Name": "Cockroach",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      2177,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7543,
+    "Name": "Dark Whelpling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6288,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7544,
+    "Name": "Crimson Whelpling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6290,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7545,
+    "Name": "Emerald Whelpling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6291,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7546,
+    "Name": "Bronze Whelpling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6292,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7547,
+    "Name": "Azure Whelpling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6293,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7548,
+    "Name": "Faeling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6294,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7549,
+    "Name": "Tree Frog",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6295,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7550,
+    "Name": "Wood Frog",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      901,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7551,
+    "Name": "Dart Frog",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6296,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7552,
+    "Name": "Island Frog",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6297,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7553,
+    "Name": "Great Horned Owl",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      4615,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7554,
+    "Name": "Snowy Owl",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6298,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7555,
+    "Name": "Hawk Owl",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6299,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7556,
+    "Name": "Eagle Owl",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6300,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7558,
+    "Name": "Cottontail Rabbit",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      4626,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7559,
+    "Name": "Arctic Hare",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      328,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7560,
+    "Name": "Snowshoe Rabbit",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6302,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7561,
+    "Name": "Albino Snake",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      2955,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7562,
+    "Name": "Brown Snake",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      2957,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7565,
+    "Name": "Black Kingsnake",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      1206,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7566,
+    "Name": "Scarlet Snake",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      2954,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7567,
+    "Name": "Crimson Snake",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6303,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7568,
+    "Name": "Ribbon Snake",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      2954,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7569,
+    "Name": "Green Water Snake",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      1986,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 7570,
+    "Name": "Elven Wisp",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      1824,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 8376,
+    "Name": "Mechanical Chicken",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      7920,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 9656,
+    "Name": "Tiny Walking Bomb",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      8909,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 9657,
+    "Name": "Lil' Smoky",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      8910,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 9662,
+    "Name": "Sprite Darter Hatchling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6294,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 9936,
+    "Name": "Corrupted Kitten",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      9209,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 10259,
+    "Name": "Worg Pup",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      9563,
+      9572,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 10598,
+    "Name": "Smolderweb Hatchling",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      9997,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 11236,
+    "Name": "Blood Parrot",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      9554,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 11325,
+    "Name": "Panda Cub",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      10990,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 11326,
+    "Name": "Mini Diablo",
+    "Title": "Lord of Terror",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      10992,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 11327,
+    "Name": "Zergling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      10993,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 12419,
+    "Name": "Lifelike Toad",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      901,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 14421,
+    "Name": "Brown Prairie Dog",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      1072,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 14629,
+    "Name": "Loggerhead Snapjaw",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      14657,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 14630,
+    "Name": "Leatherback Snapjaw",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      14658,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 14631,
+    "Name": "Olive Snapjaw",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      14659,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 14632,
+    "Name": "Hawksbill Snapjaw",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      14660,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 14633,
+    "Name": "Albino Snapjaw",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      14661,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 14755,
+    "Name": "Tiny Green Dragon",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      14778,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 14756,
+    "Name": "Tiny Red Dragon",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      14779,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 14878,
+    "Name": "Jubling",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      14938,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15186,
+    "Name": "Murky",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      15369,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15356,
+    "Name": "Blue Baby Murloc",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15393,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15357,
+    "Name": "Purple Baby Murloc",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15397,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15358,
+    "Name": "White Baby Murloc",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15398,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15359,
+    "Name": "Pink Baby Murloc",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15396,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15360,
+    "Name": "Green Baby Murloc",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15394,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15361,
+    "Name": "Murki",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      15395,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15429,
+    "Name": "Disgusting Oozeling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15436,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15661,
+    "Name": "Baby Shark",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15595,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15698,
+    "Name": "Father Winter's Helper",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15660,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15699,
+    "Name": "Tranquil Mechanical Yeti",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      10269,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15705,
+    "Name": "Winter's Little Helper",
+    "Classification": 0,
+    "CreatureTypeID": 10,
+    "CreatureTypeName": "Not specified",
+    "DisplayIDs": [
+      15663,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15706,
+    "Name": "Winter Reindeer",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15904,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 15710,
+    "Name": "Tiny Snowman",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15671,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 16069,
+    "Name": "Gurky",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      15984,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 16085,
+    "Name": "Peddlefeet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15992,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 16445,
+    "Name": "Terky",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      15398,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 16456,
+    "Name": "Poley",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      16189,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 16547,
+    "Name": "Speedy",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      16259,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 16548,
+    "Name": "Mr. Wiggles",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      16257,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 16549,
+    "Name": "Whiskers the Rat",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      148791,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 16701,
+    "Name": "Spirit of Summer",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      122023,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 17254,
+    "Name": "White Tiger Cub",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      16942,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 17255,
+    "Name": "Hippogryph Hatchling",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      16943,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 23909,
+    "Name": "Sinister Squashling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      21900,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 55571,
+    "Name": "Lunar Lantern",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      39163,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 55574,
+    "Name": "Festival Lantern",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      39333,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 61544,
+    "Name": "Orphan Spell Visual Invisible Holder",
+    "Classification": 0,
+    "CreatureTypeID": 10,
+    "CreatureTypeName": "Not specified",
+    "DisplayIDs": [
+      169,
+      13069,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 121295,
+    "Name": "Invisible Stalker",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      56187,
+      11686,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 130357,
+    "Name": "Invisible Stalker",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      56187,
+      11686,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 167875,
+    "Name": "RTC Player Dummy",
+    "Classification": 0,
+    "CreatureTypeID": 10,
+    "CreatureTypeName": "Not specified",
+    "DisplayIDs": [
+      2183,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 259430,
+    "Name": "Thief",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      5554,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 259842,
+    "Name": "Musical Gustjumper",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6296,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 260580,
+    "Name": "Mini Uber Diablo",
+    "Title": "Lord of Terror",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      142494,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 261680,
+    "Name": "Snowy Wolf Pup",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      142952,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 262224,
+    "Name": "[DNT] Template Creature",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      142952,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 262986,
+    "Name": "Rusty Wolf Pup",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      143452,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 263559,
+    "Name": "Child of By'zaali",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      143743,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 264632,
+    "Name": "Sister",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5556,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 264634,
+    "Name": "Leo",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5554,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 264636,
+    "Name": "Buster",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5554,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 264638,
+    "Name": "Callie",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      11709,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 264639,
+    "Name": "Bebe",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5556,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 265797,
+    "Name": "Wild Chicken",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      6193,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 266025,
+    "Name": "Rat Familiar",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      148790,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 266735,
+    "Name": "Excitable Slime",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      144879,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 267842,
+    "Name": "Bitter Baitling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      145177,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 268707,
+    "Name": "Prairie Wolf Pup",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      145568,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 268744,
+    "Name": "Frog Familiar",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      148792,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 268840,
+    "Name": "Spectral Bear Cub",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      145638,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 270313,
+    "Name": "Generic Bunny",
+    "Classification": 0,
+    "CreatureTypeID": 10,
+    "CreatureTypeName": "Not specified",
+    "DisplayIDs": [
+      1126,
+      15435,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271368,
+    "Name": "Shadowgale Squirrel",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146639,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271636,
+    "Name": "Weevil K. Neevil",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      117132,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271867,
+    "Name": "Pachimari",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146839,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271870,
+    "Name": "Galestrider Chick",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      144905,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271874,
+    "Name": "Black Furbolg Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146842,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271875,
+    "Name": "Brown Furbolg Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146843,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271876,
+    "Name": "Gray Furbolg Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146844,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271877,
+    "Name": "Tan Furbolg Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146845,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271878,
+    "Name": "White Furbolg Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146846,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271888,
+    "Name": "Purple Ent Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146849,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271889,
+    "Name": "Red Ent Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146850,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271890,
+    "Name": "Blue Ent Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146851,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271891,
+    "Name": "Gray Ent Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146852,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271892,
+    "Name": "Orange Ent Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146853,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271893,
+    "Name": "Yellow Ent Pet",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146854,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271913,
+    "Name": "Plagued Cockroach",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146859,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271914,
+    "Name": "Undercity Cockroach",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146860,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271915,
+    "Name": "Jungle Boa",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      2958,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271972,
+    "Name": "Brown Prairie Dog",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      1072,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271979,
+    "Name": "Brown Ground Squirrel",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146884,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271980,
+    "Name": "Red Ground Squirrel",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146882,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 271993,
+    "Name": "Brown Rabbit",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      4626,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272012,
+    "Name": "Cat Familiar",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      11709,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272210,
+    "Name": "Orc Mage",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146953,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272213,
+    "Name": "Human Hunter",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146957,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272214,
+    "Name": "Tauren Druid",
+    "Classification": 0,
+    "CreatureTypeID": 0,
+    "DisplayIDs": [
+      146958,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272215,
+    "Name": "Night Elf Warrior",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146959,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272219,
+    "Name": "Troll Warlock",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146960,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272226,
+    "Name": "Gnome Priest",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146962,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272227,
+    "Name": "Skyborne Shaman",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146961,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272229,
+    "Name": "Skyborne Mage Alliance",
+    "Classification": 0,
+    "CreatureTypeID": 0,
+    "DisplayIDs": [
+      146963,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272231,
+    "Name": "Undead Paladin",
+    "Classification": 0,
+    "CreatureTypeID": 0,
+    "DisplayIDs": [
+      146964,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272235,
+    "Name": "Dwarf Shaman",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146965,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272238,
+    "Name": "Orc Warrior",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146966,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272239,
+    "Name": "Human Warlock",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146967,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272241,
+    "Name": "Tauren Hunter",
+    "Classification": 0,
+    "CreatureTypeID": 0,
+    "DisplayIDs": [
+      146968,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272242,
+    "Name": "Night Elf Druid",
+    "Classification": 0,
+    "CreatureTypeID": 0,
+    "DisplayIDs": [
+      146969,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272243,
+    "Name": "Gnome Rogue",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146970,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272245,
+    "Name": "Troll Rogue",
+    "Classification": 0,
+    "CreatureTypeID": 0,
+    "DisplayIDs": [
+      146971,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272249,
+    "Name": "Skyborne Warrior Alliance",
+    "Classification": 0,
+    "CreatureTypeID": 0,
+    "DisplayIDs": [
+      146973,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272250,
+    "Name": "Skyborne Druid",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146974,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272251,
+    "Name": "Dwarf Paladin",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146975,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272252,
+    "Name": "Undead Warlock",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      146976,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272309,
+    "Name": "Tux",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      11709,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272310,
+    "Name": "Mocha",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5555,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272328,
+    "Name": "Mini Diablo",
+    "Title": "Lord of Terror",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146956,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272329,
+    "Name": "Zergling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146954,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272330,
+    "Name": "Panda Cub",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      146955,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 272614,
+    "Name": "Cappy",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      5554,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273003,
+    "Name": "Worg Pup",
+    "Classification": 0,
+    "CreatureTypeID": 1,
+    "CreatureTypeName": "Beast",
+    "DisplayIDs": [
+      9563,
+      9572,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273391,
+    "Name": "Baby Crocolisk",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      147381,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273916,
+    "Name": "Human Paladin",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      147589,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273917,
+    "Name": "Night Elf Priest",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      147591,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273918,
+    "Name": "Skyborne Hunter",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      147592,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273919,
+    "Name": "Dwarf Hunter",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      147593,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273920,
+    "Name": "Human Mage",
+    "Classification": 0,
+    "CreatureTypeID": 0,
+    "DisplayIDs": [
+      147594,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273921,
+    "Name": "Dwarf Warrior",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      147595,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273925,
+    "Name": "Gnome Warrior",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      147596,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273926,
+    "Name": "Gnome Warlock",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      147597,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273927,
+    "Name": "Night Elf Rogue",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      147598,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273928,
+    "Name": "Human Priest",
+    "Classification": 0,
+    "CreatureTypeID": 7,
+    "CreatureTypeName": "Humanoid",
+    "DisplayIDs": [
+      147599,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 273956,
+    "Name": "Condor Hatchling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      3248,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 274334,
+    "Name": "Tallstrider Hatchling",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      147717,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 274412,
+    "Name": "Minfernal",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      147738,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 274947,
+    "Name": "Minimule",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      147969,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  },
+  {
+    "ID": 276331,
+    "Name": "Spawn of Grubthor",
+    "Classification": 0,
+    "CreatureTypeID": 12,
+    "CreatureTypeName": "Non-combat Pet",
+    "DisplayIDs": [
+      12336,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "Db2"
+  }
+]

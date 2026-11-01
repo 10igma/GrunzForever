@@ -1,0 +1,2361 @@
+{
+  "Product": "wowf",
+  "Version": "1.60.1.70685",
+  "BuildName": "WOW-70685patch1.60.1_Retail",
+  "BuildKey": "002a8047a7c3a53de5e981936db76cce",
+  "ExtractedAtUtc": "2026-10-31T08:03:32.9511123Z",
+  "TotalTables": 261,
+  "TotalRows": 1081464,
+  "HotfixCacheTotalEntries": 24101,
+  "Tables": [
+    {
+      "TableName": "Achievement",
+      "TableHash": "D2EE2CA7",
+      "LayoutHash": "6FC5281B",
+      "BaseDb2Rows": 441,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 441
+    },
+    {
+      "TableName": "Achievement_Category",
+      "TableHash": "231B414D",
+      "LayoutHash": "67B2B4BD",
+      "BaseDb2Rows": 56,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 56
+    },
+    {
+      "TableName": "AdventureJournal",
+      "TableHash": "8EEF1A97",
+      "LayoutHash": "6DC6E4E8",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "AnimKit",
+      "TableHash": "B3AF6ECA",
+      "LayoutHash": "DA4C91AF",
+      "BaseDb2Rows": 806,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 806
+    },
+    {
+      "TableName": "AnimKitSegment",
+      "TableHash": "3E988108",
+      "LayoutHash": "A6C970CA",
+      "BaseDb2Rows": 1079,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1079
+    },
+    {
+      "TableName": "AreaPOI",
+      "TableHash": "DF3F054A",
+      "LayoutHash": "A8930CBB",
+      "BaseDb2Rows": 372,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 372
+    },
+    {
+      "TableName": "AreaTable",
+      "TableHash": "7253EB43",
+      "LayoutHash": "9995B797",
+      "BaseDb2Rows": 1375,
+      "HotfixUpserts": 16,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1375
+    },
+    {
+      "TableName": "AuctionHouse",
+      "TableHash": "B8F96456",
+      "LayoutHash": "9D007DB2",
+      "BaseDb2Rows": 24,
+      "HotfixUpserts": 3,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 24
+    },
+    {
+      "TableName": "AuctionHouseRedirect",
+      "TableHash": "891BE7B6",
+      "LayoutHash": "FA23AD86",
+      "BaseDb2Rows": 20,
+      "HotfixUpserts": 4,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 20
+    },
+    {
+      "TableName": "AvailableSuperDistrict",
+      "TableHash": "45952E6E",
+      "LayoutHash": "87BD1F4D",
+      "BaseDb2Rows": 6,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 6
+    },
+    {
+      "TableName": "BattlemasterList",
+      "TableHash": "558D704E",
+      "LayoutHash": "3414CBD7",
+      "BaseDb2Rows": 9,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 9
+    },
+    {
+      "TableName": "BattlePetSpecies",
+      "TableHash": "6C93F9B1",
+      "LayoutHash": "589BE282",
+      "BaseDb2Rows": 117,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 117
+    },
+    {
+      "TableName": "BeamEffect",
+      "TableHash": "017FAEA0",
+      "LayoutHash": "26B15341",
+      "BaseDb2Rows": 131,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 131
+    },
+    {
+      "TableName": "BroadcastText",
+      "TableHash": "021826BB",
+      "LayoutHash": "00EB45B3",
+      "BaseDb2Rows": 12,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 12
+    },
+    {
+      "TableName": "Cfg_GameRules",
+      "TableHash": "AA0ECB1C",
+      "LayoutHash": "41B88A54",
+      "BaseDb2Rows": 222,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 222
+    },
+    {
+      "TableName": "Cfg_SuperDistrict",
+      "TableHash": "FFD9D676",
+      "LayoutHash": "71CA0374",
+      "BaseDb2Rows": 8,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 8
+    },
+    {
+      "TableName": "CharTitles",
+      "TableHash": "85DF9E8E",
+      "LayoutHash": "2F5DFF7F",
+      "BaseDb2Rows": 41,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 41
+    },
+    {
+      "TableName": "ChrClasses",
+      "TableHash": "F5889D8C",
+      "LayoutHash": "AFC9B0C2",
+      "BaseDb2Rows": 9,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 9
+    },
+    {
+      "TableName": "ChrRaceRacialAbility",
+      "TableHash": "550E7513",
+      "LayoutHash": "0FC0F0D5",
+      "BaseDb2Rows": 40,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 40
+    },
+    {
+      "TableName": "ChrRaces",
+      "TableHash": "53F1783C",
+      "LayoutHash": "4F44C796",
+      "BaseDb2Rows": 58,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 58
+    },
+    {
+      "TableName": "ChrSpecialization",
+      "TableHash": "A00F8E60",
+      "LayoutHash": "DAB4CA4B",
+      "BaseDb2Rows": 10,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 10
+    },
+    {
+      "TableName": "CollectableSourceEncounter",
+      "TableHash": "5313B2C6",
+      "LayoutHash": "FC4F6701",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "CollectableSourceEncounterSparse",
+      "TableHash": "066232CE",
+      "LayoutHash": "11333AFA",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "CollectableSourceInfo",
+      "TableHash": "EF425734",
+      "LayoutHash": "6509E3B5",
+      "BaseDb2Rows": 1283,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1283
+    },
+    {
+      "TableName": "CollectableSourceQuest",
+      "TableHash": "CBB62A64",
+      "LayoutHash": "49EA6C2C",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "CollectableSourceQuestSparse",
+      "TableHash": "CB62F9AC",
+      "LayoutHash": "434EEF8A",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "CollectableSourceVendor",
+      "TableHash": "53F85D8C",
+      "LayoutHash": "EFF66964",
+      "BaseDb2Rows": 4431,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 4431
+    },
+    {
+      "TableName": "CollectableSourceVendorSparse",
+      "TableHash": "42E42070",
+      "LayoutHash": "1EC1925C",
+      "BaseDb2Rows": 3568,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3568
+    },
+    {
+      "TableName": "ConversationLine",
+      "TableHash": "C794A036",
+      "LayoutHash": "AA1E7988",
+      "BaseDb2Rows": 634,
+      "HotfixUpserts": 40,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 638
+    },
+    {
+      "TableName": "CooldownSet",
+      "TableHash": "C68BE365",
+      "LayoutHash": "AA6C140C",
+      "BaseDb2Rows": 31,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 32
+    },
+    {
+      "TableName": "CooldownSetLinkedSpell",
+      "TableHash": "6AB0078F",
+      "LayoutHash": "11E4972F",
+      "BaseDb2Rows": 1884,
+      "HotfixUpserts": 37,
+      "HotfixDeletes": 8,
+      "FinalRowCount": 1895
+    },
+    {
+      "TableName": "CooldownSetSpell",
+      "TableHash": "4BF2FC04",
+      "LayoutHash": "0AC7B8F5",
+      "BaseDb2Rows": 607,
+      "HotfixUpserts": 194,
+      "HotfixDeletes": 2,
+      "FinalRowCount": 611
+    },
+    {
+      "TableName": "Creature",
+      "TableHash": "C9D6B6B3",
+      "LayoutHash": "6E14C900",
+      "BaseDb2Rows": 179,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 179
+    },
+    {
+      "TableName": "CreatureDifficulty",
+      "TableHash": "C9E0A749",
+      "LayoutHash": "2A5DE105",
+      "BaseDb2Rows": 179,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 179
+    },
+    {
+      "TableName": "CreatureDifficultyTreasure",
+      "TableHash": "D5A4E33A",
+      "LayoutHash": "75E963A9",
+      "BaseDb2Rows": 13977,
+      "HotfixUpserts": 334,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 14304
+    },
+    {
+      "TableName": "CreatureDisplayInfo",
+      "TableHash": "BFDAF9F1",
+      "LayoutHash": "7275F5F6",
+      "BaseDb2Rows": 14204,
+      "HotfixUpserts": 4,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 14207
+    },
+    {
+      "TableName": "CreatureDisplayInfoExtra",
+      "TableHash": "66A5C5B7",
+      "LayoutHash": "4D9FE25C",
+      "BaseDb2Rows": 8994,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 8994
+    },
+    {
+      "TableName": "CreatureDisplayInfoOption",
+      "TableHash": "88C61AE6",
+      "LayoutHash": "2F331C33",
+      "BaseDb2Rows": 87919,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 87919
+    },
+    {
+      "TableName": "CreatureFamily",
+      "TableHash": "369F469F",
+      "LayoutHash": "7FE3CBA7",
+      "BaseDb2Rows": 27,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 27
+    },
+    {
+      "TableName": "CreatureImmunities",
+      "TableHash": "211E2DEF",
+      "LayoutHash": "0E161D2C",
+      "BaseDb2Rows": 1,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1
+    },
+    {
+      "TableName": "CreatureLabel",
+      "TableHash": "6F771411",
+      "LayoutHash": "25B2B438",
+      "BaseDb2Rows": 1657,
+      "HotfixUpserts": 3,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1657
+    },
+    {
+      "TableName": "CreatureModelData",
+      "TableHash": "7F695FA5",
+      "LayoutHash": "0F5449F8",
+      "BaseDb2Rows": 1193,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1194
+    },
+    {
+      "TableName": "CreatureMovementInfo",
+      "TableHash": "CF156785",
+      "LayoutHash": "30A3C9CA",
+      "BaseDb2Rows": 92,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 93
+    },
+    {
+      "TableName": "CreatureSoundData",
+      "TableHash": "91C188C0",
+      "LayoutHash": "E5EE765B",
+      "BaseDb2Rows": 614,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 614
+    },
+    {
+      "TableName": "CreatureType",
+      "TableHash": "1F80AD3F",
+      "LayoutHash": "6FF4CA42",
+      "BaseDb2Rows": 13,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 13
+    },
+    {
+      "TableName": "CreatureXDisplayInfo",
+      "TableHash": "23CBE682",
+      "LayoutHash": "2EA19FCF",
+      "BaseDb2Rows": 185,
+      "HotfixUpserts": 29,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 214
+    },
+    {
+      "TableName": "Criteria",
+      "TableHash": "EF23DC80",
+      "LayoutHash": "53D03513",
+      "BaseDb2Rows": 3297,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3297
+    },
+    {
+      "TableName": "CriteriaTree",
+      "TableHash": "4AD4429C",
+      "LayoutHash": "FF97AE12",
+      "BaseDb2Rows": 6771,
+      "HotfixUpserts": 21,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 6771
+    },
+    {
+      "TableName": "CurrencyCategory",
+      "TableHash": "D3C46981",
+      "LayoutHash": "72B9AF57",
+      "BaseDb2Rows": 6,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 6
+    },
+    {
+      "TableName": "CurrencyTypes",
+      "TableHash": "2F51378E",
+      "LayoutHash": "EBEAF439",
+      "BaseDb2Rows": 9,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 9
+    },
+    {
+      "TableName": "Curve",
+      "TableHash": "4BD9DF7A",
+      "LayoutHash": "D362535A",
+      "BaseDb2Rows": 19594,
+      "HotfixUpserts": 15,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 19604
+    },
+    {
+      "TableName": "CurvePoint",
+      "TableHash": "700ECA3A",
+      "LayoutHash": "7D4954A1",
+      "BaseDb2Rows": 41746,
+      "HotfixUpserts": 16,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 41749
+    },
+    {
+      "TableName": "DungeonEncounter",
+      "TableHash": "FB6E72FC",
+      "LayoutHash": "35863DC4",
+      "BaseDb2Rows": 342,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 342
+    },
+    {
+      "TableName": "EdgeGlowEffect",
+      "TableHash": "803704B6",
+      "LayoutHash": "ED9B01C2",
+      "BaseDb2Rows": 21,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 21
+    },
+    {
+      "TableName": "Faction",
+      "TableHash": "06F624D7",
+      "LayoutHash": "6D443C38",
+      "BaseDb2Rows": 253,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 253
+    },
+    {
+      "TableName": "FactionGroup",
+      "TableHash": "7A55B55D",
+      "LayoutHash": "81589733",
+      "BaseDb2Rows": 4,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 4
+    },
+    {
+      "TableName": "FactionTemplate",
+      "TableHash": "1018ADD5",
+      "LayoutHash": "22B6DC22",
+      "BaseDb2Rows": 453,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 454
+    },
+    {
+      "TableName": "GameObjectArtKit",
+      "TableHash": "0024BCED",
+      "LayoutHash": "F1996F13",
+      "BaseDb2Rows": 16,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 16
+    },
+    {
+      "TableName": "GameObjectDisplayInfo",
+      "TableHash": "6D100DCB",
+      "LayoutHash": "16D1DD61",
+      "BaseDb2Rows": 3245,
+      "HotfixUpserts": 5,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3248
+    },
+    {
+      "TableName": "GameObjects",
+      "TableHash": "13C403A5",
+      "LayoutHash": "44BD453C",
+      "BaseDb2Rows": 1526,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1526
+    },
+    {
+      "TableName": "GemProperties",
+      "TableHash": "9C00EA6D",
+      "LayoutHash": "86487AD2",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "GlobalStrings",
+      "TableHash": "BF0BC27A",
+      "LayoutHash": "D40F6D96",
+      "BaseDb2Rows": 27400,
+      "HotfixUpserts": 115,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 27400
+    },
+    {
+      "TableName": "GlyphProperties",
+      "TableHash": "FAF454A9",
+      "LayoutHash": "2601475B",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "GossipNPCOption",
+      "TableHash": "936188F9",
+      "LayoutHash": "5247127B",
+      "BaseDb2Rows": 1577,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1579
+    },
+    {
+      "TableName": "HolidayNames",
+      "TableHash": "5499185A",
+      "LayoutHash": "D76CBBD2",
+      "BaseDb2Rows": 16,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 16
+    },
+    {
+      "TableName": "Holidays",
+      "TableHash": "758E7BCC",
+      "LayoutHash": "432931C0",
+      "BaseDb2Rows": 22,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 22
+    },
+    {
+      "TableName": "Item",
+      "TableHash": "50238EC2",
+      "LayoutHash": "9A2A4834",
+      "BaseDb2Rows": 31850,
+      "HotfixUpserts": 852,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 31877
+    },
+    {
+      "TableName": "ItemAppearance",
+      "TableHash": "42261B89",
+      "LayoutHash": "481C4281",
+      "BaseDb2Rows": 9042,
+      "HotfixUpserts": 244,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 9042
+    },
+    {
+      "TableName": "ItemArmorQuality",
+      "TableHash": "B94A5807",
+      "LayoutHash": "2935AA9D",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemArmorShield",
+      "TableHash": "FFBB8DC2",
+      "LayoutHash": "7E6C94F9",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemArmorTotal",
+      "TableHash": "029D50FE",
+      "LayoutHash": "EB155D51",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemBagFamily",
+      "TableHash": "11301D47",
+      "LayoutHash": "782EE721",
+      "BaseDb2Rows": 24,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 24
+    },
+    {
+      "TableName": "ItemBonus",
+      "TableHash": "8318900A",
+      "LayoutHash": "79CD4525",
+      "BaseDb2Rows": 1126,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1126
+    },
+    {
+      "TableName": "ItemBonusList",
+      "TableHash": "96232523",
+      "LayoutHash": "22A28539",
+      "BaseDb2Rows": 367,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 367
+    },
+    {
+      "TableName": "ItemBonusListLevelDelta",
+      "TableHash": "39606286",
+      "LayoutHash": "52DF470F",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "ItemBonusListWarforgeLevelDelta",
+      "TableHash": "12A76EFD",
+      "LayoutHash": "52DF470F",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "ItemBonusTree",
+      "TableHash": "4E9D31DC",
+      "LayoutHash": "DD92E4D6",
+      "BaseDb2Rows": 115,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 115
+    },
+    {
+      "TableName": "ItemBonusTreeNode",
+      "TableHash": "A67E0631",
+      "LayoutHash": "4049606F",
+      "BaseDb2Rows": 1936,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1936
+    },
+    {
+      "TableName": "ItemClass",
+      "TableHash": "B977271E",
+      "LayoutHash": "35680EB8",
+      "BaseDb2Rows": 17,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 17
+    },
+    {
+      "TableName": "ItemDamageAmmo",
+      "TableHash": "9790C2EE",
+      "LayoutHash": "56F30531",
+      "BaseDb2Rows": 1000,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1000
+    },
+    {
+      "TableName": "ItemDamageOneHand",
+      "TableHash": "E0A6BB08",
+      "LayoutHash": "56F30531",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemDamageOneHandCaster",
+      "TableHash": "F2972767",
+      "LayoutHash": "56F30531",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemDamageRanged",
+      "TableHash": "30E32F7A",
+      "LayoutHash": "3CD722C1",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemDamageThrown",
+      "TableHash": "72FD7ADB",
+      "LayoutHash": "3CD722C1",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemDamageTwoHand",
+      "TableHash": "D8C5FD43",
+      "LayoutHash": "56F30531",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemDamageTwoHandCaster",
+      "TableHash": "80A1A0FA",
+      "LayoutHash": "56F30531",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemDamageWand",
+      "TableHash": "C2C866AF",
+      "LayoutHash": "3CD722C1",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemDisenchantLoot",
+      "TableHash": "66A4506E",
+      "LayoutHash": "5845A4AA",
+      "BaseDb2Rows": 54,
+      "HotfixUpserts": 54,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 54
+    },
+    {
+      "TableName": "ItemDisplayInfo",
+      "TableHash": "986F8CD0",
+      "LayoutHash": "9F3AB8A9",
+      "BaseDb2Rows": 42525,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 42525
+    },
+    {
+      "TableName": "ItemDisplayInfoModelMatRes",
+      "TableHash": "14320F31",
+      "LayoutHash": "52510D63",
+      "BaseDb2Rows": 11147,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 11147
+    },
+    {
+      "TableName": "ItemEffect",
+      "TableHash": "4002A5B1",
+      "LayoutHash": "4CA77678",
+      "BaseDb2Rows": 12635,
+      "HotfixUpserts": 32,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 12664
+    },
+    {
+      "TableName": "ItemExtendedCost",
+      "TableHash": "BB858355",
+      "LayoutHash": "22331DAB",
+      "BaseDb2Rows": 1101,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1101
+    },
+    {
+      "TableName": "ItemLimitCategory",
+      "TableHash": "7BBA1EB1",
+      "LayoutHash": "B0A784BD",
+      "BaseDb2Rows": 51,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 51
+    },
+    {
+      "TableName": "ItemModifiedAppearance",
+      "TableHash": "E491AC55",
+      "LayoutHash": "03A6C979",
+      "BaseDb2Rows": 16791,
+      "HotfixUpserts": 103,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 16893
+    },
+    {
+      "TableName": "ItemModifiedAppearanceExtra",
+      "TableHash": "D94C9544",
+      "LayoutHash": "5F7C0B7F",
+      "BaseDb2Rows": 42,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 42
+    },
+    {
+      "TableName": "ItemNameDescription",
+      "TableHash": "70C2E7FD",
+      "LayoutHash": "B616608D",
+      "BaseDb2Rows": 92,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 92
+    },
+    {
+      "TableName": "ItemPetFood",
+      "TableHash": "30DE185C",
+      "LayoutHash": "798F6B1A",
+      "BaseDb2Rows": 8,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 8
+    },
+    {
+      "TableName": "ItemPriceBase",
+      "TableHash": "2DE09E95",
+      "LayoutHash": "9AD504F0",
+      "BaseDb2Rows": 1300,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1300
+    },
+    {
+      "TableName": "ItemReforge",
+      "TableHash": "45DB8932",
+      "LayoutHash": "E3284DDC",
+      "BaseDb2Rows": 112,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 112
+    },
+    {
+      "TableName": "ItemSalvage",
+      "TableHash": "E605AA45",
+      "LayoutHash": "A2C6F26C",
+      "BaseDb2Rows": 16,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 16
+    },
+    {
+      "TableName": "ItemSalvageLoot",
+      "TableHash": "639E429E",
+      "LayoutHash": "D8C41341",
+      "BaseDb2Rows": 524,
+      "HotfixUpserts": 3,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 527
+    },
+    {
+      "TableName": "ItemSearchName",
+      "TableHash": "198E28B5",
+      "LayoutHash": "4516C8B0",
+      "BaseDb2Rows": 6625,
+      "HotfixUpserts": 666,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 7262
+    },
+    {
+      "TableName": "ItemSet",
+      "TableHash": "8E741A98",
+      "LayoutHash": "F79068A4",
+      "BaseDb2Rows": 536,
+      "HotfixUpserts": 9,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 545
+    },
+    {
+      "TableName": "ItemSetSpell",
+      "TableHash": "8645BB79",
+      "LayoutHash": "2666A73F",
+      "BaseDb2Rows": 1477,
+      "HotfixUpserts": 28,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1505
+    },
+    {
+      "TableName": "ItemSparse",
+      "TableHash": "919BE54E",
+      "LayoutHash": "6FCC3191",
+      "BaseDb2Rows": 19231,
+      "HotfixUpserts": 852,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 19941
+    },
+    {
+      "TableName": "ItemSubClass",
+      "TableHash": "95D8638F",
+      "LayoutHash": "1E67DB87",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "ItemSubClassMask",
+      "TableHash": "E5F0B775",
+      "LayoutHash": "D1A996F3",
+      "BaseDb2Rows": 3,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3
+    },
+    {
+      "TableName": "ItemXBonusTree",
+      "TableHash": "325582EA",
+      "LayoutHash": "5A99E55B",
+      "BaseDb2Rows": 2050,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2050
+    },
+    {
+      "TableName": "ItemXItemEffect",
+      "TableHash": "00CB674F",
+      "LayoutHash": "96F083AD",
+      "BaseDb2Rows": 12627,
+      "HotfixUpserts": 30,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 12656
+    },
+    {
+      "TableName": "JournalEncounter",
+      "TableHash": "57382070",
+      "LayoutHash": "B88D11CC",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "JournalEncounterCreature",
+      "TableHash": "ACF3ADCB",
+      "LayoutHash": "81A3C769",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "JournalEncounterItem",
+      "TableHash": "F7ED685F",
+      "LayoutHash": "8ED8EAEA",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "JournalEncounterSection",
+      "TableHash": "7956786C",
+      "LayoutHash": "CB88312B",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "JournalInstance",
+      "TableHash": "713E1C99",
+      "LayoutHash": "6C5ED7F2",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "JournalTier",
+      "TableHash": "26D91FF9",
+      "LayoutHash": "F4AFE752",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "Languages",
+      "TableHash": "F3D3E512",
+      "LayoutHash": "5D934E12",
+      "BaseDb2Rows": 15,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 16
+    },
+    {
+      "TableName": "LanguageWords",
+      "TableHash": "E849437C",
+      "LayoutHash": "1865582A",
+      "BaseDb2Rows": 1583,
+      "HotfixUpserts": 9,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1592
+    },
+    {
+      "TableName": "LFGDungeons",
+      "TableHash": "999BB9C2",
+      "LayoutHash": "34B02DE8",
+      "BaseDb2Rows": 71,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 71
+    },
+    {
+      "TableName": "LiquidObject",
+      "TableHash": "FC2A0DFF",
+      "LayoutHash": "CB0D39E8",
+      "BaseDb2Rows": 1270,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1270
+    },
+    {
+      "TableName": "Location",
+      "TableHash": "394C3727",
+      "LayoutHash": "D18A3880",
+      "BaseDb2Rows": 99,
+      "HotfixUpserts": 7,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 106
+    },
+    {
+      "TableName": "Lock",
+      "TableHash": "E9BECB23",
+      "LayoutHash": "DA418152",
+      "BaseDb2Rows": 312,
+      "HotfixUpserts": 5,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 312
+    },
+    {
+      "TableName": "LockType",
+      "TableHash": "9349B344",
+      "LayoutHash": "AF114F71",
+      "BaseDb2Rows": 23,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 23
+    },
+    {
+      "TableName": "MailTemplate",
+      "TableHash": "E3C5B7D1",
+      "LayoutHash": "B436C1C8",
+      "BaseDb2Rows": 112,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 112
+    },
+    {
+      "TableName": "ManifestInterfaceData",
+      "TableHash": "FEBBA57C",
+      "LayoutHash": "618AD009",
+      "BaseDb2Rows": 134284,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 134284
+    },
+    {
+      "TableName": "Map",
+      "TableHash": "BD84CD62",
+      "LayoutHash": "D43AFAC3",
+      "BaseDb2Rows": 73,
+      "HotfixUpserts": 4,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 73
+    },
+    {
+      "TableName": "MapDifficulty",
+      "TableHash": "9265F70D",
+      "LayoutHash": "24A16AD3",
+      "BaseDb2Rows": 142,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 142
+    },
+    {
+      "TableName": "ModelProperties",
+      "TableHash": "1A6B0C40",
+      "LayoutHash": "6B5F7201",
+      "BaseDb2Rows": 1517,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1517
+    },
+    {
+      "TableName": "ModifierTree",
+      "TableHash": "7E692D56",
+      "LayoutHash": "F13BB1D8",
+      "BaseDb2Rows": 2845,
+      "HotfixUpserts": 4,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2848
+    },
+    {
+      "TableName": "Mount",
+      "TableHash": "96737A41",
+      "LayoutHash": "E4B71B79",
+      "BaseDb2Rows": 141,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 141
+    },
+    {
+      "TableName": "MountCapability",
+      "TableHash": "F66E0076",
+      "LayoutHash": "A0297DBC",
+      "BaseDb2Rows": 26,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 26
+    },
+    {
+      "TableName": "MountType",
+      "TableHash": "C5B875A8",
+      "LayoutHash": "D7BB0C67",
+      "BaseDb2Rows": 29,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 29
+    },
+    {
+      "TableName": "NameGen",
+      "TableHash": "F5FA849B",
+      "LayoutHash": "584300FA",
+      "BaseDb2Rows": 2738,
+      "HotfixUpserts": 5,
+      "HotfixDeletes": 1,
+      "FinalRowCount": 2737
+    },
+    {
+      "TableName": "NamesProfanity",
+      "TableHash": "DA82D96C",
+      "LayoutHash": "F227E638",
+      "BaseDb2Rows": 267,
+      "HotfixUpserts": 267,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 267
+    },
+    {
+      "TableName": "NamesReserved",
+      "TableHash": "25C1CB13",
+      "LayoutHash": "2B2D5D97",
+      "BaseDb2Rows": 710,
+      "HotfixUpserts": 714,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1424
+    },
+    {
+      "TableName": "NPCModelItemSlotDisplayInfo",
+      "TableHash": "76C04C97",
+      "LayoutHash": "C2057F5B",
+      "BaseDb2Rows": 53120,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 53120
+    },
+    {
+      "TableName": "NPCSounds",
+      "TableHash": "495495DF",
+      "LayoutHash": "020BE1ED",
+      "BaseDb2Rows": 196,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 196
+    },
+    {
+      "TableName": "Occluder",
+      "TableHash": "15FF1ECC",
+      "LayoutHash": "6BB53030",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "OccluderLocation",
+      "TableHash": "0E82664C",
+      "LayoutHash": "E56AD56A",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "OccluderNode",
+      "TableHash": "5CE8B5E8",
+      "LayoutHash": "5F2092E5",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "PageTextMaterial",
+      "TableHash": "D243819F",
+      "LayoutHash": "728678A5",
+      "BaseDb2Rows": 6,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 6
+    },
+    {
+      "TableName": "Path",
+      "TableHash": "94F46395",
+      "LayoutHash": "DF0EF640",
+      "BaseDb2Rows": 13,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 13
+    },
+    {
+      "TableName": "PathEdge",
+      "TableHash": "C9BCB028",
+      "LayoutHash": "9A2EF543",
+      "BaseDb2Rows": 98,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 98
+    },
+    {
+      "TableName": "PathNode",
+      "TableHash": "3B9E4CA2",
+      "LayoutHash": "5F2092E5",
+      "BaseDb2Rows": 99,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 99
+    },
+    {
+      "TableName": "PathNodeProperty",
+      "TableHash": "FE21C024",
+      "LayoutHash": "BFE87314",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "PlayerCondition",
+      "TableHash": "B94C2807",
+      "LayoutHash": "1D743D99",
+      "BaseDb2Rows": 1949,
+      "HotfixUpserts": 9,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1950
+    },
+    {
+      "TableName": "Positioner",
+      "TableHash": "240D864E",
+      "LayoutHash": "E0D4FD55",
+      "BaseDb2Rows": 184,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 184
+    },
+    {
+      "TableName": "PositionerState",
+      "TableHash": "60C46E9D",
+      "LayoutHash": "9CDFBF30",
+      "BaseDb2Rows": 186,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 186
+    },
+    {
+      "TableName": "PositionerStateEntry",
+      "TableHash": "461FDC45",
+      "LayoutHash": "855AA6BC",
+      "BaseDb2Rows": 273,
+      "HotfixUpserts": 3,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 273
+    },
+    {
+      "TableName": "Profession",
+      "TableHash": "D710631F",
+      "LayoutHash": "86FE926D",
+      "BaseDb2Rows": 12,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 12
+    },
+    {
+      "TableName": "QuestFactionReward",
+      "TableHash": "BFB87048",
+      "LayoutHash": "221FFDAA",
+      "BaseDb2Rows": 2,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2
+    },
+    {
+      "TableName": "QuestFeedbackEffect",
+      "TableHash": "79C72909",
+      "LayoutHash": "4A570240",
+      "BaseDb2Rows": 256,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 256
+    },
+    {
+      "TableName": "QuestInfo",
+      "TableHash": "2D11D732",
+      "LayoutHash": "E505C927",
+      "BaseDb2Rows": 7,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 7
+    },
+    {
+      "TableName": "QuestLine",
+      "TableHash": "EB57A423",
+      "LayoutHash": "27C5AD69",
+      "BaseDb2Rows": 3,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3
+    },
+    {
+      "TableName": "QuestLineXQuest",
+      "TableHash": "8CC17856",
+      "LayoutHash": "8552F722",
+      "BaseDb2Rows": 22,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 22
+    },
+    {
+      "TableName": "QuestMoneyReward",
+      "TableHash": "CF096091",
+      "LayoutHash": "01D6219A",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "QuestObjective",
+      "TableHash": "01325CA0",
+      "LayoutHash": "50E2491F",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "QuestPackageItem",
+      "TableHash": "CC2F84F0",
+      "LayoutHash": "37A6BC1A",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "QuestPOIBlob",
+      "TableHash": "AE1CA308",
+      "LayoutHash": "FDC814CF",
+      "BaseDb2Rows": 57,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 57
+    },
+    {
+      "TableName": "QuestPOIPoint",
+      "TableHash": "83467FEB",
+      "LayoutHash": "5CBBEFE7",
+      "BaseDb2Rows": 121,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 121
+    },
+    {
+      "TableName": "QuestSort",
+      "TableHash": "5479CB09",
+      "LayoutHash": "9B92BE63",
+      "BaseDb2Rows": 39,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 39
+    },
+    {
+      "TableName": "QuestV2",
+      "TableHash": "3AC83109",
+      "LayoutHash": "1854BDB9",
+      "BaseDb2Rows": 6614,
+      "HotfixUpserts": 430,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 6614
+    },
+    {
+      "TableName": "QuestV2CliTask",
+      "TableHash": "0F992211",
+      "LayoutHash": "D6D31C39",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "QuestXP",
+      "TableHash": "3D89A572",
+      "LayoutHash": "05F1DB7A",
+      "BaseDb2Rows": 100,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 100
+    },
+    {
+      "TableName": "RandPropPoints",
+      "TableHash": "5D8CEFA6",
+      "LayoutHash": "4FD22743",
+      "BaseDb2Rows": 300,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 300
+    },
+    {
+      "TableName": "ScreenEffect",
+      "TableHash": "B33F3964",
+      "LayoutHash": "35A3B574",
+      "BaseDb2Rows": 77,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 78
+    },
+    {
+      "TableName": "SkillLine",
+      "TableHash": "B53DC9D6",
+      "LayoutHash": "6763217C",
+      "BaseDb2Rows": 154,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 154
+    },
+    {
+      "TableName": "SkillLineAbility",
+      "TableHash": "FF4446F6",
+      "LayoutHash": "224F7EA0",
+      "BaseDb2Rows": 7846,
+      "HotfixUpserts": 7,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 7846
+    },
+    {
+      "TableName": "SkillLineCategory",
+      "TableHash": "E9300AAA",
+      "LayoutHash": "67B4FE22",
+      "BaseDb2Rows": 9,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 9
+    },
+    {
+      "TableName": "SkillRaceClassInfo",
+      "TableHash": "06ADE420",
+      "LayoutHash": "24277B48",
+      "BaseDb2Rows": 186,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 186
+    },
+    {
+      "TableName": "SoundKit",
+      "TableHash": "36237731",
+      "LayoutHash": "A7FB0451",
+      "BaseDb2Rows": 23355,
+      "HotfixUpserts": 4,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 23355
+    },
+    {
+      "TableName": "SoundKitAdvanced",
+      "TableHash": "C0A5F8C6",
+      "LayoutHash": "F65DB810",
+      "BaseDb2Rows": 16436,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 16436
+    },
+    {
+      "TableName": "Spell",
+      "TableHash": "E111669E",
+      "LayoutHash": "E3D134FB",
+      "BaseDb2Rows": 31948,
+      "HotfixUpserts": 467,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 32047
+    },
+    {
+      "TableName": "SpellActionBarPref",
+      "TableHash": "84B0BDD7",
+      "LayoutHash": "45039384",
+      "BaseDb2Rows": 631,
+      "HotfixUpserts": 631,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 631
+    },
+    {
+      "TableName": "SpellAuraOptions",
+      "TableHash": "F42FC065",
+      "LayoutHash": "95F4D5E1",
+      "BaseDb2Rows": 12789,
+      "HotfixUpserts": 34,
+      "HotfixDeletes": 1,
+      "FinalRowCount": 12807
+    },
+    {
+      "TableName": "SpellAuraRestrictions",
+      "TableHash": "BA978F4E",
+      "LayoutHash": "E7F2E213",
+      "BaseDb2Rows": 319,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 320
+    },
+    {
+      "TableName": "SpellCastingRequirements",
+      "TableHash": "61025756",
+      "LayoutHash": "02074290",
+      "BaseDb2Rows": 3272,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3274
+    },
+    {
+      "TableName": "SpellCastTimes",
+      "TableHash": "FDBA5A66",
+      "LayoutHash": "75B6BD3A",
+      "BaseDb2Rows": 72,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 72
+    },
+    {
+      "TableName": "SpellCategories",
+      "TableHash": "DBE7F829",
+      "LayoutHash": "679EF94C",
+      "BaseDb2Rows": 10665,
+      "HotfixUpserts": 53,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 10694
+    },
+    {
+      "TableName": "SpellCategory",
+      "TableHash": "D0C3D18E",
+      "LayoutHash": "B79B78E1",
+      "BaseDb2Rows": 266,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 266
+    },
+    {
+      "TableName": "SpellChainEffects",
+      "TableHash": "1EDACEA1",
+      "LayoutHash": "4B046A55",
+      "BaseDb2Rows": 137,
+      "HotfixUpserts": 6,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 139
+    },
+    {
+      "TableName": "SpellClassOptions",
+      "TableHash": "288EAB81",
+      "LayoutHash": "1F8E4FD7",
+      "BaseDb2Rows": 6085,
+      "HotfixUpserts": 6,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 6085
+    },
+    {
+      "TableName": "SpellCooldowns",
+      "TableHash": "F9F37C57",
+      "LayoutHash": "DC945B8C",
+      "BaseDb2Rows": 4494,
+      "HotfixUpserts": 22,
+      "HotfixDeletes": 1,
+      "FinalRowCount": 4508
+    },
+    {
+      "TableName": "SpellDescriptionVariables",
+      "TableHash": "3CC89C00",
+      "LayoutHash": "33868CFD",
+      "BaseDb2Rows": 44,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 45
+    },
+    {
+      "TableName": "SpellDiminish",
+      "TableHash": "DC886E69",
+      "LayoutHash": "6E3341BA",
+      "BaseDb2Rows": 11,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 12
+    },
+    {
+      "TableName": "SpellDispelType",
+      "TableHash": "2B7C0063",
+      "LayoutHash": "3B574D4B",
+      "BaseDb2Rows": 11,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 11
+    },
+    {
+      "TableName": "SpellDuration",
+      "TableHash": "B423FA7A",
+      "LayoutHash": "A931BD2B",
+      "BaseDb2Rows": 134,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 134
+    },
+    {
+      "TableName": "SpellEffect",
+      "TableHash": "F04238A5",
+      "LayoutHash": "5362E3D4",
+      "BaseDb2Rows": 42725,
+      "HotfixUpserts": 279,
+      "HotfixDeletes": 2,
+      "FinalRowCount": 42899
+    },
+    {
+      "TableName": "SpellEquippedItems",
+      "TableHash": "E44ABBD4",
+      "LayoutHash": "D9177916",
+      "BaseDb2Rows": 1886,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 1,
+      "FinalRowCount": 1887
+    },
+    {
+      "TableName": "SpellFocusObject",
+      "TableHash": "B99DB712",
+      "LayoutHash": "782EE721",
+      "BaseDb2Rows": 244,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 244
+    },
+    {
+      "TableName": "SpellInterrupts",
+      "TableHash": "668FAE03",
+      "LayoutHash": "6FFC0306",
+      "BaseDb2Rows": 9895,
+      "HotfixUpserts": 15,
+      "HotfixDeletes": 1,
+      "FinalRowCount": 9907
+    },
+    {
+      "TableName": "SpellItemEnchantment",
+      "TableHash": "E05AC589",
+      "LayoutHash": "952B72B2",
+      "BaseDb2Rows": 2217,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2217
+    },
+    {
+      "TableName": "SpellItemEnchantmentCondition",
+      "TableHash": "F9513930",
+      "LayoutHash": "D5348137",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "SpellLabel",
+      "TableHash": "30769020",
+      "LayoutHash": "2B9F0138",
+      "BaseDb2Rows": 4654,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 4655
+    },
+    {
+      "TableName": "SpellLearnSpell",
+      "TableHash": "DBEDF603",
+      "LayoutHash": "6B9C3AC9",
+      "BaseDb2Rows": 52,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 52
+    },
+    {
+      "TableName": "SpellLevels",
+      "TableHash": "1DDEC5E6",
+      "LayoutHash": "7EB86FDC",
+      "BaseDb2Rows": 12950,
+      "HotfixUpserts": 34,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 12974
+    },
+    {
+      "TableName": "SpellMechanic",
+      "TableHash": "726D2B3E",
+      "LayoutHash": "636442CA",
+      "BaseDb2Rows": 36,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 36
+    },
+    {
+      "TableName": "SpellMisc",
+      "TableHash": "C603EE28",
+      "LayoutHash": "434B3607",
+      "BaseDb2Rows": 31928,
+      "HotfixUpserts": 256,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 32027
+    },
+    {
+      "TableName": "SpellMissileMotion",
+      "TableHash": "37717679",
+      "LayoutHash": "0200AB02",
+      "BaseDb2Rows": 70,
+      "HotfixUpserts": 4,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 70
+    },
+    {
+      "TableName": "SpellName",
+      "TableHash": "46C66698",
+      "LayoutHash": "782EE721",
+      "BaseDb2Rows": 31948,
+      "HotfixUpserts": 467,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 32047
+    },
+    {
+      "TableName": "SpellOverrideName",
+      "TableHash": "BCEAB606",
+      "LayoutHash": "8A85E5EA",
+      "BaseDb2Rows": 1,
+      "HotfixUpserts": 3,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 4
+    },
+    {
+      "TableName": "SpellPower",
+      "TableHash": "A1ACE1DF",
+      "LayoutHash": "61AD223F",
+      "BaseDb2Rows": 3462,
+      "HotfixUpserts": 10,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3467
+    },
+    {
+      "TableName": "SpellPowerDifficulty",
+      "TableHash": "7EA08450",
+      "LayoutHash": "B80F1651",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "SpellProceduralEffect",
+      "TableHash": "F6BC85DF",
+      "LayoutHash": "B442AB81",
+      "BaseDb2Rows": 991,
+      "HotfixUpserts": 10,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 996
+    },
+    {
+      "TableName": "SpellRadius",
+      "TableHash": "AB7E4841",
+      "LayoutHash": "F9A913EE",
+      "BaseDb2Rows": 53,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 54
+    },
+    {
+      "TableName": "SpellRange",
+      "TableHash": "E051A69C",
+      "LayoutHash": "ADA13705",
+      "BaseDb2Rows": 61,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 61
+    },
+    {
+      "TableName": "SpellReagents",
+      "TableHash": "AB66C99F",
+      "LayoutHash": "FF40D202",
+      "BaseDb2Rows": 3300,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3300
+    },
+    {
+      "TableName": "SpellReagentsCurrency",
+      "TableHash": "2049B60C",
+      "LayoutHash": "0ED4741A",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "SpellScaling",
+      "TableHash": "40E92D65",
+      "LayoutHash": "9FC07797",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "SpellScript",
+      "TableHash": "4553E9F7",
+      "LayoutHash": "E1C1B88C",
+      "BaseDb2Rows": 1,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1
+    },
+    {
+      "TableName": "SpellShapeshift",
+      "TableHash": "BC91EA17",
+      "LayoutHash": "E9111399",
+      "BaseDb2Rows": 3457,
+      "HotfixUpserts": 7,
+      "HotfixDeletes": 1,
+      "FinalRowCount": 3462
+    },
+    {
+      "TableName": "SpellShapeshiftForm",
+      "TableHash": "F952B945",
+      "LayoutHash": "EE25A6A2",
+      "BaseDb2Rows": 32,
+      "HotfixUpserts": 5,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 32
+    },
+    {
+      "TableName": "SpellTargetRestrictions",
+      "TableHash": "E064A75C",
+      "LayoutHash": "1EAB753E",
+      "BaseDb2Rows": 4454,
+      "HotfixUpserts": 61,
+      "HotfixDeletes": 1,
+      "FinalRowCount": 4510
+    },
+    {
+      "TableName": "SpellTotems",
+      "TableHash": "A50F8A31",
+      "LayoutHash": "03B23619",
+      "BaseDb2Rows": 1121,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1121
+    },
+    {
+      "TableName": "SpellVisual",
+      "TableHash": "F72496D9",
+      "LayoutHash": "4B85C90F",
+      "BaseDb2Rows": 6112,
+      "HotfixUpserts": 43,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 6139
+    },
+    {
+      "TableName": "SpellVisualAnim",
+      "TableHash": "3334A75E",
+      "LayoutHash": "F233613A",
+      "BaseDb2Rows": 2814,
+      "HotfixUpserts": 36,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2836
+    },
+    {
+      "TableName": "SpellVisualEffectName",
+      "TableHash": "02E18F32",
+      "LayoutHash": "2245CEE6",
+      "BaseDb2Rows": 2969,
+      "HotfixUpserts": 22,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2984
+    },
+    {
+      "TableName": "SpellVisualEvent",
+      "TableHash": "CC284D0F",
+      "LayoutHash": "865F512E",
+      "BaseDb2Rows": 15703,
+      "HotfixUpserts": 119,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 15773
+    },
+    {
+      "TableName": "SpellVisualKit",
+      "TableHash": "F483EADB",
+      "LayoutHash": "C069D9C4",
+      "BaseDb2Rows": 7976,
+      "HotfixUpserts": 67,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 8027
+    },
+    {
+      "TableName": "SpellVisualKitAreaModel",
+      "TableHash": "208AB51D",
+      "LayoutHash": "73AFF8E4",
+      "BaseDb2Rows": 20,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 21
+    },
+    {
+      "TableName": "SpellVisualKitEffect",
+      "TableHash": "4666ED42",
+      "LayoutHash": "E3206CA2",
+      "BaseDb2Rows": 18299,
+      "HotfixUpserts": 159,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 18393
+    },
+    {
+      "TableName": "SpellVisualKitModelAttach",
+      "TableHash": "F07194C3",
+      "LayoutHash": "02CF8554",
+      "BaseDb2Rows": 8995,
+      "HotfixUpserts": 87,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 9047
+    },
+    {
+      "TableName": "SpellVisualMissile",
+      "TableHash": "51A28350",
+      "LayoutHash": "EC765EB2",
+      "BaseDb2Rows": 734,
+      "HotfixUpserts": 9,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 737
+    },
+    {
+      "TableName": "SpellXDescriptionVariables",
+      "TableHash": "F3D99F2D",
+      "LayoutHash": "23F4E51E",
+      "BaseDb2Rows": 181,
+      "HotfixUpserts": 6,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 187
+    },
+    {
+      "TableName": "SpellXSpellVisual",
+      "TableHash": "27B7A01A",
+      "LayoutHash": "7994A890",
+      "BaseDb2Rows": 20416,
+      "HotfixUpserts": 105,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 20489
+    },
+    {
+      "TableName": "SummonProperties",
+      "TableHash": "33C9E1A8",
+      "LayoutHash": "A4CA5ECF",
+      "BaseDb2Rows": 127,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 128
+    },
+    {
+      "TableName": "SuperDistrictSet",
+      "TableHash": "E4CDB5CF",
+      "LayoutHash": "1AB72556",
+      "BaseDb2Rows": 64,
+      "HotfixUpserts": 14,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 64
+    },
+    {
+      "TableName": "SuperDistrictSetCollection",
+      "TableHash": "90204B0A",
+      "LayoutHash": "E6DF3523",
+      "BaseDb2Rows": 2,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2
+    },
+    {
+      "TableName": "SuperDistrictSetXAvailableSD",
+      "TableHash": "08014697",
+      "LayoutHash": "19A3AA0B",
+      "BaseDb2Rows": 70,
+      "HotfixUpserts": 14,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 70
+    },
+    {
+      "TableName": "SuperDistrictTransfer",
+      "TableHash": "94F0D5CC",
+      "LayoutHash": "42D01E57",
+      "BaseDb2Rows": 6,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 6
+    },
+    {
+      "TableName": "TactKey",
+      "TableHash": "DF2F53CF",
+      "LayoutHash": "CBA490FC",
+      "BaseDb2Rows": 69,
+      "HotfixUpserts": 3,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 72
+    },
+    {
+      "TableName": "Talent",
+      "TableHash": "F9A4265F",
+      "LayoutHash": "147B0045",
+      "BaseDb2Rows": 432,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 432
+    },
+    {
+      "TableName": "TalentTab",
+      "TableHash": "425D88C8",
+      "LayoutHash": "B436F3C7",
+      "BaseDb2Rows": 27,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 27
+    },
+    {
+      "TableName": "TaxiNodes",
+      "TableHash": "50D91A78",
+      "LayoutHash": "E7B597F0",
+      "BaseDb2Rows": 101,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 101
+    },
+    {
+      "TableName": "TaxiPath",
+      "TableHash": "AB30A45C",
+      "LayoutHash": "A303DE51",
+      "BaseDb2Rows": 329,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 329
+    },
+    {
+      "TableName": "TaxiPathNode",
+      "TableHash": "E5E988BC",
+      "LayoutHash": "FE362E70",
+      "BaseDb2Rows": 10782,
+      "HotfixUpserts": 74,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 10782
+    },
+    {
+      "TableName": "Toy",
+      "TableHash": "7B03245C",
+      "LayoutHash": "821B5D20",
+      "BaseDb2Rows": 20,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 20
+    },
+    {
+      "TableName": "TradeSkillCategory",
+      "TableHash": "253A9B6B",
+      "LayoutHash": "7F2B6CD0",
+      "BaseDb2Rows": 216,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 216
+    },
+    {
+      "TableName": "TradeSkillItem",
+      "TableHash": "B50CA635",
+      "LayoutHash": "05D8D675",
+      "BaseDb2Rows": 3240,
+      "HotfixUpserts": 110,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3240
+    },
+    {
+      "TableName": "TraitCond",
+      "TableHash": "8D6A552D",
+      "LayoutHash": "BFDD1994",
+      "BaseDb2Rows": 172,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 172
+    },
+    {
+      "TableName": "TraitCost",
+      "TableHash": "266BF08E",
+      "LayoutHash": "70C65F17",
+      "BaseDb2Rows": 11,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 11
+    },
+    {
+      "TableName": "TraitCurrency",
+      "TableHash": "837C91E2",
+      "LayoutHash": "A8B0874B",
+      "BaseDb2Rows": 2,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2
+    },
+    {
+      "TableName": "TraitCurrencySource",
+      "TableHash": "94A4ED3B",
+      "LayoutHash": "4C49B6AA",
+      "BaseDb2Rows": 187,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 187
+    },
+    {
+      "TableName": "TraitDefinition",
+      "TableHash": "B292AC80",
+      "LayoutHash": "060A9F4C",
+      "BaseDb2Rows": 659,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 659
+    },
+    {
+      "TableName": "TraitDefinitionEffectPoints",
+      "TableHash": "16D47A01",
+      "LayoutHash": "7E18C372",
+      "BaseDb2Rows": 645,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 646
+    },
+    {
+      "TableName": "TraitNode",
+      "TableHash": "E1432D63",
+      "LayoutHash": "A01A518A",
+      "BaseDb2Rows": 557,
+      "HotfixUpserts": 4,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 557
+    },
+    {
+      "TableName": "TraitNodeEntry",
+      "TableHash": "82E8D5D6",
+      "LayoutHash": "733B015D",
+      "BaseDb2Rows": 659,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 659
+    },
+    {
+      "TableName": "TraitNodeGroup",
+      "TableHash": "601B98C1",
+      "LayoutHash": "ECA626BE",
+      "BaseDb2Rows": 372,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 372
+    },
+    {
+      "TableName": "TraitNodeGroupXTraitNode",
+      "TableHash": "1AA6B3DB",
+      "LayoutHash": "B9288EB8",
+      "BaseDb2Rows": 2152,
+      "HotfixUpserts": 6,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 2152
+    },
+    {
+      "TableName": "TraitNodeXTraitNodeEntry",
+      "TableHash": "A4379E4E",
+      "LayoutHash": "802ED455",
+      "BaseDb2Rows": 560,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 560
+    },
+    {
+      "TableName": "TraitTree",
+      "TableHash": "964B11D9",
+      "LayoutHash": "FBCDBA8F",
+      "BaseDb2Rows": 17,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 17
+    },
+    {
+      "TableName": "UiMap",
+      "TableHash": "89927BF7",
+      "LayoutHash": "DB51D55F",
+      "BaseDb2Rows": 60,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 60
+    },
+    {
+      "TableName": "UiModelScene",
+      "TableHash": "01476A10",
+      "LayoutHash": "F48839BD",
+      "BaseDb2Rows": 304,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 305
+    },
+    {
+      "TableName": "UiModelSceneActor",
+      "TableHash": "AEB11490",
+      "LayoutHash": "B777EC3A",
+      "BaseDb2Rows": 1009,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1011
+    },
+    {
+      "TableName": "UiModelSceneCamera",
+      "TableHash": "96FB48D9",
+      "LayoutHash": "413EC033",
+      "BaseDb2Rows": 303,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 304
+    },
+    {
+      "TableName": "UiWidgetDataSource",
+      "TableHash": "B4B5E047",
+      "LayoutHash": "C3560ADB",
+      "BaseDb2Rows": 59,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 59
+    },
+    {
+      "TableName": "UiWidgetStringSource",
+      "TableHash": "140A5855",
+      "LayoutHash": "0E572854",
+      "BaseDb2Rows": 138,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 138
+    },
+    {
+      "TableName": "UnitCondition",
+      "TableHash": "0E540EFD",
+      "LayoutHash": "215FAF83",
+      "BaseDb2Rows": 357,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 358
+    },
+    {
+      "TableName": "WMOAreaTable",
+      "TableHash": "C74FBDEB",
+      "LayoutHash": "C5A7B977",
+      "BaseDb2Rows": 52737,
+      "HotfixUpserts": 101,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 52737
+    },
+    {
+      "TableName": "WorldEffect",
+      "TableHash": "DA728027",
+      "LayoutHash": "B841BBEE",
+      "BaseDb2Rows": 193,
+      "HotfixUpserts": 10,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 195
+    },
+    {
+      "TableName": "WorldState",
+      "TableHash": "C842493A",
+      "LayoutHash": "B5EE0DCB",
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 3,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3
+    },
+    {
+      "TableName": "WorldStateExpression",
+      "TableHash": "1D53EB74",
+      "LayoutHash": "CA33F540",
+      "BaseDb2Rows": 3977,
+      "HotfixUpserts": 17,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 3994
+    }
+  ]
+}

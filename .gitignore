@@ -1,0 +1,13 @@
+bin/
+obj/
+Cache/
+Exports/
+artifacts/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.zip
+*.user
+.vs/
+.idea/

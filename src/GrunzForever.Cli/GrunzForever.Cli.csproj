@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>grunzforever</AssemblyName>
+    <Description>Command-line extractor, SQL query runner, and build changelog generator for World of Warcraft: Classic Forever.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GrunzForever.Core\GrunzForever.Core.csproj" />
+  </ItemGroup>
+
+</Project>

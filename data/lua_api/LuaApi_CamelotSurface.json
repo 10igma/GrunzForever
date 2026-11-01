@@ -1,0 +1,3901 @@
+{
+  "Product": "wowf",
+  "Version": "1.60.1.70707",
+  "ProjectId": 18,
+  "ProjectCodeName": "Camelot",
+  "UiFamily": "Mainline",
+  "GameType": "camelot",
+  "RecommendedAddonTocInterface": 16001,
+  "BlizzardAddOns": [
+    {
+      "AddonName": "Blizzard_AccessibilityTemplates",
+      "TocFileDataId": 6686494,
+      "TocPath": "Interface/AddOns/Blizzard_AccessibilityTemplates/Blizzard_AccessibilityTemplates.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AccountSaveUI",
+      "TocFileDataId": 4954332,
+      "TocPath": "Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AccountStore",
+      "TocFileDataId": 6177613,
+      "TocPath": "Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoad": "Both",
+      "AllowLoadGameType": "standard, wowlabs",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AchievementUI",
+      "TocFileDataId": 841664,
+      "TocPath": "Interface/AddOns/Blizzard_AchievementUI/Blizzard_AchievementUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "mainline, tbc, wrath, cata, mists",
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_ActionBar",
+      "TocFileDataId": 8268279,
+      "TocPath": "Interface/AddOns/Blizzard_ActionBar/Blizzard_ActionBar.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 5
+    },
+    {
+      "AddonName": "Blizzard_ActionBarController",
+      "TocFileDataId": 7430849,
+      "TocPath": "Interface/AddOns/Blizzard_ActionBarController/Blizzard_ActionBarController.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ActionStatus",
+      "TocFileDataId": 5612786,
+      "TocPath": "Interface/AddOns/Blizzard_ActionStatus/Blizzard_ActionStatus.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AddFriend",
+      "TocFileDataId": 8166692,
+      "TocPath": "Interface/AddOns/Blizzard_AddFriend/Blizzard_AddFriend.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AddOnList",
+      "TocFileDataId": 7465584,
+      "TocPath": "Interface/AddOns/Blizzard_AddOnList/Blizzard_AddOnList.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AddOnPerformance",
+      "TocFileDataId": 6377822,
+      "TocPath": "Interface/AddOns/Blizzard_AddOnPerformance/Blizzard_AddOnPerformance.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AdventureMap",
+      "TocFileDataId": 1251650,
+      "TocPath": "Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AlliedRacesUI",
+      "TocFileDataId": 1720650,
+      "TocPath": "Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AnimaDiversionUI",
+      "TocFileDataId": 3546712,
+      "TocPath": "Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AnimatedShine",
+      "TocFileDataId": 8268280,
+      "TocPath": "Interface/AddOns/Blizzard_AnimatedShine/Blizzard_AnimatedShine.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_APIDocumentation",
+      "TocFileDataId": 1579620,
+      "TocPath": "Interface/AddOns/Blizzard_APIDocumentation/Blizzard_APIDocumentation.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_APIDocumentationGenerated",
+      "TocFileDataId": 4637036,
+      "TocPath": "Interface/AddOns/Blizzard_APIDocumentationGenerated/Blizzard_APIDocumentationGenerated.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ArchaeologyUI",
+      "TocFileDataId": 841712,
+      "TocPath": "Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ArdenwealdGardening",
+      "TocFileDataId": 3847741,
+      "TocPath": "Interface/AddOns/Blizzard_ArdenwealdGardening/Blizzard_ArdenwealdGardening.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ArrowCalloutFrame",
+      "TocFileDataId": 5614177,
+      "TocPath": "Interface/AddOns/Blizzard_ArrowCalloutFrame/Blizzard_ArrowCalloutFrame.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "AllowLoadGameType": "plunderstorm",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ArtifactUI",
+      "TocFileDataId": 1018786,
+      "TocPath": "Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AsyncRequest",
+      "TocFileDataId": 7730674,
+      "TocPath": "Interface/AddOns/Blizzard_AsyncRequest/Blizzard_AsyncRequest.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AuctionHouseUI",
+      "TocFileDataId": 3064447,
+      "TocPath": "Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "mainline, cata, mists",
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_AuraContainer",
+      "TocFileDataId": 8154511,
+      "TocPath": "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainer.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AuthChallengeUI",
+      "TocFileDataId": 940322,
+      "TocPath": "Interface/AddOns/Blizzard_AuthChallengeUI/Blizzard_AuthChallengeUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AutoComplete",
+      "TocFileDataId": 6889233,
+      "TocPath": "Interface/AddOns/Blizzard_AutoComplete/Blizzard_AutoComplete.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AutoCompletePopupList",
+      "TocFileDataId": 6907390,
+      "TocPath": "Interface/AddOns/Blizzard_AutoCompletePopupList/Blizzard_AutoCompletePopupList.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AzeriteEssenceUI",
+      "TocFileDataId": 2916008,
+      "TocPath": "Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AzeriteRespecUI",
+      "TocFileDataId": 2145611,
+      "TocPath": "Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_AzeriteUI",
+      "TocFileDataId": 1882188,
+      "TocPath": "Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_BarbershopUI",
+      "TocFileDataId": 841668,
+      "TocPath": "Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_BattlefieldMap",
+      "TocFileDataId": 2108653,
+      "TocPath": "Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_BehavioralMessaging",
+      "TocFileDataId": 4236417,
+      "TocPath": "Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_BlackMarketUI",
+      "TocFileDataId": 841767,
+      "TocPath": "Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_BNet",
+      "TocFileDataId": 8268281,
+      "TocPath": "Interface/AddOns/Blizzard_BNet/Blizzard_BNet.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both [AllowLoadGameType mainline]",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_BoostTutorial",
+      "TocFileDataId": 1394447,
+      "TocPath": "Interface/AddOns/Blizzard_BoostTutorial/Blizzard_BoostTutorial.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_BuffFrame",
+      "TocFileDataId": 7260598,
+      "TocPath": "Interface/AddOns/Blizzard_BuffFrame/Blizzard_BuffFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ButtonPulse",
+      "TocFileDataId": 8124259,
+      "TocPath": "Interface/AddOns/Blizzard_ButtonPulse/Blizzard_ButtonPulse.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Calendar",
+      "TocFileDataId": 841673,
+      "TocPath": "Interface/AddOns/Blizzard_Calendar/Blizzard_Calendar.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_CatalogShop",
+      "TocFileDataId": 6686500,
+      "TocPath": "Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CatalogShopRefundFlow",
+      "TocFileDataId": 7543879,
+      "TocPath": "Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CatalogShopSharedTemplates",
+      "TocFileDataId": 7513298,
+      "TocPath": "Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShopSharedTemplates.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CatalogShopSharedUtil",
+      "TocFileDataId": 7513300,
+      "TocPath": "Interface/AddOns/Blizzard_CatalogShopSharedUtil/Blizzard_CatalogShopSharedUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CatalogShopTopUpFlow",
+      "TocFileDataId": 7543883,
+      "TocPath": "Interface/AddOns/Blizzard_CatalogShopTopUpFlow/Blizzard_CatalogShopTopUpFlow.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ChallengesUI",
+      "TocFileDataId": 841730,
+      "TocPath": "Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard, mists",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Channels",
+      "TocFileDataId": 1785470,
+      "TocPath": "Interface/AddOns/Blizzard_Channels/Blizzard_Channels.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CharacterCreate",
+      "TocFileDataId": 3555771,
+      "TocPath": "Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 4
+    },
+    {
+      "AddonName": "Blizzard_CharacterCustomize",
+      "TocFileDataId": 3555758,
+      "TocPath": "Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 3
+    },
+    {
+      "AddonName": "Blizzard_CharacterSelectNavBar",
+      "TocFileDataId": 6796721,
+      "TocPath": "Interface/AddOns/Blizzard_CharacterSelectNavBar/Blizzard_CharacterSelectNavBar.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 2
+    },
+    {
+      "AddonName": "Blizzard_ChatBubble",
+      "TocFileDataId": 8124262,
+      "TocPath": "Interface/AddOns/Blizzard_ChatBubble/Blizzard_ChatBubble.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ChatFrame",
+      "TocFileDataId": 8268282,
+      "TocPath": "Interface/AddOns/Blizzard_ChatFrame/Blizzard_ChatFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_ChatFrameBase",
+      "TocFileDataId": 8268283,
+      "TocPath": "Interface/AddOns/Blizzard_ChatFrameBase/Blizzard_ChatFrameBase.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both [AllowLoadGameType mainline]",
+      "CamelotOverrideFiles": 2
+    },
+    {
+      "AddonName": "Blizzard_ChatFrameUtil",
+      "TocFileDataId": 5466244,
+      "TocPath": "Interface/AddOns/Blizzard_ChatFrameUtil/Blizzard_ChatFrameUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ChromieTimeUI",
+      "TocFileDataId": 3493780,
+      "TocPath": "Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ClassMenu",
+      "TocFileDataId": 5911617,
+      "TocPath": "Interface/AddOns/Blizzard_ClassMenu/Blizzard_ClassMenu.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ClassTrial",
+      "TocFileDataId": 1450132,
+      "TocPath": "Interface/AddOns/Blizzard_ClassTrial/Blizzard_ClassTrial.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ClassTrialSecure",
+      "TocFileDataId": 5735502,
+      "TocPath": "Interface/AddOns/Blizzard_ClassTrialSecure/Blizzard_ClassTrialSecure.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ClickBindingUI",
+      "TocFileDataId": 4252709,
+      "TocPath": "Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ClientSavedVariables",
+      "TocFileDataId": 841751,
+      "TocPath": "Interface/AddOns/Blizzard_ClientSavedVariables/Blizzard_ClientSavedVariables.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ClientSceneVisManager",
+      "TocFileDataId": 8116733,
+      "TocPath": "Interface/AddOns/Blizzard_ClientSceneVisManager/Blizzard_ClientSceneVisManager.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CodeOfConduct",
+      "TocFileDataId": 7648318,
+      "TocPath": "Interface/AddOns/Blizzard_CodeOfConduct/Blizzard_CodeOfConduct.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Collections",
+      "TocFileDataId": 1089546,
+      "TocPath": "Interface/AddOns/Blizzard_Collections/Blizzard_Collections.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "wrath, cata, mists, mainline",
+      "CamelotOverrideFiles": 6
+    },
+    {
+      "AddonName": "Blizzard_ColorPickerFrame",
+      "TocFileDataId": 8286082,
+      "TocPath": "Interface/AddOns/Blizzard_ColorPickerFrame/Blizzard_ColorPickerFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Colors",
+      "TocFileDataId": 7744245,
+      "TocPath": "Interface/AddOns/Blizzard_Colors/Blizzard_Colors.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CombatAudioAlerts",
+      "TocFileDataId": 7543892,
+      "TocPath": "Interface/AddOns/Blizzard_CombatAudioAlerts/Blizzard_CombatAudioAlerts.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CombatLog",
+      "TocFileDataId": 841774,
+      "TocPath": "Interface/AddOns/Blizzard_CombatLog/Blizzard_CombatLog.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CombatLogBase",
+      "TocFileDataId": 7035964,
+      "TocPath": "Interface/AddOns/Blizzard_CombatLogBase/Blizzard_CombatLogBase.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CombatLogProcessor",
+      "TocFileDataId": 7035956,
+      "TocPath": "Interface/AddOns/Blizzard_CombatLogProcessor/Blizzard_CombatLogProcessor.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CombatText",
+      "TocFileDataId": 841681,
+      "TocPath": "Interface/AddOns/Blizzard_CombatText/Blizzard_CombatText.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CommandLineUtil",
+      "TocFileDataId": 6671790,
+      "TocPath": "Interface/AddOns/Blizzard_CommandLineUtil/Blizzard_CommandLineUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Commentator",
+      "TocFileDataId": 1665006,
+      "TocPath": "Interface/AddOns/Blizzard_Commentator/Blizzard_Commentator.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Communities",
+      "TocFileDataId": 1936173,
+      "TocPath": "Interface/AddOns/Blizzard_Communities/Blizzard_Communities.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_CommunitiesSecure",
+      "TocFileDataId": 5735484,
+      "TocPath": "Interface/AddOns/Blizzard_CommunitiesSecure/Blizzard_CommunitiesSecure.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CompactRaidFrames",
+      "TocFileDataId": 841736,
+      "TocPath": "Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrames.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Console",
+      "TocFileDataId": 1687977,
+      "TocPath": "Interface/AddOns/Blizzard_Console/Blizzard_Console.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ContentTracking",
+      "TocFileDataId": 5614250,
+      "TocPath": "Interface/AddOns/Blizzard_ContentTracking/Blizzard_ContentTracking.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Contribution",
+      "TocFileDataId": 1580806,
+      "TocPath": "Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CooldownBroadcaster",
+      "TocFileDataId": 7866855,
+      "TocPath": "Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CooldownViewer",
+      "TocFileDataId": 6367708,
+      "TocPath": "Interface/AddOns/Blizzard_CooldownViewer/Blizzard_CooldownViewer.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CovenantCallings",
+      "TocFileDataId": 3579924,
+      "TocPath": "Interface/AddOns/Blizzard_CovenantCallings/Blizzard_CovenantCallings.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CovenantPreviewUI",
+      "TocFileDataId": 3509778,
+      "TocPath": "Interface/AddOns/Blizzard_CovenantPreviewUI/Blizzard_CovenantPreviewUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CovenantRenown",
+      "TocFileDataId": 3920913,
+      "TocPath": "Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CovenantSanctum",
+      "TocFileDataId": 3528788,
+      "TocPath": "Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctum.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CovenantToasts",
+      "TocFileDataId": 3749192,
+      "TocPath": "Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CUFProfiles",
+      "TocFileDataId": 841756,
+      "TocPath": "Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CUFProfiles.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_CustomizationUI",
+      "TocFileDataId": 6252921,
+      "TocPath": "Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_DamageMeter",
+      "TocFileDataId": 7419024,
+      "TocPath": "Interface/AddOns/Blizzard_DamageMeter/Blizzard_DamageMeter.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_DeathRecap",
+      "TocFileDataId": 1090585,
+      "TocPath": "Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DebugTools",
+      "TocFileDataId": 841779,
+      "TocPath": "Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DebugUtil",
+      "TocFileDataId": 8124308,
+      "TocPath": "Interface/AddOns/Blizzard_DebugUtil/Blizzard_DebugUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeclensionFrame",
+      "TocFileDataId": 8286087,
+      "TocPath": "Interface/AddOns/Blizzard_DeclensionFrame/Blizzard_DeclensionFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "CamelotOverrideFiles": 2
+    },
+    {
+      "AddonName": "Blizzard_DelvesCompanionConfiguration",
+      "TocFileDataId": 5795007,
+      "TocPath": "Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DelvesDifficultyPicker",
+      "TocFileDataId": 5394952,
+      "TocPath": "Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DelvesToast",
+      "TocFileDataId": 7135883,
+      "TocPath": "Interface/AddOns/Blizzard_DelvesToast/Blizzard_DelvesToast.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Deprecated",
+      "TocFileDataId": 1587032,
+      "TocPath": "Interface/AddOns/Blizzard_Deprecated/Blizzard_Deprecated.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedActionBar",
+      "TocFileDataId": 7514816,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedActionBar/Blizzard_DeprecatedActionBar.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedAuraFilters",
+      "TocFileDataId": 8202618,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedAuraFilters/Blizzard_DeprecatedAuraFilters.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedAutoComplete",
+      "TocFileDataId": 7733454,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedAutoComplete/Blizzard_DeprecatedAutoComplete.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedBattleNet",
+      "TocFileDataId": 7322751,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedBattleNet/Blizzard_DeprecatedBattleNet.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedChatInfo",
+      "TocFileDataId": 7149612,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedChatInfo/Blizzard_DeprecatedChatInfo.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedCombatLog",
+      "TocFileDataId": 7035951,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedCombatLog/Blizzard_DeprecatedCombatLog.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedGuildScript",
+      "TocFileDataId": 5559339,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedGuildScript/Blizzard_DeprecatedGuildScript.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedInstanceEncounter",
+      "TocFileDataId": 7350484,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedInstanceEncounter/Blizzard_DeprecatedInstanceEncounter.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedPartyInfo",
+      "TocFileDataId": 7875339,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedPartyInfo/Blizzard_DeprecatedPartyInfo.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedRaidWarning",
+      "TocFileDataId": 7840488,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedRaidWarning/Blizzard_DeprecatedRaidWarning.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedSpecialization",
+      "TocFileDataId": 6217697,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedSpecialization/Blizzard_DeprecatedSpecialization.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "classic, standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedSpellBook",
+      "TocFileDataId": 7275888,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedSpellBook/Blizzard_DeprecatedSpellBook.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedSpellScript",
+      "TocFileDataId": 5568059,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedSpellScript/Blizzard_DeprecatedSpellScript.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedTransmog",
+      "TocFileDataId": 8200600,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedTransmog/Blizzard_DeprecatedTransmog.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DeprecatedUnitScript",
+      "TocFileDataId": 7065792,
+      "TocPath": "Interface/AddOns/Blizzard_DeprecatedUnitScript/Blizzard_DeprecatedUnitScript.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Deprecated_ArenaUI",
+      "TocFileDataId": 5614266,
+      "TocPath": "Interface/AddOns/Blizzard_Deprecated_ArenaUI/Blizzard_Deprecated_ArenaUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Dispatcher",
+      "TocFileDataId": 5528452,
+      "TocPath": "Interface/AddOns/Blizzard_Dispatcher/Blizzard_Dispatcher.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_DurabilityFrame",
+      "TocFileDataId": 7110227,
+      "TocPath": "Interface/AddOns/Blizzard_DurabilityFrame/Blizzard_DurabilityFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_EditMode",
+      "TocFileDataId": 7445294,
+      "TocPath": "Interface/AddOns/Blizzard_EditMode/Blizzard_EditMode.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 4
+    },
+    {
+      "AddonName": "Blizzard_EncounterJournal",
+      "TocFileDataId": 841685,
+      "TocPath": "Interface/AddOns/Blizzard_EncounterJournal/Blizzard_EncounterJournal.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard, classic",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_EncounterTimeline",
+      "TocFileDataId": 7337594,
+      "TocPath": "Interface/AddOns/Blizzard_EncounterTimeline/Blizzard_EncounterTimeline.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_EncounterWarnings",
+      "TocFileDataId": 7337598,
+      "TocPath": "Interface/AddOns/Blizzard_EncounterWarnings/Blizzard_EncounterWarnings.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_EndOfMatchUI",
+      "TocFileDataId": 6225370,
+      "TocPath": "Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndMatchUI.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "plunderstorm",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_EndOfMatchUI",
+      "TocFileDataId": 6225368,
+      "TocPath": "Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "plunderstorm",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_EnvironmentCleanup",
+      "TocFileDataId": 8286089,
+      "TocPath": "Interface/AddOns/Blizzard_EnvironmentCleanup/Blizzard_EnvironmentCleanup.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_EventTrace",
+      "TocFileDataId": 3993868,
+      "TocPath": "Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ExpansionLandingPage",
+      "TocFileDataId": 4675159,
+      "TocPath": "Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_ExpansionLandingPage.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ExpansionTrial",
+      "TocFileDataId": 5099990,
+      "TocPath": "Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_FlightMap",
+      "TocFileDataId": 1387410,
+      "TocPath": "Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Flyout",
+      "TocFileDataId": 6252912,
+      "TocPath": "Interface/AddOns/Blizzard_Flyout/Blizzard_Flyout.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Fonts_Shared",
+      "TocFileDataId": 5612727,
+      "TocPath": "Interface/AddOns/Blizzard_Fonts_Shared/Blizzard_Fonts_Shared.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_FrameEffects",
+      "TocFileDataId": 3738376,
+      "TocPath": "Interface/AddOns/Blizzard_FrameEffects/Blizzard_FrameEffects.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_FramerateFrame",
+      "TocFileDataId": 5613774,
+      "TocPath": "Interface/AddOns/Blizzard_FramerateFrame/Blizzard_FramerateFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_FrameStack",
+      "TocFileDataId": 5945904,
+      "TocPath": "Interface/AddOns/Blizzard_FrameStack/Blizzard_FrameStack.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_FrameXML",
+      "TocFileDataId": 8245779,
+      "TocPath": "Interface/AddOns/Blizzard_FrameXML/Blizzard_FrameXML.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 9
+    },
+    {
+      "AddonName": "Blizzard_FrameXMLBase",
+      "TocFileDataId": 8268284,
+      "TocPath": "Interface/AddOns/Blizzard_FrameXMLBase/Blizzard_FrameXMLBase.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_FrameXMLUtil",
+      "TocFileDataId": 7868969,
+      "TocPath": "Interface/AddOns/Blizzard_FrameXMLUtil/Blizzard_FrameXMLUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 5
+    },
+    {
+      "AddonName": "Blizzard_FriendsFrame",
+      "TocFileDataId": 5613895,
+      "TocPath": "Interface/AddOns/Blizzard_FriendsFrame/Blizzard_FriendsFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 2
+    },
+    {
+      "AddonName": "Blizzard_FullscreenBrowser",
+      "TocFileDataId": 8269064,
+      "TocPath": "Interface/AddOns/Blizzard_FullscreenBrowser/Blizzard_FullscreenBrowser.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Game",
+      "TocFileDataId": 8286091,
+      "TocPath": "Interface/AddOns/Blizzard_Game/Blizzard_Game.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 4
+    },
+    {
+      "AddonName": "Blizzard_GameMenu",
+      "TocFileDataId": 8286092,
+      "TocPath": "Interface/AddOns/Blizzard_GameMenu/Blizzard_GameMenu.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GameMenuEsc",
+      "TocFileDataId": 8124361,
+      "TocPath": "Interface/AddOns/Blizzard_GameMenuEsc/Blizzard_GameMenuEsc.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GameModeSelect",
+      "TocFileDataId": 6796716,
+      "TocPath": "Interface/AddOns/Blizzard_GameModeSelect/Blizzard_GameModeSelect.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Gamepad",
+      "TocFileDataId": 6188214,
+      "TocPath": "Interface/AddOns/Blizzard_Gamepad/Blizzard_Gamepad.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GamepadActionBars",
+      "TocFileDataId": 7050699,
+      "TocPath": "Interface/AddOns/Blizzard_GamepadActionBars/Blizzard_GamepadActionBars.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "camelot",
+      "CamelotOverrideFiles": 5
+    },
+    {
+      "AddonName": "Blizzard_GamepadSharedUtility",
+      "TocFileDataId": 6217053,
+      "TocPath": "Interface/AddOns/Blizzard_GamepadSharedUtility/Blizzard_GamepadSharedUtility.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GamepadSharedUtilitySecure",
+      "TocFileDataId": 8547108,
+      "TocPath": "Interface/AddOns/Blizzard_GamepadSharedUtilitySecure/Blizzard_GamepadSharedUtilitySecure.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GamepadSmartNavigation",
+      "TocFileDataId": 6188123,
+      "TocPath": "Interface/AddOns/Blizzard_GamepadSmartNavigation/Blizzard_GamepadSmartNavigation.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GamepadSoftCursor",
+      "TocFileDataId": 7277488,
+      "TocPath": "Interface/AddOns/Blizzard_GamepadSoftCursor/Blizzard_GamepadSoftCursor.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GamepadTargeting",
+      "TocFileDataId": 6856503,
+      "TocPath": "Interface/AddOns/Blizzard_GamepadTargeting/Blizzard_GamepadTargeting.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GameTooltip",
+      "TocFileDataId": 8286093,
+      "TocPath": "Interface/AddOns/Blizzard_GameTooltip/Blizzard_GameTooltip.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GarrisonBase",
+      "TocFileDataId": 5612354,
+      "TocPath": "Interface/AddOns/Blizzard_GarrisonBase/Blizzard_GarrisonBase.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GarrisonTemplates",
+      "TocFileDataId": 1259145,
+      "TocPath": "Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonTemplates.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GarrisonUI",
+      "TocFileDataId": 939228,
+      "TocPath": "Interface/AddOns/Blizzard_GarrisonUI/Blizzard_GarrisonUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GenericShoppingCart",
+      "TocFileDataId": 7373120,
+      "TocPath": "Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCart.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GenericTraitUI",
+      "TocFileDataId": 4668141,
+      "TocPath": "Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GlobalFXModelScenes",
+      "TocFileDataId": 5614254,
+      "TocPath": "Interface/AddOns/Blizzard_GlobalFXModelScenes/Blizzard_GlobalFXModelScenes.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GlueCollections",
+      "TocFileDataId": 6361893,
+      "TocPath": "Interface/AddOns/Blizzard_GlueCollections/Blizzard_GlueCollections.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GlueMenuFrame",
+      "TocFileDataId": 8286094,
+      "TocPath": "Interface/AddOns/Blizzard_GlueMenuFrame/Blizzard_GlueMenuFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GlueParent",
+      "TocFileDataId": 8286095,
+      "TocPath": "Interface/AddOns/Blizzard_GlueParent/Blizzard_GlueParent.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 2
+    },
+    {
+      "AddonName": "Blizzard_GlueSavedVariables",
+      "TocFileDataId": 5362155,
+      "TocPath": "Interface/AddOns/Blizzard_GlueSavedVariables/Blizzard_GlueSavedVariables.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GlueStubs",
+      "TocFileDataId": 5613475,
+      "TocPath": "Interface/AddOns/Blizzard_GlueStubs/Blizzard_GlueStubs.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "glue",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GlueXML",
+      "TocFileDataId": 8286096,
+      "TocPath": "Interface/AddOns/Blizzard_GlueXML/Blizzard_GlueXML.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 12
+    },
+    {
+      "AddonName": "Blizzard_GlueXMLBase",
+      "TocFileDataId": 8286097,
+      "TocPath": "Interface/AddOns/Blizzard_GlueXMLBase/Blizzard_GlueXMLBase.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GMChatUI",
+      "TocFileDataId": 841760,
+      "TocPath": "Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GroupFinder",
+      "TocFileDataId": 8286098,
+      "TocPath": "Interface/AddOns/Blizzard_GroupFinder/Blizzard_GroupFinder.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GroupFinder_VanillaStyle",
+      "TocFileDataId": 6365512,
+      "TocPath": "Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_GroupFinder_VanillaStyle.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "classic, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GuildBankUI",
+      "TocFileDataId": 841694,
+      "TocPath": "Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GuildControlUI",
+      "TocFileDataId": 841750,
+      "TocPath": "Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_GuildRename",
+      "TocFileDataId": 6686489,
+      "TocPath": "Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HardcoreUI",
+      "TocFileDataId": 8124371,
+      "TocPath": "Interface/AddOns/Blizzard_HardcoreUI/Blizzard_HardcoreUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "AllowLoadGameType": "vanilla, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HelpFrame",
+      "TocFileDataId": 5614203,
+      "TocPath": "Interface/AddOns/Blizzard_HelpFrame/Blizzard_HelpFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HelpPlate",
+      "TocFileDataId": 6727536,
+      "TocPath": "Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_HouseEditor",
+      "TocFileDataId": 6324849,
+      "TocPath": "Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditor.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HouseList",
+      "TocFileDataId": 6735024,
+      "TocPath": "Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingBlueprint",
+      "TocFileDataId": 7889253,
+      "TocPath": "Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprint.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingBulletinBoard",
+      "TocFileDataId": 6152780,
+      "TocPath": "Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingCharter",
+      "TocFileDataId": 6382394,
+      "TocPath": "Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingControls",
+      "TocFileDataId": 6021818,
+      "TocPath": "Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControls.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingCornerstone",
+      "TocFileDataId": 6024404,
+      "TocPath": "Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingCreateNeighborhood",
+      "TocFileDataId": 6120043,
+      "TocPath": "Interface/AddOns/Blizzard_HousingCreateNeighborhood/Blizzard_HousingCreateNeighborhood.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingDashboard",
+      "TocFileDataId": 6036443,
+      "TocPath": "Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingEventHandler",
+      "TocFileDataId": 6382398,
+      "TocPath": "Interface/AddOns/Blizzard_HousingEventHandler/Blizzard_HousingEventHandler.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingHouseFinder",
+      "TocFileDataId": 6065825,
+      "TocPath": "Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingHouseSettings",
+      "TocFileDataId": 6330884,
+      "TocPath": "Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingInspectModeUI",
+      "TocFileDataId": 7753905,
+      "TocPath": "Interface/AddOns/Blizzard_HousingInspectModeUI/Blizzard_HousingInspectModeUI.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingMarketCart",
+      "TocFileDataId": 7373125,
+      "TocPath": "Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCart.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingModelPreview",
+      "TocFileDataId": 7535079,
+      "TocPath": "Interface/AddOns/Blizzard_HousingModelPreview/Blizzard_HousingModelPreview.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingTemplates",
+      "TocFileDataId": 5222383,
+      "TocPath": "Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTemplates.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HousingTutorials",
+      "TocFileDataId": 7284236,
+      "TocPath": "Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorials.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HUDInventoryTemplates",
+      "TocFileDataId": 6966383,
+      "TocPath": "Interface/AddOns/Blizzard_HUDInventoryTemplates/Blizzard_HUDInventoryTemplates.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "plunderstorm, wowhack",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_HybridMinimap",
+      "TocFileDataId": 3614244,
+      "TocPath": "Interface/AddOns/Blizzard_HybridMinimap/Blizzard_HybridMinimap.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_IME",
+      "TocFileDataId": 5612900,
+      "TocPath": "Interface/AddOns/Blizzard_IME/Blizzard_IME.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_InspectUI",
+      "TocFileDataId": 841785,
+      "TocPath": "Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 7
+    },
+    {
+      "AddonName": "Blizzard_IslandsPartyPoseUI",
+      "TocFileDataId": 2138386,
+      "TocPath": "Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_IslandsQueueUI",
+      "TocFileDataId": 2144079,
+      "TocPath": "Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ItemBeltFrame",
+      "TocFileDataId": 5612326,
+      "TocPath": "Interface/AddOns/Blizzard_ItemBeltFrame/Blizzard_ItemBeltFrame.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "plunderstorm",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ItemButton",
+      "TocFileDataId": 8286099,
+      "TocPath": "Interface/AddOns/Blizzard_ItemButton/Blizzard_ItemButton.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ItemInteractionUI",
+      "TocFileDataId": 3200142,
+      "TocPath": "Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ItemSocketingUI",
+      "TocFileDataId": 841753,
+      "TocPath": "Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ItemUpgradeUI",
+      "TocFileDataId": 841770,
+      "TocPath": "Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "mainline, mists",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Kiosk",
+      "TocFileDataId": 3193195,
+      "TocPath": "Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_LandingSoulbinds",
+      "TocFileDataId": 3586465,
+      "TocPath": "Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingSoulbinds.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_LegacyChallengeTracker",
+      "TocFileDataId": 8282761,
+      "TocPath": "Interface/AddOns/Blizzard_LegacyChallengeTracker/Blizzard_LegacyChallengeTracker.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_LegacySystem",
+      "TocFileDataId": 7725444,
+      "TocPath": "Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_LFGUtil",
+      "TocFileDataId": 7789363,
+      "TocPath": "Interface/AddOns/Blizzard_LFGUtil/Blizzard_LFGUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_LoadLocale",
+      "TocFileDataId": 5614085,
+      "TocPath": "Interface/AddOns/Blizzard_LoadLocale/Blizzard_LoadLocale.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_LoginWarningDialogs",
+      "TocFileDataId": 6389242,
+      "TocPath": "Interface/AddOns/Blizzard_LoginWarningDialogs/Blizzard_LoginWarningDialogs.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MacroUI",
+      "TocFileDataId": 841708,
+      "TocPath": "Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MailFrame",
+      "TocFileDataId": 5612911,
+      "TocPath": "Interface/AddOns/Blizzard_MailFrame/Blizzard_MailFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MainMenuBarBagButtons",
+      "TocFileDataId": 8286102,
+      "TocPath": "Interface/AddOns/Blizzard_MainMenuBarBagButtons/Blizzard_MainMenuBarBagButtons.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 2
+    },
+    {
+      "AddonName": "Blizzard_MajorFactions",
+      "TocFileDataId": 4681069,
+      "TocPath": "Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactions.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ManagedFrameSystem",
+      "TocFileDataId": 8286103,
+      "TocPath": "Interface/AddOns/Blizzard_ManagedFrameSystem/Blizzard_ManagedFrameSystem.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MapCanvas",
+      "TocFileDataId": 1383759,
+      "TocPath": "Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MapCanvasSecureUtil",
+      "TocFileDataId": 6693265,
+      "TocPath": "Interface/AddOns/Blizzard_MapCanvasSecureUtil/Blizzard_MapCanvasSecureUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MatchCelebrationPartyPoseUI",
+      "TocFileDataId": 4901275,
+      "TocPath": "Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MatchmakingQueueDisplay",
+      "TocFileDataId": 6252776,
+      "TocPath": "Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MawBuffs",
+      "TocFileDataId": 3014525,
+      "TocPath": "Interface/AddOns/Blizzard_MawBuffs/Blizzard_MawBuffs.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Menu",
+      "TocFileDataId": 6706327,
+      "TocPath": "Interface/AddOns/Blizzard_Menu/Blizzard_Menu.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_MicroMenu",
+      "TocFileDataId": 8286104,
+      "TocPath": "Interface/AddOns/Blizzard_MicroMenu/Blizzard_MicroMenu.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 3
+    },
+    {
+      "AddonName": "Blizzard_Minimap",
+      "TocFileDataId": 8286105,
+      "TocPath": "Interface/AddOns/Blizzard_Minimap/Blizzard_Minimap.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 14
+    },
+    {
+      "AddonName": "Blizzard_MirrorTimer",
+      "TocFileDataId": 5613448,
+      "TocPath": "Interface/AddOns/Blizzard_MirrorTimer/Blizzard_MirrorTimer.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MoneyFrame",
+      "TocFileDataId": 8286106,
+      "TocPath": "Interface/AddOns/Blizzard_MoneyFrame/Blizzard_MoneyFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both [AllowLoadGameType mainline]",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MoneyReceipt",
+      "TocFileDataId": 3995552,
+      "TocPath": "Interface/AddOns/Blizzard_MoneyReceipt/Blizzard_MoneyReceipt.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_MovePad",
+      "TocFileDataId": 841758,
+      "TocPath": "Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_NamePlates",
+      "TocFileDataId": 1302844,
+      "TocPath": "Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 4
+    },
+    {
+      "AddonName": "Blizzard_Narration",
+      "TocFileDataId": 7935043,
+      "TocPath": "Interface/AddOns/Blizzard_Narration/Blizzard_Narration.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_NewPlayerExperience",
+      "TocFileDataId": 3525003,
+      "TocPath": "Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_NewPlayerExperience.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 4
+    },
+    {
+      "AddonName": "Blizzard_NewPlayerExperienceGuide",
+      "TocFileDataId": 3670315,
+      "TocPath": "Interface/AddOns/Blizzard_NewPlayerExperienceGuide/Blizzard_NewPlayerExperienceGuide.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Notification",
+      "TocFileDataId": 7476304,
+      "TocPath": "Interface/AddOns/Blizzard_Notification/Blizzard_Notification.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ObjectAPI",
+      "TocFileDataId": 8286107,
+      "TocPath": "Interface/AddOns/Blizzard_ObjectAPI/Blizzard_ObjectAPI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ObjectiveTracker",
+      "TocFileDataId": 959088,
+      "TocPath": "Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_ObliterumUI",
+      "TocFileDataId": 1341962,
+      "TocPath": "Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_OrderHallUI",
+      "TocFileDataId": 1345445,
+      "TocPath": "Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_OverrideActionBar",
+      "TocFileDataId": 5613813,
+      "TocPath": "Interface/AddOns/Blizzard_OverrideActionBar/Blizzard_OverrideActionBar.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PagedContent",
+      "TocFileDataId": 5408594,
+      "TocPath": "Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContent.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PartyPoseUI",
+      "TocFileDataId": 2002958,
+      "TocPath": "Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PerformanceBar",
+      "TocFileDataId": 7465610,
+      "TocPath": "Interface/AddOns/Blizzard_PerformanceBar/Blizzard_PerformanceBar.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PerksProgram",
+      "TocFileDataId": 4318002,
+      "TocPath": "Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PersonalResourceDisplay",
+      "TocFileDataId": 6740287,
+      "TocPath": "Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_PetBattleUI",
+      "TocFileDataId": 841775,
+      "TocPath": "Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard, camelot, mists",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PhotoSharing",
+      "TocFileDataId": 7792175,
+      "TocPath": "Interface/AddOns/Blizzard_PhotoSharing/Blizzard_PhotoSharing.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PingUI",
+      "TocFileDataId": 5279559,
+      "TocPath": "Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PlayerChoice",
+      "TocFileDataId": 4070233,
+      "TocPath": "Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PlayerSpells",
+      "TocFileDataId": 5408615,
+      "TocPath": "Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpells.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 8
+    },
+    {
+      "AddonName": "Blizzard_Plunderstorm",
+      "TocFileDataId": 8124403,
+      "TocPath": "Interface/AddOns/Blizzard_Plunderstorm/Blizzard_Plunderstorm.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "plunderstorm",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PlunderstormBasics",
+      "TocFileDataId": 5660731,
+      "TocPath": "Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PlunderstormPrematchUI",
+      "TocFileDataId": 6252775,
+      "TocPath": "Interface/AddOns/Blizzard_PlunderstormPrematchUI/Blizzard_PlunderstormPrematchUI.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "plunderstorm",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_POIButton",
+      "TocFileDataId": 5614251,
+      "TocPath": "Interface/AddOns/Blizzard_POIButton/Blizzard_POIButton.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PrintHandler",
+      "TocFileDataId": 5661343,
+      "TocPath": "Interface/AddOns/Blizzard_PrintHandler/Blizzard_PrintHandler.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PrivateAurasUI",
+      "TocFileDataId": 5121207,
+      "TocPath": "Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Professions",
+      "TocFileDataId": 4280188,
+      "TocPath": "Interface/AddOns/Blizzard_Professions/Blizzard_Professions.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "game",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 4
+    },
+    {
+      "AddonName": "Blizzard_ProfessionsBook",
+      "TocFileDataId": 5751992,
+      "TocPath": "Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 2
+    },
+    {
+      "AddonName": "Blizzard_ProfessionsCustomerOrders",
+      "TocFileDataId": 4484346,
+      "TocPath": "Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ProfessionsTemplates",
+      "TocFileDataId": 4280190,
+      "TocPath": "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 3
+    },
+    {
+      "AddonName": "Blizzard_ProjectConstants",
+      "TocFileDataId": 8124407,
+      "TocPath": "Interface/AddOns/Blizzard_ProjectConstants/Blizzard_ProjectConstants.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_PTRFeedback",
+      "TocFileDataId": 1967885,
+      "TocPath": "Interface/AddOns/Blizzard_PTRFeedback/Blizzard_PTRFeedback.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PTRFeedbackGlue",
+      "TocFileDataId": 3592443,
+      "TocPath": "Interface/AddOns/Blizzard_PTRFeedbackGlue/Blizzard_PTRFeedbackGlue.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_PVPMatch",
+      "TocFileDataId": 3006806,
+      "TocPath": "Interface/AddOns/Blizzard_PVPMatch/Blizzard_PVPMatch.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 5
+    },
+    {
+      "AddonName": "Blizzard_PVPUI",
+      "TocFileDataId": 841711,
+      "TocPath": "Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoadGameType": "mainline, mists",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_QuestNavigation",
+      "TocFileDataId": 3307185,
+      "TocPath": "Interface/AddOns/Blizzard_QuestNavigation/Blizzard_QuestNavigation.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_QuestTimer",
+      "TocFileDataId": 6042884,
+      "TocPath": "Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "AllowLoadGameType": "classic, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_QueueStatusFrame",
+      "TocFileDataId": 8286108,
+      "TocPath": "Interface/AddOns/Blizzard_QueueStatusFrame/Blizzard_QueueStatusFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_QuickJoin",
+      "TocFileDataId": 5612353,
+      "TocPath": "Interface/AddOns/Blizzard_QuickJoin/Blizzard_QuickJoin.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_QuickKeybind",
+      "TocFileDataId": 5612574,
+      "TocPath": "Interface/AddOns/Blizzard_QuickKeybind/Blizzard_QuickKeybind.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_RaidFrame",
+      "TocFileDataId": 5612821,
+      "TocPath": "Interface/AddOns/Blizzard_RaidFrame/Blizzard_RaidFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_RaidUI",
+      "TocFileDataId": 841778,
+      "TocPath": "Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_RaidWarning",
+      "TocFileDataId": 7835761,
+      "TocPath": "Interface/AddOns/Blizzard_RaidWarning/Blizzard_RaidWarning.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_RecentAllies",
+      "TocFileDataId": 7083867,
+      "TocPath": "Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAllies.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_RecruitAFriend",
+      "TocFileDataId": 5612292,
+      "TocPath": "Interface/AddOns/Blizzard_RecruitAFriend/Blizzard_RecruitAFriend.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_RemixArtifactTutorialUI",
+      "TocFileDataId": 7132744,
+      "TocPath": "Interface/AddOns/Blizzard_RemixArtifactTutorialUI/Blizzard_RemixArtifactTutorialUI.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_RemixArtifactUI",
+      "TocFileDataId": 6855469,
+      "TocPath": "Interface/AddOns/Blizzard_RemixArtifactUI/Blizzard_RemixArtifactUI.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": true,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ReportFrame",
+      "TocFileDataId": 5613423,
+      "TocPath": "Interface/AddOns/Blizzard_ReportFrame/Blizzard_ReportFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ReportFrameGlue",
+      "TocFileDataId": 5613276,
+      "TocPath": "Interface/AddOns/Blizzard_ReportFrameGlue/Blizzard_ReportFrameGlue.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ReportFrameShared",
+      "TocFileDataId": 5612735,
+      "TocPath": "Interface/AddOns/Blizzard_ReportFrameShared/Blizzard_ReportFrameShared.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_RestrictedAddOnEnvironment",
+      "TocFileDataId": 7276831,
+      "TocPath": "Interface/AddOns/Blizzard_RestrictedAddOnEnvironment/Blizzard_RestrictedAddOnEnvironment.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "classic, standard, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_RPE_TurnStrafe",
+      "TocFileDataId": 7292869,
+      "TocPath": "Interface/AddOns/Blizzard_RPE_TurnStrafe/Blizzard_RPE_TurnStrafe.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_RuneforgeUI",
+      "TocFileDataId": 3506977,
+      "TocPath": "Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SavedSets",
+      "TocFileDataId": 7476308,
+      "TocPath": "Interface/AddOns/Blizzard_SavedSets/Blizzard_SavedSets.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ScrappingMachineUI",
+      "TocFileDataId": 2127316,
+      "TocPath": "Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ScriptErrors",
+      "TocFileDataId": 6718766,
+      "TocPath": "Interface/AddOns/Blizzard_ScriptErrors/Blizzard_ScriptErrors.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ScriptErrorsFrame",
+      "TocFileDataId": 6718765,
+      "TocPath": "Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SecureTransferUI",
+      "TocFileDataId": 1535381,
+      "TocPath": "Interface/AddOns/Blizzard_SecureTransferUI/Blizzard_SecureTransferUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SelectorUI",
+      "TocFileDataId": 4216647,
+      "TocPath": "Interface/AddOns/Blizzard_SelectorUI/Blizzard_SelectorUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Settings",
+      "TocFileDataId": 4196361,
+      "TocPath": "Interface/AddOns/Blizzard_Settings/Blizzard_Settings.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SettingsDefinitions_Frame",
+      "TocFileDataId": 7744247,
+      "TocPath": "Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Blizzard_SettingsDefinitions_Frame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 8
+    },
+    {
+      "AddonName": "Blizzard_SettingsDefinitions_Shared",
+      "TocFileDataId": 5613750,
+      "TocPath": "Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Blizzard_SettingsDefinitions_Shared.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Settings_Shared",
+      "TocFileDataId": 8230842,
+      "TocPath": "Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings_Shared.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 3
+    },
+    {
+      "AddonName": "Blizzard_ShakeUtil",
+      "TocFileDataId": 8124420,
+      "TocPath": "Interface/AddOns/Blizzard_ShakeUtil/Blizzard_ShakeUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SharedMapDataProviders",
+      "TocFileDataId": 5614262,
+      "TocPath": "Interface/AddOns/Blizzard_SharedMapDataProviders/Blizzard_SharedMapDataProviders_Mainline.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "game",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SharedTalentUI",
+      "TocFileDataId": 4216653,
+      "TocPath": "Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_SharedWidgetFrames",
+      "TocFileDataId": 4870456,
+      "TocPath": "Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_SharedWidgetFrames.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SharedXML",
+      "TocFileDataId": 7758218,
+      "TocPath": "Interface/AddOns/Blizzard_SharedXML/Blizzard_SharedXML.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 4
+    },
+    {
+      "AddonName": "Blizzard_SharedXMLBase",
+      "TocFileDataId": 5705356,
+      "TocPath": "Interface/AddOns/Blizzard_SharedXMLBase/Blizzard_SharedXMLBase.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SharedXMLGame",
+      "TocFileDataId": 7868971,
+      "TocPath": "Interface/AddOns/Blizzard_SharedXMLGame/Blizzard_SharedXMLGame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SimpleCheckout",
+      "TocFileDataId": 6705355,
+      "TocPath": "Interface/AddOns/Blizzard_SimpleCheckout/Blizzard_SimpleCheckout.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SocialToast",
+      "TocFileDataId": 5613390,
+      "TocPath": "Interface/AddOns/Blizzard_SocialToast/Blizzard_SocialToast.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both [AllowLoadGameType mainline]",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SocialUI",
+      "TocFileDataId": 1090582,
+      "TocPath": "Interface/Addons/Blizzard_SocialUI/Blizzard_SocialUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SocialUIShared",
+      "TocFileDataId": 7869414,
+      "TocPath": "Interface/AddOns/Blizzard_SocialUIShared/Blizzard_SocialUIShared.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Soulbinds",
+      "TocFileDataId": 3393057,
+      "TocPath": "Interface/AddOns/Blizzard_Soulbinds/Blizzard_Soulbinds.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SpectateFrame",
+      "TocFileDataId": 5613417,
+      "TocPath": "Interface/AddOns/Blizzard_SpectateFrame/Blizzard_SpectateFrame.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "plunderstorm",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SpellDiminishUI",
+      "TocFileDataId": 7509261,
+      "TocPath": "Interface/AddOns/Blizzard_SpellDiminishUI/Blizzard_SpellDiminishUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SpellPickUpIndicator",
+      "TocFileDataId": 6197662,
+      "TocPath": "Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "plunderstorm",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SpellSearch",
+      "TocFileDataId": 5901705,
+      "TocPath": "Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearch.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SplashFrame",
+      "TocFileDataId": 8286109,
+      "TocPath": "Interface/AddOns/Blizzard_SplashFrame/Blizzard_SplashFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_StableUI",
+      "TocFileDataId": 5703543,
+      "TocPath": "Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 2
+    },
+    {
+      "AddonName": "Blizzard_StaticPopup",
+      "TocFileDataId": 6859359,
+      "TocPath": "Interface/AddOns/Blizzard_StaticPopup/Blizzard_StaticPopup.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_StaticPopup_Game",
+      "TocFileDataId": 6859346,
+      "TocPath": "Interface/AddOns/Blizzard_StaticPopup_Game/Blizzard_StaticPopup_Game.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_StaticPopup_Glue",
+      "TocFileDataId": 6859358,
+      "TocPath": "Interface/AddOns/Blizzard_StaticPopup_Glue/Blizzard_StaticPopup_Glue.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "glue",
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_Statistics",
+      "TocFileDataId": 8450943,
+      "TocPath": "Interface/AddOns/Blizzard_Statistics/Blizzard_Statistics.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "camelot",
+      "CamelotOverrideFiles": 2
+    },
+    {
+      "AddonName": "Blizzard_StatusTrackingBar",
+      "TocFileDataId": 7295548,
+      "TocPath": "Interface/AddOns/Blizzard_StatusTrackingBar/Blizzard_StatusTrackingBar.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 3
+    },
+    {
+      "AddonName": "Blizzard_StatusTrayManager",
+      "TocFileDataId": 8124426,
+      "TocPath": "Interface/AddOns/Blizzard_StatusTrayManager/Blizzard_StatusTrayManager.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_StatusUI",
+      "TocFileDataId": 7255668,
+      "TocPath": "Interface/AddOns/Blizzard_StatusUI/Blizzard_StatusUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_StoreUI",
+      "TocFileDataId": 903168,
+      "TocPath": "Interface/AddOns/Blizzard_StoreUI/Blizzard_StoreUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SubscriptionInterstitialUI",
+      "TocFileDataId": 3615743,
+      "TocPath": "Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_Subtitles",
+      "TocFileDataId": 5404156,
+      "TocPath": "Interface/AddOns/Blizzard_Subtitles/Blizzard_Subtitles.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_SwingTimer",
+      "TocFileDataId": 8356430,
+      "TocPath": "Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_TextStatusBar",
+      "TocFileDataId": 7430856,
+      "TocPath": "Interface/AddOns/Blizzard_TextStatusBar/Blizzard_TextStatusBar.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_TieredEntranceTraits",
+      "TocFileDataId": 7713909,
+      "TocPath": "Interface/AddOns/Blizzard_TieredEntranceTraits/Blizzard_TieredEntranceTraits.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_TimeManager",
+      "TocFileDataId": 841766,
+      "TocPath": "Interface/AddOns/Blizzard_TimeManager/Blizzard_TimeManager.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_TimerunningCharacterCreate",
+      "TocFileDataId": 5756312,
+      "TocPath": "Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Glue",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_TimerunningUtil",
+      "TocFileDataId": 5789856,
+      "TocPath": "Interface/AddOns/Blizzard_TimerunningUtil/Blizzard_TimerunningUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both",
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_TokenUI",
+      "TocFileDataId": 841781,
+      "TocPath": "Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 2
+    },
+    {
+      "AddonName": "Blizzard_TorghastLevelPicker",
+      "TocFileDataId": 3745115,
+      "TocPath": "Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_TrainerUI",
+      "TocFileDataId": 841725,
+      "TocPath": "Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_TransformManipulator",
+      "TocFileDataId": 6982799,
+      "TocPath": "Interface/AddOns/Blizzard_TransformManipulator/Blizzard_TransformManipulator.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_TransformTree",
+      "TocFileDataId": 5613426,
+      "TocPath": "Interface/AddOns/Blizzard_TransformTree/Blizzard_TransformTree.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_Transmog",
+      "TocFileDataId": 7240897,
+      "TocPath": "Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_TransmogShared",
+      "TocFileDataId": 7240901,
+      "TocPath": "Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_TutorialManager",
+      "TocFileDataId": 4761972,
+      "TocPath": "Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialManager.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_Tutorials",
+      "TocFileDataId": 4820983,
+      "TocPath": "Interface/AddOns/Blizzard_Tutorials/Blizzard_Tutorials.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "standard, camelot",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_TutorialTemplates",
+      "TocFileDataId": 1299691,
+      "TocPath": "Interface/Addons/Blizzard_TutorialTemplates/Blizzard_TutorialTemplates.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_UIErrorsFrame",
+      "TocFileDataId": 8245099,
+      "TocPath": "Interface/AddOns/Blizzard_UIErrorsFrame/Blizzard_UIErrorsFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_UIFrameManager",
+      "TocFileDataId": 4095387,
+      "TocPath": "Interface/AddOns/Blizzard_UIFrameManager/Blizzard_UIFrameManager.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_UIModes",
+      "TocFileDataId": 7967274,
+      "TocPath": "Interface/AddOns/Blizzard_UIModes/Blizzard_UIModes.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_UIPanels_Game",
+      "TocFileDataId": 8286110,
+      "TocPath": "Interface/AddOns/Blizzard_UIPanels_Game/Blizzard_UIPanels_Game.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 21
+    },
+    {
+      "AddonName": "Blizzard_UIPanelTemplates",
+      "TocFileDataId": 8286111,
+      "TocPath": "Interface/AddOns/Blizzard_UIPanelTemplates/Blizzard_UIPanelTemplates.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_UIParent",
+      "TocFileDataId": 8124445,
+      "TocPath": "Interface/AddOns/Blizzard_UIParent/Blizzard_UIParent.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_UIParentPanelManager",
+      "TocFileDataId": 8279822,
+      "TocPath": "Interface/AddOns/Blizzard_UIParentPanelManager/Blizzard_UIParentPanelManager.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_UIParentUtil",
+      "TocFileDataId": 8124447,
+      "TocPath": "Interface/AddOns/Blizzard_UIParentUtil/Blizzard_UIParentUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_UIWidgets",
+      "TocFileDataId": 1967927,
+      "TocPath": "Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgets.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_UnitFrame",
+      "TocFileDataId": 8286112,
+      "TocPath": "Interface/AddOns/Blizzard_UnitFrame/Blizzard_UnitFrame.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 14
+    },
+    {
+      "AddonName": "Blizzard_UnitPopup",
+      "TocFileDataId": 8263018,
+      "TocPath": "Interface/AddOns/Blizzard_UnitPopup/Blizzard_UnitPopup.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 1
+    },
+    {
+      "AddonName": "Blizzard_UnitPopupShared",
+      "TocFileDataId": 8286113,
+      "TocPath": "Interface/AddOns/Blizzard_UnitPopupShared/Blizzard_UnitPopupShared.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "both [AllowLoadGameType mainline]",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_VisualAlerts",
+      "TocFileDataId": 7954192,
+      "TocPath": "Interface/AddOns/Blizzard_VisualAlerts/Blizzard_VisualAlerts.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_VoiceToggleButton",
+      "TocFileDataId": 5613686,
+      "TocPath": "Interface/AddOns/Blizzard_VoiceToggleButton/Blizzard_VoiceToggleButton.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "game",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_WarfrontsPartyPoseUI",
+      "TocFileDataId": 2138389,
+      "TocPath": "Interface/AddOns/Blizzard_WarfrontsPartyPoseUI/Blizzard_WarfrontsPartyPoseUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_WeeklyRewards",
+      "TocFileDataId": 3621687,
+      "TocPath": "Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_WeeklyRewardsUtil",
+      "TocFileDataId": 5463466,
+      "TocPath": "Interface/AddOns/Blizzard_WeeklyRewardsUtil/Blizzard_WeeklyRewardsUtil.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_WorldLootObjectList",
+      "TocFileDataId": 6125245,
+      "TocPath": "Interface/AddOns/Blizzard_WorldLootObjectList/Blizzard_WorldLootObjectList.toc",
+      "LoadsInCamelot": false,
+      "LoadOnDemand": false,
+      "AllowLoad": "Game",
+      "AllowLoadGameType": "plunderstorm",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_WorldMap",
+      "TocFileDataId": 6716605,
+      "TocPath": "Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap_Mainline.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 4
+    },
+    {
+      "AddonName": "Blizzard_WowSurveyUI",
+      "TocFileDataId": 7340195,
+      "TocPath": "Interface/AddOns/Blizzard_WowSurveyUI/Blizzard_WowSurveyUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": true,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_WowTokenUI",
+      "TocFileDataId": 1116204,
+      "TocPath": "Interface/AddOns/Blizzard_WowTokenUI/Blizzard_WowTokenUI.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Blizzard_ZoneAbility",
+      "TocFileDataId": 8286114,
+      "TocPath": "Interface/AddOns/Blizzard_ZoneAbility/Blizzard_ZoneAbility.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoadGameType": "mainline",
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "Deprecated_PaperDoll",
+      "TocFileDataId": 7977500,
+      "TocPath": "Interface/AddOns/Deprecated_PaperDoll/Deprecated_PaperDoll.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "CamelotOverrideFiles": 0
+    },
+    {
+      "AddonName": "middleclass",
+      "TocFileDataId": 7766149,
+      "TocPath": "Interface/AddOns/middleclass/middleclass.toc",
+      "LoadsInCamelot": true,
+      "LoadOnDemand": false,
+      "AllowLoad": "Both",
+      "CamelotOverrideFiles": 0
+    }
+  ],
+  "CamelotSpecificFiles": [
+    {
+      "FileDataId": 8512555,
+      "Path": "Interface/AddOns/Blizzard_AchievementUI/Camelot/Blizzard_AchievementUI.lua"
+    },
+    {
+      "FileDataId": 8552586,
+      "Path": "Interface/AddOns/Blizzard_ActionBar/Camelot/ActionButtonOverrides.lua"
+    },
+    {
+      "FileDataId": 8547102,
+      "Path": "Interface/AddOns/Blizzard_ActionBar/Camelot/ExtraActionBarOverrides.lua"
+    },
+    {
+      "FileDataId": 7950560,
+      "Path": "Interface/AddOns/Blizzard_ActionBar/Camelot/MainMenuBarEndCaps.lua"
+    },
+    {
+      "FileDataId": 7406645,
+      "Path": "Interface/AddOns/Blizzard_ActionBar/Camelot/MainMenuBarEndCaps.xml"
+    },
+    {
+      "FileDataId": 8542079,
+      "Path": "Interface/AddOns/Blizzard_ActionBar/Camelot/MultiCastActionBarOverrides.lua"
+    },
+    {
+      "FileDataId": 7548097,
+      "Path": "Interface/AddOns/Blizzard_AuctionHouseUI/Camelot/Blizzard_AuctionData.lua"
+    },
+    {
+      "FileDataId": 8547387,
+      "Path": "Interface/AddOns/Blizzard_BattlefieldMap/Camelot/Blizzard_BattlefieldMap.lua"
+    },
+    {
+      "FileDataId": 7876114,
+      "Path": "Interface/AddOns/Blizzard_Calendar/Camelot/CalendarFilterData.lua"
+    },
+    {
+      "FileDataId": 8209459,
+      "Path": "Interface/AddOns/Blizzard_CharacterCreate/Camelot/Blizzard_CharacterCreate.lua"
+    },
+    {
+      "FileDataId": 8209458,
+      "Path": "Interface/AddOns/Blizzard_CharacterCreate/Camelot/Blizzard_CharacterCreate.xml"
+    },
+    {
+      "FileDataId": 8245745,
+      "Path": "Interface/AddOns/Blizzard_CharacterCreate/Camelot/Blizzard_CharacterCreate_Templates.lua"
+    },
+    {
+      "FileDataId": 8245746,
+      "Path": "Interface/AddOns/Blizzard_CharacterCreate/Camelot/Blizzard_CharacterCreate_Templates.xml"
+    },
+    {
+      "FileDataId": 8261796,
+      "Path": "Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.lua"
+    },
+    {
+      "FileDataId": 8261794,
+      "Path": "Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml"
+    },
+    {
+      "FileDataId": 7389912,
+      "Path": "Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomizeTemplates.xml"
+    },
+    {
+      "FileDataId": 8263017,
+      "Path": "Interface/AddOns/Blizzard_CharacterSelectNavBar/Camelot/CharacterSelectNavBar.lua"
+    },
+    {
+      "FileDataId": 7373118,
+      "Path": "Interface/AddOns/Blizzard_CharacterSelectNavBar/Camelot/CharacterSelectNavTemplates.xml"
+    },
+    {
+      "FileDataId": 8541630,
+      "Path": "Interface/AddOns/Blizzard_ChatFrame/Camelot/ChatConfigFrameOverrides.lua"
+    },
+    {
+      "FileDataId": 8547103,
+      "Path": "Interface/AddOns/Blizzard_ChatFrameBase/Camelot/ChatFrameOverrides.lua"
+    },
+    {
+      "FileDataId": 8547104,
+      "Path": "Interface/AddOns/Blizzard_ChatFrameBase/Camelot/ChatFrameUtilOverrides.lua"
+    },
+    {
+      "FileDataId": 8470468,
+      "Path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_CollectionsConstants.lua"
+    },
+    {
+      "FileDataId": 8470467,
+      "Path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_CollectionsOverrides.lua"
+    },
+    {
+      "FileDataId": 8470469,
+      "Path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_CollectionsTabs.xml"
+    },
+    {
+      "FileDataId": 7553342,
+      "Path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_PetCollectionScrollBar.xml"
+    },
+    {
+      "FileDataId": 7577146,
+      "Path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_ToyBoxProgressTracker.xml"
+    },
+    {
+      "FileDataId": 8181802,
+      "Path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_Wardrobe.lua"
+    },
+    {
+      "FileDataId": 8465641,
+      "Path": "Interface/AddOns/Blizzard_Communities/Camelot/CommunitiesFrameOverrides.lua"
+    },
+    {
+      "FileDataId": 7389913,
+      "Path": "Interface/AddOns/Blizzard_CustomizationUI/Camelot/Blizzard_CustomizationOptionTemplates.xml"
+    },
+    {
+      "FileDataId": 8415608,
+      "Path": "Interface/AddOns/Blizzard_DamageMeter/Camelot/DamageMeterEntryOverrides.lua"
+    },
+    {
+      "FileDataId": 8466309,
+      "Path": "Interface/AddOns/Blizzard_DeclensionFrame/Camelot/DeclensionFrameGlue.lua"
+    },
+    {
+      "FileDataId": 8466310,
+      "Path": "Interface/AddOns/Blizzard_DeclensionFrame/Camelot/DeclensionFrameGlue.xml"
+    },
+    {
+      "FileDataId": 7877849,
+      "Path": "Interface/AddOns/Blizzard_EditMode/Camelot/EditModeManagerOverrides.lua"
+    },
+    {
+      "FileDataId": 7658507,
+      "Path": "Interface/AddOns/Blizzard_EditMode/Camelot/EditModePresetLayoutConstants.lua"
+    },
+    {
+      "FileDataId": 8518863,
+      "Path": "Interface/AddOns/Blizzard_EditMode/Camelot/EditModeSystemTemplates.lua"
+    },
+    {
+      "FileDataId": 7475645,
+      "Path": "Interface/AddOns/Blizzard_EditMode/Camelot/EditModeUtil.lua"
+    },
+    {
+      "FileDataId": 6179899,
+      "Path": "Interface/AddOns/Blizzard_FrameXML/Bindings_Camelot.xml"
+    },
+    {
+      "FileDataId": 8379894,
+      "Path": "Interface/AddOns/Blizzard_FrameXML/Camelot/AlertFrameSystemsOverride.lua"
+    },
+    {
+      "FileDataId": 8268589,
+      "Path": "Interface/AddOns/Blizzard_FrameXML/Camelot/EquipmentFlyout.lua"
+    },
+    {
+      "FileDataId": 8268590,
+      "Path": "Interface/AddOns/Blizzard_FrameXML/Camelot/EquipmentFlyout.xml"
+    },
+    {
+      "FileDataId": 8541631,
+      "Path": "Interface/AddOns/Blizzard_FrameXML/Camelot/FloatingPetBattleTooltip.lua"
+    },
+    {
+      "FileDataId": 8541632,
+      "Path": "Interface/AddOns/Blizzard_FrameXML/Camelot/FloatingPetBattleTooltip.xml"
+    },
+    {
+      "FileDataId": 8279819,
+      "Path": "Interface/AddOns/Blizzard_FrameXML/Camelot/InstanceDifficultyOverrides.lua"
+    },
+    {
+      "FileDataId": 8200922,
+      "Path": "Interface/AddOns/Blizzard_FrameXML/Camelot/LootHistory.lua"
+    },
+    {
+      "FileDataId": 8270162,
+      "Path": "Interface/AddOns/Blizzard_FrameXML/Camelot/StackSplitFrame.xml"
+    },
+    {
+      "FileDataId": 8450699,
+      "Path": "Interface/AddOns/Blizzard_FrameXMLBase/Camelot/Constants.lua"
+    },
+    {
+      "FileDataId": 8285778,
+      "Path": "Interface/AddOns/Blizzard_FrameXMLUtil/Camelot/CollectionsUtilOverrides.lua"
+    },
+    {
+      "FileDataId": 8279820,
+      "Path": "Interface/AddOns/Blizzard_FrameXMLUtil/Camelot/DifficultyUtilOverrides.lua"
+    },
+    {
+      "FileDataId": 8473050,
+      "Path": "Interface/AddOns/Blizzard_FrameXMLUtil/Camelot/ItemUtil.lua"
+    },
+    {
+      "FileDataId": 7949502,
+      "Path": "Interface/AddOns/Blizzard_FrameXMLUtil/Camelot/NameUtil.lua"
+    },
+    {
+      "FileDataId": 8431072,
+      "Path": "Interface/AddOns/Blizzard_FrameXMLUtil/Camelot/QuestUtilsOverrides.lua"
+    },
+    {
+      "FileDataId": 8453037,
+      "Path": "Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua"
+    },
+    {
+      "FileDataId": 8453036,
+      "Path": "Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.xml"
+    },
+    {
+      "FileDataId": 8124334,
+      "Path": "Interface/AddOns/Blizzard_Game/Camelot/EventImplementation.lua"
+    },
+    {
+      "FileDataId": 8124333,
+      "Path": "Interface/AddOns/Blizzard_Game/Camelot/EventRouting.lua"
+    },
+    {
+      "FileDataId": 8124335,
+      "Path": "Interface/AddOns/Blizzard_Game/Camelot/Game.lua"
+    },
+    {
+      "FileDataId": 8140888,
+      "Path": "Interface/AddOns/Blizzard_Game/Camelot/Startup.lua"
+    },
+    {
+      "FileDataId": 8484043,
+      "Path": "Interface/AddOns/Blizzard_GamepadActionBars/Camelot/ClassSpellFlyout.lua"
+    },
+    {
+      "FileDataId": 8475044,
+      "Path": "Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyout.lua"
+    },
+    {
+      "FileDataId": 8475046,
+      "Path": "Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyoutButton.lua"
+    },
+    {
+      "FileDataId": 8475045,
+      "Path": "Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetClassFlyouts.xml"
+    },
+    {
+      "FileDataId": 8475047,
+      "Path": "Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua"
+    },
+    {
+      "FileDataId": 8539471,
+      "Path": "Interface/AddOns/Blizzard_GlueParent/Camelot/GlueParentUtil.lua"
+    },
+    {
+      "FileDataId": 8117637,
+      "Path": "Interface/AddOns/Blizzard_GlueParent/Camelot/GlueScreenTags.lua"
+    },
+    {
+      "FileDataId": 7967621,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/AccountLoginOverrides.lua"
+    },
+    {
+      "FileDataId": 8539473,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/AccountReactivateOverrides.lua"
+    },
+    {
+      "FileDataId": 8490763,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterCopy.lua"
+    },
+    {
+      "FileDataId": 8490764,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterCopy.xml"
+    },
+    {
+      "FileDataId": 8558473,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterSelect.lua"
+    },
+    {
+      "FileDataId": 8269570,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterSelect/CharacterSelectList.lua"
+    },
+    {
+      "FileDataId": 8269572,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterSelect/CharacterSelectListBackground.xml"
+    },
+    {
+      "FileDataId": 8269571,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterSelect/CharacterSelectTemplates.lua"
+    },
+    {
+      "FileDataId": 8280381,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterSelect/CharacterSelectUtil.lua"
+    },
+    {
+      "FileDataId": 8419630,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterServicesHardcoreCharacterTransfer.lua"
+    },
+    {
+      "FileDataId": 8419631,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterServicesHardcoreCharacterTransfer.xml"
+    },
+    {
+      "FileDataId": 8539474,
+      "Path": "Interface/AddOns/Blizzard_GlueXML/Camelot/StarterEditionPopUpTemplates.xml"
+    },
+    {
+      "FileDataId": 8206214,
+      "Path": "Interface/AddOns/Blizzard_HelpPlate/Camelot/HelpPlateOverrides.lua"
+    },
+    {
+      "FileDataId": 8280384,
+      "Path": "Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.lua"
+    },
+    {
+      "FileDataId": 8280382,
+      "Path": "Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml"
+    },
+    {
+      "FileDataId": 8526421,
+      "Path": "Interface/AddOns/Blizzard_InspectUI/Camelot/InspectGuildFrame.lua"
+    },
+    {
+      "FileDataId": 8526420,
+      "Path": "Interface/AddOns/Blizzard_InspectUI/Camelot/InspectGuildFrame.xml"
+    },
+    {
+      "FileDataId": 8280385,
+      "Path": "Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml"
+    },
+    {
+      "FileDataId": 8526422,
+      "Path": "Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPVPFrame.lua"
+    },
+    {
+      "FileDataId": 8526423,
+      "Path": "Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPVPFrame.xml"
+    },
+    {
+      "FileDataId": 8124391,
+      "Path": "Interface/AddOns/Blizzard_LFGUtil/Camelot/LFGUtil.lua"
+    },
+    {
+      "FileDataId": 7465621,
+      "Path": "Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.lua"
+    },
+    {
+      "FileDataId": 7465620,
+      "Path": "Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml"
+    },
+    {
+      "FileDataId": 8176729,
+      "Path": "Interface/AddOns/Blizzard_Menu/Camelot/Menu.xml"
+    },
+    {
+      "FileDataId": 8147620,
+      "Path": "Interface/AddOns/Blizzard_MicroMenu/Camelot/MainMenuBarMicroButtonsOverrides.lua"
+    },
+    {
+      "FileDataId": 7467830,
+      "Path": "Interface/AddOns/Blizzard_MicroMenu/Camelot/MainMenuBarMicroMenu.xml"
+    },
+    {
+      "FileDataId": 7494336,
+      "Path": "Interface/AddOns/Blizzard_MicroMenu/Camelot/MicroMenuContainerOverrides.lua"
+    },
+    {
+      "FileDataId": 8539478,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/AddonCompartment.lua"
+    },
+    {
+      "FileDataId": 8539476,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/AddonCompartment.xml"
+    },
+    {
+      "FileDataId": 8199123,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/Diel.lua"
+    },
+    {
+      "FileDataId": 8539477,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/GameTimeFrame.lua"
+    },
+    {
+      "FileDataId": 8539479,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/GameTimeFrameTemplate.xml"
+    },
+    {
+      "FileDataId": 8539480,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/Minimap.lua"
+    },
+    {
+      "FileDataId": 8390661,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/MinimapConstants.lua"
+    },
+    {
+      "FileDataId": 8539482,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/MinimapIndicatorFrameTemplate.xml"
+    },
+    {
+      "FileDataId": 8539483,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/MinimapInstanceDifficulty.lua"
+    },
+    {
+      "FileDataId": 8539481,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/MinimapMailFrameTemplate.xml"
+    },
+    {
+      "FileDataId": 8539484,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/MinimapTrackingButton.lua"
+    },
+    {
+      "FileDataId": 8539485,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/MinimapTrackingButton.xml"
+    },
+    {
+      "FileDataId": 8539486,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/MinimapZoneTextButton.lua"
+    },
+    {
+      "FileDataId": 8539487,
+      "Path": "Interface/AddOns/Blizzard_Minimap/Camelot/MinimapZoneTextButton.xml"
+    },
+    {
+      "FileDataId": 7700645,
+      "Path": "Interface/AddOns/Blizzard_NamePlates/Camelot/Blizzard_NamePlateConstants.lua"
+    },
+    {
+      "FileDataId": 8415609,
+      "Path": "Interface/AddOns/Blizzard_NamePlates/Camelot/Blizzard_NamePlateFrameOptionsOverrides.lua"
+    },
+    {
+      "FileDataId": 7700646,
+      "Path": "Interface/AddOns/Blizzard_NamePlates/Camelot/Blizzard_NamePlateLevelFrame.lua"
+    },
+    {
+      "FileDataId": 7700647,
+      "Path": "Interface/AddOns/Blizzard_NamePlates/Camelot/Blizzard_NamePlateLevelFrame.xml"
+    },
+    {
+      "FileDataId": 8529186,
+      "Path": "Interface/AddOns/Blizzard_NewPlayerExperience/Camelot/Blizzard_TutorialData.lua"
+    },
+    {
+      "FileDataId": 8529187,
+      "Path": "Interface/AddOns/Blizzard_NewPlayerExperience/Camelot/Blizzard_TutorialKeyboardMouseFrame.xml"
+    },
+    {
+      "FileDataId": 8529188,
+      "Path": "Interface/AddOns/Blizzard_NewPlayerExperience/Camelot/Blizzard_TutorialLogicOverrides.lua"
+    },
+    {
+      "FileDataId": 8529189,
+      "Path": "Interface/AddOns/Blizzard_NewPlayerExperience/Camelot/Blizzard_TutorialOverrides.lua"
+    },
+    {
+      "FileDataId": 8356428,
+      "Path": "Interface/AddOns/Blizzard_ObjectiveTracker/Camelot/Blizzard_QuestObjectiveTrackerOverride.lua"
+    },
+    {
+      "FileDataId": 8465918,
+      "Path": "Interface/AddOns/Blizzard_PersonalResourceDisplay/Camelot/Blizzard_PersonalResourceDisplay.lua"
+    },
+    {
+      "FileDataId": 7345815,
+      "Path": "Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.lua"
+    },
+    {
+      "FileDataId": 8124519,
+      "Path": "Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml"
+    },
+    {
+      "FileDataId": 6856494,
+      "Path": "Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml"
+    },
+    {
+      "FileDataId": 7928019,
+      "Path": "Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.lua"
+    },
+    {
+      "FileDataId": 7928018,
+      "Path": "Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml"
+    },
+    {
+      "FileDataId": 7833737,
+      "Path": "Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentUtil.lua"
+    },
+    {
+      "FileDataId": 6993216,
+      "Path": "Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookFrame.lua"
+    },
+    {
+      "FileDataId": 7036760,
+      "Path": "Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml"
+    },
+    {
+      "FileDataId": 7539163,
+      "Path": "Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsCrafting.lua"
+    },
+    {
+      "FileDataId": 8200923,
+      "Path": "Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsCraftingOutputLog.lua"
+    },
+    {
+      "FileDataId": 7539160,
+      "Path": "Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.lua"
+    },
+    {
+      "FileDataId": 7539161,
+      "Path": "Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml"
+    },
+    {
+      "FileDataId": 7580731,
+      "Path": "Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBook.lua"
+    },
+    {
+      "FileDataId": 7580732,
+      "Path": "Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml"
+    },
+    {
+      "FileDataId": 7539165,
+      "Path": "Interface/AddOns/Blizzard_ProfessionsTemplates/Camelot/Blizzard_Professions.lua"
+    },
+    {
+      "FileDataId": 7539164,
+      "Path": "Interface/AddOns/Blizzard_ProfessionsTemplates/Camelot/Blizzard_ProfessionsRecipeSchematicForm.xml"
+    },
+    {
+      "FileDataId": 8394489,
+      "Path": "Interface/AddOns/Blizzard_ProfessionsTemplates/Camelot/Blizzard_ProfessionsRecipeSchematicFormOverride.lua"
+    },
+    {
+      "FileDataId": 8507400,
+      "Path": "Interface/AddOns/Blizzard_ProjectConstants/Camelot/ProjectConstants.lua"
+    },
+    {
+      "FileDataId": 8571977,
+      "Path": "Interface/AddOns/Blizzard_PVPMatch/Camelot/PVPMatchResults.lua"
+    },
+    {
+      "FileDataId": 8571978,
+      "Path": "Interface/AddOns/Blizzard_PVPMatch/Camelot/PVPMatchResults.xml"
+    },
+    {
+      "FileDataId": 8571979,
+      "Path": "Interface/AddOns/Blizzard_PVPMatch/Camelot/PVPMatchScoreboard.lua"
+    },
+    {
+      "FileDataId": 8571980,
+      "Path": "Interface/AddOns/Blizzard_PVPMatch/Camelot/PVPMatchScoreboard.xml"
+    },
+    {
+      "FileDataId": 8552588,
+      "Path": "Interface/AddOns/Blizzard_PVPMatch/Camelot/PVPMatchTableOverrides.lua"
+    },
+    {
+      "FileDataId": 7967682,
+      "Path": "Interface/AddOns/Blizzard_QueueStatusFrame/Camelot/QueueStatusFrameOverrides.lua"
+    },
+    {
+      "FileDataId": 7880146,
+      "Path": "Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Camelot/AccessibilityOverrides.lua"
+    },
+    {
+      "FileDataId": 7880145,
+      "Path": "Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Camelot/AudioOverrides.lua"
+    },
+    {
+      "FileDataId": 8517877,
+      "Path": "Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Camelot/ColorblindOverrides.lua"
+    },
+    {
+      "FileDataId": 7880147,
+      "Path": "Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Camelot/ControlsOverrides.lua"
+    },
+    {
+      "FileDataId": 7845418,
+      "Path": "Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Camelot/InterfaceOverrides.lua"
+    },
+    {
+      "FileDataId": 7880149,
+      "Path": "Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Camelot/KeybindingsOverrides.lua"
+    },
+    {
+      "FileDataId": 8037772,
+      "Path": "Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Camelot/NameplatesOverrides.lua"
+    },
+    {
+      "FileDataId": 7880148,
+      "Path": "Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Camelot/SocialOverrides.lua"
+    },
+    {
+      "FileDataId": 8519489,
+      "Path": "Interface/AddOns/Blizzard_Settings_Shared/Camelot/AudioOverrides.lua"
+    },
+    {
+      "FileDataId": 8396068,
+      "Path": "Interface/AddOns/Blizzard_Settings_Shared/Camelot/LanguagesOverrides.lua"
+    },
+    {
+      "FileDataId": 8527852,
+      "Path": "Interface/AddOns/Blizzard_Settings_Shared/Camelot/NewDefinitions.lua"
+    },
+    {
+      "FileDataId": 8283810,
+      "Path": "Interface/AddOns/Blizzard_SharedTalentUI/Camelot/Blizzard_SharedTalentOverrides.lua"
+    },
+    {
+      "FileDataId": 8252706,
+      "Path": "Interface/AddOns/Blizzard_SharedXML/Camelot/NineSliceLayoutOverrides.lua"
+    },
+    {
+      "FileDataId": 8269817,
+      "Path": "Interface/AddOns/Blizzard_SharedXML/Camelot/ProgressBars/ColoredProgressBar.lua"
+    },
+    {
+      "FileDataId": 8269816,
+      "Path": "Interface/AddOns/Blizzard_SharedXML/Camelot/ProgressBars/ColoredProgressBar.xml"
+    },
+    {
+      "FileDataId": 8280076,
+      "Path": "Interface/AddOns/Blizzard_SharedXML/Camelot/SharedUIPanelTemplates.lua"
+    },
+    {
+      "FileDataId": 7864765,
+      "Path": "Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.lua"
+    },
+    {
+      "FileDataId": 7864768,
+      "Path": "Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml"
+    },
+    {
+      "FileDataId": 8187496,
+      "Path": "Interface/AddOns/Blizzard_StaticPopup_Game/Camelot/GameDialogDefs.lua"
+    },
+    {
+      "FileDataId": 8518864,
+      "Path": "Interface/AddOns/Blizzard_StaticPopup_Glue/Camelot/GlueDialogDefs.lua"
+    },
+    {
+      "FileDataId": 8450944,
+      "Path": "Interface/AddOns/Blizzard_Statistics/Camelot/StatisticsFrame.lua"
+    },
+    {
+      "FileDataId": 8450945,
+      "Path": "Interface/AddOns/Blizzard_Statistics/Camelot/StatisticsFrame.xml"
+    },
+    {
+      "FileDataId": 8268591,
+      "Path": "Interface/AddOns/Blizzard_StatusTrackingBar/Camelot/PetExpBar.lua"
+    },
+    {
+      "FileDataId": 8268592,
+      "Path": "Interface/AddOns/Blizzard_StatusTrackingBar/Camelot/PetExpBar.xml"
+    },
+    {
+      "FileDataId": 7930357,
+      "Path": "Interface/AddOns/Blizzard_StatusTrackingBar/Camelot/StatusTrackingBarConstants.lua"
+    },
+    {
+      "FileDataId": 8547388,
+      "Path": "Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Camelot/Blizzard_SubscriptionInterstitialUI.lua"
+    },
+    {
+      "FileDataId": 8539493,
+      "Path": "Interface/AddOns/Blizzard_TimeManager/Camelot/Blizzard_TimeManagerOverrides.lua"
+    },
+    {
+      "FileDataId": 8268593,
+      "Path": "Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua"
+    },
+    {
+      "FileDataId": 8268596,
+      "Path": "Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.xml"
+    },
+    {
+      "FileDataId": 8124438,
+      "Path": "Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI_Camelot.lua"
+    },
+    {
+      "FileDataId": 8529192,
+      "Path": "Interface/AddOns/Blizzard_TutorialManager/Camelot/Blizzard_TutorialManagerOverrides.lua"
+    },
+    {
+      "FileDataId": 8033455,
+      "Path": "Interface/AddOns/Blizzard_UIErrorsFrame/Camelot/UIErrorsFrameOverrides.lua"
+    },
+    {
+      "FileDataId": 7552263,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.lua"
+    },
+    {
+      "FileDataId": 7552262,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml"
+    },
+    {
+      "FileDataId": 7264396,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua"
+    },
+    {
+      "FileDataId": 8268597,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml"
+    },
+    {
+      "FileDataId": 7211410,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrameConstants.lua"
+    },
+    {
+      "FileDataId": 8154520,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ContainerFrame.lua"
+    },
+    {
+      "FileDataId": 8470471,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/DressUpFramesOverrides.lua"
+    },
+    {
+      "FileDataId": 6999974,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/MapLegendFrameData.lua"
+    },
+    {
+      "FileDataId": 7300285,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua"
+    },
+    {
+      "FileDataId": 8268598,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml"
+    },
+    {
+      "FileDataId": 7136809,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrameConstants.lua"
+    },
+    {
+      "FileDataId": 7368472,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrameStats.lua"
+    },
+    {
+      "FileDataId": 7902428,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PVPRankFrame.lua"
+    },
+    {
+      "FileDataId": 7902429,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PVPRankFrame.xml"
+    },
+    {
+      "FileDataId": 7949503,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/QuestFrameTemplates.lua"
+    },
+    {
+      "FileDataId": 8267853,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/QuestMapFrameOverrides.lua"
+    },
+    {
+      "FileDataId": 8207311,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/QuestMapFrameUtils.lua"
+    },
+    {
+      "FileDataId": 7871260,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua"
+    },
+    {
+      "FileDataId": 8268599,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.xml"
+    },
+    {
+      "FileDataId": 7211412,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/SkillsFrame.lua"
+    },
+    {
+      "FileDataId": 7211413,
+      "Path": "Interface/AddOns/Blizzard_UIPanels_Game/Camelot/SkillsFrame.xml"
+    },
+    {
+      "FileDataId": 8475050,
+      "Path": "Interface/AddOns/Blizzard_UIPanelTemplates/Camelot/UIPanelTemplatesOverrides.xml"
+    },
+    {
+      "FileDataId": 8518867,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/ComboFrame.lua"
+    },
+    {
+      "FileDataId": 8518866,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/ComboFrame.xml"
+    },
+    {
+      "FileDataId": 8518865,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/DruidComboPointBar.xml"
+    },
+    {
+      "FileDataId": 8541633,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/Localization.lua"
+    },
+    {
+      "FileDataId": 8541635,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/PartyMemberFrame.lua"
+    },
+    {
+      "FileDataId": 8541634,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/PetFrame.lua"
+    },
+    {
+      "FileDataId": 8124449,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/PlayerFrame.lua"
+    },
+    {
+      "FileDataId": 8124451,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/PlayerFrameTemplates.xml"
+    },
+    {
+      "FileDataId": 8518868,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/RogueComboPointBar.xml"
+    },
+    {
+      "FileDataId": 8526957,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/TargetBoundComboPointBar.lua"
+    },
+    {
+      "FileDataId": 8124450,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/TargetFrame.lua"
+    },
+    {
+      "FileDataId": 8124452,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/TargetFrameTemplates.xml"
+    },
+    {
+      "FileDataId": 7850526,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/TargetFrameUtils.lua"
+    },
+    {
+      "FileDataId": 8472160,
+      "Path": "Interface/AddOns/Blizzard_UnitFrame/Camelot/UnitFramePvPIndicatorStyle.lua"
+    },
+    {
+      "FileDataId": 8269052,
+      "Path": "Interface/AddOns/Blizzard_UnitPopup/Camelot/UnitPopupMenus.lua"
+    },
+    {
+      "FileDataId": 8246710,
+      "Path": "Interface/AddOns/Blizzard_WorldMap/Camelot/Blizzard_WorldMap.lua"
+    },
+    {
+      "FileDataId": 8246709,
+      "Path": "Interface/AddOns/Blizzard_WorldMap/Camelot/Blizzard_WorldMapConstants.lua"
+    },
+    {
+      "FileDataId": 8244977,
+      "Path": "Interface/AddOns/Blizzard_WorldMap/Camelot/Blizzard_WorldMapTemplates.lua"
+    },
+    {
+      "FileDataId": 8246711,
+      "Path": "Interface/AddOns/Blizzard_WorldMap/Camelot/Blizzard_WorldMapTemplates.xml"
+    }
+  ]
+}
