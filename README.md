@@ -45,6 +45,22 @@ dotnet test -c Release
 
 ---
 
+## Vollautomatisches Update-Skript (`tools/update-forever.ps1`)
+
+Nach einem Battle.net-Patch oder einem neuen `DBCache.bin`-Hotfix-Schub genügt ein einziger Befehl, um den lokalen Client gegen Blizzards Live-EU-TACT-Endpoint zu prüfen, alle Daten zu extrahieren, `data/` zu synchronisieren und automatisch den Build- bzw. Intra-Build-Hotfix-Diff zu generieren:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools/update-forever.ps1
+```
+
+Optional mit direktem Erzeugen der komprimierten Release-ZIP-Archive (`artifacts/`):
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools/update-forever.ps1 -PackageRelease
+```
+
+---
+
 ## CLI-Verwendung (`grunzforever`)
 
 ### 1. Komplett-Extraktion (CASC DB2 + `DBCache.bin` + Lua-API)
@@ -95,21 +111,40 @@ dotnet run --project src/GrunzForever.Cli -c Release -- --export-blp 135877 icon
 
 ---
 
+## Dokumentation
+
+| Dokument | Inhalt |
+| :--- | :--- |
+| **[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)** | Technische Pipeline (`CASC v7` → `BLTE` → `TSFM v2` → `WDC5` → `XFTH v9` → SQLite/JSON) & DB-Views |
+| **[`docs/CAMELOT-CLIENT.md`](docs/CAMELOT-CLIENT.md)** | Spezifika des Classic-Forever-Clients (`wowf`, `Camelot`, `WOW_PROJECT_ID = 18`, 3 Update-Kanäle, SecretValues) |
+| **[`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md)** | Vollständige CLI-Referenz, SQL-Rezepte, `update-forever.ps1`-Optionen & Code-Konventionen |
+| **[`docs/RELEASE.md`](docs/RELEASE.md)** | SemVer-Schema, Release-Artefakte & Checkliste |
+| **[`AGENTS.md`](AGENTS.md)** | Verbindliche Arbeitsregeln & Kontext für KI-Agenten (Antigravity / Claude) |
+
+---
+
 ## Repository-Struktur
 
 ```text
 GrunzForever/
+├── .agents/skills/       # Workspace-Skills (u. a. forever-update Forensik- & Release-Runbook)
 ├── data/
 │   ├── forever/          # CustomForever_Items.json, CustomForever_Spells.json, CharTitles.json, Cfg_*.json
 │   ├── lua_api/          # LuaApi_Reference.md, LuaApi_CamelotSurface.json, LuaApi_Complete.json
 │   └── manifests/        # Tabellen- & LayoutHash-Manifeste je Build
 ├── docs/
-│   └── diffs/            # Automatisch generierte Build-zu-Build-Changelogs (.md & .json)
+│   ├── diffs/            # Automatisch generierte Build-zu-Build- & Hotfix-Changelogs (.md & .json)
+│   ├── ARCHITECTURE.md   # Binärformate, Merge-Pipeline & SQLite-Schema
+│   ├── CAMELOT-CLIENT.md # Technische Referenz zu wowf / WOW_PROJECT_ID = 18
+│   ├── DEVELOPMENT.md    # CLI-Handbuch & SQL-Abfrage-Rezepte
+│   └── RELEASE.md        # Release-Ablauf & ZIP-Packaging
 ├── src/
 │   ├── GrunzForever.Core/# CASC v7, BLTE, Root v2, WDC5, XFTH v9, SQLite/JSON Exporter, BuildDiffer, LuaApiExporter
 │   └── GrunzForever.Cli/ # Kommandozeilen-Werkzeug (grunzforever)
-└── tests/
-    └── GrunzForever.Tests/# xUnit-Tests für Decoder, Merger, Differ, API-Parser und Daten-Integrität
+├── tests/
+│   └── GrunzForever.Tests/# xUnit-Tests für Decoder, Merger, Differ, API-Parser und Daten-Integrität
+└── tools/
+    └── update-forever.ps1# Vollautomatisches Forensik-, Extraktions-, Diff- & Release-Skript
 ```
 
 ---
