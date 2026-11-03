@@ -27,6 +27,7 @@ param(
     [switch]$SkipTactCheck,
     [switch]$AllDb2,
     [switch]$SkipTests,
+    [switch]$SkipExtract,
     [switch]$PackageRelease,
     [string]$PublishRelease = ""
 )
@@ -183,27 +184,32 @@ try {
     $baselineVer = ""
     $tempSnapshotPath = ""
 
-    if ($existingDbs.Count -gt 0) {
-        $latestDb = $existingDbs[0]
-        if ($latestDb.Name -match '^wow_wowf_(.+)\.sqlite$') {
-            $baselineVer = $Matches[1]
-        }
+    if (-not $SkipExtract) {
+        if ($existingDbs.Count -gt 0) {
+            $latestDb = $existingDbs[0]
+            if ($latestDb.Name -match '^wow_wowf_(.+)\.sqlite$') {
+                $baselineVer = $Matches[1]
+            }
 
-        if ($baselineVer -eq $localVersion) {
-            $stamp = Get-Date -Format "yyyyMMdd_HHmmss"
-            $tempSnapshotPath = Join-Path $exportsDir "_baseline_${localVersion}_${stamp}.sqlite"
-            Copy-Item $latestDb.FullName $tempSnapshotPath -Force
-            $baselineDbPath = $tempSnapshotPath
-            Write-Host ""
-            Write-Host "[2/5] Baseline-Sicherung: Intra-Build-Snapshot angelegt ($($latestDb.Name))" -ForegroundColor Yellow
+            if ($baselineVer -eq $localVersion) {
+                $stamp = Get-Date -Format "yyyyMMdd_HHmmss"
+                $tempSnapshotPath = Join-Path $exportsDir "_baseline_${localVersion}_${stamp}.sqlite"
+                Copy-Item $latestDb.FullName $tempSnapshotPath -Force
+                $baselineDbPath = $tempSnapshotPath
+                Write-Host ""
+                Write-Host "[2/5] Baseline-Sicherung: Intra-Build-Snapshot angelegt ($($latestDb.Name))" -ForegroundColor Yellow
+            } else {
+                $baselineDbPath = $latestDb.FullName
+                Write-Host ""
+                Write-Host "[2/5] Baseline erkannt  : $($latestDb.Name) (Build-Wechsel $baselineVer -> $localVersion)" -ForegroundColor Yellow
+            }
         } else {
-            $baselineDbPath = $latestDb.FullName
             Write-Host ""
-            Write-Host "[2/5] Baseline erkannt  : $($latestDb.Name) (Build-Wechsel $baselineVer -> $localVersion)" -ForegroundColor Yellow
+            Write-Host "[2/5] Keine vorherige SQLite-Baseline in Exports\ gefunden (Erst-Extraktion)." -ForegroundColor Yellow
         }
     } else {
         Write-Host ""
-        Write-Host "[2/5] Keine vorherige SQLite-Baseline in Exports\ gefunden (Erst-Extraktion)." -ForegroundColor Yellow
+        Write-Host "[2/5] Extraktion uebersprungen (-SkipExtract aktiv, nutze vorhandene Exporte)." -ForegroundColor Yellow
     }
 
     # -------------------------------------------------------------------------
@@ -220,17 +226,20 @@ try {
         if ($LASTEXITCODE -ne 0) { throw "dotnet test fehlgeschlagen (Exit-Code $LASTEXITCODE)." }
     }
 
-    $cliArgs = @("run", "--project", "src/GrunzForever.Cli", "-c", "Release", "--no-build", "--", "--wow-dir", $resolvedWowDir, "--sync-repo-data")
-    if ($AllDb2) {
-        $cliArgs += "--all-db2"
+    $newDbPath = Join-Path $exportsDir "wow_wowf_${localVersion}.sqlite"
+
+    if (-not $SkipExtract) {
+        $cliArgs = @("run", "--project", "src/GrunzForever.Cli", "-c", "Release", "--no-build", "--", "--wow-dir", $resolvedWowDir, "--sync-repo-data")
+        if ($AllDb2) {
+            $cliArgs += "--all-db2"
+        }
+
+        & dotnet @cliArgs
+        if ($LASTEXITCODE -ne 0) { throw "GrunzForever.Cli Extraktion fehlgeschlagen (Exit-Code $LASTEXITCODE)." }
     }
 
-    & dotnet @cliArgs
-    if ($LASTEXITCODE -ne 0) { throw "GrunzForever.Cli Extraktion fehlgeschlagen (Exit-Code $LASTEXITCODE)." }
-
-    $newDbPath = Join-Path $exportsDir "wow_wowf_${localVersion}.sqlite"
     if (-not (Test-Path $newDbPath)) {
-        throw "Erwartete SQLite-Datenbank wurde nicht erzeugt: $newDbPath"
+        throw "Erwartete SQLite-Datenbank wurde nicht gefunden: $newDbPath"
     }
 
     # -------------------------------------------------------------------------
@@ -238,12 +247,12 @@ try {
     # -------------------------------------------------------------------------
     $generatedDiffMd = ""
     $generatedDiffJson = ""
+    $diffsDir = Join-Path $repoRoot "docs\diffs"
 
     Write-Host ""
     Write-Host "[4/5] Delta-Analyse (WowBuildDiffer)..." -ForegroundColor Yellow
 
-    if (-not [string]::IsNullOrWhiteSpace($baselineDbPath) -and (Test-Path $baselineDbPath)) {
-        $diffsDir = Join-Path $repoRoot "docs\diffs"
+    if (-not $SkipExtract -and -not [string]::IsNullOrWhiteSpace($baselineDbPath) -and (Test-Path $baselineDbPath)) {
         New-Item -ItemType Directory -Force -Path $diffsDir | Out-Null
 
         if ($baselineVer -ne $localVersion) {
@@ -364,6 +373,13 @@ try {
             if ($LASTEXITCODE -ne 0) { throw "git push tag $PublishRelease fehlgeschlagen." }
 
             $notesArgs = @()
+            if ([string]::IsNullOrWhiteSpace($generatedDiffMd) -and (Test-Path $diffsDir)) {
+                $existingDiff = @(Get-ChildItem $diffsDir -Filter "*_to_${localVersion}.md" -ErrorAction SilentlyContinue |
+                    Sort-Object Name -Descending | Select-Object -First 1)
+                if ($existingDiff.Count -gt 0) {
+                    $generatedDiffMd = $existingDiff[0].FullName
+                }
+            }
             if (-not [string]::IsNullOrWhiteSpace($generatedDiffMd) -and (Test-Path $generatedDiffMd)) {
                 $notesArgs = @("--notes-file", $generatedDiffMd)
             } else {

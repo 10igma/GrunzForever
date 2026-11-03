@@ -45,8 +45,8 @@ Bei der Analyse von Updates ist entscheidend, dass Blizzard Änderungen für *Cl
 
 ### 3.1 TOC-Steuerung für AddOns
 Blizzards eigene UI-Module unter `Interface/AddOns/Blizzard_*` steuern ihre Aktivierung über den TOC-Header `## AllowLoadGameType`:
-- Module mit `camelot`, `classic` oder `all` werden in Classic Forever geladen (`307` von `350` Blizzard-AddOns in Build `1.60.1.70707`).
-- Für zahlreiche Module existieren eigene `*_Camelot.lua`- und `*_Camelot.xml`-Dateien (`212` Camelot-spezifische Datei-Overrides), die klassische Mechaniken (z. B. Talentbäume, Spellbook, Charakterfenster, Gilden-UI) auf der modernen 12.x-Engine abbilden.
+- Module mit `camelot`, `classic` oder `all` werden in Classic Forever geladen (`307` von `350` Blizzard-AddOns in Build `1.60.1.70755`).
+- Für zahlreiche Module existieren eigene `*_Camelot.lua`- und `*_Camelot.xml`-Dateien (`213` Camelot-spezifische Datei-Overrides), die klassische Mechaniken (z. B. Talentbäume, Spellbook, Aktionsleisten-Rangprüfung, Charakterfenster, Gilden-UI) auf der modernen 12.x-Engine abbilden.
 - Eigene AddOns für Classic Forever sollten im `.toc` angeben:
   ```ini
   ## Interface: 16001

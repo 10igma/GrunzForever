@@ -1,11 +1,11 @@
 {
   "Product": "wowf",
-  "Version": "1.60.1.70707",
-  "BuildName": "WOW-70707patch1.60.1_Retail",
+  "Version": "1.60.1.70755",
+  "BuildName": "WOW-70755patch1.60.1_Retail",
   "ProjectId": 18,
   "ProjectCodeName": "Camelot",
   "TotalSystems": 612,
-  "TotalFunctions": 6609,
+  "TotalFunctions": 6610,
   "TotalEvents": 1816,
   "TotalTables": 1758,
   "Systems": [
@@ -3214,6 +3214,27 @@
           "Returns": [
             {
               "Name": "isHelpful",
+              "Type": "bool",
+              "Nilable": false
+            }
+          ]
+        },
+        {
+          "Name": "IsHighestSpellRank",
+          "FullName": "C_ActionBar.IsHighestSpellRank",
+          "Attributes": {
+            "SecretArguments": "AllowedWhenUntainted"
+          },
+          "Arguments": [
+            {
+              "Name": "spellID",
+              "Type": "SpellIdentifier",
+              "Nilable": false
+            }
+          ],
+          "Returns": [
+            {
+              "Name": "isHighestRank",
               "Type": "bool",
               "Nilable": false
             }
@@ -16412,6 +16433,11 @@
             {
               "Name": "timerunningSeasonID",
               "Type": "number",
+              "Nilable": true
+            },
+            {
+              "Name": "subIcon",
+              "Type": "string",
               "Nilable": true
             }
           ]
@@ -71161,6 +71187,12 @@
               "Name": "MaxLevel",
               "Type": "SubscriptionInterstitialType",
               "Value": "2",
+              "Nilable": false
+            },
+            {
+              "Name": "SubscriptionPeriod",
+              "Type": "SubscriptionInterstitialType",
+              "Value": "3",
               "Nilable": false
             }
           ]
@@ -128638,7 +128670,7 @@
         {
           "Name": "CancelTemporaryEnchantment",
           "FullName": "C_PaperDollInfo.CancelTemporaryEnchantment",
-          "Documentation": "Cancels active temporary enchantments on inventory slot items.",
+          "Documentation": "Cancels active temporary enchantments on inventory slot items. Imbue enchants take priority over temporary enchants.",
           "Attributes": {
             "HasRestrictions": "true",
             "SecretArguments": "AllowedWhenUntainted"
@@ -128950,7 +128982,7 @@
         {
           "Name": "GetTemporaryEnchantmentInfo",
           "FullName": "C_PaperDollInfo.GetTemporaryEnchantmentInfo",
-          "Documentation": "Queries information about active temporary enchants on inventory slot items.",
+          "Documentation": "Queries information about active temporary enchants on inventory slot items. Imbue enchants take priority over temporary enchants.",
           "Attributes": {
             "MayReturnNothing": "true",
             "SecretArguments": "AllowedWhenUntainted"
@@ -157771,8 +157803,9 @@
         {
           "Name": "ApplyRolesetFilters",
           "FullName": "C_Roleset.ApplyRolesetFilters",
-          "Documentation": "Sets or clears both blocklist and allowlist filters atomically with a single visibility reevaluation. Pass an empty table to clear the corresponding filter.",
+          "Documentation": "Sets or clears both blocklist and allowlist filters atomically with a single visibility reevaluation. Pass an empty table to clear the corresponding filter. Blocked for tainted callers while in combat lockdown.",
           "Attributes": {
+            "HasRestrictions": "true",
             "SecretArguments": "AllowedWhenUntainted"
           },
           "Arguments": [
@@ -189756,6 +189789,11 @@
               "Name": "callback",
               "Type": "GetTitleIconTextureCallback",
               "Nilable": false
+            },
+            {
+              "Name": "subIcon",
+              "Type": "string",
+              "Nilable": true
             }
           ],
           "Returns": []
@@ -189776,6 +189814,11 @@
               "Name": "version",
               "Type": "TitleIconVersion",
               "Nilable": false
+            },
+            {
+              "Name": "subIcon",
+              "Type": "string",
+              "Nilable": true
             }
           ],
           "Returns": [
@@ -189807,6 +189850,11 @@
               "Name": "version",
               "Type": "TitleIconVersion",
               "Nilable": false
+            },
+            {
+              "Name": "subIcon",
+              "Type": "string",
+              "Nilable": true
             }
           ],
           "Returns": []

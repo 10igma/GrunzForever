@@ -1,6 +1,6 @@
 {
   "Product": "wowf",
-  "Version": "1.60.1.70707",
+  "Version": "1.60.1.70755",
   "ProjectId": 18,
   "ProjectCodeName": "Camelot",
   "UiFamily": "Mainline",
@@ -50,7 +50,7 @@
       "TocPath": "Interface/AddOns/Blizzard_ActionBar/Blizzard_ActionBar.toc",
       "LoadsInCamelot": true,
       "LoadOnDemand": false,
-      "CamelotOverrideFiles": 5
+      "CamelotOverrideFiles": 6
     },
     {
       "AddonName": "Blizzard_ActionBarController",
@@ -2696,6 +2696,7 @@
       "TocPath": "Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.toc",
       "LoadsInCamelot": true,
       "LoadOnDemand": true,
+      "AllowLoad": "Both",
       "CamelotOverrideFiles": 1
     },
     {
@@ -3056,6 +3057,10 @@
     {
       "FileDataId": 8552586,
       "Path": "Interface/AddOns/Blizzard_ActionBar/Camelot/ActionButtonOverrides.lua"
+    },
+    {
+      "FileDataId": 8572884,
+      "Path": "Interface/AddOns/Blizzard_ActionBar/Camelot/ActionButtonUtilOverrides.lua"
     },
     {
       "FileDataId": 8547102,

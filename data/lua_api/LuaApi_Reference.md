@@ -1,12 +1,12 @@
 # WoW Classic Forever (`Camelot`) — Lua API & UI Surface Reference
 
-- **Produkt / Build**: `wowf` — `1.60.1.70707` (`WOW-70707patch1.60.1_Retail`)
+- **Produkt / Build**: `wowf` — `1.60.1.70755` (`WOW-70755patch1.60.1_Retail`)
 - **Projekt-Konstante**: `WOW_PROJECT_CAMELOT = 18` (`WOW_PROJECT_ID = 18`)
 - **UI-Architektur**: `[Family] = Mainline` (`mainline`) | `[Game] = Camelot` (`camelot`)
 - **Dokumentierte API-Systeme**: **612** (`283` `C_*` Namespaces)
-- **Lua-Funktionen gesamt**: **6,609** (`4,397` Namespaced + `2,212` Global)
+- **Lua-Funktionen gesamt**: **6,610** (`4,398` Namespaced + `2,212` Global)
 - **Events gesamt**: **1,816** | **Enums/Structs/Konstanten**: **1,758**
-- **Blizzard UI-AddOns in Camelot aktiv**: **307** von `350` (`212` Camelot-spezifische Lua/XML-Overrides)
+- **Blizzard UI-AddOns in Camelot aktiv**: **307** von `350` (`213` Camelot-spezifische Lua/XML-Overrides)
 
 ## 1. Camelot-Exklusive & Hervorgehobene Blizzard UI-Module
 
@@ -20,8 +20,8 @@
 | `Blizzard_PlayerSpells` | `(alle / Mainline)` | Ja | 8 |
 | `Blizzard_SettingsDefinitions_Frame` | `(alle / Mainline)` | Nein | 8 |
 | `Blizzard_InspectUI` | `(alle / Mainline)` | Ja | 7 |
+| `Blizzard_ActionBar` | `(alle / Mainline)` | Nein | 6 |
 | `Blizzard_Collections` | `wrath, cata, mists, mainline` | Ja | 6 |
-| `Blizzard_ActionBar` | `(alle / Mainline)` | Nein | 5 |
 | `Blizzard_FrameXMLUtil` | `(alle / Mainline)` | Nein | 5 |
 | `Blizzard_GamepadActionBars` | `camelot` | Nein | 5 |
 | `Blizzard_PVPMatch` | `standard, camelot` | Nein | 5 |
@@ -72,9 +72,9 @@
 
 | Attribut / Guard | Anzahl Funktionen |
 | :--- | ---: |
-| `SecretArguments` | 3,940 |
+| `SecretArguments` | 3,941 |
 | `MayReturnNothing` | 669 |
-| `HasRestrictions` | 280 |
+| `HasRestrictions` | 281 |
 | `SecretReturnsForAspect` | 93 |
 | `RequiresClubsInitialized` | 84 |
 | `IsProtectedFunction` | 74 |
@@ -113,7 +113,7 @@
 | `C_TransmogCollection` | `TransmogItemsDocumentation.lua` | 84 | 0 | 8 |
 | `C_TooltipInfo` | `TooltipInfoDocumentation.lua` | 82 | 3 | 0 |
 | `C_VoiceChat` | `VoiceChatDocumentation.lua` | 82 | 51 | 10 |
-| `C_ActionBar` | `ActionBarFrameDocumentation.lua` | 72 | 15 | 1 |
+| `C_ActionBar` | `ActionBarFrameDocumentation.lua` | 73 | 15 | 1 |
 | `C_Spell` | `SpellDocumentation.lua` | 71 | 6 | 3 |
 | `C_TransmogOutfitInfo` | `TransmogOutfitInfoDocumentation.lua` | 67 | 8 | 12 |
 | `C_ArtifactUI` | `ArtifactUIDocumentation.lua` | 62 | 10 | 7 |

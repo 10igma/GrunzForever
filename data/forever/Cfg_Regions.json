@@ -1395,7 +1395,8 @@
     "Region_group_mask": 1,
     "Challenge_origin": 1135695600,
     "Cfg_TimeEventRegionGroupID": 1,
-    "_DataSource": "Db2"
+    "_DataSource": "Db2PlusHotfix",
+    "_HotfixPushID": 113045
   },
   {
     "ID": 1180,
@@ -1406,7 +1407,8 @@
     "Region_group_mask": 2,
     "Challenge_origin": 1135810800,
     "Cfg_TimeEventRegionGroupID": 2,
-    "_DataSource": "Db2"
+    "_DataSource": "Db2PlusHotfix",
+    "_HotfixPushID": 113045
   },
   {
     "ID": 1181,
@@ -1417,7 +1419,8 @@
     "Region_group_mask": 3,
     "Challenge_origin": 1135753200,
     "Cfg_TimeEventRegionGroupID": 3,
-    "_DataSource": "Db2"
+    "_DataSource": "Db2PlusHotfix",
+    "_HotfixPushID": 113045
   },
   {
     "ID": 1182,
@@ -1428,7 +1431,8 @@
     "Region_group_mask": 4,
     "Challenge_origin": 1135810800,
     "Cfg_TimeEventRegionGroupID": 4,
-    "_DataSource": "Db2"
+    "_DataSource": "Db2PlusHotfix",
+    "_HotfixPushID": 113045
   },
   {
     "ID": 1183,

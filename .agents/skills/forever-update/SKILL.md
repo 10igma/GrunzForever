@@ -79,6 +79,6 @@ Wenn ein neuer Meilenstein oder Build als GitHub-Release veröffentlicht werden 
 2. Alle getrackten Änderungen committen (`git add . && git commit -m "feat(data): update to wowf build <build>"`).
 3. Release inkl. komprimierter SQLite- & JSON-ZIP-Bundles veröffentlichen:
    ```powershell
-   powershell -ExecutionPolicy Bypass -File tools/update-forever.ps1 -PublishRelease v0.2.0
+   powershell -ExecutionPolicy Bypass -File tools/update-forever.ps1 -SkipExtract -PublishRelease v0.2.0
    ```
 4. `artifacts/` danach aufräumen (`Remove-Item artifacts -Recurse -Force`) und GitHub-Actions-CI prüfen (`gh run list`).

@@ -39,7 +39,7 @@ Da die vollständige SQLite-Datenbank (~95 MB unkomprimiert) und der komplette 2
    ```powershell
    git add .
    git commit -m "chore(release): v0.2.0 (wowf build <build>)"
-   powershell -ExecutionPolicy Bypass -File tools/update-forever.ps1 -PublishRelease v0.2.0
+   powershell -ExecutionPolicy Bypass -File tools/update-forever.ps1 -SkipExtract -PublishRelease v0.2.0
    Remove-Item artifacts -Recurse -Force -ErrorAction SilentlyContinue
    ```
 6. **Nachkontrolle**:

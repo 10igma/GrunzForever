@@ -1,0 +1,3261 @@
+{
+  "OldVersion": "1.60.1.70707",
+  "NewVersion": "1.60.1.70755",
+  "OldBuildKey": "7feb61f3c994bcb168526b8db521514a",
+  "NewBuildKey": "9d9888f2d89a2dcc9eacc68a2d7cb3dc",
+  "OldTableCount": 287,
+  "NewTableCount": 298,
+  "OldTotalRows": 1417978,
+  "NewTotalRows": 1431926,
+  "OldValidHotfixes": 12867,
+  "NewValidHotfixes": 16683,
+  "OldDeleteHotfixes": 11095,
+  "NewDeleteHotfixes": 11512,
+  "AddedTables": [
+    {
+      "TableName": "CatalogShopGameTitleInfo",
+      "TableHash": "37D001EF",
+      "LayoutHash": "14DEA9DD",
+      "ColumnCount": 4,
+      "BaseDb2Rows": 19,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 19
+    },
+    {
+      "TableName": "CreatureDisplayInfoTrn",
+      "TableHash": "FD09B803",
+      "LayoutHash": "D3A7F438",
+      "ColumnCount": 1,
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 1
+    },
+    {
+      "TableName": "GameMode",
+      "TableHash": "BE1ECA27",
+      "LayoutHash": "BB298117",
+      "ColumnCount": 13,
+      "BaseDb2Rows": 5,
+      "HotfixUpserts": 2,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 6
+    },
+    {
+      "TableName": "GlobalCurve",
+      "TableHash": "E7826E8C",
+      "LayoutHash": "1DC57BDD",
+      "ColumnCount": 4,
+      "BaseDb2Rows": 45,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 46
+    },
+    {
+      "TableName": "LightDataGlobalVolumeFog",
+      "TableHash": "7E319A3D",
+      "LayoutHash": "24290E20",
+      "ColumnCount": 30,
+      "BaseDb2Rows": 11200,
+      "HotfixUpserts": 360,
+      "HotfixDeletes": 14,
+      "FinalRowCount": 11488
+    },
+    {
+      "TableName": "LiquidType",
+      "TableHash": "6613BED3",
+      "LayoutHash": "D1ECEEC9",
+      "ColumnCount": 22,
+      "BaseDb2Rows": 57,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 57
+    },
+    {
+      "TableName": "ScheduledInterval",
+      "TableHash": "B2BB19EB",
+      "LayoutHash": "CA76AD5C",
+      "ColumnCount": 6,
+      "BaseDb2Rows": 37,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 38
+    },
+    {
+      "TableName": "TimeEventData",
+      "TableHash": "D055D7B5",
+      "LayoutHash": "3E90B195",
+      "ColumnCount": 1,
+      "BaseDb2Rows": 0,
+      "HotfixUpserts": 12,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 12
+    },
+    {
+      "TableName": "TraitNodeXTraitCond",
+      "TableHash": "8CCCDE25",
+      "LayoutHash": "E2160AA8",
+      "ColumnCount": 3,
+      "BaseDb2Rows": 1,
+      "HotfixUpserts": 0,
+      "HotfixDeletes": 1,
+      "FinalRowCount": 0
+    },
+    {
+      "TableName": "Weather",
+      "TableHash": "C3062B9A",
+      "LayoutHash": "1628B83C",
+      "ColumnCount": 24,
+      "BaseDb2Rows": 77,
+      "HotfixUpserts": 7,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 79
+    },
+    {
+      "TableName": "WeatherXParticulate",
+      "TableHash": "6046B96B",
+      "LayoutHash": "568F5BC4",
+      "ColumnCount": 3,
+      "BaseDb2Rows": 60,
+      "HotfixUpserts": 6,
+      "HotfixDeletes": 7,
+      "FinalRowCount": 59
+    }
+  ],
+  "RemovedTables": [],
+  "ChangedTables": [
+    {
+      "TableName": "Achievement",
+      "OldLayoutHash": "6FC5281B",
+      "NewLayoutHash": "6FC5281B",
+      "OldBaseRows": 441,
+      "NewBaseRows": 440,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 0,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 441,
+      "NewFinalRows": 440,
+      "LayoutChanged": false,
+      "RowDelta": -1
+    },
+    {
+      "TableName": "AnimKit",
+      "OldLayoutHash": "DA4C91AF",
+      "NewLayoutHash": "DA4C91AF",
+      "OldBaseRows": 806,
+      "NewBaseRows": 807,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 4,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 807,
+      "NewFinalRows": 808,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "AnimKitSegment",
+      "OldLayoutHash": "A6C970CA",
+      "NewLayoutHash": "A6C970CA",
+      "OldBaseRows": 1079,
+      "NewBaseRows": 1080,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 4,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1080,
+      "NewFinalRows": 1081,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "AreaTable",
+      "OldLayoutHash": "9995B797",
+      "NewLayoutHash": "9995B797",
+      "OldBaseRows": 1375,
+      "NewBaseRows": 1375,
+      "OldHotfixUpserts": 19,
+      "NewHotfixUpserts": 52,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1375,
+      "NewFinalRows": 1375,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Cfg_Regions",
+      "OldLayoutHash": "66694D4D",
+      "NewLayoutHash": "66694D4D",
+      "OldBaseRows": 247,
+      "NewBaseRows": 247,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 5,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 247,
+      "NewFinalRows": 247,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ChrRaceRacialAbility",
+      "OldLayoutHash": "0FC0F0D5",
+      "NewLayoutHash": "0FC0F0D5",
+      "OldBaseRows": 40,
+      "NewBaseRows": 40,
+      "OldHotfixUpserts": 11,
+      "NewHotfixUpserts": 10,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 40,
+      "NewFinalRows": 40,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CooldownSetLinkedSpell",
+      "OldLayoutHash": "11E4972F",
+      "NewLayoutHash": "11E4972F",
+      "OldBaseRows": 1899,
+      "NewBaseRows": 1903,
+      "OldHotfixUpserts": 46,
+      "NewHotfixUpserts": 56,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 1903,
+      "NewFinalRows": 1913,
+      "LayoutChanged": false,
+      "RowDelta": 10
+    },
+    {
+      "TableName": "CooldownSetSpell",
+      "OldLayoutHash": "0AC7B8F5",
+      "NewLayoutHash": "0AC7B8F5",
+      "OldBaseRows": 612,
+      "NewBaseRows": 612,
+      "OldHotfixUpserts": 203,
+      "NewHotfixUpserts": 270,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 612,
+      "NewFinalRows": 616,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "Creature",
+      "OldLayoutHash": "6E14C900",
+      "NewLayoutHash": "6E14C900",
+      "OldBaseRows": 179,
+      "NewBaseRows": 179,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 179,
+      "NewFinalRows": 179,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CreatureDisplayInfo",
+      "OldLayoutHash": "7275F5F6",
+      "NewLayoutHash": "7275F5F6",
+      "OldBaseRows": 14207,
+      "NewBaseRows": 14207,
+      "OldHotfixUpserts": 4,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 14207,
+      "NewFinalRows": 14208,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "CreatureLabel",
+      "OldLayoutHash": "25B2B438",
+      "NewLayoutHash": "25B2B438",
+      "OldBaseRows": 1657,
+      "NewBaseRows": 1657,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 12,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1657,
+      "NewFinalRows": 1666,
+      "LayoutChanged": false,
+      "RowDelta": 9
+    },
+    {
+      "TableName": "CreatureModelData",
+      "OldLayoutHash": "0F5449F8",
+      "NewLayoutHash": "0F5449F8",
+      "OldBaseRows": 1194,
+      "NewBaseRows": 1194,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1194,
+      "NewFinalRows": 1195,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "CreatureSoundData",
+      "OldLayoutHash": "E5EE765B",
+      "NewLayoutHash": "E5EE765B",
+      "OldBaseRows": 614,
+      "NewBaseRows": 614,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 614,
+      "NewFinalRows": 615,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "CreatureSoundFidget",
+      "OldLayoutHash": "9BDF9BD7",
+      "NewLayoutHash": "9BDF9BD7",
+      "OldBaseRows": 262,
+      "NewBaseRows": 264,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 264,
+      "NewFinalRows": 265,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "CreatureXDisplayInfo",
+      "OldLayoutHash": "2EA19FCF",
+      "NewLayoutHash": "2EA19FCF",
+      "OldBaseRows": 185,
+      "NewBaseRows": 185,
+      "OldHotfixUpserts": 29,
+      "NewHotfixUpserts": 37,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 214,
+      "NewFinalRows": 222,
+      "LayoutChanged": false,
+      "RowDelta": 8
+    },
+    {
+      "TableName": "CurrencyTypes",
+      "OldLayoutHash": "EBEAF439",
+      "NewLayoutHash": "EBEAF439",
+      "OldBaseRows": 9,
+      "NewBaseRows": 9,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 9,
+      "NewFinalRows": 9,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Curve",
+      "OldLayoutHash": "D362535A",
+      "NewLayoutHash": "D362535A",
+      "OldBaseRows": 19605,
+      "NewBaseRows": 19624,
+      "OldHotfixUpserts": 59,
+      "NewHotfixUpserts": 465,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 19621,
+      "NewFinalRows": 20003,
+      "LayoutChanged": false,
+      "RowDelta": 382
+    },
+    {
+      "TableName": "CurvePoint",
+      "OldLayoutHash": "7D4954A1",
+      "NewLayoutHash": "7D4954A1",
+      "OldBaseRows": 41752,
+      "NewBaseRows": 41795,
+      "OldHotfixUpserts": 156,
+      "NewHotfixUpserts": 1030,
+      "OldHotfixDeletes": 19,
+      "NewHotfixDeletes": 38,
+      "OldFinalRows": 41790,
+      "NewFinalRows": 42551,
+      "LayoutChanged": false,
+      "RowDelta": 761
+    },
+    {
+      "TableName": "GameObjectDisplayInfo",
+      "OldLayoutHash": "16D1DD61",
+      "NewLayoutHash": "16D1DD61",
+      "OldBaseRows": 3248,
+      "NewBaseRows": 3248,
+      "OldHotfixUpserts": 9,
+      "NewHotfixUpserts": 10,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3248,
+      "NewFinalRows": 3248,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "GlobalStrings",
+      "OldLayoutHash": "D40F6D96",
+      "NewLayoutHash": "D40F6D96",
+      "OldBaseRows": 27399,
+      "NewBaseRows": 27400,
+      "OldHotfixUpserts": 133,
+      "NewHotfixUpserts": 147,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 27400,
+      "NewFinalRows": 27400,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Holidays",
+      "OldLayoutHash": "432931C0",
+      "NewLayoutHash": "432931C0",
+      "OldBaseRows": 22,
+      "NewBaseRows": 23,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 22,
+      "NewFinalRows": 23,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "Item",
+      "OldLayoutHash": "9A2A4834",
+      "NewLayoutHash": "9A2A4834",
+      "OldBaseRows": 31956,
+      "NewBaseRows": 31959,
+      "OldHotfixUpserts": 1005,
+      "NewHotfixUpserts": 1281,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 31975,
+      "NewFinalRows": 31976,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "ItemAppearance",
+      "OldLayoutHash": "481C4281",
+      "NewLayoutHash": "481C4281",
+      "OldBaseRows": 9043,
+      "NewBaseRows": 9106,
+      "OldHotfixUpserts": 247,
+      "NewHotfixUpserts": 248,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 9043,
+      "NewFinalRows": 9106,
+      "LayoutChanged": false,
+      "RowDelta": 63
+    },
+    {
+      "TableName": "ItemDisplayInfo",
+      "OldLayoutHash": "9F3AB8A9",
+      "NewLayoutHash": "9F3AB8A9",
+      "OldBaseRows": 42527,
+      "NewBaseRows": 42632,
+      "OldHotfixUpserts": 4,
+      "NewHotfixUpserts": 13,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 42528,
+      "NewFinalRows": 42641,
+      "LayoutChanged": false,
+      "RowDelta": 113
+    },
+    {
+      "TableName": "ItemDisplayInfoMaterialRes",
+      "OldLayoutHash": "AA462C0E",
+      "NewLayoutHash": "AA462C0E",
+      "OldBaseRows": 55647,
+      "NewBaseRows": 55790,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 55647,
+      "NewFinalRows": 55790,
+      "LayoutChanged": false,
+      "RowDelta": 143
+    },
+    {
+      "TableName": "ItemDisplayInfoModelMatRes",
+      "OldLayoutHash": "52510D63",
+      "NewLayoutHash": "52510D63",
+      "OldBaseRows": 11147,
+      "NewBaseRows": 11185,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 12,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 11148,
+      "NewFinalRows": 11194,
+      "LayoutChanged": false,
+      "RowDelta": 46
+    },
+    {
+      "TableName": "ItemEffect",
+      "OldLayoutHash": "4CA77678",
+      "NewLayoutHash": "4CA77678",
+      "OldBaseRows": 12646,
+      "NewBaseRows": 12651,
+      "OldHotfixUpserts": 37,
+      "NewHotfixUpserts": 37,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 12667,
+      "NewFinalRows": 12669,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "ItemSearchName",
+      "OldLayoutHash": "4516C8B0",
+      "NewLayoutHash": "4516C8B0",
+      "OldBaseRows": 6626,
+      "NewBaseRows": 6626,
+      "OldHotfixUpserts": 763,
+      "NewHotfixUpserts": 882,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 7349,
+      "NewFinalRows": 7350,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "ItemSparse",
+      "OldLayoutHash": "6FCC3191",
+      "NewLayoutHash": "6FCC3191",
+      "OldBaseRows": 19241,
+      "NewBaseRows": 19281,
+      "OldHotfixUpserts": 1005,
+      "NewHotfixUpserts": 1281,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 20073,
+      "NewFinalRows": 20075,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "ItemXItemEffect",
+      "OldLayoutHash": "96F083AD",
+      "NewLayoutHash": "96F083AD",
+      "OldBaseRows": 12638,
+      "NewBaseRows": 12643,
+      "OldHotfixUpserts": 33,
+      "NewHotfixUpserts": 33,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 12659,
+      "NewFinalRows": 12661,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "Light",
+      "OldLayoutHash": "5F16BC84",
+      "NewLayoutHash": "5F16BC84",
+      "OldBaseRows": 621,
+      "NewBaseRows": 619,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 79,
+      "OldHotfixDeletes": 2,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 619,
+      "NewFinalRows": 617,
+      "LayoutChanged": false,
+      "RowDelta": -2
+    },
+    {
+      "TableName": "LightData",
+      "OldLayoutHash": "360DA016",
+      "NewLayoutHash": "360DA016",
+      "OldBaseRows": 5910,
+      "NewBaseRows": 5912,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 134,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 5912,
+      "NewFinalRows": 6008,
+      "LayoutChanged": false,
+      "RowDelta": 96
+    },
+    {
+      "TableName": "LightParams",
+      "OldLayoutHash": "A7F31923",
+      "NewLayoutHash": "A7F31923",
+      "OldBaseRows": 873,
+      "NewBaseRows": 874,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 12,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 874,
+      "NewFinalRows": 882,
+      "LayoutChanged": false,
+      "RowDelta": 8
+    },
+    {
+      "TableName": "ModelFileData",
+      "OldLayoutHash": "2AE4E788",
+      "NewLayoutHash": "2AE4E788",
+      "OldBaseRows": 121131,
+      "NewBaseRows": 121133,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 0,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 121131,
+      "NewFinalRows": 121133,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "ModifierTree",
+      "OldLayoutHash": "F13BB1D8",
+      "NewLayoutHash": "F13BB1D8",
+      "OldBaseRows": 2848,
+      "NewBaseRows": 2852,
+      "OldHotfixUpserts": 16,
+      "NewHotfixUpserts": 19,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 2852,
+      "NewFinalRows": 2854,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "MountCapability",
+      "OldLayoutHash": "A0297DBC",
+      "NewLayoutHash": "A0297DBC",
+      "OldBaseRows": 26,
+      "NewBaseRows": 27,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 27,
+      "NewFinalRows": 27,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "MountType",
+      "OldLayoutHash": "D7BB0C67",
+      "NewLayoutHash": "D7BB0C67",
+      "OldBaseRows": 29,
+      "NewBaseRows": 30,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 30,
+      "NewFinalRows": 30,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "MountTypeXCapability",
+      "OldLayoutHash": "218BBE7F",
+      "NewLayoutHash": "218BBE7F",
+      "OldBaseRows": 30,
+      "NewBaseRows": 31,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 31,
+      "NewFinalRows": 31,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "NPCSounds",
+      "OldLayoutHash": "020BE1ED",
+      "NewLayoutHash": "020BE1ED",
+      "OldBaseRows": 196,
+      "NewBaseRows": 196,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 196,
+      "NewFinalRows": 197,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "PlayerCondition",
+      "OldLayoutHash": "1D743D99",
+      "NewLayoutHash": "1D743D99",
+      "OldBaseRows": 1950,
+      "NewBaseRows": 1952,
+      "OldHotfixUpserts": 11,
+      "NewHotfixUpserts": 19,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1951,
+      "NewFinalRows": 1960,
+      "LayoutChanged": false,
+      "RowDelta": 9
+    },
+    {
+      "TableName": "Positioner",
+      "OldLayoutHash": "E0D4FD55",
+      "NewLayoutHash": "E0D4FD55",
+      "OldBaseRows": 184,
+      "NewBaseRows": 184,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 184,
+      "NewFinalRows": 185,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "PositionerState",
+      "OldLayoutHash": "9CDFBF30",
+      "NewLayoutHash": "9CDFBF30",
+      "OldBaseRows": 186,
+      "NewBaseRows": 186,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 186,
+      "NewFinalRows": 187,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "PositionerStateEntry",
+      "OldLayoutHash": "855AA6BC",
+      "NewLayoutHash": "855AA6BC",
+      "OldBaseRows": 273,
+      "NewBaseRows": 273,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 5,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 273,
+      "NewFinalRows": 275,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "QuestV2",
+      "OldLayoutHash": "1854BDB9",
+      "NewLayoutHash": "1854BDB9",
+      "OldBaseRows": 6614,
+      "NewBaseRows": 6614,
+      "OldHotfixUpserts": 458,
+      "NewHotfixUpserts": 464,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6614,
+      "NewFinalRows": 6614,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SkillLine",
+      "OldLayoutHash": "6763217C",
+      "NewLayoutHash": "6763217C",
+      "OldBaseRows": 154,
+      "NewBaseRows": 154,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 7,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 154,
+      "NewFinalRows": 154,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SkillLineAbility",
+      "OldLayoutHash": "224F7EA0",
+      "NewLayoutHash": "224F7EA0",
+      "OldBaseRows": 7843,
+      "NewBaseRows": 7851,
+      "OldHotfixUpserts": 24,
+      "NewHotfixUpserts": 38,
+      "OldHotfixDeletes": 2,
+      "NewHotfixDeletes": 13,
+      "OldFinalRows": 7849,
+      "NewFinalRows": 7845,
+      "LayoutChanged": false,
+      "RowDelta": -4
+    },
+    {
+      "TableName": "SoundKit",
+      "OldLayoutHash": "A7FB0451",
+      "NewLayoutHash": "A7FB0451",
+      "OldBaseRows": 23360,
+      "NewBaseRows": 23378,
+      "OldHotfixUpserts": 19,
+      "NewHotfixUpserts": 25,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 23367,
+      "NewFinalRows": 23383,
+      "LayoutChanged": false,
+      "RowDelta": 16
+    },
+    {
+      "TableName": "SoundKitAdvanced",
+      "OldLayoutHash": "F65DB810",
+      "NewLayoutHash": "F65DB810",
+      "OldBaseRows": 16442,
+      "NewBaseRows": 16459,
+      "OldHotfixUpserts": 16,
+      "NewHotfixUpserts": 20,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 16448,
+      "NewFinalRows": 16463,
+      "LayoutChanged": false,
+      "RowDelta": 15
+    },
+    {
+      "TableName": "SoundKitChild",
+      "OldLayoutHash": "2927CB50",
+      "NewLayoutHash": "2927CB50",
+      "OldBaseRows": 2942,
+      "NewBaseRows": 2949,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2943,
+      "NewFinalRows": 2949,
+      "LayoutChanged": false,
+      "RowDelta": 6
+    },
+    {
+      "TableName": "SoundKitEntry",
+      "OldLayoutHash": "8F82FF7D",
+      "NewLayoutHash": "8F82FF7D",
+      "OldBaseRows": 91051,
+      "NewBaseRows": 91123,
+      "OldHotfixUpserts": 76,
+      "NewHotfixUpserts": 97,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 91065,
+      "NewFinalRows": 91144,
+      "LayoutChanged": false,
+      "RowDelta": 79
+    },
+    {
+      "TableName": "Spell",
+      "OldLayoutHash": "E3D134FB",
+      "NewLayoutHash": "E3D134FB",
+      "OldBaseRows": 32007,
+      "NewBaseRows": 32046,
+      "OldHotfixUpserts": 787,
+      "NewHotfixUpserts": 1005,
+      "OldHotfixDeletes": 9,
+      "NewHotfixDeletes": 4,
+      "OldFinalRows": 32070,
+      "NewFinalRows": 32103,
+      "LayoutChanged": false,
+      "RowDelta": 33
+    },
+    {
+      "TableName": "SpellActionBarPref",
+      "OldLayoutHash": "45039384",
+      "NewLayoutHash": "45039384",
+      "OldBaseRows": 633,
+      "NewBaseRows": 633,
+      "OldHotfixUpserts": 633,
+      "NewHotfixUpserts": 630,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 3,
+      "OldFinalRows": 633,
+      "NewFinalRows": 630,
+      "LayoutChanged": false,
+      "RowDelta": -3
+    },
+    {
+      "TableName": "SpellAuraOptions",
+      "OldLayoutHash": "95F4D5E1",
+      "NewLayoutHash": "95F4D5E1",
+      "OldBaseRows": 12799,
+      "NewBaseRows": 12799,
+      "OldHotfixUpserts": 55,
+      "NewHotfixUpserts": 63,
+      "OldHotfixDeletes": 11,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 12805,
+      "NewFinalRows": 12809,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "SpellAuraRestrictions",
+      "OldLayoutHash": "E7F2E213",
+      "NewLayoutHash": "E7F2E213",
+      "OldBaseRows": 319,
+      "NewBaseRows": 322,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 321,
+      "NewFinalRows": 323,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "SpellCastingRequirements",
+      "OldLayoutHash": "02074290",
+      "NewLayoutHash": "02074290",
+      "OldBaseRows": 3274,
+      "NewBaseRows": 3277,
+      "OldHotfixUpserts": 5,
+      "NewHotfixUpserts": 7,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3277,
+      "NewFinalRows": 3279,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "SpellCategories",
+      "OldLayoutHash": "679EF94C",
+      "NewLayoutHash": "679EF94C",
+      "OldBaseRows": 10678,
+      "NewBaseRows": 10680,
+      "OldHotfixUpserts": 75,
+      "NewHotfixUpserts": 81,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 10703,
+      "NewFinalRows": 10702,
+      "LayoutChanged": false,
+      "RowDelta": -1
+    },
+    {
+      "TableName": "SpellClassOptions",
+      "OldLayoutHash": "1F8E4FD7",
+      "NewLayoutHash": "1F8E4FD7",
+      "OldBaseRows": 6086,
+      "NewBaseRows": 6103,
+      "OldHotfixUpserts": 26,
+      "NewHotfixUpserts": 45,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6104,
+      "NewFinalRows": 6115,
+      "LayoutChanged": false,
+      "RowDelta": 11
+    },
+    {
+      "TableName": "SpellCooldowns",
+      "OldLayoutHash": "DC945B8C",
+      "NewLayoutHash": "DC945B8C",
+      "OldBaseRows": 4506,
+      "NewBaseRows": 4507,
+      "OldHotfixUpserts": 39,
+      "NewHotfixUpserts": 57,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 4516,
+      "NewFinalRows": 4512,
+      "LayoutChanged": false,
+      "RowDelta": -4
+    },
+    {
+      "TableName": "SpellDescriptionVariables",
+      "OldLayoutHash": "33868CFD",
+      "NewLayoutHash": "33868CFD",
+      "OldBaseRows": 45,
+      "NewBaseRows": 45,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 45,
+      "NewFinalRows": 46,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellEffect",
+      "OldLayoutHash": "5362E3D4",
+      "NewLayoutHash": "5362E3D4",
+      "OldBaseRows": 42830,
+      "NewBaseRows": 42897,
+      "OldHotfixUpserts": 608,
+      "NewHotfixUpserts": 773,
+      "OldHotfixDeletes": 12,
+      "NewHotfixDeletes": 3,
+      "OldFinalRows": 42961,
+      "NewFinalRows": 43000,
+      "LayoutChanged": false,
+      "RowDelta": 39
+    },
+    {
+      "TableName": "SpellEquippedItems",
+      "OldLayoutHash": "D9177916",
+      "NewLayoutHash": "D9177916",
+      "OldBaseRows": 1886,
+      "NewBaseRows": 1889,
+      "OldHotfixUpserts": 4,
+      "NewHotfixUpserts": 8,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 1889,
+      "NewFinalRows": 1893,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "SpellInterrupts",
+      "OldLayoutHash": "6FFC0306",
+      "NewLayoutHash": "6FFC0306",
+      "OldBaseRows": 9903,
+      "NewBaseRows": 9913,
+      "OldHotfixUpserts": 23,
+      "NewHotfixUpserts": 27,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 9913,
+      "NewFinalRows": 9918,
+      "LayoutChanged": false,
+      "RowDelta": 5
+    },
+    {
+      "TableName": "SpellItemEnchantment",
+      "OldLayoutHash": "952B72B2",
+      "NewLayoutHash": "952B72B2",
+      "OldBaseRows": 2217,
+      "NewBaseRows": 2218,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 8,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2218,
+      "NewFinalRows": 2218,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellLabel",
+      "OldLayoutHash": "2B9F0138",
+      "NewLayoutHash": "2B9F0138",
+      "OldBaseRows": 4656,
+      "NewBaseRows": 4673,
+      "OldHotfixUpserts": 20,
+      "NewHotfixUpserts": 35,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 4673,
+      "NewFinalRows": 4685,
+      "LayoutChanged": false,
+      "RowDelta": 12
+    },
+    {
+      "TableName": "SpellLevels",
+      "OldLayoutHash": "7EB86FDC",
+      "NewLayoutHash": "7EB86FDC",
+      "OldBaseRows": 12958,
+      "NewBaseRows": 12974,
+      "OldHotfixUpserts": 61,
+      "NewHotfixUpserts": 74,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 12993,
+      "NewFinalRows": 12999,
+      "LayoutChanged": false,
+      "RowDelta": 6
+    },
+    {
+      "TableName": "SpellMisc",
+      "OldLayoutHash": "434B3607",
+      "NewLayoutHash": "434B3607",
+      "OldBaseRows": 31987,
+      "NewBaseRows": 32026,
+      "OldHotfixUpserts": 1734,
+      "NewHotfixUpserts": 1737,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 32057,
+      "NewFinalRows": 32086,
+      "LayoutChanged": false,
+      "RowDelta": 29
+    },
+    {
+      "TableName": "SpellName",
+      "OldLayoutHash": "782EE721",
+      "NewLayoutHash": "782EE721",
+      "OldBaseRows": 32007,
+      "NewBaseRows": 32046,
+      "OldHotfixUpserts": 787,
+      "NewHotfixUpserts": 1005,
+      "OldHotfixDeletes": 9,
+      "NewHotfixDeletes": 4,
+      "OldFinalRows": 32070,
+      "NewFinalRows": 32103,
+      "LayoutChanged": false,
+      "RowDelta": 33
+    },
+    {
+      "TableName": "SpellPower",
+      "OldLayoutHash": "61AD223F",
+      "NewLayoutHash": "61AD223F",
+      "OldBaseRows": 3467,
+      "NewBaseRows": 3470,
+      "OldHotfixUpserts": 22,
+      "NewHotfixUpserts": 37,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 3476,
+      "NewFinalRows": 3477,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellProceduralEffect",
+      "OldLayoutHash": "B442AB81",
+      "NewLayoutHash": "B442AB81",
+      "OldBaseRows": 993,
+      "NewBaseRows": 996,
+      "OldHotfixUpserts": 12,
+      "NewHotfixUpserts": 13,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 998,
+      "NewFinalRows": 999,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellReagents",
+      "OldLayoutHash": "FF40D202",
+      "NewLayoutHash": "FF40D202",
+      "OldBaseRows": 3300,
+      "NewBaseRows": 3299,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3301,
+      "NewFinalRows": 3299,
+      "LayoutChanged": false,
+      "RowDelta": -2
+    },
+    {
+      "TableName": "SpellShapeshift",
+      "OldLayoutHash": "E9111399",
+      "NewLayoutHash": "E9111399",
+      "OldBaseRows": 3462,
+      "NewBaseRows": 3470,
+      "OldHotfixUpserts": 13,
+      "NewHotfixUpserts": 18,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 3466,
+      "NewFinalRows": 3470,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "SpellTargetRestrictions",
+      "OldLayoutHash": "1EAB753E",
+      "NewLayoutHash": "1EAB753E",
+      "OldBaseRows": 4500,
+      "NewBaseRows": 4506,
+      "OldHotfixUpserts": 70,
+      "NewHotfixUpserts": 70,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 4516,
+      "NewFinalRows": 4516,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellTotems",
+      "OldLayoutHash": "03B23619",
+      "NewLayoutHash": "03B23619",
+      "OldBaseRows": 1121,
+      "NewBaseRows": 1122,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1122,
+      "NewFinalRows": 1122,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellVisual",
+      "OldLayoutHash": "4B85C90F",
+      "NewLayoutHash": "4B85C90F",
+      "OldBaseRows": 6137,
+      "NewBaseRows": 6148,
+      "OldHotfixUpserts": 52,
+      "NewHotfixUpserts": 64,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6145,
+      "NewFinalRows": 6155,
+      "LayoutChanged": false,
+      "RowDelta": 10
+    },
+    {
+      "TableName": "SpellVisualAnim",
+      "OldLayoutHash": "F233613A",
+      "NewLayoutHash": "F233613A",
+      "OldBaseRows": 2837,
+      "NewBaseRows": 2841,
+      "OldHotfixUpserts": 40,
+      "NewHotfixUpserts": 45,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2840,
+      "NewFinalRows": 2845,
+      "LayoutChanged": false,
+      "RowDelta": 5
+    },
+    {
+      "TableName": "SpellVisualEffectName",
+      "OldLayoutHash": "2245CEE6",
+      "NewLayoutHash": "2245CEE6",
+      "OldBaseRows": 2985,
+      "NewBaseRows": 2993,
+      "OldHotfixUpserts": 23,
+      "NewHotfixUpserts": 30,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2987,
+      "NewFinalRows": 2996,
+      "LayoutChanged": false,
+      "RowDelta": 9
+    },
+    {
+      "TableName": "SpellVisualEvent",
+      "OldLayoutHash": "865F512E",
+      "NewLayoutHash": "865F512E",
+      "OldBaseRows": 15768,
+      "NewBaseRows": 15792,
+      "OldHotfixUpserts": 139,
+      "NewHotfixUpserts": 156,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 15787,
+      "NewFinalRows": 15808,
+      "LayoutChanged": false,
+      "RowDelta": 21
+    },
+    {
+      "TableName": "SpellVisualKit",
+      "OldLayoutHash": "C069D9C4",
+      "NewLayoutHash": "C069D9C4",
+      "OldBaseRows": 8026,
+      "NewBaseRows": 8044,
+      "OldHotfixUpserts": 79,
+      "NewHotfixUpserts": 92,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 8039,
+      "NewFinalRows": 8058,
+      "LayoutChanged": false,
+      "RowDelta": 19
+    },
+    {
+      "TableName": "SpellVisualKitEffect",
+      "OldLayoutHash": "E3206CA2",
+      "NewLayoutHash": "E3206CA2",
+      "OldBaseRows": 18388,
+      "NewBaseRows": 18424,
+      "OldHotfixUpserts": 182,
+      "NewHotfixUpserts": 203,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 18415,
+      "NewFinalRows": 18450,
+      "LayoutChanged": false,
+      "RowDelta": 35
+    },
+    {
+      "TableName": "SpellVisualKitModelAttach",
+      "OldLayoutHash": "02CF8554",
+      "NewLayoutHash": "02CF8554",
+      "OldBaseRows": 9045,
+      "NewBaseRows": 9061,
+      "OldHotfixUpserts": 94,
+      "NewHotfixUpserts": 105,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 9053,
+      "NewFinalRows": 9073,
+      "LayoutChanged": false,
+      "RowDelta": 20
+    },
+    {
+      "TableName": "SpellVisualMissile",
+      "OldLayoutHash": "EC765EB2",
+      "NewLayoutHash": "EC765EB2",
+      "OldBaseRows": 737,
+      "NewBaseRows": 740,
+      "OldHotfixUpserts": 9,
+      "NewHotfixUpserts": 9,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 737,
+      "NewFinalRows": 740,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "SpellXDescriptionVariables",
+      "OldLayoutHash": "23F4E51E",
+      "NewLayoutHash": "23F4E51E",
+      "OldBaseRows": 187,
+      "NewBaseRows": 187,
+      "OldHotfixUpserts": 6,
+      "NewHotfixUpserts": 12,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 187,
+      "NewFinalRows": 193,
+      "LayoutChanged": false,
+      "RowDelta": 6
+    },
+    {
+      "TableName": "SpellXSpellVisual",
+      "OldLayoutHash": "7994A890",
+      "NewLayoutHash": "7994A890",
+      "OldBaseRows": 20455,
+      "NewBaseRows": 20462,
+      "OldHotfixUpserts": 132,
+      "NewHotfixUpserts": 144,
+      "OldHotfixDeletes": 8,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 20497,
+      "NewFinalRows": 20505,
+      "LayoutChanged": false,
+      "RowDelta": 8
+    },
+    {
+      "TableName": "TaxiPath",
+      "OldLayoutHash": "A303DE51",
+      "NewLayoutHash": "A303DE51",
+      "OldBaseRows": 330,
+      "NewBaseRows": 328,
+      "OldHotfixUpserts": 5,
+      "NewHotfixUpserts": 5,
+      "OldHotfixDeletes": 2,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 328,
+      "NewFinalRows": 328,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TaxiPathNode",
+      "OldLayoutHash": "FE362E70",
+      "NewLayoutHash": "FE362E70",
+      "OldBaseRows": 11012,
+      "NewBaseRows": 10965,
+      "OldHotfixUpserts": 304,
+      "NewHotfixUpserts": 304,
+      "OldHotfixDeletes": 47,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 10965,
+      "NewFinalRows": 10965,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Toy",
+      "OldLayoutHash": "821B5D20",
+      "NewLayoutHash": "821B5D20",
+      "OldBaseRows": 20,
+      "NewBaseRows": 21,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 20,
+      "NewFinalRows": 21,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "TradeSkillItem",
+      "OldLayoutHash": "05D8D675",
+      "NewLayoutHash": "05D8D675",
+      "OldBaseRows": 3240,
+      "NewBaseRows": 3240,
+      "OldHotfixUpserts": 115,
+      "NewHotfixUpserts": 140,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3240,
+      "NewFinalRows": 3240,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TraitCond",
+      "OldLayoutHash": "BFDD1994",
+      "NewLayoutHash": "BFDD1994",
+      "OldBaseRows": 172,
+      "NewBaseRows": 172,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 0,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 172,
+      "NewFinalRows": 171,
+      "LayoutChanged": false,
+      "RowDelta": -1
+    },
+    {
+      "TableName": "TraitDefinition",
+      "OldLayoutHash": "060A9F4C",
+      "NewLayoutHash": "060A9F4C",
+      "OldBaseRows": 659,
+      "NewBaseRows": 662,
+      "OldHotfixUpserts": 18,
+      "NewHotfixUpserts": 30,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 662,
+      "NewFinalRows": 665,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "TraitDefinitionEffectPoints",
+      "OldLayoutHash": "7E18C372",
+      "NewLayoutHash": "7E18C372",
+      "OldBaseRows": 646,
+      "NewBaseRows": 653,
+      "OldHotfixUpserts": 12,
+      "NewHotfixUpserts": 24,
+      "OldHotfixDeletes": 3,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 653,
+      "NewFinalRows": 663,
+      "LayoutChanged": false,
+      "RowDelta": 10
+    },
+    {
+      "TableName": "TraitEdge",
+      "OldLayoutHash": "907C9B77",
+      "NewLayoutHash": "907C9B77",
+      "OldBaseRows": 99,
+      "NewBaseRows": 99,
+      "OldHotfixUpserts": 6,
+      "NewHotfixUpserts": 12,
+      "OldHotfixDeletes": 6,
+      "NewHotfixDeletes": 6,
+      "OldFinalRows": 99,
+      "NewFinalRows": 99,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TraitNode",
+      "OldLayoutHash": "A01A518A",
+      "NewLayoutHash": "A01A518A",
+      "OldBaseRows": 556,
+      "NewBaseRows": 557,
+      "OldHotfixUpserts": 49,
+      "NewHotfixUpserts": 79,
+      "OldHotfixDeletes": 2,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 557,
+      "NewFinalRows": 559,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "TraitNodeEntry",
+      "OldLayoutHash": "733B015D",
+      "NewLayoutHash": "733B015D",
+      "OldBaseRows": 659,
+      "NewBaseRows": 662,
+      "OldHotfixUpserts": 17,
+      "NewHotfixUpserts": 33,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 662,
+      "NewFinalRows": 666,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "TraitNodeGroupXTraitNode",
+      "OldLayoutHash": "B9288EB8",
+      "NewLayoutHash": "B9288EB8",
+      "OldBaseRows": 2145,
+      "NewBaseRows": 2148,
+      "OldHotfixUpserts": 75,
+      "NewHotfixUpserts": 141,
+      "OldHotfixDeletes": 65,
+      "NewHotfixDeletes": 55,
+      "OldFinalRows": 2148,
+      "NewFinalRows": 2159,
+      "LayoutChanged": false,
+      "RowDelta": 11
+    },
+    {
+      "TableName": "TraitNodeXTraitNodeEntry",
+      "OldLayoutHash": "802ED455",
+      "NewLayoutHash": "802ED455",
+      "OldBaseRows": 559,
+      "NewBaseRows": 560,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 2,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 560,
+      "NewFinalRows": 562,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "UiModelSceneActor",
+      "OldLayoutHash": "B777EC3A",
+      "NewLayoutHash": "B777EC3A",
+      "OldBaseRows": 1011,
+      "NewBaseRows": 1011,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1011,
+      "NewFinalRows": 1015,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "UiTextureAtlasElement",
+      "OldLayoutHash": "7CCBD18F",
+      "NewLayoutHash": "7CCBD18F",
+      "OldBaseRows": 20816,
+      "NewBaseRows": 20817,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 20817,
+      "NewFinalRows": 20817,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "UiTextureAtlasMember",
+      "OldLayoutHash": "75E12F73",
+      "NewLayoutHash": "75E12F73",
+      "OldBaseRows": 20684,
+      "NewBaseRows": 20685,
+      "OldHotfixUpserts": 25,
+      "NewHotfixUpserts": 25,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 20685,
+      "NewFinalRows": 20685,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "WorldEffect",
+      "OldLayoutHash": "B841BBEE",
+      "NewLayoutHash": "B841BBEE",
+      "OldBaseRows": 195,
+      "NewBaseRows": 196,
+      "OldHotfixUpserts": 11,
+      "NewHotfixUpserts": 15,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 196,
+      "NewFinalRows": 200,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "WorldState",
+      "OldLayoutHash": "B5EE0DCB",
+      "NewLayoutHash": "B5EE0DCB",
+      "OldBaseRows": 0,
+      "NewBaseRows": 0,
+      "OldHotfixUpserts": 5,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 4,
+      "NewFinalRows": 6,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "WorldStateExpression",
+      "OldLayoutHash": "CA33F540",
+      "NewLayoutHash": "CA33F540",
+      "OldBaseRows": 3983,
+      "NewBaseRows": 3985,
+      "OldHotfixUpserts": 19,
+      "NewHotfixUpserts": 21,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3995,
+      "NewFinalRows": 3998,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    }
+  ],
+  "NewHotfixWaves": [
+    {
+      "PushId": 112720,
+      "AddedValidCount": 645,
+      "AddedDeleteCount": 94,
+      "AffectedTables": [
+        "Creature",
+        "Item",
+        "ItemSearchName",
+        "ItemSparse",
+        "Spell",
+        "SpellName",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 112870,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 3,
+      "AffectedTables": [
+        "SpellActionBarPref"
+      ]
+    },
+    {
+      "PushId": 112949,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113007,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 13,
+      "AffectedTables": [
+        "SkillLineAbility"
+      ]
+    },
+    {
+      "PushId": 113008,
+      "AddedValidCount": 1703,
+      "AddedDeleteCount": 58,
+      "AffectedTables": [
+        "AreaTable",
+        "Curve",
+        "CurvePoint",
+        "Light",
+        "LightData",
+        "LightDataGlobalVolumeFog",
+        "LightParams",
+        "Weather",
+        "WeatherXParticulate"
+      ]
+    },
+    {
+      "PushId": 113016,
+      "AddedValidCount": 328,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse",
+        "Spell",
+        "SpellName",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 113036,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SoundKit"
+      ]
+    },
+    {
+      "PushId": 113045,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Cfg_Regions"
+      ]
+    },
+    {
+      "PushId": 113064,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 113091,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113099,
+      "AddedValidCount": 10,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "QuestV2",
+        "Spell",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName",
+        "SpellPowerDifficulty"
+      ]
+    },
+    {
+      "PushId": 113117,
+      "AddedValidCount": 19,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "ItemAppearance",
+        "ItemDisplayInfo",
+        "ItemDisplayInfoModelMatRes"
+      ]
+    },
+    {
+      "PushId": 113137,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CatalogShopGameTitleInfo"
+      ]
+    },
+    {
+      "PushId": 113153,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure"
+      ]
+    },
+    {
+      "PushId": 113168,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 31,
+      "AffectedTables": [
+        "QuestObjective",
+        "QuestPOIBlob",
+        "QuestPOIPoint",
+        "QuestV2",
+        "WorldEffect"
+      ]
+    },
+    {
+      "PushId": 113186,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalCurve"
+      ]
+    },
+    {
+      "PushId": 113204,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 113278,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113282,
+      "AddedValidCount": 42,
+      "AddedDeleteCount": 11,
+      "AffectedTables": [
+        "Spell",
+        "SpellCooldowns",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellTargetRestrictions",
+        "TraitDefinition",
+        "TraitNode",
+        "TraitNodeGroupXTraitNode"
+      ]
+    },
+    {
+      "PushId": 113284,
+      "AddedValidCount": 38,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureLabel",
+        "PlayerCondition",
+        "Spell",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113293,
+      "AddedValidCount": 18,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "AnimKit",
+        "AnimKitSegment",
+        "CreatureDisplayInfo",
+        "CreatureDisplayInfoTrn",
+        "CreatureLabel",
+        "CreatureModelData",
+        "SpellEffect",
+        "SpellVisual",
+        "SpellVisualAnim",
+        "SpellVisualEffectName",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "SpellVisualKitModelAttach"
+      ]
+    },
+    {
+      "PushId": 113311,
+      "AddedValidCount": 61,
+      "AddedDeleteCount": 2,
+      "AffectedTables": [
+        "CreatureXDisplayInfo",
+        "Spell",
+        "SpellEffect",
+        "SpellInterrupts",
+        "SpellMisc",
+        "SpellName",
+        "SpellProceduralEffect",
+        "SpellVisual",
+        "SpellVisualAnim",
+        "SpellVisualEffectName",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "SpellVisualKitModelAttach",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 113314,
+      "AddedValidCount": 15,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Light",
+        "LightData",
+        "LightParams",
+        "LiquidType"
+      ]
+    },
+    {
+      "PushId": 113327,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "ModifierTree"
+      ]
+    },
+    {
+      "PushId": 113341,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 113349,
+      "AddedValidCount": 14,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 113351,
+      "AddedValidCount": 33,
+      "AddedDeleteCount": 4,
+      "AffectedTables": [
+        "SkillLineAbility",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellClassOptions",
+        "SpellEffect",
+        "SpellLabel",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellPowerDifficulty",
+        "SpellShapeshift"
+      ]
+    },
+    {
+      "PushId": 113357,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 16,
+      "AffectedTables": [
+        "Spell",
+        "SpellCastingRequirements",
+        "SpellCategory",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellLabel",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellScript",
+        "SpellXSpellVisual",
+        "SummonProperties"
+      ]
+    },
+    {
+      "PushId": 113380,
+      "AddedValidCount": 55,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCooldowns",
+        "SpellEffect",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113394,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 113412,
+      "AddedValidCount": 21,
+      "AddedDeleteCount": 2,
+      "AffectedTables": [
+        "Spell",
+        "SpellName",
+        "SpellVisual",
+        "SpellVisualAnim",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "SpellVisualKitModelAttach",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 113438,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113443,
+      "AddedValidCount": 7,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SkillLine"
+      ]
+    },
+    {
+      "PushId": 113452,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "WorldStateExpression"
+      ]
+    },
+    {
+      "PushId": 113455,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113475,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 15,
+      "AffectedTables": [
+        "GameObjectDisplayInfo",
+        "ModelFileData",
+        "SpellVisualEffectName"
+      ]
+    },
+    {
+      "PushId": 113480,
+      "AddedValidCount": 14,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "ScheduledInterval",
+        "TimeEventData",
+        "WorldState"
+      ]
+    },
+    {
+      "PushId": 113483,
+      "AddedValidCount": 533,
+      "AddedDeleteCount": 161,
+      "AffectedTables": [
+        "CooldownSetLinkedSpell",
+        "CooldownSetSpell",
+        "Curve",
+        "CurvePoint",
+        "SkillLineAbility",
+        "SoundKit",
+        "SoundKitEntry",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellCategories",
+        "SpellClassOptions",
+        "SpellCooldowns",
+        "SpellDescriptionVariables",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellItemEnchantment",
+        "SpellLabel",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellVisual",
+        "SpellVisualAnim",
+        "SpellVisualEffectName",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "SpellVisualKitModelAttach",
+        "SpellXDescriptionVariables",
+        "SpellXSpellVisual",
+        "TraitCond",
+        "TraitDefinition",
+        "TraitDefinitionEffectPoints",
+        "TraitEdge",
+        "TraitNode",
+        "TraitNodeEntry",
+        "TraitNodeGroupXTraitNode",
+        "TraitNodeXTraitCond",
+        "TraitNodeXTraitNodeEntry"
+      ]
+    },
+    {
+      "PushId": 113497,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 113498,
+      "AddedValidCount": 16,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CurrencyTypes",
+        "Curve",
+        "CurvePoint"
+      ]
+    },
+    {
+      "PushId": 113513,
+      "AddedValidCount": 36,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDisplayInfo",
+        "CreatureSoundData",
+        "CreatureSoundFidget",
+        "NPCSounds",
+        "SoundKit",
+        "SoundKitAdvanced",
+        "SoundKitEntry",
+        "SpellVisual",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect"
+      ]
+    },
+    {
+      "PushId": 113517,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 113518,
+      "AddedValidCount": 7,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Positioner",
+        "PositionerState",
+        "PositionerStateEntry",
+        "SpellVisual",
+        "SpellVisualEffectName",
+        "SpellVisualKitModelAttach"
+      ]
+    },
+    {
+      "PushId": 113520,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 113527,
+      "AddedValidCount": 13,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113528,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 113530,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellAuraOptions"
+      ]
+    },
+    {
+      "PushId": 113534,
+      "AddedValidCount": 48,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "SpellEffect",
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 113535,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureXDisplayInfo"
+      ]
+    },
+    {
+      "PushId": 113537,
+      "AddedValidCount": 24,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "CooldownSetLinkedSpell",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCategories",
+        "SpellClassOptions",
+        "SpellEffect",
+        "SpellLabel",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellShapeshift",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 113539,
+      "AddedValidCount": 181,
+      "AddedDeleteCount": 25,
+      "AffectedTables": [
+        "CooldownSetSpell",
+        "Curve",
+        "CurvePoint",
+        "SkillLineAbility",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCategories",
+        "SpellClassOptions",
+        "SpellCooldowns",
+        "SpellEffect",
+        "SpellLabel",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellXSpellVisual",
+        "TraitDefinition",
+        "TraitDefinitionEffectPoints",
+        "TraitEdge",
+        "TraitNode",
+        "TraitNodeEntry",
+        "TraitNodeGroupXTraitNode",
+        "TraitNodeXTraitNodeEntry"
+      ]
+    },
+    {
+      "PushId": 113542,
+      "AddedValidCount": 10,
+      "AddedDeleteCount": 3,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellEffect",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113548,
+      "AddedValidCount": 7,
+      "AddedDeleteCount": 11,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellShapeshift",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 113571,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings",
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 113572,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "ChrCustomizationOption"
+      ]
+    },
+    {
+      "PushId": 113574,
+      "AddedValidCount": 16,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113578,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GameMode"
+      ]
+    },
+    {
+      "PushId": 113583,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "WorldState",
+        "WorldStateExpression"
+      ]
+    },
+    {
+      "PushId": 113590,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "UiModelSceneActor"
+      ]
+    },
+    {
+      "PushId": 113593,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113596,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "ModifierTree",
+        "PlayerCondition",
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 16791390,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    }
+  ],
+  "AddedItems": [
+    {
+      "Id": 14174,
+      "Name": "Buccaneer's Boots",
+      "Quality": 2,
+      "ItemLevel": 19,
+      "RequiredLevel": 14,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16791390,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 289439,
+      "Name": "Pouch of Violet Dust",
+      "Quality": 3,
+      "ItemLevel": 1,
+      "RequiredLevel": 1,
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    }
+  ],
+  "RemovedItems": [],
+  "ModifiedItems": [
+    {
+      "Id": 221324,
+      "Name": "Brittle Key",
+      "Quality": 1,
+      "ItemLevel": 1,
+      "RequiredLevel": 0,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113571,
+      "ChangeDetails": "SellPrice: 0 -> 17"
+    },
+    {
+      "Id": 287090,
+      "Name": "Letter Opener",
+      "Quality": 1,
+      "ItemLevel": 17,
+      "RequiredLevel": 2,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113349,
+      "ChangeDetails": "SellPrice: 38 -> 170"
+    }
+  ],
+  "AddedSpells": [
+    {
+      "Id": 1327906,
+      "Name": "Camping",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113099,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328348,
+      "Name": "Throw Violet Dust",
+      "Subtext": "",
+      "Description": "Throw a handful into the campfire, transforming its flames.\r\n|cFFffffffRequires WoW: Forever Launch Celebration |r\r\n",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328362,
+      "Name": "Violet Flames",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328364,
+      "Name": "Violet Flames",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328367,
+      "Name": "Violet Flames",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328371,
+      "Name": "Violet Flames",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328375,
+      "Name": "Violet Flames",
+      "Subtext": "",
+      "Description": "The enchanted flame resonates within you. Campfire effects gained while affected have increased duration.",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328376,
+      "Name": "Violet Flames",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328377,
+      "Name": "Violet Flames",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328664,
+      "Name": "(DNT) Hide Mist",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113284,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328666,
+      "Name": "(DNT) Hide Mist",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113284,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328668,
+      "Name": "(DNT) Hide Mist",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113284,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328669,
+      "Name": "(DNT) Hide Mist",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113284,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328670,
+      "Name": "(DNT) Hide Mist",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113284,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328671,
+      "Name": "(DNT) Hide Mist",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113284,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328749,
+      "Name": "Emerald Stasis",
+      "Subtext": "",
+      "Description": "Commune with the Emerald Dream to subdue Nythus.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113311,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328825,
+      "Name": "Poised",
+      "Subtext": "Passive",
+      "Description": "While at maximum Energy, and out of combat, reduce the Energy cost of your next ability by $1328826s1.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113351,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328826,
+      "Name": "Poised",
+      "Subtext": "",
+      "Description": "Energy cost of the next ability performed is reduced by $s1.\r\n",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113438,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328827,
+      "Name": "Poised",
+      "Subtext": "",
+      "Description": "Energy cost of the next ability performed is reduced by $s1.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113438,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328829,
+      "Name": "Poised",
+      "Subtext": "Passive",
+      "Description": "While at maximum Energy, and out of combat, reduce the Energy cost of your next ability by $1328827s1.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113351,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328837,
+      "Name": "Boiling Scream",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113311,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328846,
+      "Name": "Boiling Water",
+      "Subtext": "",
+      "Description": "The water instantly boils, dealing $S1 Physical damage every $t1 sec to anyone inside it.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113311,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1328865,
+      "Name": "Boiling Scream",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113311,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329256,
+      "Name": "Blood Splatter",
+      "Subtext": "",
+      "Description": "Increases the duration of your Rupture ability by ${$s1/1000} sec and your Garrote ability by ${$s2/1000} sec.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113483,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329265,
+      "Name": "Composure",
+      "Subtext": "",
+      "Description": "Increases the Energy cost reduction of your Poised ability by $s1.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113483,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329282,
+      "Name": "Quick Getaway",
+      "Subtext": "",
+      "Description": "Increases the rogue's movement speed by $s1% for $d.  Does not break stealth.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113483,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329283,
+      "Name": "Shank",
+      "Subtext": "",
+      "Description": "Instantly strike with your off-hand weapon, dealing $s1% weapon damage$?s1329328[, increasing your Poison damage dealt by $1310703s1% and your chance to apply Poisons by $1310703s3% for $1310703d, ][ ]and generating $s2 Energy.$?s1329286[  $1329286s1% Chance to award 1 Combo Point.][] Shank cannot Miss.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113483,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329284,
+      "Name": "Flash of Steel",
+      "Subtext": "",
+      "Description": "Increases the Energy generated by your Shank ability by $s1 and reduces its cooldown by ${$s2/-1000}.1 sec.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113483,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329285,
+      "Name": "Boot Knife",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113483,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329286,
+      "Name": "Boot Knife",
+      "Subtext": "",
+      "Description": "Grants your Shank ability a $s1% chance to add $s2 Combo Points to the target.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113483,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329326,
+      "Name": "Ghostly Strike",
+      "Subtext": "",
+      "Description": "Next Ambush or Garrote does not require Stealth.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113483,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329328,
+      "Name": "Venom",
+      "Subtext": "",
+      "Description": "Causes your Shank ability to increase your Poison damage by $1310703s1% and your chance to apply Poisons by $1310703s3% for $1310703d.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113483,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329549,
+      "Name": "Shank",
+      "Subtext": "",
+      "Description": "Instantly strike with your off-hand weapon, dealing $s1% weapon damage$?s1329328[, increasing your Poison damage dealt by $1310703s1% and your chance to apply Poisons by $1310703s3% for $1310703d, ][ ]and generating $s2 Energy.$?s1329286[  $1329286s1% Chance to award 1 Combo Point.][] Shank cannot Miss.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113483,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329552,
+      "Name": "Counterspell - Silenced",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113537,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329553,
+      "Name": "Counterspell - Silenced",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113537,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329554,
+      "Name": "Reckless Swings",
+      "Subtext": "",
+      "Description": "${$s1/10} Rage generated.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113539,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1329555,
+      "Name": "Reckless Swings",
+      "Subtext": "",
+      "Description": "Your next $n melee attacks generate ${$1329554s1/10/$1329554s2} additional Rage. Lasts $d.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113539,
+      "ChangeDetails": null
+    }
+  ],
+  "RemovedSpells": [
+    {
+      "Id": 1310705,
+      "Name": "Mutilate",
+      "Subtext": "Rank 1",
+      "Description": "",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1310706,
+      "Name": "Mutilate",
+      "Subtext": "Rank 1",
+      "Description": "",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1310707,
+      "Name": "Mutilate",
+      "Subtext": "Rank 1",
+      "Description": "Instantly attacks with both weapons for $1310706s2% weapon damage plus an additional ${$1310706m1*$1310706m2/100} with each weapon. Damage increased by $m4% against Poisoned targets. Awards $m1 Combo $LPoint:Points;.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113341,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1310709,
+      "Name": "Coup de Grace",
+      "Subtext": "",
+      "Description": "Increases the damage of your Eviscerate ability against targets afflicted with your Deadly Poison by $m1% per application.",
+      "DataSource": "Db2",
+      "HotfixPushId": null,
+      "ChangeDetails": null
+    }
+  ],
+  "ModifiedSpells": [
+    {
+      "Id": 1943,
+      "Name": "Rupture",
+      "Subtext": "Rank 1",
+      "Description": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\r\n   1 point  : ${($m1+$b1)*(4+$<bloodS>/2)} damage over ${(8+$<bloodS>)} secs\r\n   2 points: ${($m1+$b1*2)*(5+$<bloodS>/2)} damage over ${(10+$<bloodS>)} secs\r\n   3 points: ${($m1+$b1*3)*(6+$<bloodS>/2)} damage over ${(12+$<bloodS>)} secs\r\n   4 points: ${($m1+$b1*4)*(7+$<bloodS>/2)} damage over ${(14+$<bloodS>)} secs\r\n   5 points: ${($m1+$b1*5)*(8+$<bloodS>/2)} damage over ${(16+$<bloodS>)} secs",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 2070,
+      "Name": "Sap",
+      "Subtext": "Rank 2",
+      "Description": "Incapacitates the target for up to $d. Only works on Humanoids that are not in combat.  Any damage taken will break the effect. Only $?s1310728[${2}][${1}] $ltarget:targets; may be sapped at a time. Does not break Stealth.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 6770,
+      "Name": "Sap",
+      "Subtext": "Rank 1",
+      "Description": "Incapacitates the target for up to $d. Only works on Humanoids that are not in combat.  Any damage taken will break the effect. Only $?s1310728[${2}][${1}] $ltarget:targets; may be sapped at a time. Does not break Stealth.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 8639,
+      "Name": "Rupture",
+      "Subtext": "Rank 2",
+      "Description": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\r\n   1 point  : ${($m1+$b1)*(4+$<bloodS>/2)} damage over ${(8+$<bloodS>)} secs\r\n   2 points: ${($m1+$b1*2)*(5+$<bloodS>/2)} damage over ${(10+$<bloodS>)} secs\r\n   3 points: ${($m1+$b1*3)*(6+$<bloodS>/2)} damage over ${(12+$<bloodS>)} secs\r\n   4 points: ${($m1+$b1*4)*(7+$<bloodS>/2)} damage over ${(14+$<bloodS>)} secs\r\n   5 points: ${($m1+$b1*5)*(8+$<bloodS>/2)} damage over ${(16+$<bloodS>)} secs",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 8640,
+      "Name": "Rupture",
+      "Subtext": "Rank 3",
+      "Description": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\r\n   1 point  : ${($m1+$b1)*(4+$<bloodS>/2)} damage over ${(8+$<bloodS>)} secs\r\n   2 points: ${($m1+$b1*2)*(5+$<bloodS>/2)} damage over ${(10+$<bloodS>)} secs\r\n   3 points: ${($m1+$b1*3)*(6+$<bloodS>/2)} damage over ${(12+$<bloodS>)} secs\r\n   4 points: ${($m1+$b1*4)*(7+$<bloodS>/2)} damage over ${(14+$<bloodS>)} secs\r\n   5 points: ${($m1+$b1*5)*(8+$<bloodS>/2)} damage over ${(16+$<bloodS>)} secs",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 11070,
+      "Name": "Improved Frostbolt",
+      "Subtext": "",
+      "Description": "Reduces the casting time of your Frostbolt spell by $/1000;S1 sec.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113278,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 11180,
+      "Name": "Winter's Chill",
+      "Subtext": "",
+      "Description": "Gives your Frostbolt and Fingers of Frost empowered Ice Lance spells a $m2% chance to apply Winter's Chill, increasing the target's damage taken from your next Cone of Cold by $12579s1% and it gains an additional $s3% of your spell damage, stacking up to $s1 times.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113278,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 11273,
+      "Name": "Rupture",
+      "Subtext": "Rank 4",
+      "Description": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\r\n   1 point  : ${($m1+$b1)*(4+$<bloodS>/2)} damage over ${(8+$<bloodS>)} secs\r\n   2 points: ${($m1+$b1*2)*(5+$<bloodS>/2)} damage over ${(10+$<bloodS>)} secs\r\n   3 points: ${($m1+$b1*3)*(6+$<bloodS>/2)} damage over ${(12+$<bloodS>)} secs\r\n   4 points: ${($m1+$b1*4)*(7+$<bloodS>/2)} damage over ${(14+$<bloodS>)} secs\r\n   5 points: ${($m1+$b1*5)*(8+$<bloodS>/2)} damage over ${(16+$<bloodS>)} secs",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 11274,
+      "Name": "Rupture",
+      "Subtext": "Rank 5",
+      "Description": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\r\n   1 point  : ${($m1+$b1)*(4+$<bloodS>/2)} damage over ${(8+$<bloodS>)} secs\r\n   2 points: ${($m1+$b1*2)*(5+$<bloodS>/2)} damage over ${(10+$<bloodS>)} secs\r\n   3 points: ${($m1+$b1*3)*(6+$<bloodS>/2)} damage over ${(12+$<bloodS>)} secs\r\n   4 points: ${($m1+$b1*4)*(7+$<bloodS>/2)} damage over ${(14+$<bloodS>)} secs\r\n   5 points: ${($m1+$b1*5)*(8+$<bloodS>/2)} damage over ${(16+$<bloodS>)} secs",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 11275,
+      "Name": "Rupture",
+      "Subtext": "Rank 6",
+      "Description": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\r\n   1 point  : ${($m1+$b1)*(4+$<bloodS>/2)} damage over ${(8+$<bloodS>)} secs\r\n   2 points: ${($m1+$b1*2)*(5+$<bloodS>/2)} damage over ${(10+$<bloodS>)} secs\r\n   3 points: ${($m1+$b1*3)*(6+$<bloodS>/2)} damage over ${(12+$<bloodS>)} secs\r\n   4 points: ${($m1+$b1*4)*(7+$<bloodS>/2)} damage over ${(14+$<bloodS>)} secs\r\n   5 points: ${($m1+$b1*5)*(8+$<bloodS>/2)} damage over ${(16+$<bloodS>)} secs",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 11297,
+      "Name": "Sap",
+      "Subtext": "Rank 3",
+      "Description": "Incapacitates the target for up to $d. Only works on Humanoids that are not in combat.  Any damage taken will break the effect. Only $?s1310728[${2}][${1}] $ltarget:targets; may be sapped at a time. Does not break Stealth.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 12321,
+      "Name": "Booming Voice",
+      "Subtext": "",
+      "Description": "Increases the area of effect of your Shouts by $s1% and reduces the Rage cost by of your Shouts and Howls by $s2%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113539,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 12862,
+      "Name": "Improved Slam",
+      "Subtext": "",
+      "Description": "Reduces the cooldown of your Slam ability by ${$m3/-1000}.1 sec, the cast time and global cooldown by ${$m1/-1000}.2 sec, and Slam no longer interrupts or delays your melee swing.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113539,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 13732,
+      "Name": "Efficient Strikes",
+      "Subtext": "",
+      "Description": "Reduces the Energy cost of your Sinister Strike and Hemorrhage abilities by $s1.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Name: 'Improved Sinister Strike' -> 'Efficient Strikes'; Beschreibung geaendert"
+    },
+    {
+      "Id": 13983,
+      "Name": "Setup",
+      "Subtext": "",
+      "Description": "Gives you a $m1% chance to add a Combo Point to your target after Dodging their attack or fully resisting one of their spells.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 14162,
+      "Name": "Coup de Grace",
+      "Subtext": "",
+      "Description": "Increases the damage done by your Eviscerate ability by $m1%, and the damage and storage rate of your Death Mark ability by $m2%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Name: 'Improved Eviscerate' -> 'Coup de Grace'; Beschreibung geaendert"
+    },
+    {
+      "Id": 14278,
+      "Name": "Ghostly Strike",
+      "Subtext": "",
+      "Description": "A strike that deals $s1% ($m4% if a Dagger is equipped in your Main Hand) weapon damage, increases your chance to dodge by $s2% for $d, and causes your next Ambush or Garrote cast within $1329326d to not require Stealth.  Awards $s3 combo $lpoint:points;.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 16038,
+      "Name": "Call of Flame",
+      "Subtext": "",
+      "Description": "Increases the damage done by your Fire Totems and by your Flame Shock and Fire Nova spells by $m1%, as well as increases the duration of your Flame Shock spell by ${$m3/1000} sec.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113282,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 16039,
+      "Name": "Convection",
+      "Subtext": "",
+      "Description": "Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by $m1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113282,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 16166,
+      "Name": "Lightning Mastery",
+      "Subtext": "",
+      "Description": "Gain mastery over Lightning, reducing the cast time of your Lightning Bolt spell by ${$m1/-1000}.1 sec, and removing the cooldown from your Chain Lightning spell. Lasts $d.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113282,
+      "ChangeDetails": "Name: 'Elemental Mastery' -> 'Lightning Mastery'; Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 16511,
+      "Name": "Hemorrhage",
+      "Subtext": "",
+      "Description": "An instant strike that deals $m4% weapon damage ($m5% if a Dagger is equipped) and causes the target to take $m3% increased Rupture and Garrote damage from the Rogue. Lasts $d. Awards $s2 Combo $lPoint:Points;.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 16578,
+      "Name": "Elemental Alacrity",
+      "Subtext": "",
+      "Description": "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by ${$m1/-1000}.2 sec.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113282,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 16757,
+      "Name": "Arctic Reach",
+      "Subtext": "",
+      "Description": "Increases the range of your Frostbolt, Ice Lance, and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by $s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113278,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 17364,
+      "Name": "Stormstrike",
+      "Subtext": "",
+      "Description": "Instantly strike for $s3% weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by $s2% for $d.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113380,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 18427,
+      "Name": "Aggression",
+      "Subtext": "",
+      "Description": "Increases the damage of your Sinister Strike and Eviscerate abilities by $s1%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 20111,
+      "Name": "Two-Handed Weapon Specialization",
+      "Subtext": "",
+      "Description": "Increases the Physical and Holy damage you deal by $s1%, and reduces all threat you generate by $m2% while a two-handed melee weapon is equipped.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113542,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 28999,
+      "Name": "Elemental Reach",
+      "Subtext": "",
+      "Description": "Increases the range of your Lightning Bolt, Chain Lightning, and Fire Nova spells by $m1 yards.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113282,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 29062,
+      "Name": "Eye of the Storm",
+      "Subtext": "",
+      "Description": "Gives your Lightning Bolt and Chain Lightning spells a $m1% chance to not lose casting time when you take damage.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113282,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 399956,
+      "Name": "Mutilate",
+      "Subtext": "Rank 1",
+      "Description": "Instantly attacks with both weapons for $399960s2% weapon damage plus an additional ${$399960m1*$399960m2/100} with each weapon. Damage increased by $m4% against Poisoned targets. Awards $m1 Combo $LPoint:Points;.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Subtext: 'Rank 2' -> 'Rank 1'"
+    },
+    {
+      "Id": 399960,
+      "Name": "Mutilate",
+      "Subtext": "Rank 1",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Subtext: 'Rank 2' -> 'Rank 1'"
+    },
+    {
+      "Id": 399961,
+      "Name": "Mutilate",
+      "Subtext": "Rank 1",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Subtext: 'Rank 2' -> 'Rank 1'"
+    },
+    {
+      "Id": 400588,
+      "Name": "Missile Barrage",
+      "Subtext": "",
+      "Description": "Gives your Arcane Blast spell a $m1% chance, and your Arcane Wrath, Fireball, Frostbolt, and Frostfire Bolt spells a ${$m1/2}% chance to reduce the channeled duration of your next Arcane Missiles spell by $400589s1%, reduce the Mana cost by $400589s3%, and missiles fire every ${$m2/10}.1 sec.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113455,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 408521,
+      "Name": "Riptide",
+      "Subtext": "Rank 1",
+      "Description": "Heals a friendly target for $o2 over $d, and increases the effectiveness of your Chain Heal casts directly on that target by $s3%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113282,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 437009,
+      "Name": "Totemic Call",
+      "Subtext": "",
+      "Description": "Relocates your active totems to your location.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113282,
+      "ChangeDetails": "Name: 'Totemic Projection' -> 'Totemic Call'; Beschreibung geaendert"
+    },
+    {
+      "Id": 1239242,
+      "Name": "Riptide",
+      "Subtext": "Rank 2",
+      "Description": "Heals a friendly target for $o2 over $d, and increases the effectiveness of your Chain Heal casts directly on that target by $s3%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113282,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1239243,
+      "Name": "Riptide",
+      "Subtext": "Rank 3",
+      "Description": "Heals a friendly target for $o2 over $d, and increases the effectiveness of your Chain Heal casts directly on that target by $s3%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113282,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1241582,
+      "Name": "Mutilate",
+      "Subtext": "Rank 2",
+      "Description": "Instantly attacks with both weapons for $1241585s2% weapon damage plus an additional ${$1241585m1*$1241585m2/100} with each weapon. Damage increased by $m4% against Poisoned targets. Awards $m1 Combo $LPoint:Points;.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Subtext: 'Rank 3' -> 'Rank 2'"
+    },
+    {
+      "Id": 1241584,
+      "Name": "Mutilate",
+      "Subtext": "Rank 3",
+      "Description": "Instantly attacks with both weapons for $1241586s2% weapon damage plus an additional ${$1241586m1*$1241586m2/100} with each weapon. Damage increased by $m4% against Poisoned targets. Awards $m1 Combo $LPoint:Points;.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Subtext: 'Rank 4' -> 'Rank 3'"
+    },
+    {
+      "Id": 1241585,
+      "Name": "Mutilate",
+      "Subtext": "Rank 2",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Subtext: 'Rank 3' -> 'Rank 2'"
+    },
+    {
+      "Id": 1241586,
+      "Name": "Mutilate",
+      "Subtext": "Rank 3",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Subtext: 'Rank 4' -> 'Rank 3'"
+    },
+    {
+      "Id": 1241588,
+      "Name": "Mutilate",
+      "Subtext": "Rank 2",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Subtext: 'Rank 3' -> 'Rank 2'"
+    },
+    {
+      "Id": 1241590,
+      "Name": "Mutilate",
+      "Subtext": "Rank 3",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Subtext: 'Rank 4' -> 'Rank 3'"
+    },
+    {
+      "Id": 1263086,
+      "Name": "Boiling Scream",
+      "Subtext": "",
+      "Description": "Inflicts $s2 Physical damage to all players within $2r yds and deals a further $s1 Physical damage every $t1 sec.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113311,
+      "ChangeDetails": "Name: 'Abyssal Scream' -> 'Boiling Scream'; Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1297589,
+      "Name": "Engulfing Flames",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113412,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1310315,
+      "Name": "Improved Whirlwind",
+      "Subtext": "",
+      "Description": "Reduces the cooldown of your Whirlwind ability by ${$m1/-1000} sec and increases the damage it deals to the closest enemy by $s2%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113539,
+      "ChangeDetails": "Name: 'Raging Blows' -> 'Improved Whirlwind'; Beschreibung geaendert"
+    },
+    {
+      "Id": 1310703,
+      "Name": "Venom",
+      "Subtext": "",
+      "Description": "Increases the damage of your Poisons by $m1% and your chance to apply Poisons by $m3%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1310728,
+      "Name": "Quick Getaway",
+      "Subtext": "",
+      "Description": "Increases the maximum number of targets you may have Sapped by $s1, and increases your movement speed by $s2% for $1329282d after Sapping a target.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Name: 'Quietus' -> 'Quick Getaway'; Beschreibung geaendert"
+    },
+    {
+      "Id": 1316709,
+      "Name": "Death Mark",
+      "Subtext": "Rank 1",
+      "Description": "Finishing move that marks the target, storing a portion of the damage dealt by your attacks per Combo Point. Garrote and Rupture damage is stored at twice the rate. After $d, the stored damage is dealt, up to a maximum increased by Attack Power and Critical Strike chance:\r\n   1 point  : ${1*$<ratio>}% stored, ${((63+(1*102)+1*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   2 points: ${2*$<ratio>}% stored, ${((63+(2*102)+2*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   3 points: ${3*$<ratio>}% stored, ${((63+(3*102)+3*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   4 points: ${4*$<ratio>}% stored, ${((63+(4*102)+4*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   5 points: ${5*$<ratio>}% stored, ${((63+(5*102)+5*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1325756,
+      "Name": "Death Mark",
+      "Subtext": "Rank 2",
+      "Description": "Finishing move that marks the target, storing a portion of the damage dealt by your attacks per Combo Point. Garrote and Rupture damage is stored at twice the rate. After $d, the stored damage is dealt, up to a maximum increased by Attack Power and Critical Strike chance:\r\n   1 point  : ${1*$<ratio>}% stored, ${((98+(1*158)+1*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   2 points: ${2*$<ratio>}% stored, ${((98+(2*158)+2*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   3 points: ${3*$<ratio>}% stored, ${((98+(3*158)+3*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   4 points: ${4*$<ratio>}% stored, ${((98+(4*158)+4*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   5 points: ${5*$<ratio>}% stored, ${((98+(5*158)+5*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1325757,
+      "Name": "Death Mark",
+      "Subtext": "Rank 3",
+      "Description": "Finishing move that marks the target, storing a portion of the damage dealt by your attacks per Combo Point. Garrote and Rupture damage is stored at twice the rate. After $d, the stored damage is dealt, up to a maximum increased by Attack Power and Critical Strike chance:\r\n   1 point  : ${1*$<ratio>}% stored, ${((138+(1*217)+1*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   2 points: ${2*$<ratio>}% stored, ${((138+(2*217)+2*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   3 points: ${3*$<ratio>}% stored, ${((138+(3*217)+3*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   4 points: ${4*$<ratio>}% stored, ${((138+(4*217)+4*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   5 points: ${5*$<ratio>}% stored, ${((138+(5*217)+5*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1325758,
+      "Name": "Death Mark",
+      "Subtext": "Rank 4",
+      "Description": "Finishing move that marks the target, storing a portion of the damage dealt by your attacks per Combo Point. Garrote and Rupture damage is stored at twice the rate. After $d, the stored damage is dealt, up to a maximum increased by Attack Power and Critical Strike chance:\r\n   1 point  : ${1*$<ratio>}% stored, ${((156+(1*245)+1*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   2 points: ${2*$<ratio>}% stored, ${((156+(2*245)+2*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   3 points: ${3*$<ratio>}% stored, ${((156+(3*245)+3*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   4 points: ${4*$<ratio>}% stored, ${((156+(4*245)+4*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap\r\n   5 points: ${5*$<ratio>}% stored, ${((156+(5*245)+5*$<maxAP>*$apm)*($mcrit/100+1))*$<coup>} damage cap",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113483,
+      "ChangeDetails": "Beschreibung geaendert"
+    }
+  ],
+  "AddedTitles": []
+}

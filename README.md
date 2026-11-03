@@ -9,28 +9,28 @@ WoW: Classic Forever kombiniert klassische Inhalte mit der modernen **12.x-Mainl
 **GrunzForever** stellt drei zentrale Bausteine bereit:
 
 1. **Kuratierte Forever-Datensätze & Lua-API-Dokumentation ([`data/`](data/))**
-   - **[`data/lua_api/LuaApi_Reference.md`](data/lua_api/LuaApi_Reference.md)**: Übersicht über alle `612` API-Systeme, `283` `C_*`-Namespaces, `6,609` Funktionen, `1,816` Events, geschützte/SecretValue-bewachte Aufrufe sowie aktive Blizzard-UI-AddOns und `AllowLoadGameType`-Regeln.
+   - **[`data/lua_api/LuaApi_Reference.md`](data/lua_api/LuaApi_Reference.md)**: Übersicht über alle `612` API-Systeme, `283` `C_*`-Namespaces, `6,610` Funktionen, `1,816` Events, geschützte/SecretValue-bewachte Aufrufe sowie aktive Blizzard-UI-AddOns und `AllowLoadGameType`-Regeln.
    - **[`data/lua_api/LuaApi_Complete.json`](data/lua_api/LuaApi_Complete.json)** & **[`LuaApi_CamelotSurface.json`](data/lua_api/LuaApi_CamelotSurface.json)**: Maschinenlesbare API-Spezifikation für IDE-Tooling, Linter und statische AddOn-Prüfungen.
    - **[`data/forever/CustomForever_Items.json`](data/forever/CustomForever_Items.json)** & **[`CustomForever_Spells.json`](data/forever/CustomForever_Spells.json)**: Alle per DB2-Delta oder Server-Hotfix (`DBCache.bin`) eingeführten bzw. modifizierten Classic-Forever-Items und -Spells.
    - **[`data/forever/CharTitles.json`](data/forever/CharTitles.json)**: Charakter-Titel inkl. der neuen Classic-Forever-Titel (Handwerksberufe, Fraktions-Clans wie *Magram*/*Gelkis*/*Nightclaw*, *Harbinger of Darkness* u. a.).
 2. **Automatische Build-zu-Build-Changelogs ([`docs/diffs/`](docs/diffs/))**
-   - Strukturierte Patch-Diffs zwischen Forever-Builds (z. B. [`1.60.1.70685` → `1.60.1.70707`](docs/diffs/1.60.1.70685_to_1.60.1.70707.md)) auf Tabellen-, Schema-, Hotfix-Push-, Item-, Spell- und Titel-Ebene.
+   - Strukturierte Patch-Diffs zwischen Forever-Builds (z. B. [`1.60.1.70707` → `1.60.1.70755`](docs/diffs/1.60.1.70707_to_1.60.1.70755.md) und [`1.60.1.70685` → `1.60.1.70707`](docs/diffs/1.60.1.70685_to_1.60.1.70707.md)) auf Tabellen-, Schema-, Hotfix-Push-, Item-, Spell- und Titel-Ebene.
 3. **Cross-Platform .NET 10 Extractor & Diff-CLI (`grunzforever`)**
    - Liest lokale CASC-v7-Archive (`.build.info` → `encoding` → `TSFM v2 root` → `BLTE` → `WDC5`) direkt im Read-Only-Modus und führt sie verlustfrei mit Blizzards `XFTH v9`-Hotfix-Cache (`DBCache.bin`) in einer indizierten SQLite-Datenbank + JSON-Paketen zusammen.
-   - Vollständige `.sqlite`-Datenbanken (`287` Tabellen, `1.41M+` Zeilen) stehen komprimiert unter [**GitHub Releases**](https://github.com/10igma/GrunzForever/releases) bereit.
+   - Vollständige `.sqlite`-Datenbanken (`298` Tabellen, `1.43M+` Zeilen) stehen komprimiert unter [**GitHub Releases**](https://github.com/10igma/GrunzForever/releases) bereit.
 
 ---
 
-## Aktueller Datenstand (`wowf` Build `1.60.1.70707`)
+## Aktueller Datenstand (`wowf` Build `1.60.1.70755`)
 
 | Kennzahl | Wert |
 | :--- | ---: |
-| **Produkt / Build** | `wowf` — `1.60.1.70707` (`7feb61f3c994...`) |
+| **Produkt / Build** | `wowf` — `1.60.1.70755` (`9d9888f2d89a...`) |
 | **Projekt-Konstante / TOC** | `WOW_PROJECT_CAMELOT = 18` / `## Interface: 16001` |
-| **Extrahierte DB2 + Hotfix-Tabellen** | `287` (`1,417,978` Datensätze) |
-| **Aktive Server-Hotfixes (`DBCache.bin`)** | `12,867` Valid + `11,095` Delete |
-| **Dokumentierte Lua-API-Systeme** | `612` (`283` `C_*`-Namespaces, `6,609` Funktionen, `1,816` Events) |
-| **Blizzard UI-Module in Camelot aktiv** | `307` / `350` (`212` Camelot-spezifische Datei-Overrides) |
+| **Extrahierte DB2 + Hotfix-Tabellen** | `298` (`1,431,926` Datensätze) |
+| **Aktive Server-Hotfixes (`DBCache.bin`)** | `16,683` Valid + `11,512` Delete |
+| **Dokumentierte Lua-API-Systeme** | `612` (`283` `C_*`-Namespaces, `6,610` Funktionen, `1,816` Events) |
+| **Blizzard UI-Module in Camelot aktiv** | `307` / `350` (`213` Camelot-spezifische Datei-Overrides) |
 
 ---
 
@@ -81,9 +81,9 @@ dotnet run --project src/GrunzForever.Cli -c Release -- --sync-repo-data
 
 ```bash
 dotnet run --project src/GrunzForever.Cli -c Release -- \
-  --diff Exports/wow_wowf_1.60.1.70685.sqlite Exports/wow_wowf_1.60.1.70707.sqlite \
-  --out-md docs/diffs/1.60.1.70685_to_1.60.1.70707.md \
-  --out-json docs/diffs/1.60.1.70685_to_1.60.1.70707.json
+  --diff Exports/wow_wowf_1.60.1.70707.sqlite Exports/wow_wowf_1.60.1.70755.sqlite \
+  --out-md docs/diffs/1.60.1.70707_to_1.60.1.70755.md \
+  --out-json docs/diffs/1.60.1.70707_to_1.60.1.70755.json
 ```
 
 ### 3. Ad-hoc SQL-Abfragen auf der extrahierten SQLite-Datenbank
