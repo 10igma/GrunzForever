@@ -1792,7 +1792,7 @@
     "SpellIconFileDataID": 132152,
     "Icon": "Interface\\ICONS\\Ability_GhoulFrenzy.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 1082,
@@ -2811,7 +2811,7 @@
     "SpellIconFileDataID": 132310,
     "Icon": "Interface\\ICONS\\ABILITY_SAP.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113483
+    "HotfixPushID": 112758
   },
   {
     "ID": 2090,
@@ -2869,7 +2869,7 @@
     "SpellIconFileDataID": 132292,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Eviscerate.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 2120,
@@ -3842,6 +3842,28 @@
     "Icon": "Interface\\ICONS\\Spell_Nature_Invisibilty.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 112758
+  },
+  {
+    "ID": 5041,
+    "Name": "Great Stamina",
+    "Subtext": "Rank 9",
+    "Description": "Stamina increased by $s1.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136112,
+    "Icon": "Interface\\ICONS\\Spell_Nature_UnyeildingStamina.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113595
+  },
+  {
+    "ID": 5042,
+    "Name": "Great Stamina",
+    "Subtext": "Rank 10",
+    "Description": "Stamina increased by $s1.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136112,
+    "Icon": "Interface\\ICONS\\Spell_Nature_UnyeildingStamina.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113595
   },
   {
     "ID": 5089,
@@ -5227,7 +5249,7 @@
     "SpellIconFileDataID": 132353,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Revenge.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113170
+    "HotfixPushID": 112864
   },
   {
     "ID": 6574,
@@ -5238,7 +5260,7 @@
     "SpellIconFileDataID": 132353,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Revenge.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113170
+    "HotfixPushID": 112758
   },
   {
     "ID": 6651,
@@ -5306,7 +5328,7 @@
     "SpellIconFileDataID": 132292,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Eviscerate.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 6761,
@@ -5317,7 +5339,7 @@
     "SpellIconFileDataID": 132292,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Eviscerate.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 6762,
@@ -5328,7 +5350,7 @@
     "SpellIconFileDataID": 132292,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Eviscerate.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 6768,
@@ -5351,7 +5373,7 @@
     "SpellIconFileDataID": 132310,
     "Icon": "Interface\\ICONS\\ABILITY_SAP.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113483
+    "HotfixPushID": 112758
   },
   {
     "ID": 6772,
@@ -5755,7 +5777,7 @@
     "SpellIconFileDataID": 132353,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Revenge.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113170
+    "HotfixPushID": 112758
   },
   {
     "ID": 7384,
@@ -7509,7 +7531,7 @@
     "SpellIconFileDataID": 132292,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Eviscerate.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 8624,
@@ -7520,7 +7542,7 @@
     "SpellIconFileDataID": 132292,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Eviscerate.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 8627,
@@ -7638,7 +7660,7 @@
     "SpellIconFileDataID": 132354,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Riposte.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 8649,
@@ -7650,7 +7672,7 @@
     "SpellIconFileDataID": 132354,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Riposte.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 8650,
@@ -7662,7 +7684,7 @@
     "SpellIconFileDataID": 132354,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Riposte.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 8676,
@@ -8291,7 +8313,7 @@
     "SpellIconFileDataID": 132152,
     "Icon": "Interface\\ICONS\\Ability_GhoulFrenzy.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 9493,
@@ -8303,7 +8325,7 @@
     "SpellIconFileDataID": 132152,
     "Icon": "Interface\\ICONS\\Ability_GhoulFrenzy.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 9578,
@@ -8420,7 +8442,7 @@
     "SpellIconFileDataID": 132152,
     "Icon": "Interface\\ICONS\\Ability_GhoulFrenzy.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 9754,
@@ -8874,7 +8896,7 @@
     "SpellIconFileDataID": 132152,
     "Icon": "Interface\\ICONS\\Ability_GhoulFrenzy.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 9896,
@@ -8886,7 +8908,7 @@
     "SpellIconFileDataID": 132152,
     "Icon": "Interface\\ICONS\\Ability_GhoulFrenzy.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 9898,
@@ -10971,7 +10993,7 @@
     "SpellIconFileDataID": 135846,
     "Icon": "Interface\\ICONS\\Spell_Frost_FrostBolt02.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113278
+    "HotfixPushID": 112709
   },
   {
     "ID": 11078,
@@ -11023,7 +11045,7 @@
     "SpellIconFileDataID": 135836,
     "Icon": "Interface\\ICONS\\Spell_Frost_ChillingBlast.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113278
+    "HotfixPushID": 112864
   },
   {
     "ID": 11189,
@@ -11045,7 +11067,7 @@
     "SpellIconFileDataID": 132354,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Riposte.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 11198,
@@ -11057,7 +11079,7 @@
     "SpellIconFileDataID": 132354,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Riposte.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 11201,
@@ -11273,7 +11295,7 @@
     "SpellIconFileDataID": 132310,
     "Icon": "Interface\\ICONS\\ABILITY_SAP.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113483
+    "HotfixPushID": 112758
   },
   {
     "ID": 11299,
@@ -11284,7 +11306,7 @@
     "SpellIconFileDataID": 132292,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Eviscerate.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 11300,
@@ -11295,7 +11317,7 @@
     "SpellIconFileDataID": 132292,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Eviscerate.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 11303,
@@ -11737,7 +11759,7 @@
     "SpellIconFileDataID": 132353,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Revenge.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113170
+    "HotfixPushID": 112758
   },
   {
     "ID": 11601,
@@ -11748,7 +11770,7 @@
     "SpellIconFileDataID": 132353,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Revenge.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113170
+    "HotfixPushID": 112758
   },
   {
     "ID": 11604,
@@ -12537,7 +12559,7 @@
     "SpellIconFileDataID": 135836,
     "Icon": "Interface\\ICONS\\Spell_Frost_ChillingBlast.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 112864
+    "HotfixPushID": 113020
   },
   {
     "ID": 12670,
@@ -13421,7 +13443,7 @@
     "SpellIconFileDataID": 136136,
     "Icon": "Interface\\ICONS\\Spell_Shadow_Curse.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113483
+    "HotfixPushID": 112758
   },
   {
     "ID": 14279,
@@ -14180,7 +14202,7 @@
     "SpellIconFileDataID": 135817,
     "Icon": "Interface\\ICONS\\Spell_Fire_Immolation.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113282
+    "HotfixPushID": 112709
   },
   {
     "ID": 16039,
@@ -14221,7 +14243,7 @@
     "SpellIconFileDataID": 136111,
     "Icon": "Interface\\ICONS\\Spell_Nature_UnrelentingStorm.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113282
+    "HotfixPushID": 112864
   },
   {
     "ID": 16177,
@@ -14498,7 +14520,7 @@
     "SpellIconFileDataID": 136141,
     "Icon": "Interface\\ICONS\\Spell_Shadow_DarkRitual.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113278
+    "HotfixPushID": 112709
   },
   {
     "ID": 16803,
@@ -16745,7 +16767,7 @@
     "SpellIconFileDataID": 132325,
     "Icon": "Interface\\ICONS\\Ability_ThunderBolt.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113139
+    "HotfixPushID": 112709
   },
   {
     "ID": 20305,
@@ -17758,12 +17780,12 @@
     "ID": 22568,
     "Name": "Ferocious Bite",
     "Subtext": "Rank 2",
-    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 50-66 damage\r\n   2 points: 86-102 damage\r\n   3 points: 122-138 damage\r\n   4 points: 158-174 damage\r\n   5 points: 194-210 damage\r\n",
+    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 62-82 damage\r\n   2 points: 107-127 damage\r\n   3 points: 152-177 damage\r\n   4 points: 197-217 damage\r\n   5 points: 242-262 damage\r\n",
     "SchoolMask": 1,
     "SpellIconFileDataID": 132127,
     "Icon": "Interface\\ICONS\\Ability_Druid_FerociousBite.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113283
+    "HotfixPushID": 113403
   },
   {
     "ID": 22782,
@@ -17804,34 +17826,34 @@
     "ID": 22827,
     "Name": "Ferocious Bite",
     "Subtext": "Rank 3",
-    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 79-103 damage\r\n   2 points: 138-162 damage\r\n   3 points: 197-221 damage\r\n   4 points: 256-280 damage\r\n   5 points: 315-339 damage",
+    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 99-129 damage\r\n   2 points: 173-203 damage\r\n   3 points: 247-277 damage\r\n   4 points: 321-351 damage\r\n   5 points: 395-425 damage",
     "SchoolMask": 1,
     "SpellIconFileDataID": 132127,
     "Icon": "Interface\\ICONS\\Ability_Druid_FerociousBite.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113283
+    "HotfixPushID": 113403
   },
   {
     "ID": 22828,
     "Name": "Ferocious Bite",
     "Subtext": "Rank 4",
-    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 122-162 damage\r\n   2 points: 214-254 damage\r\n   3 points: 306-346 damage\r\n   4 points: 398-438 damage\r\n   5 points: 490-530 damage",
+    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 152-202 damage\r\n   2 points: 267-317 damage\r\n   3 points: 382-432 damage\r\n   4 points: 497-547 damage\r\n   5 points: 612-662 damage",
     "SchoolMask": 1,
     "SpellIconFileDataID": 132127,
     "Icon": "Interface\\ICONS\\Ability_Druid_FerociousBite.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113283
+    "HotfixPushID": 113403
   },
   {
     "ID": 22829,
     "Name": "Ferocious Bite",
     "Subtext": "Rank 5",
-    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 173-223 damage\r\n   2 points: 301-351 damage\r\n   3 points: 429-479 damage\r\n   4 points: 557-607 damage\r\n   5 points: 685-735 damage",
+    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 215-279 damage\r\n   2 points: 375-439 damage\r\n   3 points: 535-599 damage\r\n   4 points: 695-759 damage\r\n   5 points: 855-919 damage",
     "SchoolMask": 1,
     "SpellIconFileDataID": 132127,
     "Icon": "Interface\\ICONS\\Ability_Druid_FerociousBite.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113283
+    "HotfixPushID": 113403
   },
   {
     "ID": 22837,
@@ -18143,7 +18165,7 @@
     "SpellIconFileDataID": 136057,
     "Icon": "Interface\\ICONS\\Spell_Nature_MoonGlow.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113283
+    "HotfixPushID": 112709
   },
   {
     "ID": 24932,
@@ -18290,7 +18312,7 @@
     "SpellIconFileDataID": 132353,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Revenge.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113170
+    "HotfixPushID": 112758
   },
   {
     "ID": 25289,
@@ -19135,7 +19157,7 @@
     "SpellIconFileDataID": 136099,
     "Icon": "Interface\\ICONS\\Spell_Nature_StormReach.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113282
+    "HotfixPushID": 112709
   },
   {
     "ID": 29062,
@@ -19145,7 +19167,7 @@
     "SpellIconFileDataID": 136032,
     "Icon": "Interface\\ICONS\\Spell_Nature_EyeOfTheStorm.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113282
+    "HotfixPushID": 112864
   },
   {
     "ID": 29101,
@@ -19246,18 +19268,18 @@
     "SpellIconFileDataID": 132292,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Eviscerate.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 112900
   },
   {
     "ID": 31018,
     "Name": "Ferocious Bite",
     "Subtext": "Rank 6",
-    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 199-259 damage\r\n   2 points: 346-406 damage\r\n   3 points: 493-553 damage\r\n   4 points: 640-700 damage\r\n   5 points: 787-847 damage",
+    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 245-321 damage\r\n   2 points: 426-502 damage\r\n   3 points: 607-683 damage\r\n   4 points: 788-864 damage\r\n   5 points: 969-1045 damage",
     "SchoolMask": 1,
     "SpellIconFileDataID": 132127,
     "Icon": "Interface\\ICONS\\Ability_Druid_FerociousBite.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113283
+    "HotfixPushID": 113403
   },
   {
     "ID": 36562,
@@ -19936,7 +19958,7 @@
     "SpellIconFileDataID": 236221,
     "Icon": "Interface\\ICONS\\Ability_Mage_MissileBarrage.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113455
+    "HotfixPushID": 112864
   },
   {
     "ID": 400589,
@@ -21557,7 +21579,7 @@
     "SpellIconFileDataID": 236219,
     "Icon": "Interface\\ICONS\\Ability_Mage_IncantersAbsorbtion.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113276
+    "HotfixPushID": 112864
   },
   {
     "ID": 1259719,
@@ -23852,7 +23874,7 @@
     "SpellIconFileDataID": 1769069,
     "Icon": "Interface\\ICONS\\Ability_Vehicle_ShellShieldGenerator_Green.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113004
+    "HotfixPushID": 112709
   },
   {
     "ID": 1326057,
@@ -23927,7 +23949,7 @@
     "SpellIconFileDataID": 135882,
     "Icon": "Interface\\ICONS\\Spell_Holy_BlessingOfStrength.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 112843
+    "HotfixPushID": 112709
   },
   {
     "ID": 1326099,
@@ -23999,7 +24021,7 @@
     "SpellIconFileDataID": 463284,
     "Icon": "Interface\\ICONS\\spell_warlock_demonsoul.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 112742
+    "HotfixPushID": 112709
   },
   {
     "ID": 1326203,
@@ -24056,7 +24078,7 @@
     "SpellIconFileDataID": 132507,
     "Icon": "Interface\\ICONS\\INV_Belt_18.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113016
+    "HotfixPushID": 112864
   },
   {
     "ID": 1326550,
@@ -24065,7 +24087,7 @@
     "SpellIconFileDataID": 132507,
     "Icon": "Interface\\ICONS\\INV_Belt_18.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113016
+    "HotfixPushID": 112864
   },
   {
     "ID": 1326608,
@@ -24840,12 +24862,12 @@
     "ID": 1328618,
     "Name": "Ferocious Bite",
     "Subtext": "Rank 1",
-    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 33-43 damage\r\n   2 points: 57-67 damage\r\n   3 points: 81-91 damage\r\n   4 points: 105-115 damage\r\n   5 points: 129-139 damage\r\n",
+    "Description": "Finishing move that causes damage per combo point and converts each extra point of energy into ${$m2/100}.1 additional damage.  Damage is increased by your Attack Power.\r\n   1 point  : 40-54 damage\r\n   2 points: 70-84 damage\r\n   3 points: 100-114 damage\r\n   4 points: 130-144 damage\r\n   5 points: 160-174 damage\r\n",
     "SchoolMask": 1,
     "SpellIconFileDataID": 132127,
     "Icon": "Interface\\ICONS\\Ability_Druid_FerociousBite.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113283
+    "HotfixPushID": 113403
   },
   {
     "ID": 1328621,
@@ -24872,7 +24894,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136243,
     "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113284
   },
   {
@@ -24881,7 +24903,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136243,
     "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113284
   },
   {
@@ -24890,7 +24912,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136243,
     "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113284
   },
   {
@@ -24899,7 +24921,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136243,
     "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113284
   },
   {
@@ -24908,7 +24930,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136243,
     "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113284
   },
   {
@@ -24917,8 +24939,17 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136243,
     "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113284
+  },
+  {
+    "ID": 1328676,
+    "Name": "[DNT] Hunter Pet Scaling (Old Testing Backup)",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132252,
+    "Icon": "Interface\\ICONS\\Ability_Mount_PinkTiger.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113223
   },
   {
     "ID": 1328749,
@@ -25094,7 +25125,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 132302,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Rupture.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113483
   },
   {
@@ -25104,7 +25135,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 132296,
     "Icon": "Interface\\ICONS\\Ability_Rogue_FleetFooted.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113483
   },
   {
@@ -25115,7 +25146,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 458797,
     "Icon": "Interface\\ICONS\\ability_rogue_blackjack.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113483
   },
   {
@@ -25125,7 +25156,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 132323,
     "Icon": "Interface\\ICONS\\Ability_TheBlackArrow.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113483
   },
   {
@@ -25135,7 +25166,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 458731,
     "Icon": "Interface\\ICONS\\ability_rogue_restlessblades.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113483
   },
   {
@@ -25144,7 +25175,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136235,
     "Icon": "Interface\\ICONS\\TEMP.BLP",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113483
   },
   {
@@ -25154,7 +25185,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 135342,
     "Icon": "Interface\\ICONS\\INV_Sword_32.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113483
   },
   {
@@ -25165,7 +25196,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 135952,
     "Icon": "Interface\\ICONS\\Spell_Holy_RemoveCurse.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113483
   },
   {
@@ -25175,7 +25206,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 135341,
     "Icon": "Interface\\ICONS\\INV_Sword_31.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113483
   },
   {
@@ -25185,7 +25216,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 132323,
     "Icon": "Interface\\ICONS\\Ability_TheBlackArrow.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113483
   },
   {
@@ -25195,7 +25226,7 @@
     "SchoolMask": 64,
     "SpellIconFileDataID": 135856,
     "Icon": "Interface\\ICONS\\Spell_Frost_IceShock.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113537
   },
   {
@@ -25205,7 +25236,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 135856,
     "Icon": "Interface\\ICONS\\Spell_Frost_IceShock.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113537
   },
   {
@@ -25215,7 +25246,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 132334,
     "Icon": "Interface\\ICONS\\Ability_Warrior_BloodFrenzy.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113539
   },
   {
@@ -25226,7 +25257,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 132334,
     "Icon": "Interface\\ICONS\\Ability_Warrior_BloodFrenzy.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113539
   }
 ]

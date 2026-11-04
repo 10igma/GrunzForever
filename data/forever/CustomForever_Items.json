@@ -23457,6 +23457,49 @@
     "HotfixPushID": 16787029
   },
   {
+    "ID": 9817,
+    "Name": "Fortified Spaulders",
+    "Quality": 2,
+    "ItemLevel": 26,
+    "RequiredLevel": 21,
+    "ClassID": 4,
+    "ClassName": "Armor",
+    "SubclassID": 3,
+    "IconFileDataID": 135038,
+    "Icon": "Interface\\ICONS\\INV_Shoulder_07.blp",
+    "InventoryType": 3,
+    "BuyPrice": 7134,
+    "SellPrice": 1426,
+    "Bonding": 2,
+    "ItemDelayMs": 0,
+    "BonusStatIDs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "BonusStatValues": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 16787033
+  },
+  {
     "ID": 9820,
     "Name": "Durable Boots",
     "Quality": 2,
@@ -31242,7 +31285,7 @@
       0
     ],
     "DataSource": "HotfixOnly",
-    "HotfixPushID": 16789208
+    "HotfixPushID": 112864
   },
   {
     "ID": 11995,
@@ -45759,7 +45802,7 @@
       0
     ],
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 112903
+    "HotfixPushID": 112864
   },
   {
     "ID": 273884,

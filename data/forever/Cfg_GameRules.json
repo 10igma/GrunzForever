@@ -1307,7 +1307,8 @@
     "ID": 265,
     "RuleValue": 0,
     "RuleType": 2,
-    "_DataSource": "Db2"
+    "_DataSource": "Db2PlusHotfix",
+    "_HotfixPushID": 113223
   },
   {
     "ID": 266,

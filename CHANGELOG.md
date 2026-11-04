@@ -4,6 +4,14 @@ Alle relevanten Änderungen an **GrunzForever** und den dokumentierten **WoW: Cl
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-04
+
+### Hinzugefügt
+- **Pre-Launch-Daten-Update (`wowf` Build `1.60.1.70790`):**
+  - Neuer Build-zu-Build-Diff [`docs/diffs/1.60.1.70755_to_1.60.1.70790.md`](docs/diffs/1.60.1.70755_to_1.60.1.70790.md) und Manifest [`data/manifests/_ExtractionManifest_1.60.1.70790.json`](data/manifests/_ExtractionManifest_1.60.1.70790.json) (`299` Tabellen / `+1` `ChatChannels`, `1,431,950` Datensätze, `16,919` Valid- & `11,518` Delete-Hotfixes über `18` neue `PushId`-Wellen).
+  - Hotfix-Bake-In der `70755`-Klassen-/Wetter-Updates in die Basis-DB2s, `Ferocious Bite`-Buff (~25 % über alle 6 Ränge), Pet-Skalierungs- & `Cfg_GameRules`-Updates (`PushId 113223` / `113595`), `AuctionHouse`/`AvailableSuperDistrict`-Launch-Konfiguration (`PushId 113600`) sowie `Fortified Spaulders` (`Item 9817`).
+  - Aktualisierte Camelot-Lua-API-Referenz (`6,611` Funktionen, `+1` `C_BattleNet.GetDefaultTitleWhisperTarget`).
+
 ## [0.2.0] - 2026-11-03
 
 ### Hinzugefügt
