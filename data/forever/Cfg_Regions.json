@@ -2603,13 +2603,14 @@
   {
     "ID": 1301,
     "Tag": "QA",
-    "Name_lang": "",
+    "Name_lang": "QACLASSERA3",
     "Region_ID": 183,
     "Raidorigin": 1127232000,
     "Region_group_mask": 10,
     "Challenge_origin": 1135695600,
     "Cfg_TimeEventRegionGroupID": 11,
-    "_DataSource": "Db2"
+    "_DataSource": "Db2PlusHotfix",
+    "_HotfixPushID": 113715
   },
   {
     "ID": 1302,

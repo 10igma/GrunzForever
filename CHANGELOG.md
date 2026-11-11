@@ -2,7 +2,17 @@
 
 Alle relevanten Änderungen an **GrunzForever** und den dokumentierten **WoW: Classic Forever (`wowf` / `Camelot`)** Builds werden hier festgehalten.
 
-## [Unreleased]
+## [0.4.0] - 2026-11-11
+
+### Hinzugefügt
+- **Daten-Update (`wowf` Build `1.60.1.70888` + Live-Hotfixes):**
+  - Neuer Build-zu-Build-Diff [`docs/diffs/1.60.1.70862_to_1.60.1.70888.md`](docs/diffs/1.60.1.70862_to_1.60.1.70888.md) und Manifest [`data/manifests/_ExtractionManifest_1.60.1.70888.json`](data/manifests/_ExtractionManifest_1.60.1.70888.json) (`315` Tabellen / `+6` neu: `ContentTuning`, `SharedString`, `SoundAmbience`, `SoundAmbienceFlavor`, `TransformMatrix`, `WorldStateZoneSounds`, `1,499,238` Datensätze / `+5,291` Zeilen, `39,289` Valid- & `12,257` Delete-Hotfixes).
+  - Hotfix-Bake-In von `CurvePoint`/`Curve`/`LightDataGlobalVolumeFog`/`LightData`, neue `Cfg_GameRules` (`ID 271` via `PushId 113763`, `ID 267` via `PushId 113904`), Zonen-Hotfixes für `Shen'dralas` & Subzonen (`AreaTable PushId 113843`) sowie `Stratholme` (`PushId 113801`).
+  - `+1,308` neu gecachte Items (inkl. Custom-Forever-Epics/Rares wie `Ankle Slicers`, `High Clerist's Seal`, `Scarlet Forgemaster's Bindings`, `Shaper's Robe`, `Blackmaw Bindings`, `Krol'dok Warplate`), `125` modifizierte Items (Stat-Nerfs auf den Engineering-Trinkets `272437`–`272439`, Stat-Updates auf `284215`/`280604`/`280031`/`254013` sowie `SellPrice`-Wirtschafts-Pass auf `120` hergestellten Rüstungsteilen).
+  - `+11` neue Spells (`Gloves of Holy Might`, `Poised`, `Terrifying Roar`, `Drink` u. a.), `14` modifizierte Spells (Hexenmeister-`Wrack`-Rework als kanalisierter DoT-Beschleuniger, `Soul Siphon`, Druiden-`Swiftmend` ohne HoT-Verbrauch, `Reduced Claw and Rake Cost`, `Holy Power`, Paladin-`Seals`), `SpellEffect`-Hotfixes (`Flametongue Totem`, `Nature's Swiftness`, `Frost Trap`, `Poison Shock`, `Escape Rope`, `Teach Summon Felsteed`, `Flamebreak Talisman`, `Frost Nova`) sowie neuer Lua-Event-Parameter `isCrossShard` in `PARTY_INVITE_REQUEST`.
+- **Post-Launch-Daten-Update (`wowf` Build `1.60.1.70862`):**
+  - Neuer Build-zu-Build-Diff [`docs/diffs/1.60.1.70790_to_1.60.1.70862.md`](docs/diffs/1.60.1.70790_to_1.60.1.70862.md) und Manifest [`data/manifests/_ExtractionManifest_1.60.1.70862.json`](data/manifests/_ExtractionManifest_1.60.1.70862.json) (`309` Tabellen / `+10` neu, `1,493,947` Datensätze / `+61,997` Zeilen, `27,257` Valid- & `11,916` Delete-Hotfixes).
+  - Neue Forever-Zonen & Encounters in `AreaTable` / `DungeonEncounter` (`The Drowned City` mit `Min'loth the Serpent`, `Blackmaw Hold`, `The Shaper's Terrace`, `Krol'dok Stronghold`), neue Sprache `Shen'dorei` (`Languages ID 310`), `CharTitles`-Fix für `%s the Blacksmith` (`Mask_ID = 40`), `+3,072` neu gecachte Items (darunter `610` Custom-Forever-Items inkl. `22` Epics und `287` Rares), `9` Stadt-Portale (inkl. `Portal to Dalaran`/`Southshore`) sowie Klassen-Updates (`Shank`, `Gore Drinker`, `Ravage`, `Bear Form`, `Use Soulstone`).
 
 ## [0.3.0] - 2026-11-04
 

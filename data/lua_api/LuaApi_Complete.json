@@ -1,7 +1,7 @@
 {
   "Product": "wowf",
-  "Version": "1.60.1.70790",
-  "BuildName": "WOW-70790patch1.60.1_Retail",
+  "Version": "1.60.1.70888",
+  "BuildName": "WOW-70888patch1.60.1_Retail",
   "ProjectId": 18,
   "ProjectCodeName": "Camelot",
   "TotalSystems": 612,
@@ -130708,6 +130708,11 @@
             },
             {
               "Name": "isNativeRealm",
+              "Type": "bool",
+              "Nilable": false
+            },
+            {
+              "Name": "isCrossShard",
               "Type": "bool",
               "Nilable": false
             },

@@ -35,9 +35,10 @@
     "ID": 1225,
     "Name_lang": "%s the Blacksmith",
     "Name1_lang": "%s the Blacksmith",
-    "Mask_ID": 0,
+    "Mask_ID": 40,
     "Flags": 0,
-    "_DataSource": "Db2"
+    "_DataSource": "Db2PlusHotfix",
+    "_HotfixPushID": 113613
   },
   {
     "ID": 1227,
