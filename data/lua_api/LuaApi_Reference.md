@@ -1,10 +1,10 @@
 # WoW Classic Forever (`Camelot`) — Lua API & UI Surface Reference
 
-- **Produkt / Build**: `wowf` — `1.60.1.70888` (`WOW-70888patch1.60.1_Retail`)
+- **Produkt / Build**: `wowf` — `1.60.1.70959` (`WOW-70959patch1.60.1_Retail`)
 - **Projekt-Konstante**: `WOW_PROJECT_CAMELOT = 18` (`WOW_PROJECT_ID = 18`)
 - **UI-Architektur**: `[Family] = Mainline` (`mainline`) | `[Game] = Camelot` (`camelot`)
 - **Dokumentierte API-Systeme**: **612** (`283` `C_*` Namespaces)
-- **Lua-Funktionen gesamt**: **6,611** (`4,399` Namespaced + `2,212` Global)
+- **Lua-Funktionen gesamt**: **6,613** (`4,401` Namespaced + `2,212` Global)
 - **Events gesamt**: **1,816** | **Enums/Structs/Konstanten**: **1,758**
 - **Blizzard UI-AddOns in Camelot aktiv**: **307** von `350` (`213` Camelot-spezifische Lua/XML-Overrides)
 
@@ -72,7 +72,7 @@
 
 | Attribut / Guard | Anzahl Funktionen |
 | :--- | ---: |
-| `SecretArguments` | 3,942 |
+| `SecretArguments` | 3,943 |
 | `MayReturnNothing` | 670 |
 | `HasRestrictions` | 281 |
 | `SecretReturnsForAspect` | 93 |
@@ -107,7 +107,7 @@
 | `C_PvP` | `PvpInfoDocumentation.lua` | 114 | 43 | 28 |
 | `C_QuestLog` | `QuestLogDocumentation.lua` | 93 | 17 | 10 |
 | `C_Calendar` | `CalendarDocumentation.lua` | 90 | 13 | 12 |
-| `C_TradeSkillUI` | `TradeSkillUIDocumentation.lua` | 89 | 20 | 0 |
+| `C_TradeSkillUI` | `TradeSkillUIDocumentation.lua` | 90 | 20 | 0 |
 | `C_AuctionHouse` | `AuctionHouseDocumentation.lua` | 86 | 47 | 16 |
 | `C_Club` | `ClubDocumentation.lua` | 84 | 30 | 24 |
 | `C_TransmogCollection` | `TransmogItemsDocumentation.lua` | 84 | 0 | 8 |
@@ -251,6 +251,7 @@
 | `C_ColorOverrides` | `ColorOverridesDocumentation.lua` | 6 | 2 | 1 |
 | `C_Flyout` | `FlyoutDocumentation.lua` | 6 | 0 | 2 |
 | `C_IslandsQueue` | `IslandsQueueUIDocumentation.lua` | 6 | 2 | 1 |
+| `C_Mail` | `MailInfoDocumentation.lua` | 6 | 14 | 0 |
 | `C_Ping` | `PingManagerDocumentation.lua` | 6 | 1 | 1 |
 | `C_Sound` | `SoundDocumentation.lua` | 6 | 2 | 2 |
 | `C_ToyBoxInfo` | `ToyBoxInfoDocumentation.lua` | 6 | 2 | 0 |
@@ -263,7 +264,6 @@
 | `C_HousingInspectMode` | `HousingInspectModeUIDocumentation.lua` | 5 | 2 | 0 |
 | `C_LootHistory` | `LootHistoryDocumentation.lua` | 5 | 5 | 5 |
 | `C_LossOfControl` | `LossOfControlDocumentation.lua` | 5 | 6 | 1 |
-| `C_Mail` | `MailInfoDocumentation.lua` | 5 | 14 | 0 |
 | `C_PetBattles` | `PetBattlesDocumentation.lua` | 5 | 0 | 0 |
 | `C_PlayerMentorship` | `PlayerMentorshipDocumentation.lua` | 5 | 2 | 0 |
 | `C_SplashScreen` | `SplashScreenDocumentation.lua` | 5 | 1 | 1 |

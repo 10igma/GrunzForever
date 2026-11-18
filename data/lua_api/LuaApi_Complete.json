@@ -1,11 +1,11 @@
 {
   "Product": "wowf",
-  "Version": "1.60.1.70888",
-  "BuildName": "WOW-70888patch1.60.1_Retail",
+  "Version": "1.60.1.70959",
+  "BuildName": "WOW-70959patch1.60.1_Retail",
   "ProjectId": 18,
   "ProjectCodeName": "Camelot",
   "TotalSystems": 612,
-  "TotalFunctions": 6611,
+  "TotalFunctions": 6613,
   "TotalEvents": 1816,
   "TotalTables": 1758,
   "Systems": [
@@ -120534,6 +120534,18 @@
           ]
         },
         {
+          "Name": "IsCODEnabled",
+          "FullName": "C_Mail.IsCODEnabled",
+          "Arguments": [],
+          "Returns": [
+            {
+              "Name": "isCODEnabled",
+              "Type": "bool",
+              "Nilable": false
+            }
+          ]
+        },
+        {
           "Name": "IsCommandPending",
           "FullName": "C_Mail.IsCommandPending",
           "Arguments": [],
@@ -195732,6 +195744,27 @@
           ]
         },
         {
+          "Name": "HasNoReagentCost",
+          "FullName": "C_TradeSkillUI.HasNoReagentCost",
+          "Attributes": {
+            "SecretArguments": "AllowedWhenUntainted"
+          },
+          "Arguments": [
+            {
+              "Name": "recipeID",
+              "Type": "number",
+              "Nilable": false
+            }
+          ],
+          "Returns": [
+            {
+              "Name": "hasNoReagentCost",
+              "Type": "bool",
+              "Nilable": false
+            }
+          ]
+        },
+        {
           "Name": "IsEnchantTargetValid",
           "FullName": "C_TradeSkillUI.IsEnchantTargetValid",
           "Attributes": {
@@ -203302,6 +203335,11 @@
               "Name": "slot",
               "Type": "TransmogOutfitSlot",
               "Nilable": false
+            },
+            {
+              "Name": "option",
+              "Type": "TransmogOutfitSlotOption",
+              "Nilable": false
             }
           ],
           "Returns": [
@@ -203840,6 +203878,11 @@
             {
               "Name": "slot",
               "Type": "TransmogOutfitSlot",
+              "Nilable": false
+            },
+            {
+              "Name": "option",
+              "Type": "TransmogOutfitSlotOption",
               "Nilable": false
             },
             {

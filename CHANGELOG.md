@@ -2,6 +2,16 @@
 
 Alle relevanten Änderungen an **GrunzForever** und den dokumentierten **WoW: Classic Forever (`wowf` / `Camelot`)** Builds werden hier festgehalten.
 
+## [0.5.0] - 2026-11-18
+
+### Hinzugefügt
+- **Daten-Update (`wowf` Build `1.60.1.70959` + Live-Hotfixes):**
+  - Neuer Build-zu-Build-Diff [`docs/diffs/1.60.1.70888_to_1.60.1.70959.md`](docs/diffs/1.60.1.70888_to_1.60.1.70959.md) und Manifest [`data/manifests/_ExtractionManifest_1.60.1.70959.json`](data/manifests/_ExtractionManifest_1.60.1.70959.json) (`320` Tabellen / `+5` neu: `ClientSettings`, `CombatCondition`, `ContentTuningXExpected`, `ExpectedStatMod`, `SpellAuraVisibility`, `1,501,535` Datensätze / `+2,297` Zeilen, `42,302` Valid- & `12,536` Delete-Hotfixes).
+  - Neue `Cfg_GameRules` (`ID 272..274` mit `RuleValue = 1` in DB2 sowie `ID 275` mit `RuleValue = 0` via `PushId 113983`), `AreaTable`-Hotfixes für `Dalaran`, `Winterspring` & `Darkwhisper Gorge` (`PushId 114125`) sowie `Warsong Lumber Mill` & `Silverwing Hold` (`PushId 114114` zusammen mit `Disable ALL Mounts`).
+  - `+278` neu gecachte Items (u. a. `Camper's Lure`, `Predator's Shroud`, `Predaceous Band`, `Reforged/Shattered Atal'ai Spear`, `Cannibal's Cleaver`, `Silithid Queen's Husk`, `Unleashed Swarm`, `Scarlet Hearthstone`, `Star of Elune`, `Scales of the Devourer`, `Wit's Edge`, `Band of the Damned`, `Soulwoven Drape` sowie T0.5-Sets *The Five Thunders*/*Soulforge*/*Virtuous*) und `44` modifizierte Items (grosser Tank-Buff auf `Onyxia Blood Talisman`, Stat-Anpassungen auf `19` *Premier*-Mail-Teilen, `Everstaring Abomination Eye`, `Darkspear Signet`, `Souvenir Sea Shell`, `Blessed Band of Light`, `Old Guard Retaliator` auf Rare hochgestuft, `Darkmoon Cards` iLvl `66 -> 65`).
+  - `+10` neue Spells (`Disable ALL Mounts`, `Camper's Lure`, `Fishing Skill +60`, `Mark of Flames`, `Smash`, `Howler's Cry`, `Lash of the Dark Rider` u. a.) und `29` modifizierte Spells (Priester-`Vampiric Embrace` mit +100 % Eigenheilung, Schamanen-`Windfury Weapon`/`Flametongue Weapon`/`Windfury Totem` & `Maelstrom Weapon`-Formel, Schurken-T1-5P-Bonus auf *Eviscerate & Death Mark* umgestellt, Jäger-T1-5P-Bonus, `Filcher's Cowl`, `Gloves of Holy Might`-Proc, neue Darkmoon-Card-Effekte für `Lightning Strike` gegen Aquatic und `Heroism` in Strongholds/Cities).
+  - Aktualisierte Camelot-Lua-API-Referenz (`6,613` Funktionen, `+2` neu: `C_Mail.IsCODEnabled` und `C_TradeSkillUI.HasNoReagentCost`).
+
 ## [0.4.0] - 2026-11-11
 
 ### Hinzugefügt

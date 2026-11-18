@@ -1347,5 +1347,30 @@
     "RuleType": 2,
     "_DataSource": "Db2PlusHotfix",
     "_HotfixPushID": 113763
+  },
+  {
+    "ID": 272,
+    "RuleValue": 1,
+    "RuleType": 2,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 273,
+    "RuleValue": 1,
+    "RuleType": 2,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 274,
+    "RuleValue": 1,
+    "RuleType": 2,
+    "_DataSource": "Db2"
+  },
+  {
+    "ID": 275,
+    "RuleValue": 0,
+    "RuleType": 2,
+    "_DataSource": "Db2PlusHotfix",
+    "_HotfixPushID": 113983
   }
 ]
