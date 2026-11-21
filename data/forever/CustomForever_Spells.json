@@ -2858,7 +2858,7 @@
     "SpellIconFileDataID": 135934,
     "Icon": "Interface\\ICONS\\Spell_Holy_MindVision.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114310
   },
   {
     "ID": 2098,
@@ -3544,6 +3544,15 @@
     "HotfixPushID": 112720
   },
   {
+    "ID": 3372,
+    "Name": "Murloc Fin Soup",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136192,
+    "Icon": "Interface\\ICONS\\Spell_Shadow_SealOfKings.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114294
+  },
+  {
     "ID": 3394,
     "Name": "Consume Flesh",
     "SchoolMask": 1,
@@ -3969,7 +3978,7 @@
     "SpellIconFileDataID": 136112,
     "Icon": "Interface\\ICONS\\Spell_Nature_UnyeildingStamina.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113595
+    "HotfixPushID": 113270
   },
   {
     "ID": 5042,
@@ -3980,7 +3989,7 @@
     "SpellIconFileDataID": 136112,
     "Icon": "Interface\\ICONS\\Spell_Nature_UnyeildingStamina.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113595
+    "HotfixPushID": 113270
   },
   {
     "ID": 5089,
@@ -4371,7 +4380,7 @@
     "SpellIconFileDataID": 135358,
     "Icon": "Interface\\ICONS\\INV_Sword_48.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 114096
+    "HotfixPushID": 114313
   },
   {
     "ID": 5384,
@@ -4931,7 +4940,7 @@
     "SpellIconFileDataID": 135850,
     "Icon": "Interface\\ICONS\\Spell_Frost_FrostWard.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113024
+    "HotfixPushID": 113081
   },
   {
     "ID": 6171,
@@ -5340,6 +5349,33 @@
     "Icon": "Interface\\ICONS\\Spell_Nature_RemoveCurse.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 112864
+  },
+  {
+    "ID": 6499,
+    "Name": "Boiled Clams",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 134433,
+    "Icon": "Interface\\ICONS\\INV_Misc_Shell_03.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114294
+  },
+  {
+    "ID": 6500,
+    "Name": "Goblin Deviled Clams",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 134433,
+    "Icon": "Interface\\ICONS\\INV_Misc_Shell_03.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114294
+  },
+  {
+    "ID": 6501,
+    "Name": "Clam Chowder",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 134712,
+    "Icon": "Interface\\ICONS\\INV_POTION_01.BLP",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114294
   },
   {
     "ID": 6546,
@@ -7859,7 +7895,7 @@
     "SpellIconFileDataID": 135850,
     "Icon": "Interface\\ICONS\\Spell_Frost_FrostWard.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113024
+    "HotfixPushID": 113081
   },
   {
     "ID": 8462,
@@ -7871,7 +7907,7 @@
     "SpellIconFileDataID": 135850,
     "Icon": "Interface\\ICONS\\Spell_Frost_FrostWard.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113024
+    "HotfixPushID": 113081
   },
   {
     "ID": 8492,
@@ -9834,7 +9870,7 @@
     "SpellIconFileDataID": 135850,
     "Icon": "Interface\\ICONS\\Spell_Frost_FrostWard.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113024
+    "HotfixPushID": 113081
   },
   {
     "ID": 10179,
@@ -11264,7 +11300,7 @@
     "SpellIconFileDataID": 135934,
     "Icon": "Interface\\ICONS\\Spell_Holy_MindVision.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114310
   },
   {
     "ID": 10911,
@@ -13091,6 +13127,16 @@
     "Icon": "Interface\\ICONS\\Spell_Frost_Frost.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 112758
+  },
+  {
+    "ID": 11986,
+    "Name": "Healing Wave",
+    "Description": "Calls upon Nature magic to heal an ally.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136052,
+    "Icon": "Interface\\ICONS\\Spell_Nature_MagicImmunity.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114199
   },
   {
     "ID": 12051,
@@ -15535,6 +15581,16 @@
     "HotfixPushID": 113278
   },
   {
+    "ID": 16785,
+    "Name": "Flamebreak",
+    "Description": "Inflicts Fire damage to nearby enemies, knocking them back.",
+    "SchoolMask": 4,
+    "SpellIconFileDataID": 135903,
+    "Icon": "Interface\\ICONS\\Spell_Holy_Excorcism_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114285
+  },
+  {
     "ID": 16803,
     "Name": "Flash Freeze",
     "Description": "Blasts nearby enemies for Frost damage and freezes them in place for up to $d.",
@@ -15736,6 +15792,39 @@
     "Icon": "Interface\\ICONS\\SPELL_NATURE_HEALINGTOUCH.BLP",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113283
+  },
+  {
+    "ID": 17140,
+    "Name": "Holy Fire",
+    "Description": "Consumes an enemy in flames, burning it and inflicting additional Fire damage every $t2 sec. over $d.",
+    "AuraDescription": "Fire damage inflicted every $t2 sec.",
+    "SchoolMask": 4,
+    "SpellIconFileDataID": 135972,
+    "Icon": "Interface\\ICONS\\Spell_Holy_SearingLight.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114285
+  },
+  {
+    "ID": 17141,
+    "Name": "Holy Fire",
+    "Description": "Consumes an enemy in flames, burning it and inflicting additional Fire damage every $t2 sec. over $d.",
+    "AuraDescription": "Fire damage inflicted every $t2 sec.",
+    "SchoolMask": 4,
+    "SpellIconFileDataID": 135972,
+    "Icon": "Interface\\ICONS\\Spell_Holy_SearingLight.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114285
+  },
+  {
+    "ID": 17142,
+    "Name": "Holy Fire",
+    "Description": "Consumes an enemy in flames, burning it and inflicting additional Fire damage every $t2 sec. over $d.",
+    "AuraDescription": "Fire damage inflicted every $t2 sec.",
+    "SchoolMask": 4,
+    "SpellIconFileDataID": 135972,
+    "Icon": "Interface\\ICONS\\Spell_Holy_SearingLight.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114285
   },
   {
     "ID": 17198,
@@ -16366,6 +16455,17 @@
     "HotfixPushID": 114056
   },
   {
+    "ID": 18165,
+    "Name": "Holy Fire",
+    "Description": "Consumes an enemy in flames, burning it and inflicting additional Fire damage every $t2 sec. over $d.",
+    "AuraDescription": "Fire damage inflicted every $t2 sec.",
+    "SchoolMask": 4,
+    "SpellIconFileDataID": 135972,
+    "Icon": "Interface\\ICONS\\Spell_Holy_SearingLight.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114285
+  },
+  {
     "ID": 18166,
     "Name": "Summon Undead Ravager",
     "Description": "Summons an Undead Ravager to fight by your side.",
@@ -16374,6 +16474,15 @@
     "Icon": "Interface\\ICONS\\Spell_Shadow_RaiseDead.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114116
+  },
+  {
+    "ID": 18167,
+    "Name": "Holy Fire",
+    "SchoolMask": 4,
+    "SpellIconFileDataID": 135972,
+    "Icon": "Interface\\ICONS\\Spell_Holy_SearingLight.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114285
   },
   {
     "ID": 18192,
@@ -18009,7 +18118,7 @@
     "SpellIconFileDataID": 135959,
     "Icon": "Interface\\ICONS\\Spell_Holy_RighteousFury.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114313
   },
   {
     "ID": 20285,
@@ -18549,6 +18658,15 @@
     "HotfixPushID": 113341
   },
   {
+    "ID": 20626,
+    "Name": "Undermine Clam Chowder",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136192,
+    "Icon": "Interface\\ICONS\\Spell_Shadow_SealOfKings.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114294
+  },
+  {
     "ID": 20658,
     "Name": "Execute",
     "Subtext": "Rank 2",
@@ -18557,7 +18675,7 @@
     "SpellIconFileDataID": 135358,
     "Icon": "Interface\\ICONS\\INV_Sword_48.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 114096
+    "HotfixPushID": 114313
   },
   {
     "ID": 20660,
@@ -18568,7 +18686,7 @@
     "SpellIconFileDataID": 135358,
     "Icon": "Interface\\ICONS\\INV_Sword_48.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 114096
+    "HotfixPushID": 114313
   },
   {
     "ID": 20661,
@@ -18579,7 +18697,7 @@
     "SpellIconFileDataID": 135358,
     "Icon": "Interface\\ICONS\\INV_Sword_48.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 114096
+    "HotfixPushID": 114313
   },
   {
     "ID": 20662,
@@ -18590,7 +18708,7 @@
     "SpellIconFileDataID": 135358,
     "Icon": "Interface\\ICONS\\INV_Sword_48.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 114096
+    "HotfixPushID": 114313
   },
   {
     "ID": 20719,
@@ -19775,6 +19893,37 @@
     "HotfixPushID": 113837
   },
   {
+    "ID": 23860,
+    "Name": "Holy Fire",
+    "Description": "Consumes an enemy in flames, burning it and inflicting additional Fire damage every $t2 sec. over $d.",
+    "AuraDescription": "Fire damage inflicted every $t2 sec.",
+    "SchoolMask": 4,
+    "SpellIconFileDataID": 135972,
+    "Icon": "Interface\\ICONS\\Spell_Holy_SearingLight.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114285
+  },
+  {
+    "ID": 23863,
+    "Name": "Revitalize",
+    "Description": "$h% chance on melee attack of restoring $23864s energy.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 135934,
+    "Icon": "Interface\\ICONS\\Spell_Holy_MindVision.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114204
+  },
+  {
+    "ID": 23864,
+    "Name": "Revitalize",
+    "Description": "Revitalized - $s1 Energy restored.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 135990,
+    "Icon": "Interface\\ICONS\\Spell_Lightning_LightningBolt01.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114204
+  },
+  {
     "ID": 23881,
     "Name": "Bloodthirst",
     "Subtext": "Rank 1",
@@ -20221,6 +20370,16 @@
     "HotfixPushID": 112758
   },
   {
+    "ID": 25101,
+    "Name": "Battle Shout",
+    "AuraDescription": "Attack power increased by $s1.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132333,
+    "Icon": "Interface\\ICONS\\Ability_Warrior_BattleShout.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114326
+  },
+  {
     "ID": 25113,
     "Name": "Increase Spell Dam 36 and 1% Crit",
     "Description": "Increases damage and healing done by magical spells and effects by up to $s1.   Also increases chance to get a critical hit with spells by $s3%.",
@@ -20537,6 +20696,24 @@
     "HotfixPushID": 114056
   },
   {
+    "ID": 25752,
+    "Name": "Judgement of Light",
+    "SchoolMask": 2,
+    "SpellIconFileDataID": 135917,
+    "Icon": "Interface\\ICONS\\Spell_Holy_HealingAura.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114283
+  },
+  {
+    "ID": 25757,
+    "Name": "Judgement of Wisdom",
+    "SchoolMask": 2,
+    "SpellIconFileDataID": 135917,
+    "Icon": "Interface\\ICONS\\Spell_Holy_HealingAura.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114283
+  },
+  {
     "ID": 25780,
     "Name": "Righteous Fury",
     "Description": "Increases all threat generated by $s5%, and all threat generated by your Holy attacks by an additional $s1%.  Lasts $d.",
@@ -20690,6 +20867,15 @@
     "Icon": "Interface\\ICONS\\Spell_Misc_Food.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114056
+  },
+  {
+    "ID": 25945,
+    "Name": "Judgement of Justice",
+    "SchoolMask": 2,
+    "SpellIconFileDataID": 135917,
+    "Icon": "Interface\\ICONS\\Spell_Holy_HealingAura.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114283
   },
   {
     "ID": 25997,
@@ -21203,7 +21389,7 @@
     "SpellIconFileDataID": 135850,
     "Icon": "Interface\\ICONS\\Spell_Frost_FrostWard.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113024
+    "HotfixPushID": 113081
   },
   {
     "ID": 28610,
@@ -22164,6 +22350,16 @@
     "HotfixPushID": 113341
   },
   {
+    "ID": 402911,
+    "Name": "Raging Blow",
+    "Description": "A ferocious strike that deals $s1% weapon damage, but can only be used while Enrage, Berserker Rage, or Bloodrage is active. Each other melee ability used while Enrage, Berserker Rage, or Bloodrage is active reduces Raging Blow's remaining cooldown by $s3 sec.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132215,
+    "Icon": "Interface\\ICONS\\Ability_Hunter_SwiftStrike.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114285
+  },
+  {
     "ID": 402927,
     "Name": "Victory Rush",
     "Description": "Instantly attack the target causing ${1+$apm*$m3/100} damage and healing you for $s2% of your maximum health.  Only useable within $402975d after you kill a non-trivial enemy.",
@@ -22183,6 +22379,16 @@
     "Icon": "Interface\\ICONS\\Ability_Warrior_Devastate.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 112709
+  },
+  {
+    "ID": 403196,
+    "Name": "Devastate",
+    "Description": "Sunder Armor also deals $s1% weapon damage, increased by $s2% per application of Sunder Armor already on the target.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 135291,
+    "Icon": "Interface\\ICONS\\INV_Sword_11.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114285
   },
   {
     "ID": 403511,
@@ -22669,6 +22875,46 @@
     "HotfixPushID": 113341
   },
   {
+    "ID": 443278,
+    "Name": "Seed of Renewal",
+    "Description": "Chance to embed a seed into enemy humanoids, beasts, or dragonkin hit by your abilities or spells. If the creature is slain within 30 seconds of the seed being embedded, a Healing Blossom will grow from its corpse.\r\n",
+    "AuraDescription": "Chance to embed a seed into enemy humanoids, beasts, or dragonkin hit by your abilities or spells.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 236155,
+    "Icon": "Interface\\ICONS\\Ability_Druid_GiftoftheEarthmother.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114241
+  },
+  {
+    "ID": 443464,
+    "Name": "Healing Blossom",
+    "AuraDescription": "Heals $s1 every $t1 seconds.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 236160,
+    "Icon": "Interface\\ICONS\\Ability_Druid_ManaTree.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114241
+  },
+  {
+    "ID": 443469,
+    "Name": "[DNT] Grow Healing Blossom",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 236160,
+    "Icon": "Interface\\ICONS\\Ability_Druid_ManaTree.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114241
+  },
+  {
+    "ID": 443631,
+    "Name": "Seed of Renewal Effect",
+    "Description": "Grows a Healing Blossom with from the corpse of a humanoid or beast for $d that heals group members within $443464a1 yards for $443464s1 every $443464t1 seconds.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 236160,
+    "Icon": "Interface\\ICONS\\Ability_Druid_ManaTree.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114241
+  },
+  {
     "ID": 443632,
     "Name": "Filcher's Cowl",
     "Description": "Increases your effective stealth level by ${$s1/5}.",
@@ -22677,6 +22923,16 @@
     "Icon": "Interface\\ICONS\\INV_Misc_Cape_02.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114128
+  },
+  {
+    "ID": 443678,
+    "Name": "Seed of Renewal",
+    "AuraDescription": "Will grow a Healing Blossom from corpse when killed.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 236160,
+    "Icon": "Interface\\ICONS\\Ability_Druid_ManaTree.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114241
   },
   {
     "ID": 447586,
@@ -22718,6 +22974,17 @@
     "Icon": "Interface\\ICONS\\Spell_Holy_SurgeOfLight.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 112864
+  },
+  {
+    "ID": 459592,
+    "Name": "Cropchop",
+    "Description": "Attacks nearby enemies in a whirlwind of steel that lasts $d. and inflicts normal damage plus $15576s1.",
+    "AuraDescription": "Attacking all nearby enemies for normal damage plus $15576s1.\r\nImmune to stun.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132369,
+    "Icon": "Interface\\ICONS\\Ability_Whirlwind.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114266
   },
   {
     "ID": 460664,
@@ -22849,6 +23116,15 @@
     "Icon": "Interface\\ICONS\\TEMP.BLP",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 112864
+  },
+  {
+    "ID": 468071,
+    "Name": "Retaliate",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132215,
+    "Icon": "Interface\\ICONS\\Ability_Hunter_SwiftStrike.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114285
   },
   {
     "ID": 468540,
@@ -25198,6 +25474,27 @@
     "HotfixPushID": 112992
   },
   {
+    "ID": 1269404,
+    "Name": "Shrouding Bolt",
+    "Description": "Directs a bolt of negative energy at the enemy, inflicting $s1 Shadow damage and increasing the amount of damage taken by $@spellname1269404 by $s2% per stack for $d.",
+    "AuraDescription": "You take $s2% increased damage from Shrouding Bolt.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 136197,
+    "Icon": "Interface\\ICONS\\Spell_Shadow_ShadowBolt.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113841
+  },
+  {
+    "ID": 1269546,
+    "Name": "Shriek",
+    "Description": "Deals $s1 Shadow damage to enemies within $a1 yds, interrupting any spells being cast for $d.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 237557,
+    "Icon": "Interface\\ICONS\\Spell_Shadow_DeathsEmbrace.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113841
+  },
+  {
     "ID": 1269585,
     "Name": "Dreadful Screech",
     "Description": "The Wild King releases a dreadful screech, causing all players within $r1 yds to run in fear for $t1 sec.",
@@ -25261,6 +25558,17 @@
     "HotfixPushID": 113837
   },
   {
+    "ID": 1270498,
+    "Name": "Soul Tether",
+    "Description": "Attempts to sunder the soul of a nearby enemy.",
+    "AuraDescription": "Calling all Fragmented Souls to Kathris. Souls that reach Kathris apply $@spellname1270427 to players within $1270427a1 yds inflicting $1270427s1 Shadow damage every $1270427t1 sec for $1270427d.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 4914679,
+    "Icon": "Interface\\ICONS\\INV_Shadowflame_Orb.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113841
+  },
+  {
     "ID": 1270830,
     "Name": "Lunar Expulsion",
     "Description": "Inflicts $s1 Arcane damage to enemies within $a1 yds.",
@@ -25303,6 +25611,26 @@
     "HotfixPushID": 113082
   },
   {
+    "ID": 1271848,
+    "Name": "Gruesome Wail",
+    "Description": "Inflicts $S1 Physical damage to all players within $r1 yds.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136243,
+    "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113842
+  },
+  {
+    "ID": 1271867,
+    "Name": "Writhing Agony",
+    "Description": "Conjures the power of mist, dealing $S1 Nature damage every $1271866t1 sec.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136243,
+    "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113842
+  },
+  {
     "ID": 1271952,
     "Name": "Leyline Convergence",
     "Description": "A powerful leyline is nearby...\r\n",
@@ -25312,6 +25640,47 @@
     "Icon": "Interface\\ICONS\\Ability_DemonHunter_ChaoticImprint_Arcane.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 112864
+  },
+  {
+    "ID": 1272594,
+    "Name": "Rain of Arrows",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132381,
+    "Icon": "Interface\\ICONS\\INV_Ammo_Arrow_01.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113941
+  },
+  {
+    "ID": 1272758,
+    "Name": "Ricochet",
+    "Description": "Strikes an enemy with an arrow that bounces to another nearby enemy. The spell affects up to $x1 targets, causing $s1 Physical damage to each.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 5927620,
+    "Icon": "Interface\\ICONS\\INV_Ability_DarkRangerHunter_BlackArrow.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113941
+  },
+  {
+    "ID": 1272973,
+    "Name": "Ruination",
+    "Description": "Applies a powerful curse to the target, dealing $s1 Shadow damage after $d.",
+    "AuraDescription": "Deals $s1 Shadow damage after $d.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 132095,
+    "Icon": "Interface\\ICONS\\Ability_Creature_Cursed_03.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113941
+  },
+  {
+    "ID": 1272982,
+    "Name": "Rupture",
+    "Description": "Ruptures the target, causing them to bleed for $s1% damage every $T2 sec for $d.",
+    "AuraDescription": "Suffering $S2 damage every $T2 sec.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132141,
+    "Icon": "Interface\\ICONS\\Ability_Druid_Ravage.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113941
   },
   {
     "ID": 1275865,
@@ -25393,7 +25762,7 @@
     "SpellIconFileDataID": 135886,
     "Icon": "Interface\\ICONS\\Spell_Holy_Chastise.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114309
   },
   {
     "ID": 1277332,
@@ -25405,7 +25774,7 @@
     "SpellIconFileDataID": 135886,
     "Icon": "Interface\\ICONS\\Spell_Holy_Chastise.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114309
   },
   {
     "ID": 1277333,
@@ -25417,7 +25786,7 @@
     "SpellIconFileDataID": 135886,
     "Icon": "Interface\\ICONS\\Spell_Holy_Chastise.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114309
   },
   {
     "ID": 1277334,
@@ -25429,7 +25798,7 @@
     "SpellIconFileDataID": 135886,
     "Icon": "Interface\\ICONS\\Spell_Holy_Chastise.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114309
   },
   {
     "ID": 1277335,
@@ -25441,7 +25810,7 @@
     "SpellIconFileDataID": 135886,
     "Icon": "Interface\\ICONS\\Spell_Holy_Chastise.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114309
   },
   {
     "ID": 1277370,
@@ -25753,6 +26122,17 @@
     "HotfixPushID": 113011
   },
   {
+    "ID": 1280634,
+    "Name": "Tranquility",
+    "Description": "Heals all nearby allies for $s1 every $t2 sec over $d.",
+    "AuraDescription": "Heals nearby party members for $w1 every $t1 sec.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136107,
+    "Icon": "Interface\\ICONS\\Spell_Nature_Tranquility.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113976
+  },
+  {
     "ID": 1282082,
     "Name": "Command: Kill!",
     "Description": "Commands Snarlfang and Terrorhowl to attack a random enemy for $d.",
@@ -25813,6 +26193,16 @@
     "HotfixPushID": 114102
   },
   {
+    "ID": 1286114,
+    "Name": "Starfall",
+    "Description": "Anara calls down stars at random players' locations every $t1 sec for $d. Each star inflicts $1294728s1 Arcane damage to all players within $1294728A1 yds of the impact.",
+    "SchoolMask": 64,
+    "SpellIconFileDataID": 236168,
+    "Icon": "Interface\\ICONS\\Ability_Druid_Starfall.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113893
+  },
+  {
     "ID": 1288387,
     "Name": "Umbral Bulwark",
     "SchoolMask": 64,
@@ -25829,7 +26219,7 @@
     "SpellIconFileDataID": 135753,
     "Icon": "Interface\\ICONS\\Spell_Arcane_StarFire.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 112952
+    "HotfixPushID": 113221
   },
   {
     "ID": 1288389,
@@ -25840,6 +26230,39 @@
     "Icon": "Interface\\ICONS\\Ability_Druid_Starfall.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113837
+  },
+  {
+    "ID": 1288559,
+    "Name": "Bloom",
+    "Description": "Afflicts the target with a poison that inflicts $s1 Nature damage every $t1 sec for $d.",
+    "AuraDescription": "$s1 Nature damage inflicted every $t1 sec.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136067,
+    "Icon": "Interface\\ICONS\\Spell_Nature_NullifyPoison.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113893
+  },
+  {
+    "ID": 1288560,
+    "Name": "Wither",
+    "Description": "Slows the target, reducing their movement speed by $s1% Attack speed by $s3% and Casting speed by $s2%.",
+    "AuraDescription": "Movement speed, Attack speed, and Casting speed reduced by $s1%.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 538516,
+    "Icon": "Interface\\ICONS\\Spell_druid_swarm.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113893
+  },
+  {
+    "ID": 1288561,
+    "Name": "Faerie Fire",
+    "Description": "Reduces an enemy's armor and resistances by $s1 for $d. While affected, the target cannot use stealth or invisibility.",
+    "AuraDescription": "Armor reduced by $s1.\r\nCannot use stealth or invisibility.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136033,
+    "Icon": "Interface\\ICONS\\Spell_Nature_FaerieFire.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113893
   },
   {
     "ID": 1288845,
@@ -25902,6 +26325,49 @@
     "HotfixPushID": 113837
   },
   {
+    "ID": 1289129,
+    "Name": "Hurricane",
+    "Description": "$@spelldesc1289130",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136018,
+    "Icon": "Interface\\ICONS\\Spell_Nature_Cyclone.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113976
+  },
+  {
+    "ID": 1289133,
+    "Name": "Mass Insect Swarm",
+    "Description": "The enemy target is swarmed by insects, decreasing their chance to hit with attacks by $s2% and causing $o1 Nature damage over $d.",
+    "AuraDescription": "Chance to hit with attacks decreased by $s2% and $s1 Nature damage every $t1 sec.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136045,
+    "Icon": "Interface\\ICONS\\Spell_Nature_InsectSwarm.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113976
+  },
+  {
+    "ID": 1289145,
+    "Name": "Empowering Roar",
+    "Description": "Increases nearby allies' damage by $s1% for $d.",
+    "AuraDescription": "Damage increased by $s1%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 463283,
+    "Icon": "Interface\\ICONS\\Spell_Druid_stamedingroar.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113976
+  },
+  {
+    "ID": 1289238,
+    "Name": "Tiger's Fury",
+    "Description": "Increases Physical damage done by $s1% for $d.",
+    "AuraDescription": "Increases Physical damage done by $s1%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132242,
+    "Icon": "Interface\\ICONS\\Ability_Mount_JungleTiger.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113976
+  },
+  {
     "ID": 1289248,
     "Name": "Makeshift Stickin' Spear",
     "Description": "Impales a Freshwater Crocolisk.",
@@ -25921,6 +26387,16 @@
     "Icon": "Interface\\ICONS\\Spell_Shadow_LifeDrain.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113292
+  },
+  {
+    "ID": 1289451,
+    "Name": "Wrath",
+    "Description": "Inflicts $s1 Nature damage to an enemy.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136006,
+    "Icon": "Interface\\ICONS\\Spell_Nature_AbolishMagic.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113893
   },
   {
     "ID": 1289681,
@@ -26197,6 +26673,16 @@
     "HotfixPushID": 113837
   },
   {
+    "ID": 1294848,
+    "Name": "Lunar Cascade",
+    "Description": "$@spelldesc1288388",
+    "SchoolMask": 64,
+    "SpellIconFileDataID": 135753,
+    "Icon": "Interface\\ICONS\\Spell_Arcane_StarFire.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113893
+  },
+  {
     "ID": 1294928,
     "Name": "Gravity Well",
     "Description": "The singularity inflicts $s1 Shadow damage.",
@@ -26307,6 +26793,17 @@
     "Icon": "Interface\\ICONS\\Spell_Shadow_DarkSummoning.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113837
+  },
+  {
+    "ID": 1298627,
+    "Name": "Reeking Miasma",
+    "Description": "Reduces movement speed by $S2%. \r\n\r\nInflicts $1298630s1 Nature damage to self and nearby players every $t1 sec.",
+    "AuraDescription": "Movement speed reduced by $s2%.\r\n\r\n$1298630s1 Nature damage inflicted to self and nearby players every $t1 sec.\r\n\r\nCan be washed off.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 132103,
+    "Icon": "Interface\\ICONS\\Ability_Creature_Poison_01.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113842
   },
   {
     "ID": 1299094,
@@ -26482,6 +26979,16 @@
     "Icon": "Interface\\ICONS\\TRADE_ARCHAEOLOGY_VRYKUL_RUNESTICK.BLP",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114071
+  },
+  {
+    "ID": 1306438,
+    "Name": "Mournful Blow",
+    "Description": "Knocks the target back, reducing threat to zero.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132219,
+    "Icon": "Interface\\ICONS\\Ability_Kick.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113842
   },
   {
     "ID": 1306483,
@@ -27246,6 +27753,17 @@
     "Icon": "Interface\\ICONS\\Ability_Druid_Cyclone.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113311
+  },
+  {
+    "ID": 1320726,
+    "Name": "Increased Feral Combat",
+    "Description": "Increased Feral Combat +$s1.",
+    "AuraDescription": "Increased Feral Combat +$w1.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132116,
+    "Icon": "Interface\\ICONS\\Ability_Druid_CatFormAttack.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114069
   },
   {
     "ID": 1321139,
@@ -29006,12 +29524,12 @@
     "ID": 1329283,
     "Name": "Shank",
     "Subtext": "Rank 1",
-    "Description": "Instantly strike with your off-hand weapon, dealing $s1% weapon damage$?s1329328[, increasing your Poison damage dealt by $1310703s1% and your chance to apply Poisons by $1310703s3% for $1310703d, ][ ]and generating $s2 Energy.$?s1329286[  $1329286s1% Chance to award 2 Combo Points.][] Shank cannot Miss.",
+    "Description": "Instantly strike with your off-hand weapon, dealing $s1% weapon damage$?s1329328[, increasing your Poison damage dealt by $1310703s1% and your chance to apply Poisons by $1310703s3% for $1310703d, ][ ]and generating $s2 Energy.$?s1329286[ $1329286s1% chance to award $1329285s1 Combo Points.][] Shank cannot Miss.",
     "SchoolMask": 1,
     "SpellIconFileDataID": 132323,
     "Icon": "Interface\\ICONS\\Ability_TheBlackArrow.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113658
+    "HotfixPushID": 113950
   },
   {
     "ID": 1329284,
@@ -29040,7 +29558,7 @@
     "SpellIconFileDataID": 135342,
     "Icon": "Interface\\ICONS\\INV_Sword_32.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113837
+    "HotfixPushID": 113950
   },
   {
     "ID": 1329326,
@@ -29067,12 +29585,12 @@
     "ID": 1329549,
     "Name": "Shank",
     "Subtext": "Rank 2",
-    "Description": "Instantly strike with your off-hand weapon, dealing $s1% weapon damage$?s1329328[, increasing your Poison damage dealt by $1310703s1% and your chance to apply Poisons by $1310703s3% for $1310703d, ][ ]and generating $s2 Energy.$?s1329286[  $1329286s1% Chance to award 2 Combo Points.][] Shank cannot Miss.",
+    "Description": "Instantly strike with your off-hand weapon, dealing $s1% weapon damage$?s1329328[, increasing your Poison damage dealt by $1310703s1% and your chance to apply Poisons by $1310703s3% for $1310703d, ][ ]and generating $s2 Energy.$?s1329286[ $1329286s1% chance to award $1329285s1 Combo Points.][] Shank cannot Miss.",
     "SchoolMask": 1,
     "SpellIconFileDataID": 132323,
     "Icon": "Interface\\ICONS\\Ability_TheBlackArrow.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113658
+    "HotfixPushID": 113950
   },
   {
     "ID": 1329552,
@@ -29287,8 +29805,19 @@
     "SchoolMask": 32,
     "SpellIconFileDataID": 136136,
     "Icon": "Interface\\ICONS\\Spell_Shadow_Curse.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113835
+  },
+  {
+    "ID": 1330887,
+    "Name": "Thorns Aura",
+    "Description": "Magical thorns deal $S1 Nature damage to anyone who attacks in melee.",
+    "AuraDescription": "Surrounded by magical thorns, dealing $S1 Nature damage when attacked in melee.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136104,
+    "Icon": "Interface\\ICONS\\Spell_Nature_Thorns.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113842
   },
   {
     "ID": 1330904,
@@ -29296,7 +29825,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136243,
     "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113859
   },
   {
@@ -29307,8 +29836,92 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 132121,
     "Icon": "Interface\\ICONS\\ABILITY_DRUID_DEMORALIZINGROAR.BLP",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113867
+  },
+  {
+    "ID": 1330970,
+    "Name": "Fixate",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136243,
+    "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 113841
+  },
+  {
+    "ID": 1331002,
+    "Name": "Eternal Night",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136223,
+    "Icon": "Interface\\ICONS\\Spell_Shadow_Twilight.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 113893
+  },
+  {
+    "ID": 1331006,
+    "Name": "Umbral Pull",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 113893
+  },
+  {
+    "ID": 1331071,
+    "Name": "Wrath",
+    "Description": "Hurls a bolt of lightning at an enemy, inflicting Nature damage.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136048,
+    "Icon": "Interface\\ICONS\\Spell_Nature_Lightning.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 113893
+  },
+  {
+    "ID": 1331079,
+    "Name": "Moonfire",
+    "Description": "Burns the enemy, inflicting $s2 Arcane damage and inflicts $s1 Arcane damage every $t1 sec for $d.",
+    "AuraDescription": "$s1 Arcane damage inflicted every $t1 sec.",
+    "SchoolMask": 64,
+    "SpellIconFileDataID": 136096,
+    "Icon": "Interface\\ICONS\\Spell_Nature_StarFall.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 113893
+  },
+  {
+    "ID": 1331088,
+    "Name": "Swipe",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 134296,
+    "Icon": "Interface\\ICONS\\INV_Misc_MonsterClaw_03.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 113893
+  },
+  {
+    "ID": 1331089,
+    "Name": "Berserk",
+    "AuraDescription": "Attack speed increased by $s1%. Damage increased by $s3%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136206,
+    "Icon": "Interface\\ICONS\\Spell_Shadow_ShadowWordDominate.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 113893
+  },
+  {
+    "ID": 1331092,
+    "Name": "Demoralizing Roar",
+    "Description": "Reduces the melee attack power of nearby enemies by $s1 for $d.",
+    "AuraDescription": "Melee attack power reduced by $s1.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132121,
+    "Icon": "Interface\\ICONS\\ABILITY_DRUID_DEMORALIZINGROAR.BLP",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 113893
+  },
+  {
+    "ID": 1331288,
+    "Name": "Hate to Zero",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136190,
+    "Icon": "Interface\\ICONS\\Spell_Shadow_SacrificialShield.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 113941
   },
   {
     "ID": 1331318,
@@ -29317,7 +29930,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 132318,
     "Icon": "Interface\\ICONS\\Ability_Smash.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113977
   },
   {
@@ -29328,7 +29941,7 @@
     "SchoolMask": 4,
     "SpellIconFileDataID": 135807,
     "Icon": "Interface\\ICONS\\Spell_Fire_Fireball.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113977
   },
   {
@@ -29348,7 +29961,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 133662,
     "Icon": "Interface\\ICONS\\INV_Misc_Bag_BigBagofEnchantments.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114067
   },
   {
@@ -29358,7 +29971,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 134895,
     "Icon": "Interface\\ICONS\\INV_Qiraj_SkinSandworm.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114079
   },
   {
@@ -29368,7 +29981,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136245,
     "Icon": "Interface\\ICONS\\Trade_Fishing.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114079
   },
   {
@@ -29377,7 +29990,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136243,
     "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114114
   }
 ]

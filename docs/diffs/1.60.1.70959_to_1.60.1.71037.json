@@ -1,0 +1,2682 @@
+{
+  "OldVersion": "1.60.1.70959",
+  "NewVersion": "1.60.1.71037",
+  "OldBuildKey": "ad887adcf63b8746155dd40e1930b80f",
+  "NewBuildKey": "0acab1e6aa41b46165d2ca66853b417b",
+  "OldTableCount": 320,
+  "NewTableCount": 321,
+  "OldTotalRows": 1501535,
+  "NewTotalRows": 1501655,
+  "OldValidHotfixes": 42302,
+  "NewValidHotfixes": 43149,
+  "OldDeleteHotfixes": 12536,
+  "NewDeleteHotfixes": 12695,
+  "AddedTables": [
+    {
+      "TableName": "AreaTriggerSphere",
+      "TableHash": "93073B25",
+      "LayoutHash": "B851EBF6",
+      "ColumnCount": 2,
+      "BaseDb2Rows": 8,
+      "HotfixUpserts": 1,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 8
+    }
+  ],
+  "RemovedTables": [],
+  "ChangedTables": [
+    {
+      "TableName": "Achievement",
+      "OldLayoutHash": "6FC5281B",
+      "NewLayoutHash": "6FC5281B",
+      "OldBaseRows": 440,
+      "NewBaseRows": 438,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 0,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 440,
+      "NewFinalRows": 438,
+      "LayoutChanged": false,
+      "RowDelta": -2
+    },
+    {
+      "TableName": "BroadcastText",
+      "OldLayoutHash": "00EB45B3",
+      "NewLayoutHash": "00EB45B3",
+      "OldBaseRows": 12,
+      "NewBaseRows": 12,
+      "OldHotfixUpserts": 54,
+      "NewHotfixUpserts": 64,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 66,
+      "NewFinalRows": 76,
+      "LayoutChanged": false,
+      "RowDelta": 10
+    },
+    {
+      "TableName": "ClientSettings",
+      "OldLayoutHash": "0ACED075",
+      "NewLayoutHash": "0ACED075",
+      "OldBaseRows": 7,
+      "NewBaseRows": 8,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 8,
+      "NewFinalRows": 8,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ContentTuning",
+      "OldLayoutHash": "A3E13004",
+      "NewLayoutHash": "A3E13004",
+      "OldBaseRows": 100,
+      "NewBaseRows": 102,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 102,
+      "NewFinalRows": 102,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ContentTuningXExpected",
+      "OldLayoutHash": "897A4313",
+      "NewLayoutHash": "897A4313",
+      "OldBaseRows": 29,
+      "NewBaseRows": 31,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 31,
+      "NewFinalRows": 31,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CooldownSetLinkedSpell",
+      "OldLayoutHash": "11E4972F",
+      "NewLayoutHash": "11E4972F",
+      "OldBaseRows": 1904,
+      "NewBaseRows": 1906,
+      "OldHotfixUpserts": 72,
+      "NewHotfixUpserts": 69,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 4,
+      "OldFinalRows": 1906,
+      "NewFinalRows": 1903,
+      "LayoutChanged": false,
+      "RowDelta": -3
+    },
+    {
+      "TableName": "CooldownSetSpell",
+      "OldLayoutHash": "0AC7B8F5",
+      "NewLayoutHash": "0AC7B8F5",
+      "OldBaseRows": 609,
+      "NewBaseRows": 609,
+      "OldHotfixUpserts": 396,
+      "NewHotfixUpserts": 396,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 3,
+      "OldFinalRows": 609,
+      "NewFinalRows": 606,
+      "LayoutChanged": false,
+      "RowDelta": -3
+    },
+    {
+      "TableName": "CreatureDifficultyTreasure",
+      "OldLayoutHash": "75E963A9",
+      "NewLayoutHash": "75E963A9",
+      "OldBaseRows": 14290,
+      "NewBaseRows": 14271,
+      "OldHotfixUpserts": 388,
+      "NewHotfixUpserts": 390,
+      "OldHotfixDeletes": 19,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 14280,
+      "NewFinalRows": 14280,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CreatureDisplayInfo",
+      "OldLayoutHash": "7275F5F6",
+      "NewLayoutHash": "7275F5F6",
+      "OldBaseRows": 14209,
+      "NewBaseRows": 14210,
+      "OldHotfixUpserts": 13,
+      "NewHotfixUpserts": 14,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 14211,
+      "NewFinalRows": 14211,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CreatureModelData",
+      "OldLayoutHash": "0F5449F8",
+      "NewLayoutHash": "0F5449F8",
+      "OldBaseRows": 1197,
+      "NewBaseRows": 1198,
+      "OldHotfixUpserts": 6,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1198,
+      "NewFinalRows": 1198,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Criteria",
+      "OldLayoutHash": "53D03513",
+      "NewLayoutHash": "53D03513",
+      "OldBaseRows": 3292,
+      "NewBaseRows": 3305,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 16,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3292,
+      "NewFinalRows": 3305,
+      "LayoutChanged": false,
+      "RowDelta": 13
+    },
+    {
+      "TableName": "CriteriaTree",
+      "OldLayoutHash": "FF97AE12",
+      "NewLayoutHash": "FF97AE12",
+      "OldBaseRows": 6759,
+      "NewBaseRows": 6759,
+      "OldHotfixUpserts": 23,
+      "NewHotfixUpserts": 36,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6759,
+      "NewFinalRows": 6759,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Curve",
+      "OldLayoutHash": "D362535A",
+      "NewLayoutHash": "D362535A",
+      "OldBaseRows": 20077,
+      "NewBaseRows": 20329,
+      "OldHotfixUpserts": 797,
+      "NewHotfixUpserts": 797,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 20329,
+      "NewFinalRows": 20329,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CurvePoint",
+      "OldLayoutHash": "7D4954A1",
+      "NewLayoutHash": "7D4954A1",
+      "OldBaseRows": 42664,
+      "NewBaseRows": 43168,
+      "OldHotfixUpserts": 1664,
+      "NewHotfixUpserts": 1664,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 43168,
+      "NewFinalRows": 43168,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ExpectedStatMod",
+      "OldLayoutHash": "8C41CCCE",
+      "NewLayoutHash": "8C41CCCE",
+      "OldBaseRows": 5,
+      "NewBaseRows": 6,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6,
+      "NewFinalRows": 6,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "GameObjectDisplayInfo",
+      "OldLayoutHash": "16D1DD61",
+      "NewLayoutHash": "16D1DD61",
+      "OldBaseRows": 3262,
+      "NewBaseRows": 3262,
+      "OldHotfixUpserts": 24,
+      "NewHotfixUpserts": 28,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3262,
+      "NewFinalRows": 3266,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "GlobalStrings",
+      "OldLayoutHash": "D40F6D96",
+      "NewLayoutHash": "D40F6D96",
+      "OldBaseRows": 27401,
+      "NewBaseRows": 27402,
+      "OldHotfixUpserts": 158,
+      "NewHotfixUpserts": 158,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 27402,
+      "NewFinalRows": 27402,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Item",
+      "OldLayoutHash": "9A2A4834",
+      "NewLayoutHash": "9A2A4834",
+      "OldBaseRows": 31981,
+      "NewBaseRows": 31982,
+      "OldHotfixUpserts": 8266,
+      "NewHotfixUpserts": 8356,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 31982,
+      "NewFinalRows": 31983,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "ItemEffect",
+      "OldLayoutHash": "4CA77678",
+      "NewLayoutHash": "4CA77678",
+      "OldBaseRows": 12672,
+      "NewBaseRows": 12673,
+      "OldHotfixUpserts": 62,
+      "NewHotfixUpserts": 69,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 12672,
+      "NewFinalRows": 12672,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemModifiedAppearance",
+      "OldLayoutHash": "03A6C979",
+      "NewLayoutHash": "03A6C979",
+      "OldBaseRows": 16898,
+      "NewBaseRows": 16898,
+      "OldHotfixUpserts": 256,
+      "NewHotfixUpserts": 257,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 16898,
+      "NewFinalRows": 16898,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemSearchName",
+      "OldLayoutHash": "4516C8B0",
+      "NewLayoutHash": "4516C8B0",
+      "OldBaseRows": 6637,
+      "NewBaseRows": 6709,
+      "OldHotfixUpserts": 7236,
+      "NewHotfixUpserts": 7309,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 11578,
+      "NewFinalRows": 11581,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "ItemSetSpell",
+      "OldLayoutHash": "2666A73F",
+      "NewLayoutHash": "2666A73F",
+      "OldBaseRows": 1505,
+      "NewBaseRows": 1505,
+      "OldHotfixUpserts": 29,
+      "NewHotfixUpserts": 29,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1505,
+      "NewFinalRows": 1505,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemSparse",
+      "OldLayoutHash": "6FCC3191",
+      "NewLayoutHash": "6FCC3191",
+      "OldBaseRows": 19300,
+      "NewBaseRows": 19374,
+      "OldHotfixUpserts": 8266,
+      "NewHotfixUpserts": 8356,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 24734,
+      "NewFinalRows": 24741,
+      "LayoutChanged": false,
+      "RowDelta": 7
+    },
+    {
+      "TableName": "ItemXItemEffect",
+      "OldLayoutHash": "96F083AD",
+      "NewLayoutHash": "96F083AD",
+      "OldBaseRows": 12664,
+      "NewBaseRows": 12665,
+      "OldHotfixUpserts": 41,
+      "NewHotfixUpserts": 42,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 12664,
+      "NewFinalRows": 12664,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "LightData",
+      "OldLayoutHash": "360DA016",
+      "NewLayoutHash": "360DA016",
+      "OldBaseRows": 6021,
+      "NewBaseRows": 6057,
+      "OldHotfixUpserts": 218,
+      "NewHotfixUpserts": 256,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6057,
+      "NewFinalRows": 6057,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "LightDataGlobalVolumeFog",
+      "OldLayoutHash": "24290E20",
+      "NewLayoutHash": "24290E20",
+      "OldBaseRows": 11525,
+      "NewBaseRows": 11633,
+      "OldHotfixUpserts": 554,
+      "NewHotfixUpserts": 638,
+      "OldHotfixDeletes": 21,
+      "NewHotfixDeletes": 13,
+      "OldFinalRows": 11633,
+      "NewFinalRows": 11633,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "LightParams",
+      "OldLayoutHash": "A7F31923",
+      "NewLayoutHash": "A7F31923",
+      "OldBaseRows": 884,
+      "NewBaseRows": 887,
+      "OldHotfixUpserts": 20,
+      "NewHotfixUpserts": 24,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 887,
+      "NewFinalRows": 887,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ModifierTree",
+      "OldLayoutHash": "F13BB1D8",
+      "NewLayoutHash": "F13BB1D8",
+      "OldBaseRows": 2875,
+      "NewBaseRows": 2876,
+      "OldHotfixUpserts": 47,
+      "NewHotfixUpserts": 50,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2876,
+      "NewFinalRows": 2879,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "PlayerCondition",
+      "OldLayoutHash": "1D743D99",
+      "NewLayoutHash": "1D743D99",
+      "OldBaseRows": 1966,
+      "NewBaseRows": 1970,
+      "OldHotfixUpserts": 35,
+      "NewHotfixUpserts": 36,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1972,
+      "NewFinalRows": 1973,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "QuestV2",
+      "OldLayoutHash": "1854BDB9",
+      "NewLayoutHash": "1854BDB9",
+      "OldBaseRows": 6614,
+      "NewBaseRows": 6614,
+      "OldHotfixUpserts": 1253,
+      "NewHotfixUpserts": 1257,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6614,
+      "NewFinalRows": 6614,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ScreenEffect",
+      "OldLayoutHash": "35A3B574",
+      "NewLayoutHash": "35A3B574",
+      "OldBaseRows": 79,
+      "NewBaseRows": 79,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 79,
+      "NewFinalRows": 79,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SkillLineAbility",
+      "OldLayoutHash": "224F7EA0",
+      "NewLayoutHash": "224F7EA0",
+      "OldBaseRows": 7845,
+      "NewBaseRows": 7845,
+      "OldHotfixUpserts": 65,
+      "NewHotfixUpserts": 72,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 7845,
+      "NewFinalRows": 7846,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SoundKit",
+      "OldLayoutHash": "A7FB0451",
+      "NewLayoutHash": "A7FB0451",
+      "OldBaseRows": 23409,
+      "NewBaseRows": 23409,
+      "OldHotfixUpserts": 84,
+      "NewHotfixUpserts": 87,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 23413,
+      "NewFinalRows": 23413,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SoundKitAdvanced",
+      "OldLayoutHash": "F65DB810",
+      "NewLayoutHash": "F65DB810",
+      "OldBaseRows": 16491,
+      "NewBaseRows": 16492,
+      "OldHotfixUpserts": 69,
+      "NewHotfixUpserts": 69,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 16496,
+      "NewFinalRows": 16496,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Spell",
+      "OldLayoutHash": "E3D134FB",
+      "NewLayoutHash": "E3D134FB",
+      "OldBaseRows": 32124,
+      "NewBaseRows": 32135,
+      "OldHotfixUpserts": 1284,
+      "NewHotfixUpserts": 1328,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 32144,
+      "NewFinalRows": 32154,
+      "LayoutChanged": false,
+      "RowDelta": 10
+    },
+    {
+      "TableName": "SpellAuraOptions",
+      "OldLayoutHash": "95F4D5E1",
+      "NewLayoutHash": "95F4D5E1",
+      "OldBaseRows": 12769,
+      "NewBaseRows": 12765,
+      "OldHotfixUpserts": 83,
+      "NewHotfixUpserts": 87,
+      "OldHotfixDeletes": 9,
+      "NewHotfixDeletes": 6,
+      "OldFinalRows": 12763,
+      "NewFinalRows": 12760,
+      "LayoutChanged": false,
+      "RowDelta": -3
+    },
+    {
+      "TableName": "SpellAuraVisibility",
+      "OldLayoutHash": "BDBF86F9",
+      "NewLayoutHash": "BDBF86F9",
+      "OldBaseRows": 186,
+      "NewBaseRows": 188,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 188,
+      "NewFinalRows": 189,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellCastingRequirements",
+      "OldLayoutHash": "02074290",
+      "NewLayoutHash": "02074290",
+      "OldBaseRows": 3278,
+      "NewBaseRows": 3278,
+      "OldHotfixUpserts": 7,
+      "NewHotfixUpserts": 8,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3278,
+      "NewFinalRows": 3279,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellCategories",
+      "OldLayoutHash": "679EF94C",
+      "NewLayoutHash": "679EF94C",
+      "OldBaseRows": 10703,
+      "NewBaseRows": 10705,
+      "OldHotfixUpserts": 142,
+      "NewHotfixUpserts": 153,
+      "OldHotfixDeletes": 7,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 10703,
+      "NewFinalRows": 10710,
+      "LayoutChanged": false,
+      "RowDelta": 7
+    },
+    {
+      "TableName": "SpellCategory",
+      "OldLayoutHash": "B79B78E1",
+      "NewLayoutHash": "B79B78E1",
+      "OldBaseRows": 268,
+      "NewBaseRows": 269,
+      "OldHotfixUpserts": 5,
+      "NewHotfixUpserts": 5,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 269,
+      "NewFinalRows": 269,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellClassOptions",
+      "OldLayoutHash": "1F8E4FD7",
+      "NewLayoutHash": "1F8E4FD7",
+      "OldBaseRows": 6119,
+      "NewBaseRows": 6118,
+      "OldHotfixUpserts": 64,
+      "NewHotfixUpserts": 97,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 7,
+      "OldFinalRows": 6118,
+      "NewFinalRows": 6111,
+      "LayoutChanged": false,
+      "RowDelta": -7
+    },
+    {
+      "TableName": "SpellCooldowns",
+      "OldLayoutHash": "DC945B8C",
+      "NewLayoutHash": "DC945B8C",
+      "OldBaseRows": 4514,
+      "NewBaseRows": 4511,
+      "OldHotfixUpserts": 70,
+      "NewHotfixUpserts": 71,
+      "OldHotfixDeletes": 7,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 4511,
+      "NewFinalRows": 4512,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellEffect",
+      "OldLayoutHash": "5362E3D4",
+      "NewLayoutHash": "5362E3D4",
+      "OldBaseRows": 43048,
+      "NewBaseRows": 43062,
+      "OldHotfixUpserts": 1018,
+      "NewHotfixUpserts": 1098,
+      "OldHotfixDeletes": 2,
+      "NewHotfixDeletes": 5,
+      "OldFinalRows": 43062,
+      "NewFinalRows": 43076,
+      "LayoutChanged": false,
+      "RowDelta": 14
+    },
+    {
+      "TableName": "SpellEquippedItems",
+      "OldLayoutHash": "D9177916",
+      "NewLayoutHash": "D9177916",
+      "OldBaseRows": 1891,
+      "NewBaseRows": 1891,
+      "OldHotfixUpserts": 10,
+      "NewHotfixUpserts": 11,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1891,
+      "NewFinalRows": 1892,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellInterrupts",
+      "OldLayoutHash": "6FFC0306",
+      "NewLayoutHash": "6FFC0306",
+      "OldBaseRows": 9926,
+      "NewBaseRows": 9929,
+      "OldHotfixUpserts": 47,
+      "NewHotfixUpserts": 49,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 9929,
+      "NewFinalRows": 9930,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellItemEnchantment",
+      "OldLayoutHash": "952B72B2",
+      "NewLayoutHash": "952B72B2",
+      "OldBaseRows": 2218,
+      "NewBaseRows": 2219,
+      "OldHotfixUpserts": 10,
+      "NewHotfixUpserts": 10,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2219,
+      "NewFinalRows": 2219,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellLabel",
+      "OldLayoutHash": "2B9F0138",
+      "NewLayoutHash": "2B9F0138",
+      "OldBaseRows": 4687,
+      "NewBaseRows": 4687,
+      "OldHotfixUpserts": 43,
+      "NewHotfixUpserts": 43,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 4687,
+      "NewFinalRows": 4686,
+      "LayoutChanged": false,
+      "RowDelta": -1
+    },
+    {
+      "TableName": "SpellLearnSpell",
+      "OldLayoutHash": "6B9C3AC9",
+      "NewLayoutHash": "6B9C3AC9",
+      "OldBaseRows": 52,
+      "NewBaseRows": 52,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 1,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 52,
+      "NewFinalRows": 53,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellLevels",
+      "OldLayoutHash": "7EB86FDC",
+      "NewLayoutHash": "7EB86FDC",
+      "OldBaseRows": 13002,
+      "NewBaseRows": 13006,
+      "OldHotfixUpserts": 88,
+      "NewHotfixUpserts": 91,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 13006,
+      "NewFinalRows": 13009,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "SpellMisc",
+      "OldLayoutHash": "434B3607",
+      "NewLayoutHash": "434B3607",
+      "OldBaseRows": 32104,
+      "NewBaseRows": 32115,
+      "OldHotfixUpserts": 1997,
+      "NewHotfixUpserts": 2037,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 32113,
+      "NewFinalRows": 32122,
+      "LayoutChanged": false,
+      "RowDelta": 9
+    },
+    {
+      "TableName": "SpellName",
+      "OldLayoutHash": "782EE721",
+      "NewLayoutHash": "782EE721",
+      "OldBaseRows": 32124,
+      "NewBaseRows": 32135,
+      "OldHotfixUpserts": 1284,
+      "NewHotfixUpserts": 1328,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 32144,
+      "NewFinalRows": 32154,
+      "LayoutChanged": false,
+      "RowDelta": 10
+    },
+    {
+      "TableName": "SpellPower",
+      "OldLayoutHash": "61AD223F",
+      "NewLayoutHash": "61AD223F",
+      "OldBaseRows": 3481,
+      "NewBaseRows": 3481,
+      "OldHotfixUpserts": 54,
+      "NewHotfixUpserts": 55,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3481,
+      "NewFinalRows": 3482,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellShapeshift",
+      "OldLayoutHash": "E9111399",
+      "NewLayoutHash": "E9111399",
+      "OldBaseRows": 3466,
+      "NewBaseRows": 3466,
+      "OldHotfixUpserts": 20,
+      "NewHotfixUpserts": 20,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 5,
+      "OldFinalRows": 3466,
+      "NewFinalRows": 3461,
+      "LayoutChanged": false,
+      "RowDelta": -5
+    },
+    {
+      "TableName": "SpellTargetRestrictions",
+      "OldLayoutHash": "1EAB753E",
+      "NewLayoutHash": "1EAB753E",
+      "OldBaseRows": 4514,
+      "NewBaseRows": 4517,
+      "OldHotfixUpserts": 76,
+      "NewHotfixUpserts": 80,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 4517,
+      "NewFinalRows": 4518,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellVisual",
+      "OldLayoutHash": "4B85C90F",
+      "NewLayoutHash": "4B85C90F",
+      "OldBaseRows": 6157,
+      "NewBaseRows": 6158,
+      "OldHotfixUpserts": 76,
+      "NewHotfixUpserts": 80,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6158,
+      "NewFinalRows": 6160,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "SpellVisualAnim",
+      "OldLayoutHash": "F233613A",
+      "NewLayoutHash": "F233613A",
+      "OldBaseRows": 2846,
+      "NewBaseRows": 2846,
+      "OldHotfixUpserts": 47,
+      "NewHotfixUpserts": 48,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2846,
+      "NewFinalRows": 2847,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "SpellVisualEffectName",
+      "OldLayoutHash": "2245CEE6",
+      "NewLayoutHash": "2245CEE6",
+      "OldBaseRows": 2998,
+      "NewBaseRows": 3001,
+      "OldHotfixUpserts": 39,
+      "NewHotfixUpserts": 42,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3000,
+      "NewFinalRows": 3003,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "SpellVisualEvent",
+      "OldLayoutHash": "865F512E",
+      "NewLayoutHash": "865F512E",
+      "OldBaseRows": 15818,
+      "NewBaseRows": 15820,
+      "OldHotfixUpserts": 180,
+      "NewHotfixUpserts": 187,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 15819,
+      "NewFinalRows": 15825,
+      "LayoutChanged": false,
+      "RowDelta": 6
+    },
+    {
+      "TableName": "SpellVisualKit",
+      "OldLayoutHash": "C069D9C4",
+      "NewLayoutHash": "C069D9C4",
+      "OldBaseRows": 8066,
+      "NewBaseRows": 8068,
+      "OldHotfixUpserts": 109,
+      "NewHotfixUpserts": 114,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 8068,
+      "NewFinalRows": 8072,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "SpellVisualKitEffect",
+      "OldLayoutHash": "E3206CA2",
+      "NewLayoutHash": "E3206CA2",
+      "OldBaseRows": 18467,
+      "NewBaseRows": 18468,
+      "OldHotfixUpserts": 238,
+      "NewHotfixUpserts": 248,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 3,
+      "OldFinalRows": 18469,
+      "NewFinalRows": 18475,
+      "LayoutChanged": false,
+      "RowDelta": 6
+    },
+    {
+      "TableName": "SpellVisualKitModelAttach",
+      "OldLayoutHash": "02CF8554",
+      "NewLayoutHash": "02CF8554",
+      "OldBaseRows": 9081,
+      "NewBaseRows": 9082,
+      "OldHotfixUpserts": 126,
+      "NewHotfixUpserts": 140,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 3,
+      "OldFinalRows": 9082,
+      "NewFinalRows": 9086,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "SpellXSpellVisual",
+      "OldLayoutHash": "7994A890",
+      "NewLayoutHash": "7994A890",
+      "OldBaseRows": 20516,
+      "NewBaseRows": 20522,
+      "OldHotfixUpserts": 167,
+      "NewHotfixUpserts": 175,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 20521,
+      "NewFinalRows": 20527,
+      "LayoutChanged": false,
+      "RowDelta": 6
+    },
+    {
+      "TableName": "TradeSkillCategory",
+      "OldLayoutHash": "7F2B6CD0",
+      "NewLayoutHash": "7F2B6CD0",
+      "OldBaseRows": 216,
+      "NewBaseRows": 216,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 216,
+      "NewFinalRows": 216,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TradeSkillItem",
+      "OldLayoutHash": "05D8D675",
+      "NewLayoutHash": "05D8D675",
+      "OldBaseRows": 3242,
+      "NewBaseRows": 3242,
+      "OldHotfixUpserts": 396,
+      "NewHotfixUpserts": 471,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3242,
+      "NewFinalRows": 3242,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "UnitCondition",
+      "OldLayoutHash": "215FAF83",
+      "NewLayoutHash": "215FAF83",
+      "OldBaseRows": 359,
+      "NewBaseRows": 360,
+      "OldHotfixUpserts": 5,
+      "NewHotfixUpserts": 5,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 360,
+      "NewFinalRows": 360,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "WorldEffect",
+      "OldLayoutHash": "B841BBEE",
+      "NewLayoutHash": "B841BBEE",
+      "OldBaseRows": 203,
+      "NewBaseRows": 206,
+      "OldHotfixUpserts": 21,
+      "NewHotfixUpserts": 21,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 206,
+      "NewFinalRows": 206,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    }
+  ],
+  "NewHotfixWaves": [
+    {
+      "PushId": 112709,
+      "AddedValidCount": 8,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "BroadcastText"
+      ]
+    },
+    {
+      "PushId": 113081,
+      "AddedValidCount": 12,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113149,
+      "AddedValidCount": 35,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 113153,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure"
+      ]
+    },
+    {
+      "PushId": 113205,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 113221,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113270,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113411,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "WorldStateExpression"
+      ]
+    },
+    {
+      "PushId": 113454,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "TactKey",
+        "TactKeyLookup"
+      ]
+    },
+    {
+      "PushId": 113789,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellShapeshift"
+      ]
+    },
+    {
+      "PushId": 113807,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "BroadcastText"
+      ]
+    },
+    {
+      "PushId": 113841,
+      "AddedValidCount": 40,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Criteria",
+        "CriteriaTree",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113842,
+      "AddedValidCount": 31,
+      "AddedDeleteCount": 4,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCategories",
+        "SpellEffect",
+        "SpellInterrupts",
+        "SpellMisc",
+        "SpellName",
+        "SpellVisual",
+        "SpellVisualEffectName",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "SpellVisualKitModelAttach",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 113872,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 4,
+      "AffectedTables": [
+        "CooldownSetLinkedSpell",
+        "CooldownSetSpell"
+      ]
+    },
+    {
+      "PushId": 113893,
+      "AddedValidCount": 180,
+      "AddedDeleteCount": 10,
+      "AffectedTables": [
+        "GameObjectDisplayInfo",
+        "LightData",
+        "LightDataGlobalVolumeFog",
+        "LightParams",
+        "ScreenEffect",
+        "Spell",
+        "SpellAuraVisibility",
+        "SpellCastingRequirements",
+        "SpellCategories",
+        "SpellCooldowns",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellInterrupts",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellTargetRestrictions",
+        "SpellVisual",
+        "SpellVisualAnim",
+        "SpellVisualEffectName",
+        "SpellVisualEvent",
+        "SpellVisualKit",
+        "SpellVisualKitEffect",
+        "SpellVisualKitModelAttach",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 113905,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "WorldState"
+      ]
+    },
+    {
+      "PushId": 113937,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "AreaTable"
+      ]
+    },
+    {
+      "PushId": 113941,
+      "AddedValidCount": 12,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "Spell",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName",
+        "SpellPowerDifficulty",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 113950,
+      "AddedValidCount": 10,
+      "AddedDeleteCount": 3,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 113976,
+      "AddedValidCount": 27,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "AreaTriggerSphere",
+        "SoundKit",
+        "Spell",
+        "SpellCategories",
+        "SpellEffect",
+        "SpellLabel",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 114022,
+      "AddedValidCount": 10,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellCategories"
+      ]
+    },
+    {
+      "PushId": 114069,
+      "AddedValidCount": 253,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "Item",
+        "ItemEffect",
+        "ItemModifiedAppearance",
+        "ItemModifiedAppearanceExtra",
+        "ItemSearchName",
+        "ItemSparse",
+        "ItemXItemEffect",
+        "Spell",
+        "SpellName",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 114094,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114126,
+      "AddedValidCount": 22,
+      "AddedDeleteCount": 3,
+      "AffectedTables": [
+        "LightData",
+        "LightDataGlobalVolumeFog",
+        "LightParams"
+      ]
+    },
+    {
+      "PushId": 114131,
+      "AddedValidCount": 50,
+      "AddedDeleteCount": 10,
+      "AffectedTables": [
+        "LightData",
+        "LightDataGlobalVolumeFog",
+        "LightParams"
+      ]
+    },
+    {
+      "PushId": 114134,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "LightDataGlobalVolumeFog"
+      ]
+    },
+    {
+      "PushId": 114148,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 46,
+      "AffectedTables": [
+        "QuestPOIBlob",
+        "QuestPOIPoint"
+      ]
+    },
+    {
+      "PushId": 114179,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 6,
+      "AffectedTables": [
+        "QuestPOIBlob",
+        "QuestPOIPoint"
+      ]
+    },
+    {
+      "PushId": 114182,
+      "AddedValidCount": 7,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "ModifierTree",
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 114183,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114190,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114199,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect",
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114202,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114204,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 3,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellEffect",
+        "SpellName",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 114205,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GameObjectDisplayInfo"
+      ]
+    },
+    {
+      "PushId": 114211,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114214,
+      "AddedValidCount": 8,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 114215,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDisplayInfo"
+      ]
+    },
+    {
+      "PushId": 114217,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemEffect",
+        "ItemSparse",
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114221,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 23,
+      "AffectedTables": [
+        "QuestPOIBlob",
+        "QuestPOIPoint"
+      ]
+    },
+    {
+      "PushId": 114224,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 3,
+      "AffectedTables": [
+        "CooldownSetSpell"
+      ]
+    },
+    {
+      "PushId": 114232,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CooldownSetLinkedSpell"
+      ]
+    },
+    {
+      "PushId": 114238,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114241,
+      "AddedValidCount": 14,
+      "AddedDeleteCount": 4,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "PlayerCondition",
+        "QuestV2",
+        "Spell",
+        "SpellName",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 114246,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 114252,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114266,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure",
+        "Item",
+        "ItemSparse",
+        "SpellEffect",
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114267,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 2,
+      "AffectedTables": [
+        "ItemEffect",
+        "ItemXItemEffect"
+      ]
+    },
+    {
+      "PushId": 114268,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114281,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114283,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect",
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114285,
+      "AddedValidCount": 67,
+      "AddedDeleteCount": 29,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellClassOptions",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 114286,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure"
+      ]
+    },
+    {
+      "PushId": 114294,
+      "AddedValidCount": 46,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemEffect",
+        "ItemSparse",
+        "SkillLineAbility",
+        "Spell",
+        "SpellEffect",
+        "SpellLearnSpell",
+        "SpellName",
+        "TradeSkillCategory",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 114306,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 114309,
+      "AddedValidCount": 10,
+      "AddedDeleteCount": 5,
+      "AffectedTables": [
+        "Spell",
+        "SpellName",
+        "SpellShapeshift"
+      ]
+    },
+    {
+      "PushId": 114310,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114312,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114313,
+      "AddedValidCount": 9,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114314,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114318,
+      "AddedValidCount": 40,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 114320,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114326,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "Spell",
+        "SpellInterrupts",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 16788819,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16795889,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 16996542,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 17063856,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    }
+  ],
+  "AddedItems": [
+    {
+      "Id": 11422,
+      "Name": "Goblin Engineer's Renewal Gift",
+      "Quality": 1,
+      "ItemLevel": 1,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114294,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 11423,
+      "Name": "Gnome Engineer's Renewal Gift",
+      "Quality": 1,
+      "ItemLevel": 1,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114294,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 11603,
+      "Name": "Vilerend Slicer",
+      "Quality": 3,
+      "ItemLevel": 51,
+      "RequiredLevel": 46,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16788819,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 18673,
+      "Name": "Avalanchion's Stony Hide",
+      "Quality": 3,
+      "ItemLevel": 60,
+      "RequiredLevel": 55,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16795889,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 219326,
+      "Name": "Seed of Renewal",
+      "Quality": 3,
+      "ItemLevel": 50,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16996542,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 286640,
+      "Name": "High Priestess's Kilt",
+      "Quality": 3,
+      "ItemLevel": 59,
+      "RequiredLevel": 54,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17063856,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 291874,
+      "Name": "Ruined Herb Seeds",
+      "Quality": 0,
+      "ItemLevel": 1,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114217,
+      "ChangeDetails": null
+    }
+  ],
+  "RemovedItems": [],
+  "ModifiedItems": [
+    {
+      "Id": 219343,
+      "Name": "Filcher's Cowl",
+      "Quality": 3,
+      "ItemLevel": 50,
+      "RequiredLevel": 0,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 16996559,
+      "ChangeDetails": "ReqLvl: 50 -> 0"
+    },
+    {
+      "Id": 273884,
+      "Name": "Grovekeeper Trousers",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051100,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273885,
+      "Name": "Grovekeeper Grips",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051101,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273886,
+      "Name": "Grovekeeper Shoulderpads",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051102,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273887,
+      "Name": "Grovekeeper Stompers",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051103,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273888,
+      "Name": "Grovekeeper Kilt",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051104,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273889,
+      "Name": "Grovekeeper Mitts",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051105,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273890,
+      "Name": "Grovekeeper Mantle",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051106,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273891,
+      "Name": "Grovekeeper Sandals",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051107,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273892,
+      "Name": "Grovekeeper Legguards",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051108,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273893,
+      "Name": "Grovekeeper Handguards",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051109,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273894,
+      "Name": "Grovekeeper Pauldrons",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051110,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273895,
+      "Name": "Grovekeeper Boots",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051111,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273896,
+      "Name": "Grovekeeper Leggings",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051112,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273897,
+      "Name": "Grovekeeper Gauntlets",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051113,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273898,
+      "Name": "Grovekeeper Spaulders",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051114,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273899,
+      "Name": "Grovekeeper Treads",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051115,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273900,
+      "Name": "Wildstalker's Legguards",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051116,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273901,
+      "Name": "Wildstalker's Gauntlets",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051117,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273902,
+      "Name": "Wildstalker's Spaulders",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051118,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273903,
+      "Name": "Wildstalker's Greaves",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051119,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273904,
+      "Name": "Manaflare Pants",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051120,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273905,
+      "Name": "Manaflare Gloves",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051121,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273906,
+      "Name": "Manaflare Mantle",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051122,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273907,
+      "Name": "Manaflare Boots",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051123,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273908,
+      "Name": "Justice Leggings",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051124,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273909,
+      "Name": "Justice Gauntlets",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051125,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273910,
+      "Name": "Justice Spaulders",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051126,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273911,
+      "Name": "Justice Greaves",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051127,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273912,
+      "Name": "Justice Legplates",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051128,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273913,
+      "Name": "Justice Gloves",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051129,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273914,
+      "Name": "Justice Epaulets",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051130,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273915,
+      "Name": "Justice Treads",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051131,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273916,
+      "Name": "Justice Legguards",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051132,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273917,
+      "Name": "Justice Handguards",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051133,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273918,
+      "Name": "Justice Pauldrons",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051134,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273919,
+      "Name": "Justice Sabatons",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051135,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273920,
+      "Name": "Pants of Conviction",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051136,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273921,
+      "Name": "Gloves of Conviction",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051137,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273922,
+      "Name": "Mantle of Conviction",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051138,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273923,
+      "Name": "Treads of Conviction",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051139,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273924,
+      "Name": "Leggings of Conviction",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051140,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273925,
+      "Name": "Handguards of Conviction",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051141,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273926,
+      "Name": "Pauldrons of Conviction",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051142,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273927,
+      "Name": "Boots of Conviction",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051143,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273928,
+      "Name": "Grimstitch Pants",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051144,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273929,
+      "Name": "Grimstitch Gloves",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051145,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273930,
+      "Name": "Grimstitch Spaulders",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051146,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273931,
+      "Name": "Grimstitch Boots",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051147,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273932,
+      "Name": "Spiritcaller Leggings",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051148,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273933,
+      "Name": "Spiritcaller Grips",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051149,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273934,
+      "Name": "Spiritcaller Spaulders",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051150,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273935,
+      "Name": "Spiritcaller Treads",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051151,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273936,
+      "Name": "Spiritcaller Pants",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051152,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273937,
+      "Name": "Spiritcaller Gauntlets",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051153,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273938,
+      "Name": "Spiritcaller Epaulets",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051154,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273939,
+      "Name": "Spiritcaller Greaves",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051155,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273940,
+      "Name": "Demonheart Leggings",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051156,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273941,
+      "Name": "Demonheart Gloves",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051157,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273942,
+      "Name": "Demonheart Spaulders",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051158,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273943,
+      "Name": "Demonheart Boots",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051159,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273944,
+      "Name": "Legplates of Glory",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051160,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273945,
+      "Name": "Gauntlets of Glory",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051161,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273946,
+      "Name": "Shoulders of Glory",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051162,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273947,
+      "Name": "Greaves of Glory",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051163,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273948,
+      "Name": "Legguards of Glory",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051164,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273949,
+      "Name": "Handguards of Glory",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051165,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273950,
+      "Name": "Pauldrons of Glory",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051166,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 273951,
+      "Name": "Sabatons of Glory",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051167,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 276538,
+      "Name": "Spiritcaller Kilt",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114069,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 276539,
+      "Name": "Spiritcaller Gloves",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114069,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 276540,
+      "Name": "Spiritcaller Mantle",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114069,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    },
+    {
+      "Id": 276541,
+      "Name": "Spiritcaller Boots",
+      "Quality": 4,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114069,
+      "ChangeDetails": "iLvl: 61 -> 60; Stats geaendert"
+    }
+  ],
+  "AddedSpells": [
+    {
+      "Id": 1330887,
+      "Name": "Thorns Aura",
+      "Subtext": "",
+      "Description": "Magical thorns deal $S1 Nature damage to anyone who attacks in melee.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113842,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1330970,
+      "Name": "Fixate",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113841,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1331002,
+      "Name": "Eternal Night",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113893,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1331006,
+      "Name": "Umbral Pull",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113893,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1331071,
+      "Name": "Wrath",
+      "Subtext": "",
+      "Description": "Hurls a bolt of lightning at an enemy, inflicting Nature damage.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113893,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1331079,
+      "Name": "Moonfire",
+      "Subtext": "",
+      "Description": "Burns the enemy, inflicting $s2 Arcane damage and inflicts $s1 Arcane damage every $t1 sec for $d.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113893,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1331088,
+      "Name": "Swipe",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113893,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1331089,
+      "Name": "Berserk",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113893,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1331092,
+      "Name": "Demoralizing Roar",
+      "Subtext": "",
+      "Description": "Reduces the melee attack power of nearby enemies by $s1 for $d.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113893,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1331288,
+      "Name": "Hate to Zero",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 113941,
+      "ChangeDetails": null
+    }
+  ],
+  "RemovedSpells": [],
+  "ModifiedSpells": [
+    {
+      "Id": 23863,
+      "Name": "Revitalize",
+      "Subtext": "",
+      "Description": "$h% chance on melee attack of restoring $23864s energy.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114204,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1280634,
+      "Name": "Tranquility",
+      "Subtext": "",
+      "Description": "Heals all nearby allies for $s1 every $t2 sec over $d.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113976,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1288559,
+      "Name": "Bloom",
+      "Subtext": "",
+      "Description": "Afflicts the target with a poison that inflicts $s1 Nature damage every $t1 sec for $d.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113893,
+      "ChangeDetails": "Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1288560,
+      "Name": "Wither",
+      "Subtext": "",
+      "Description": "Slows the target, reducing their movement speed by $s1% Attack speed by $s3% and Casting speed by $s2%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113893,
+      "ChangeDetails": "Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 1289451,
+      "Name": "Wrath",
+      "Subtext": "",
+      "Description": "Inflicts $s1 Nature damage to an enemy.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113893,
+      "ChangeDetails": "Name: 'Lightning Bolt' -> 'Wrath'"
+    },
+    {
+      "Id": 1320726,
+      "Name": "Increased Feral Combat",
+      "Subtext": "",
+      "Description": "Increased Feral Combat +$s1.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114069,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1329283,
+      "Name": "Shank",
+      "Subtext": "Rank 1",
+      "Description": "Instantly strike with your off-hand weapon, dealing $s1% weapon damage$?s1329328[, increasing your Poison damage dealt by $1310703s1% and your chance to apply Poisons by $1310703s3% for $1310703d, ][ ]and generating $s2 Energy.$?s1329286[ $1329286s1% chance to award $1329285s1 Combo Points.][] Shank cannot Miss.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113950,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1329549,
+      "Name": "Shank",
+      "Subtext": "Rank 2",
+      "Description": "Instantly strike with your off-hand weapon, dealing $s1% weapon damage$?s1329328[, increasing your Poison damage dealt by $1310703s1% and your chance to apply Poisons by $1310703s3% for $1310703d, ][ ]and generating $s2 Energy.$?s1329286[ $1329286s1% chance to award $1329285s1 Combo Points.][] Shank cannot Miss.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 113950,
+      "ChangeDetails": "Beschreibung geaendert"
+    }
+  ],
+  "AddedTitles": []
+}

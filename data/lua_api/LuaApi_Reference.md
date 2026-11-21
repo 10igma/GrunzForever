@@ -1,10 +1,10 @@
 # WoW Classic Forever (`Camelot`) — Lua API & UI Surface Reference
 
-- **Produkt / Build**: `wowf` — `1.60.1.70959` (`WOW-70959patch1.60.1_Retail`)
+- **Produkt / Build**: `wowf` — `1.60.1.71037` (`WOW-71037patch1.60.1_Retail`)
 - **Projekt-Konstante**: `WOW_PROJECT_CAMELOT = 18` (`WOW_PROJECT_ID = 18`)
 - **UI-Architektur**: `[Family] = Mainline` (`mainline`) | `[Game] = Camelot` (`camelot`)
 - **Dokumentierte API-Systeme**: **612** (`283` `C_*` Namespaces)
-- **Lua-Funktionen gesamt**: **6,613** (`4,401` Namespaced + `2,212` Global)
+- **Lua-Funktionen gesamt**: **6,614** (`4,402` Namespaced + `2,212` Global)
 - **Events gesamt**: **1,816** | **Enums/Structs/Konstanten**: **1,758**
 - **Blizzard UI-AddOns in Camelot aktiv**: **307** von `350` (`213` Camelot-spezifische Lua/XML-Overrides)
 
@@ -72,7 +72,7 @@
 
 | Attribut / Guard | Anzahl Funktionen |
 | :--- | ---: |
-| `SecretArguments` | 3,943 |
+| `SecretArguments` | 3,944 |
 | `MayReturnNothing` | 670 |
 | `HasRestrictions` | 281 |
 | `SecretReturnsForAspect` | 93 |
@@ -138,7 +138,7 @@
 | `C_Soulbinds` | `SoulbindsDocumentation.lua` | 39 | 13 | 6 |
 | `C_CatalogShop` | `CatalogShopDocumentation.lua` | 38 | 18 | 13 |
 | `C_UnitAuras` | `UnitAuraDocumentation.lua` | 38 | 6 | 0 |
-| `C_BattleNet` | `BattleNetDocumentation.lua` | 36 | 0 | 4 |
+| `C_BattleNet` | `BattleNetDocumentation.lua` | 37 | 0 | 4 |
 | `C_CraftingOrders` | `CraftingOrderUIDocumentation.lua` | 36 | 24 | 2 |
 | `C_HousingDecor` | `HousingDecorUIDocumentation.lua` | 35 | 11 | 2 |
 | `C_EncounterTimeline` | `EncounterTimelineDocumentation.lua` | 34 | 11 | 4 |

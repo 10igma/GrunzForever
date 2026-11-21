@@ -1,11 +1,11 @@
 {
   "Product": "wowf",
-  "Version": "1.60.1.70959",
-  "BuildName": "WOW-70959patch1.60.1_Retail",
+  "Version": "1.60.1.71037",
+  "BuildName": "WOW-71037patch1.60.1_Retail",
   "ProjectId": 18,
   "ProjectCodeName": "Camelot",
   "TotalSystems": 612,
-  "TotalFunctions": 6613,
+  "TotalFunctions": 6614,
   "TotalEvents": 1816,
   "TotalTables": 1758,
   "Systems": [
@@ -15926,6 +15926,27 @@
           ]
         },
         {
+          "Name": "IsGameAccountOnSameRealm",
+          "FullName": "C_BattleNet.IsGameAccountOnSameRealm",
+          "Attributes": {
+            "SecretArguments": "AllowedWhenUntainted"
+          },
+          "Arguments": [
+            {
+              "Name": "id",
+              "Type": "number",
+              "Nilable": false
+            }
+          ],
+          "Returns": [
+            {
+              "Name": "isOnSameRealm",
+              "Type": "bool",
+              "Nilable": false
+            }
+          ]
+        },
+        {
           "Name": "SearchFriends",
           "FullName": "C_BattleNet.SearchFriends",
           "Attributes": {
@@ -16386,6 +16407,11 @@
               "Name": "realmID",
               "Type": "number",
               "Nilable": true
+            },
+            {
+              "Name": "hasRealmInfo",
+              "Type": "bool",
+              "Nilable": false
             },
             {
               "Name": "factionName",

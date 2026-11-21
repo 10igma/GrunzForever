@@ -2,6 +2,16 @@
 
 Alle relevanten Änderungen an **GrunzForever** und den dokumentierten **WoW: Classic Forever (`wowf` / `Camelot`)** Builds werden hier festgehalten.
 
+## [0.6.0] - 2026-11-21
+
+### Hinzugefügt
+- **Daten-Update (`wowf` Build `1.60.1.71037` + Live-Hotfixes bis `PushId 114326`):**
+  - Neuer Build-zu-Build-Diff [`docs/diffs/1.60.1.70959_to_1.60.1.71037.md`](docs/diffs/1.60.1.70959_to_1.60.1.71037.md) und Manifest [`data/manifests/_ExtractionManifest_1.60.1.71037.json`](data/manifests/_ExtractionManifest_1.60.1.71037.json) (`321` Tabellen / `+1` neu: `AreaTriggerSphere`, `1,501,655` Datensätze, `43,149` Valid- & `12,695` Delete-Hotfixes über `67` neue `PushId`-Wellen).
+  - Hotfix-Bake-In zahlreicher `70959`-Einträge in die Basis-DB2s (`ItemSparse` `+74` Basiszeilen, `CurvePoint` `+504`, `Curve` `+252`, `LightDataGlobalVolumeFog` `+108`, `LightData` `+36`, `SpellEffect` `+14`, `Criteria` `+13`, `Spell`/`SpellName`/`SpellMisc` `+11`).
+  - `+7` neu gecachte Items (`219326` `Seed of Renewal`, `18673` `Avalanchion's Stony Hide`, `11423` `Gnome Engineer's Renewal Gift`, `11422` `Goblin Engineer's Renewal Gift`, `291874` `Ruined Herb Seeds`, `286640` `High Priestess's Kilt`, `11603` `Vilerend Slicer`) sowie `73` modifizierte Items (`iLvl 61 -> 60` und Stat-Rebalancing auf `72` Klassen-Setteilen: *Spiritcaller*, *of Glory*, *Demonheart*, *Grimstitch*, *of Conviction*, *Justice*, *Manaflare*, *Wildstalker's*, *Grovekeeper* inkl. zweitem Feintuning-Pass via `PushId 114318`; `219343` `Filcher's Cowl` `RequiredLevel 50 -> 0` via `PushId 114312`; Koch-Rezepte *Undermine Clam Chowder*, *Goblin Deviled Clams*, *Clam Chowder*, *Boiled Clams* & *Murloc Fin Soup* via `PushId 114294`).
+  - `+10` neue Spells (`Hate to Zero`, `Demoralizing Roar`, `Berserk`, `Swipe`, `Moonfire`, `Wrath`, `Umbral Pull`, `Eternal Night`, `Fixate`, `Thorns Aura`) und `8` modifizierte Spells (`Revitalize`, `Shank` Ränge 1 & 2, `Increased Feral Combat`, `Wrath`, `Wither`, `Bloom`, `Tranquility`) sowie `SpellMisc`/`SpellEffect`-Hotfixes für `Battle Shout` (`PushId 114326`), `Execute` Ränge 1–5 & `Judgement` (`PushId 114313`), `Mind Vision` (`PushId 114310`), `Chastise` Ränge 1–5 (`PushId 114309`), `Retaliate`/`Devastate`/`Raging Blow`/`Holy Fire`/`Flamebreak` (`PushId 114285`) und `Judgement of Justice/Wisdom/Light` (`PushId 114283`).
+  - Aktualisierte Camelot-Lua-API-Referenz (`6,614` Funktionen, `+1` neu: `C_BattleNet.IsGameAccountOnSameRealm` sowie neues Feld `hasRealmInfo` in `BNetGameAccountInfo`).
+
 ## [0.5.0] - 2026-11-18
 
 ### Hinzugefügt
