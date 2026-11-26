@@ -1182,7 +1182,7 @@
     "SpellIconFileDataID": 136107,
     "Icon": "Interface\\ICONS\\Spell_Nature_Tranquility.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114284
   },
   {
     "ID": 755,
@@ -2293,7 +2293,7 @@
     "SpellIconFileDataID": 132289,
     "Icon": "Interface\\ICONS\\Ability_Rogue_Distract.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114397
   },
   {
     "ID": 1735,
@@ -2577,7 +2577,7 @@
     "SpellIconFileDataID": 132331,
     "Icon": "Interface\\ICONS\\Ability_Vanish.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 1857,
@@ -2589,7 +2589,7 @@
     "SpellIconFileDataID": 132331,
     "Icon": "Interface\\ICONS\\Ability_Vanish.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 1860,
@@ -3090,6 +3090,16 @@
     "HotfixPushID": 113341
   },
   {
+    "ID": 2641,
+    "Name": "Dismiss Pet",
+    "Description": "Dismiss your pet.  Dismissing your pet will reduce its happiness by $/1000;s1.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136095,
+    "Icon": "Interface\\ICONS\\Spell_Nature_SpiritWolf.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114395
+  },
+  {
     "ID": 2643,
     "Name": "Multi-Shot",
     "Description": "Fires several missiles, hitting $x1 targets. Multi-Shot shares its cooldown with Aimed Shot.",
@@ -3218,7 +3228,7 @@
     "SpellIconFileDataID": 132290,
     "Icon": "Interface\\ICONS\\Ability_Rogue_DualWeild.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 2836,
@@ -3241,7 +3251,7 @@
     "SpellIconFileDataID": 132290,
     "Icon": "Interface\\ICONS\\Ability_Rogue_DualWeild.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 2860,
@@ -3570,7 +3580,7 @@
     "SpellIconFileDataID": 132274,
     "Icon": "Interface\\ICONS\\ABILITY_POISONSTING.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 3421,
@@ -3581,7 +3591,7 @@
     "SpellIconFileDataID": 132274,
     "Icon": "Interface\\ICONS\\ABILITY_POISONSTING.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 3472,
@@ -5538,6 +5548,18 @@
     "Icon": "Interface\\ICONS\\Spell_Nature_CorrosiveBreath.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114103
+  },
+  {
+    "ID": 6728,
+    "Name": "Enveloping Winds",
+    "Subtext": "Rank 1",
+    "Description": "Surrounds an enemy with a cyclone for up to $d. If the target takes any damage, it will break free of the imprisoning winds.",
+    "AuraDescription": "Stunned.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136018,
+    "Icon": "Interface\\ICONS\\Spell_Nature_Cyclone.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 112744
   },
   {
     "ID": 6756,
@@ -8172,7 +8194,7 @@
     "SpellIconFileDataID": 132273,
     "Icon": "Interface\\ICONS\\ABILITY_POISONS.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 8687,
@@ -8183,7 +8205,7 @@
     "SpellIconFileDataID": 132273,
     "Icon": "Interface\\ICONS\\ABILITY_POISONS.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 8691,
@@ -8194,7 +8216,7 @@
     "SpellIconFileDataID": 132273,
     "Icon": "Interface\\ICONS\\ABILITY_POISONS.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 8694,
@@ -8205,7 +8227,7 @@
     "SpellIconFileDataID": 136066,
     "Icon": "Interface\\ICONS\\Spell_Nature_NullifyDisease.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 8696,
@@ -8351,7 +8373,7 @@
     "SpellIconFileDataID": 136107,
     "Icon": "Interface\\ICONS\\Spell_Nature_Tranquility.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114284
   },
   {
     "ID": 8921,
@@ -9318,7 +9340,7 @@
     "SpellIconFileDataID": 136107,
     "Icon": "Interface\\ICONS\\Spell_Nature_Tranquility.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114284
   },
   {
     "ID": 9863,
@@ -9330,7 +9352,7 @@
     "SpellIconFileDataID": 136107,
     "Icon": "Interface\\ICONS\\Spell_Nature_Tranquility.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114284
   },
   {
     "ID": 9866,
@@ -12041,7 +12063,7 @@
     "SpellIconFileDataID": 132273,
     "Icon": "Interface\\ICONS\\ABILITY_POISONS.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 11342,
@@ -12052,7 +12074,7 @@
     "SpellIconFileDataID": 132273,
     "Icon": "Interface\\ICONS\\ABILITY_POISONS.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 11343,
@@ -12063,7 +12085,7 @@
     "SpellIconFileDataID": 132273,
     "Icon": "Interface\\ICONS\\ABILITY_POISONS.BLP",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 11348,
@@ -12085,7 +12107,7 @@
     "SpellIconFileDataID": 132290,
     "Icon": "Interface\\ICONS\\Ability_Rogue_DualWeild.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 11358,
@@ -12096,7 +12118,7 @@
     "SpellIconFileDataID": 132290,
     "Icon": "Interface\\ICONS\\Ability_Rogue_DualWeild.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 11366,
@@ -12130,7 +12152,7 @@
     "SpellIconFileDataID": 136066,
     "Icon": "Interface\\ICONS\\Spell_Nature_NullifyDisease.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 11405,
@@ -13263,7 +13285,7 @@
     "SpellIconFileDataID": 132355,
     "Icon": "Interface\\ICONS\\Ability_Warrior_SavageBlow.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 12299,
@@ -13702,7 +13724,7 @@
     "SpellIconFileDataID": 134197,
     "Icon": "Interface\\ICONS\\INV_Misc_Herb_16.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 13228,
@@ -13713,7 +13735,7 @@
     "SpellIconFileDataID": 134197,
     "Icon": "Interface\\ICONS\\INV_Misc_Herb_16.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 13229,
@@ -13724,7 +13746,7 @@
     "SpellIconFileDataID": 134197,
     "Icon": "Interface\\ICONS\\INV_Misc_Herb_16.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 13230,
@@ -13735,7 +13757,7 @@
     "SpellIconFileDataID": 134197,
     "Icon": "Interface\\ICONS\\INV_Misc_Herb_16.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 13534,
@@ -15048,6 +15070,17 @@
     "HotfixPushID": 113209
   },
   {
+    "ID": 15366,
+    "Name": "Songflower Serenade",
+    "Description": "Increases chance for a melee, ranged, or spell critical by $s1% and all attributes by $s2 for $d.",
+    "AuraDescription": "Increases chance for a melee, ranged, or spell critical by $s1% and all attributes by $s2. No effect while in a raid instance.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 135934,
+    "Icon": "Interface\\ICONS\\Spell_Holy_MindVision.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
     "ID": 15407,
     "Name": "Mind Flay",
     "Subtext": "Rank 1",
@@ -15100,6 +15133,17 @@
     "Icon": "Interface\\ICONS\\TEMP.BLP",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113040
+  },
+  {
+    "ID": 15588,
+    "Name": "Thunderclap",
+    "Description": "Inflicts $s1 Nature damage to nearby enemies, increasing the time between their attacks by $s3% and slowing their movement by $s2% for $d.",
+    "AuraDescription": "Time between attacks increased by $s3%.\r\nMovement speed reduced by $s2%.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136105,
+    "Icon": "Interface\\ICONS\\SPELL_NATURE_THUNDERCLAP.BLP",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114357
   },
   {
     "ID": 15629,
@@ -15236,7 +15280,7 @@
     "SpellIconFileDataID": 135861,
     "Icon": "Interface\\ICONS\\Spell_Frost_SummonWaterElemental.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 16191,
@@ -15520,6 +15564,16 @@
     "HotfixPushID": 113282
   },
   {
+    "ID": 16598,
+    "Name": "Will of Shahram",
+    "AuraDescription": "All stats increased by $s1.",
+    "SchoolMask": 64,
+    "SpellIconFileDataID": 135934,
+    "Icon": "Interface\\ICONS\\Spell_Holy_MindVision.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114378
+  },
+  {
     "ID": 16609,
     "Name": "Warchief's Blessing",
     "Description": "Increases hitpoints by 300. 15% haste to all spells and attacks. 10 mana regen every 5 seconds.",
@@ -15528,7 +15582,7 @@
     "SpellIconFileDataID": 135759,
     "Icon": "Interface\\ICONS\\Spell_Arcane_TeleportOrgrimmar.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 114137
+    "HotfixPushID": 114329
   },
   {
     "ID": 16659,
@@ -15650,6 +15704,36 @@
     "HotfixPushID": 113341
   },
   {
+    "ID": 16814,
+    "Name": "Starlight Wrath",
+    "Description": "Reduces the cast time of your Wrath and Starfire spells by $/1000;S1 sec and the Mana cost of your Wrath spell by $s2%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136006,
+    "Icon": "Interface\\ICONS\\Spell_Nature_AbolishMagic.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114344
+  },
+  {
+    "ID": 16821,
+    "Name": "Moon and Stars",
+    "Description": "Increases the damage and critical strike chance of your Moonfire spell by $s1% and gives your Starfire spell a $s4% chance not to lose casting time from taking damage.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136096,
+    "Icon": "Interface\\ICONS\\Spell_Nature_StarFall.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114344
+  },
+  {
+    "ID": 16850,
+    "Name": "Improved Starfire",
+    "Description": "Your Starfire spell has a $s2% chance to stun its target for $16922d.\r\n",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 135753,
+    "Icon": "Interface\\ICONS\\Spell_Arcane_StarFire.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114344
+  },
+  {
     "ID": 16864,
     "Name": "Omen of Clarity",
     "Description": "Your spells and attacks have a chance to grant you Clearcasting, reducing the Mana, Rage, or Energy cost of your next damage or healing spell or offensive ability by $16870s1%. Clearcasting is not consumed by Wrath or by spells or abilities that cost no resources.",
@@ -15663,12 +15747,12 @@
     "ID": 16914,
     "Name": "Hurricane",
     "Subtext": "Rank 1",
-    "Description": "Creates a violent storm in the target area causing $1278965s1 Nature damage to enemies every $t3 sec, and increasing the time between attacks of enemies by $s2%. Lasts $d. Druid must channel to maintain the spell.",
+    "Description": "Creates a violent storm in the target area causing $1278965s1 Nature damage to enemies every $t3 sec, and increasing the time between attacks of enemies by $s2%. Lasts ${$d}. Druid must channel to maintain the spell.",
     "SchoolMask": 8,
     "SpellIconFileDataID": 136018,
     "Icon": "Interface\\ICONS\\Spell_Nature_Cyclone.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114284
   },
   {
     "ID": 16928,
@@ -15957,7 +16041,7 @@
     "SpellIconFileDataID": 135861,
     "Icon": "Interface\\ICONS\\Spell_Frost_SummonWaterElemental.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 17359,
@@ -15968,7 +16052,7 @@
     "SpellIconFileDataID": 135861,
     "Icon": "Interface\\ICONS\\Spell_Frost_SummonWaterElemental.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 17364,
@@ -15985,23 +16069,23 @@
     "ID": 17401,
     "Name": "Hurricane",
     "Subtext": "Rank 2",
-    "Description": "Creates a violent storm in the target area causing $1278968s1 Nature damage to enemies every $t3 sec, and increasing the time between attacks by $s2%. Lasts $d. Druid must channel to maintain the spell.",
+    "Description": "Creates a violent storm in the target area causing $1278968s1 Nature damage to enemies every $t3 sec, and increasing the time between attacks by $s2%. Lasts ${$d}. Druid must channel to maintain the spell.",
     "SchoolMask": 8,
     "SpellIconFileDataID": 136018,
     "Icon": "Interface\\ICONS\\Spell_Nature_Cyclone.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114284
   },
   {
     "ID": 17402,
     "Name": "Hurricane",
     "Subtext": "Rank 3",
-    "Description": "Creates a violent storm in the target area causing $1278759s1 Nature damage to enemies every $t3 sec, and increasing the time between attacks by $1278759s2%. Lasts $d. Druid must channel to maintain the spell.",
+    "Description": "Creates a violent storm in the target area causing $1278759s1 Nature damage to enemies every $t3 sec, and increasing the time between attacks by $1278759s2%. Lasts ${$d}. Druid must channel to maintain the spell.",
     "SchoolMask": 8,
     "SpellIconFileDataID": 136018,
     "Icon": "Interface\\ICONS\\Spell_Nature_Cyclone.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114284
   },
   {
     "ID": 17471,
@@ -16358,6 +16442,17 @@
     "Icon": "Interface\\ICONS\\INV_MISC_GEM_BLOODSTONE_02.BLP",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113341
+  },
+  {
+    "ID": 17961,
+    "Name": "Scarlet Illusion",
+    "Description": "Disguised as a member of the Scarlet Crusade",
+    "AuraDescription": "Disguised as a member of the Scarlet Crusade",
+    "SchoolMask": 64,
+    "SpellIconFileDataID": 135942,
+    "Icon": "Interface\\ICONS\\Spell_Holy_PrayerOfHealing.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114372
   },
   {
     "ID": 17962,
@@ -16871,6 +16966,17 @@
     "HotfixPushID": 112720
   },
   {
+    "ID": 19136,
+    "Name": "Stormbolt",
+    "Description": "Inflicts $s1 damage to an enemy, stunning it for $d.",
+    "AuraDescription": "Stunned.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 132325,
+    "Icon": "Interface\\ICONS\\Ability_ThunderBolt.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114357
+  },
+  {
     "ID": 19159,
     "Name": "Savage Strikes",
     "Description": "Increases the critical strike chance of all your melee abilities by $s1%.",
@@ -17296,7 +17402,7 @@
     "SpellIconFileDataID": 132336,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Challange.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 19308,
@@ -17398,7 +17504,7 @@
     "SpellIconFileDataID": 132329,
     "Icon": "Interface\\ICONS\\Ability_TrueShot.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 19614,
@@ -18461,6 +18567,16 @@
     "HotfixPushID": 113341
   },
   {
+    "ID": 20425,
+    "Name": "Judgement of Command",
+    "Subtext": "Rank 1",
+    "SchoolMask": 2,
+    "SpellIconFileDataID": 132347,
+    "Icon": "Interface\\ICONS\\Ability_Warrior_InnerRage.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114399
+  },
+  {
     "ID": 20473,
     "Name": "Holy Shock",
     "Subtext": "Rank 2",
@@ -18591,6 +18707,16 @@
     "Icon": "Interface\\ICONS\\Ability_Racial_Cannibalize.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 112758
+  },
+  {
+    "ID": 20584,
+    "Name": "Ghost",
+    "AuraDescription": "Move to the location of your corpse or speak with a spirit healer to be revived.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132331,
+    "Icon": "Interface\\ICONS\\Ability_Vanish.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114325
   },
   {
     "ID": 20606,
@@ -19008,7 +19134,7 @@
     "SpellIconFileDataID": 132329,
     "Icon": "Interface\\ICONS\\Ability_TrueShot.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 20906,
@@ -19020,7 +19146,7 @@
     "SpellIconFileDataID": 132329,
     "Icon": "Interface\\ICONS\\Ability_TrueShot.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 20909,
@@ -19032,7 +19158,7 @@
     "SpellIconFileDataID": 132336,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Challange.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 20910,
@@ -19044,7 +19170,7 @@
     "SpellIconFileDataID": 132336,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Challange.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 20915,
@@ -19184,6 +19310,46 @@
     "Icon": "Interface\\ICONS\\Spell_Holy_SearingLight.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113341
+  },
+  {
+    "ID": 20961,
+    "Name": "Judgement of Command",
+    "Subtext": "Rank 3",
+    "SchoolMask": 2,
+    "SpellIconFileDataID": 132347,
+    "Icon": "Interface\\ICONS\\Ability_Warrior_InnerRage.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114399
+  },
+  {
+    "ID": 20962,
+    "Name": "Judgement of Command",
+    "Subtext": "Rank 2",
+    "SchoolMask": 2,
+    "SpellIconFileDataID": 132347,
+    "Icon": "Interface\\ICONS\\Ability_Warrior_InnerRage.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114399
+  },
+  {
+    "ID": 20967,
+    "Name": "Judgement of Command",
+    "Subtext": "Rank 4",
+    "SchoolMask": 2,
+    "SpellIconFileDataID": 132347,
+    "Icon": "Interface\\ICONS\\Ability_Warrior_InnerRage.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114399
+  },
+  {
+    "ID": 20968,
+    "Name": "Judgement of Command",
+    "Subtext": "Rank 5",
+    "SchoolMask": 2,
+    "SpellIconFileDataID": 132347,
+    "Icon": "Interface\\ICONS\\Ability_Warrior_InnerRage.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114399
   },
   {
     "ID": 21082,
@@ -19327,7 +19493,7 @@
     "SpellIconFileDataID": 132355,
     "Icon": "Interface\\ICONS\\Ability_Warrior_SavageBlow.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 21552,
@@ -19339,7 +19505,7 @@
     "SpellIconFileDataID": 132355,
     "Icon": "Interface\\ICONS\\Ability_Warrior_SavageBlow.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 21553,
@@ -19351,7 +19517,7 @@
     "SpellIconFileDataID": 132355,
     "Icon": "Interface\\ICONS\\Ability_Warrior_SavageBlow.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 21562,
@@ -19558,6 +19724,39 @@
     "HotfixPushID": 113341
   },
   {
+    "ID": 22817,
+    "Name": "Fengus' Ferocity",
+    "Description": "Attack power increased by $s1 and spell damage and healing increased by up to $s3.",
+    "AuraDescription": "Attack power increased by $s1 and spell damage and healing increased by up to $s3. No effect while in a raid instance.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136109,
+    "Icon": "Interface\\ICONS\\Spell_Nature_UndyingStrength.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 22818,
+    "Name": "Mol'dar's Moxie",
+    "Description": "Overall Stamina increased by $s1%.",
+    "AuraDescription": "Overall Stamina increased by $s1%. Lasts $d. No effect while in a raid instance.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136054,
+    "Icon": "Interface\\ICONS\\Spell_Nature_MassTeleport.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 22820,
+    "Name": "Slip'kik's Savvy",
+    "Description": "Chance for a critical hit with all spells and attacks increased by $s1%. Lasts $d. No effect while in a raid instance.\r\n",
+    "AuraDescription": "Chance for a critical hit with all spells and attacks increased by $s1%. No effect while in a raid instance.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 135930,
+    "Icon": "Interface\\ICONS\\Spell_Holy_LesserHeal02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
     "ID": 22827,
     "Name": "Ferocious Bite",
     "Subtext": "Rank 3",
@@ -19648,7 +19847,7 @@
     "SpellIconFileDataID": 134153,
     "Icon": "Interface\\ICONS\\INV_Misc_Head_Dragon_01.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 114137
+    "HotfixPushID": 114329
   },
   {
     "ID": 22920,
@@ -19803,6 +20002,24 @@
     "HotfixPushID": 113837
   },
   {
+    "ID": 23529,
+    "Name": "Horde Alterac Valley",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136235,
+    "Icon": "Interface\\ICONS\\TEMP.BLP",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114437
+  },
+  {
+    "ID": 23534,
+    "Name": "Alliance Alterac Valley",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136235,
+    "Icon": "Interface\\ICONS\\TEMP.BLP",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114437
+  },
+  {
     "ID": 23646,
     "Name": "Elemental Shield",
     "SchoolMask": 1,
@@ -19881,6 +20098,86 @@
     "Icon": "Interface\\ICONS\\TEMP.BLP",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 112709
+  },
+  {
+    "ID": 23735,
+    "Name": "Sayge's Dark Fortune of Strength",
+    "AuraDescription": "Increases strength by $s1%. No effect while in a raid instance.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 23736,
+    "Name": "Sayge's Dark Fortune of Agility",
+    "AuraDescription": "Increases agility by $s1%. No effect while in a raid instance.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 23737,
+    "Name": "Sayge's Dark Fortune of Stamina",
+    "AuraDescription": "Increases stamina by $s1%. No effect while in a raid instance.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 23738,
+    "Name": "Sayge's Dark Fortune of Spirit",
+    "AuraDescription": "Increases spirit by $s1%. No effect while in a raid instance.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 23766,
+    "Name": "Sayge's Dark Fortune of Intelligence",
+    "AuraDescription": "Increases intelligence by $s1%. No effect while in a raid instance.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 23767,
+    "Name": "Sayge's Dark Fortune of Armor",
+    "AuraDescription": "Increases armor by $s1%. No effect while in a raid instance.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 23768,
+    "Name": "Sayge's Dark Fortune of Damage",
+    "AuraDescription": "Increases damage by $s1%. No effect while in a raid instance.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 23769,
+    "Name": "Sayge's Dark Fortune of Resistance",
+    "AuraDescription": "Increases all magical resistances by $s1. No effect while in a raid instance.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
   },
   {
     "ID": 23796,
@@ -20153,6 +20450,17 @@
     "HotfixPushID": 114056
   },
   {
+    "ID": 24425,
+    "Name": "Spirit of Zandalar",
+    "Description": "Increases movement speed by 10% and all stats by 15% for 2 hours.",
+    "AuraDescription": "Increases movement speed by 10% and all stats by 15% for 2 hours.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132107,
+    "Icon": "Interface\\ICONS\\Ability_Creature_Poison_05.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
     "ID": 24529,
     "Name": "Spirit Bond",
     "AuraDescription": "Regenerate $s1% of total health every $t1 sec.",
@@ -20194,13 +20502,13 @@
     "ID": 24858,
     "Name": "Moonkin Form",
     "Subtext": "Shapeshift",
-    "Description": "Shapeshift into Moonkin Form, increasing Omen of Clarity's chance to trigger by $s5%, Armor contribution from items by $24905s1%, and all party or raid members within $24907a1 yards have their Critical Strike chance increased by $24907s1%. Also protects the caster from Polymorph effects and prevents the use of healing spells.\r\n\r\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
-    "AuraDescription": "Immune to Polymorph effects. Omen of Clarity trigger chance increased. Armor contribution from items is increased by $24905s1%.",
+    "Description": "Shapeshift into Moonkin Form, increasing Arcane and Nature damage done by $24905s4%, Omen of Clarity's chance to trigger by $s5%, Armor contribution from items by $24905s1%, and all party or raid members within $24907a1 yards have their Critical Strike chance increased by $24907s1%. Also protects the caster from Polymorph effects and prevents the use of healing spells.\r\n\r\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
+    "AuraDescription": "Immune to Polymorph effects. Arcane and Nature damage done increased by $24905s4%. Omen of Clarity trigger chance increased. Armor contribution from items is increased by $24905s1%.",
     "SchoolMask": 1,
     "SpellIconFileDataID": 136036,
     "Icon": "Interface\\ICONS\\Spell_Nature_ForceOfNature.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113283
+    "HotfixPushID": 114344
   },
   {
     "ID": 24867,
@@ -20639,7 +20947,7 @@
     "SpellIconFileDataID": 132290,
     "Icon": "Interface\\ICONS\\Ability_Rogue_DualWeild.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114305
   },
   {
     "ID": 25357,
@@ -21475,12 +21783,12 @@
     "ID": 29166,
     "Name": "Innervate",
     "Description": "Increases the target's Mana regeneration by $s2% and allows $s1% of the target's Mana regeneration to continue while casting.  Lasts $d.",
-    "AuraDescription": "Mana regeneration increased by $s2%.  $s1% Mana regeneration may continue while casting.",
+    "AuraDescription": "Mana regeneration increased by $w2%.  $w1% Mana regeneration may continue while casting.",
     "SchoolMask": 8,
     "SpellIconFileDataID": 136048,
     "Icon": "Interface\\ICONS\\Spell_Nature_Lightning.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114344
   },
   {
     "ID": 29172,
@@ -22434,6 +22742,26 @@
     "HotfixPushID": 112864
   },
   {
+    "ID": 408248,
+    "Name": "Eclipse",
+    "Description": "Increases the critical strike chance of your Wrath spell by $s5%, and your Wrath spell reduces the cast time of your next $s3 Starfire spells by ${$m2/-1000}.2 sec. Stores up to $408255u charges. Lasts $408255d.",
+    "SchoolMask": 64,
+    "SpellIconFileDataID": 236151,
+    "Icon": "Interface\\ICONS\\Ability_Druid_Eclipse.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114344
+  },
+  {
+    "ID": 408258,
+    "Name": "Dreamstate",
+    "Description": "When you cast Innervate on a target other than yourself, you gain $s1% of the effect as well.",
+    "SchoolMask": 64,
+    "SpellIconFileDataID": 132123,
+    "Icon": "Interface\\ICONS\\Ability_Druid_Dreamstate.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114344
+  },
+  {
     "ID": 408261,
     "Name": "Dreamstate",
     "Description": "Allows $s1% of your Mana regeneration to continue while casting.",
@@ -22842,6 +23170,36 @@
     "HotfixPushID": 112890
   },
   {
+    "ID": 439500,
+    "Name": "Sebacious Poison",
+    "Description": "Coats a weapon with poison that lasts for 30 minutes.\r\nEach strike has a $439462h% chance of poisoning the enemy, reducing the enemy's armor by $439471s1 for $439471d.  105 charges.\r\n\r\nSebacious Poison benefits from the Improved Expose Armor talent.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132108,
+    "Icon": "Interface\\ICONS\\Ability_Creature_Poison_06.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114305
+  },
+  {
+    "ID": 439503,
+    "Name": "Atrophic Poison",
+    "Description": "Coats a weapon with poison that lasts for 30 minutes.\r\nEach strike has a $439465h% chance of poisoning the enemy, reducing the enemy's melee attack power by $439473s1 for $439473d.  105 charges.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132100,
+    "Icon": "Interface\\ICONS\\Ability_Creature_Disease_03.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114305
+  },
+  {
+    "ID": 439505,
+    "Name": "Numbing Poison",
+    "Description": "Coats a weapon with poison that lasts for 30 minutes.\r\nEach strike has a $439464h% chance of poisoning the enemy, increasing the time between the enemy's melee attacks by $439472s1% for $439472d.  105 charges.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132100,
+    "Icon": "Interface\\ICONS\\Ability_Creature_Disease_03.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114305
+  },
+  {
     "ID": 440667,
     "Name": "Vindication",
     "Description": "Reduces the target's attack Power reduced by $s1.",
@@ -22966,6 +23324,17 @@
     "HotfixPushID": 112864
   },
   {
+    "ID": 458822,
+    "Name": "Occult Poison I",
+    "Subtext": "Rank 1",
+    "Description": "Coats a weapon with poison that lasts for 30 minutes.\r\nEach strike has a 30% chance of poisoning the enemy for $458820o1 Nature damage over $458820d and causing the enemy to take $458820s2% increased Arcane, Fire, Frost, Nature, and Shadow damage.  Stacks up to $458820u times on a single target.\r\n\r\nOccult Poison counts as Deadly Poison and benefits from all talents and effects that trigger from or modify Deadly Poison.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 135935,
+    "Icon": "Interface\\ICONS\\Spell_Holy_NullifyDisease.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114305
+  },
+  {
     "ID": 458856,
     "Name": "Divine Light",
     "Description": "Heals a friendly target for ${$<healpower>*$m1/100} to ${$<healpower>*$M1/100}. $s2% of any excess healing on the target is converted into an absorption shield that lasts $458857d. Multiple casts of Divine Light do not accumulate this shield.\r\n\r\nDivine Light benefits from all talents and effects that trigger from or modify Holy Light.",
@@ -23033,7 +23402,7 @@
     "SpellIconFileDataID": 135763,
     "Icon": "Interface\\ICONS\\Spell_Arcane_TeleportStormWind.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 112864
+    "HotfixPushID": 114329
   },
   {
     "ID": 460940,
@@ -24100,7 +24469,7 @@
     "SpellIconFileDataID": 132336,
     "Icon": "Interface\\ICONS\\Ability_Warrior_Challange.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 1242688,
@@ -24669,7 +25038,7 @@
     "SpellIconFileDataID": 136169,
     "Icon": "Interface\\ICONS\\Spell_Shadow_LifeDrain02.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 112840
+    "HotfixPushID": 114429
   },
   {
     "ID": 1261770,
@@ -26193,6 +26562,16 @@
     "HotfixPushID": 114102
   },
   {
+    "ID": 1285370,
+    "Name": "DNT",
+    "Description": "Smites an enemy, inflicting Holy damage.",
+    "SchoolMask": 2,
+    "SpellIconFileDataID": 135924,
+    "Icon": "Interface\\ICONS\\Spell_Holy_HolySmite.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114348
+  },
+  {
     "ID": 1286114,
     "Name": "Starfall",
     "Description": "Anara calls down stars at random players' locations every $t1 sec for $d. Each star inflicts $1294728s1 Arcane damage to all players within $1294728A1 yds of the impact.",
@@ -26846,7 +27225,7 @@
     "SpellIconFileDataID": 132329,
     "Icon": "Interface\\ICONS\\Ability_TrueShot.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 1299348,
@@ -26858,7 +27237,7 @@
     "SpellIconFileDataID": 132329,
     "Icon": "Interface\\ICONS\\Ability_TrueShot.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 1299445,
@@ -26907,6 +27286,28 @@
     "HotfixPushID": 112758
   },
   {
+    "ID": 1300180,
+    "Name": "Stealth",
+    "Description": "Stealth to sneak around, but reduce your movement speed by $s2%. Can only be used when out of combat. Lasts $d.",
+    "AuraDescription": "Stealthed. Movement slowed by $s2%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132320,
+    "Icon": "Interface\\ICONS\\Ability_Stealth.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114362
+  },
+  {
+    "ID": 1300240,
+    "Name": "Cloud of Chained Essence",
+    "Description": "Inflicts$s1 Nature damage per $t1 sec. Deaks $s2 times as much damage to Trolls.",
+    "AuraDescription": "Taking $w1 Nature damage per $t1 sec.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136077,
+    "Icon": "Interface\\ICONS\\Spell_Nature_Regenerate.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114401
+  },
+  {
     "ID": 1300424,
     "Name": "Dark Channeling",
     "SchoolMask": 1,
@@ -26945,7 +27346,7 @@
     "SpellIconFileDataID": 134153,
     "Icon": "Interface\\ICONS\\INV_Misc_Head_Dragon_01.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 114137
+    "HotfixPushID": 114329
   },
   {
     "ID": 1304594,
@@ -26956,7 +27357,7 @@
     "SpellIconFileDataID": 135759,
     "Icon": "Interface\\ICONS\\Spell_Arcane_TeleportOrgrimmar.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 114137
+    "HotfixPushID": 114329
   },
   {
     "ID": 1304678,
@@ -26967,7 +27368,131 @@
     "SpellIconFileDataID": 135763,
     "Icon": "Interface\\ICONS\\Spell_Arcane_TeleportStormWind.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 114137
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304690,
+    "Name": "Songflower Serenade",
+    "Description": "Increases the chance for a melee, ranged, or spell critical by $s1% and all attributes by $s2 for $d.",
+    "AuraDescription": "Increases the chance for a melee, ranged, or spell critical by $s1% and all attributes by $s2.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 135934,
+    "Icon": "Interface\\ICONS\\Spell_Holy_MindVision.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304751,
+    "Name": "Slip'kik's Savvy",
+    "Description": "Chance for a critical hit with all spells and attacks increased by $s1%.",
+    "AuraDescription": "Chance for a critical hit with all spells and attacks increased by $s1%.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 135930,
+    "Icon": "Interface\\ICONS\\Spell_Holy_LesserHeal02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304753,
+    "Name": "Mol'dar's Moxie",
+    "Description": "Increases Stamina by $s1%.",
+    "AuraDescription": "Stamina increased by $s1%.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136054,
+    "Icon": "Interface\\ICONS\\Spell_Nature_MassTeleport.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304759,
+    "Name": "Fengus' Ferocity",
+    "Description": "Increases attack power by $s1 and spell damage and healing by up to $s3.",
+    "AuraDescription": "Attack power increased by $s1.\r\nSpell damage and healing increased by up to $s3.",
+    "SchoolMask": 8,
+    "SpellIconFileDataID": 136109,
+    "Icon": "Interface\\ICONS\\Spell_Nature_UndyingStrength.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304767,
+    "Name": "Sayge's Dark Fortune of Resistance",
+    "AuraDescription": "Resistances increased by $s1.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304769,
+    "Name": "Sayge's Dark Fortune of Damage",
+    "AuraDescription": "Damage increased by $s1%.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304771,
+    "Name": "Sayge's Dark Fortune of Armor",
+    "AuraDescription": "Armor increased by $s1%.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304772,
+    "Name": "Sayge's Dark Fortune of Intelligence",
+    "AuraDescription": "Intelligence increased by $s1%.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304775,
+    "Name": "Sayge's Dark Fortune of Spirit",
+    "AuraDescription": "Spirit increased by $s1%.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304778,
+    "Name": "Sayge's Dark Fortune of Stamina",
+    "AuraDescription": "Stamina increased by $s1%.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304780,
+    "Name": "Sayge's Dark Fortune of Agility",
+    "AuraDescription": "Agility increased by $s1%.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
+  },
+  {
+    "ID": 1304782,
+    "Name": "Sayge's Dark Fortune of Strength",
+    "AuraDescription": "Strength increased by $s1%.",
+    "SchoolMask": 32,
+    "SpellIconFileDataID": 134334,
+    "Icon": "Interface\\ICONS\\INV_Misc_Orb_02.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114329
   },
   {
     "ID": 1306267,
@@ -27043,6 +27568,27 @@
     "HotfixPushID": 112709
   },
   {
+    "ID": 1307760,
+    "Name": "Warplate of Burden",
+    "Description": "Increases Strength by $1307762s1 while carrying a full inventory.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132747,
+    "Icon": "Interface\\ICONS\\INV_Chest_Plate12.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114213
+  },
+  {
+    "ID": 1307762,
+    "Name": "Weight of Duty",
+    "Description": "Increases Strength by $s1 while your inventory is full.",
+    "AuraDescription": "Strength increased by $s1.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132747,
+    "Icon": "Interface\\ICONS\\INV_Chest_Plate12.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114213
+  },
+  {
     "ID": 1308380,
     "Name": "Push Loot",
     "SchoolMask": 1,
@@ -27050,6 +27596,17 @@
     "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113217
+  },
+  {
+    "ID": 1308764,
+    "Name": "Pauldrons of Shattered Summits",
+    "Description": "Strength increased by $s1 in Mountainous areas.",
+    "AuraDescription": "In a Mountainous area, Strength increased by $s1.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 135058,
+    "Icon": "Interface\\ICONS\\INV_Shoulder_27.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114213
   },
   {
     "ID": 1308883,
@@ -27176,6 +27733,27 @@
     "Icon": "Interface\\ICONS\\TRADE_ARCHAEOLOGY_VRYKUL_RUNESTICK.BLP",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114071
+  },
+  {
+    "ID": 1309241,
+    "Name": "Legwraps of Gathering Flame",
+    "Description": "Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects. When you have not moved for $s3 sec, this effect is doubled.",
+    "AuraDescription": "Healing done increased by up to $s1 and damage done increased by up to $s2.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 134591,
+    "Icon": "Interface\\ICONS\\INV_Pants_11.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114213
+  },
+  {
+    "ID": 1309243,
+    "Name": "Legwraps of Gathering Flame",
+    "AuraDescription": "Healing done increased by up to $s1 and damage done increased by up to $s2.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 134591,
+    "Icon": "Interface\\ICONS\\INV_Pants_11.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114213
   },
   {
     "ID": 1309410,
@@ -27352,7 +27930,7 @@
     "SpellIconFileDataID": 1412205,
     "Icon": "Interface\\ICONS\\Hunter_PVP_SniperShot.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 1310703,
@@ -27406,7 +27984,7 @@
     "SpellIconFileDataID": 1412205,
     "Icon": "Interface\\ICONS\\Hunter_PVP_SniperShot.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 1310786,
@@ -27418,7 +27996,7 @@
     "SpellIconFileDataID": 1412205,
     "Icon": "Interface\\ICONS\\Hunter_PVP_SniperShot.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 1310904,
@@ -27724,6 +28302,17 @@
     "HotfixPushID": 113341
   },
   {
+    "ID": 1318944,
+    "Name": "Blackhand's Breadth",
+    "Description": "Marks your target, increasing your Critical Strike chance against them by $s1% for $d. This effect is doubled against Orcs and Ogres.",
+    "AuraDescription": "Chance to be critically struck by the caster increased by $w1%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 133604,
+    "Icon": "Interface\\ICONS\\INV_Misc_ArmorKit_09.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114402
+  },
+  {
     "ID": 1319310,
     "Name": "Well Fed",
     "Description": "A nutritious meal has made you Well Fed, increasing your Armor.",
@@ -27799,6 +28388,26 @@
     "Name": "[DNT] FPT - Stormwind",
     "DataSource": "HotfixOnly",
     "HotfixPushID": 112864
+  },
+  {
+    "ID": 1323377,
+    "Name": "Revelation",
+    "AuraDescription": "Critical Strike chance of your next non-periodic spell increased by $s1%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 135934,
+    "Icon": "Interface\\ICONS\\Spell_Holy_MindVision.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114389
+  },
+  {
+    "ID": 1323392,
+    "Name": "Revelation",
+    "AuraDescription": "Critical Strike chance of your next non-periodic spell increased by $s1%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 135934,
+    "Icon": "Interface\\ICONS\\Spell_Holy_MindVision.blp",
+    "DataSource": "Db2PlusHotfix",
+    "HotfixPushID": 114389
   },
   {
     "ID": 1323522,
@@ -28000,7 +28609,7 @@
     "SpellIconFileDataID": 135861,
     "Icon": "Interface\\ICONS\\Spell_Frost_SummonWaterElemental.blp",
     "DataSource": "Db2PlusHotfix",
-    "HotfixPushID": 113341
+    "HotfixPushID": 114300
   },
   {
     "ID": 1325756,
@@ -29854,13 +30463,13 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136223,
     "Icon": "Interface\\ICONS\\Spell_Shadow_Twilight.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113893
   },
   {
     "ID": 1331006,
     "Name": "Umbral Pull",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113893
   },
   {
@@ -29870,7 +30479,7 @@
     "SchoolMask": 8,
     "SpellIconFileDataID": 136048,
     "Icon": "Interface\\ICONS\\Spell_Nature_Lightning.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113893
   },
   {
@@ -29881,7 +30490,7 @@
     "SchoolMask": 64,
     "SpellIconFileDataID": 136096,
     "Icon": "Interface\\ICONS\\Spell_Nature_StarFall.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113893
   },
   {
@@ -29890,7 +30499,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 134296,
     "Icon": "Interface\\ICONS\\INV_Misc_MonsterClaw_03.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113893
   },
   {
@@ -29900,7 +30509,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136206,
     "Icon": "Interface\\ICONS\\Spell_Shadow_ShadowWordDominate.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113893
   },
   {
@@ -29911,7 +30520,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 132121,
     "Icon": "Interface\\ICONS\\ABILITY_DRUID_DEMORALIZINGROAR.BLP",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113893
   },
   {
@@ -29920,7 +30529,7 @@
     "SchoolMask": 1,
     "SpellIconFileDataID": 136190,
     "Icon": "Interface\\ICONS\\Spell_Shadow_SacrificialShield.blp",
-    "DataSource": "HotfixOnly",
+    "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 113941
   },
   {
@@ -29992,5 +30601,122 @@
     "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
     "DataSource": "Db2PlusHotfix",
     "HotfixPushID": 114114
+  },
+  {
+    "ID": 1333971,
+    "Name": "Alliance Alterac Valley",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136235,
+    "Icon": "Interface\\ICONS\\TEMP.BLP",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114437
+  },
+  {
+    "ID": 1333976,
+    "Name": "Horde Alterac Valley",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136235,
+    "Icon": "Interface\\ICONS\\TEMP.BLP",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114437
+  },
+  {
+    "ID": 1334174,
+    "Name": "Might of the Alliance",
+    "Description": "Increases health by $s1%, Attack speed by $s2%, and Damage done by $s3%.",
+    "AuraDescription": "Health increased by $s1%\r\nAttack speed increased by $s2%\r\nDamage done increased by $s3%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132486,
+    "Icon": "Interface\\ICONS\\INV_BannerPVP_02.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114357
+  },
+  {
+    "ID": 1334175,
+    "Name": "Might of the Horde",
+    "Description": "Increases health by $s1%, Attack speed by $s2%, and Damage done by $s3%.",
+    "AuraDescription": "Health increased by $s1%\r\nAttack speed increased by $s2%\r\nDamage done increased by $s3%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132485,
+    "Icon": "Interface\\ICONS\\INV_BannerPVP_01.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114357
+  },
+  {
+    "ID": 1334176,
+    "Name": "Remove Stack",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136243,
+    "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114357
+  },
+  {
+    "ID": 1334177,
+    "Name": "Remove Stack",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136243,
+    "Icon": "Interface\\ICONS\\Trade_Engineering.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114357
+  },
+  {
+    "ID": 1334284,
+    "Name": "Cleave",
+    "Description": "Inflicts normal damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132338,
+    "Icon": "Interface\\ICONS\\Ability_Warrior_Cleave.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114386
+  },
+  {
+    "ID": 1334285,
+    "Name": "Whirlwind",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132369,
+    "Icon": "Interface\\ICONS\\Ability_Whirlwind.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114386
+  },
+  {
+    "ID": 1334295,
+    "Name": "Enrage",
+    "Description": "Increases the caster's attack speed by $s2% and the Physical damage it deals by $s1 for $d.",
+    "AuraDescription": "Physical damage dealt is increased by $s1.\r\nAttack speed increased by $s2%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136224,
+    "Icon": "Interface\\ICONS\\Spell_Shadow_UnholyFrenzy.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114386
+  },
+  {
+    "ID": 1334297,
+    "Name": "Avatar",
+    "Description": "Increases the Physical damage dealt by the caster by $s1% and enhances its armor by $s2% for $d.",
+    "AuraDescription": "Physical damage dealt is increased by $s1%.\r\nArmor increased by $s2%.",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 132275,
+    "Icon": "Interface\\ICONS\\Ability_Racial_Avatar.blp",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114386
+  },
+  {
+    "ID": 1334458,
+    "Name": "Alliance Alterac Valley",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136235,
+    "Icon": "Interface\\ICONS\\TEMP.BLP",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114437
+  },
+  {
+    "ID": 1334459,
+    "Name": "Horde Alterac Valley",
+    "SchoolMask": 1,
+    "SpellIconFileDataID": 136235,
+    "Icon": "Interface\\ICONS\\TEMP.BLP",
+    "DataSource": "HotfixOnly",
+    "HotfixPushID": 114437
   }
 ]

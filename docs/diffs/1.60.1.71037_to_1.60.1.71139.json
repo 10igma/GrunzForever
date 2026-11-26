@@ -1,0 +1,2278 @@
+{
+  "OldVersion": "1.60.1.71037",
+  "NewVersion": "1.60.1.71139",
+  "OldBuildKey": "0acab1e6aa41b46165d2ca66853b417b",
+  "NewBuildKey": "7a16decda3672d84db0d34d0784fda98",
+  "OldTableCount": 321,
+  "NewTableCount": 323,
+  "OldTotalRows": 1501655,
+  "NewTotalRows": 1502345,
+  "OldValidHotfixes": 43149,
+  "NewValidHotfixes": 43948,
+  "OldDeleteHotfixes": 12695,
+  "NewDeleteHotfixes": 12786,
+  "AddedTables": [
+    {
+      "TableName": "AnimKitConfig",
+      "TableHash": "141DB817",
+      "LayoutHash": "140718EF",
+      "ColumnCount": 2,
+      "BaseDb2Rows": 210,
+      "HotfixUpserts": 6,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 210
+    },
+    {
+      "TableName": "AnimKitConfigBoneSet",
+      "TableHash": "5D9F4EB1",
+      "LayoutHash": "482E3ED3",
+      "ColumnCount": 4,
+      "BaseDb2Rows": 266,
+      "HotfixUpserts": 6,
+      "HotfixDeletes": 0,
+      "FinalRowCount": 266
+    }
+  ],
+  "RemovedTables": [],
+  "ChangedTables": [
+    {
+      "TableName": "Achievement",
+      "OldLayoutHash": "6FC5281B",
+      "NewLayoutHash": "6FC5281B",
+      "OldBaseRows": 438,
+      "NewBaseRows": 438,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 438,
+      "NewFinalRows": 438,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "AnimKitSegment",
+      "OldLayoutHash": "A6C970CA",
+      "NewLayoutHash": "A6C970CA",
+      "OldBaseRows": 1082,
+      "NewBaseRows": 1082,
+      "OldHotfixUpserts": 5,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1082,
+      "NewFinalRows": 1082,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "BroadcastText",
+      "OldLayoutHash": "00EB45B3",
+      "NewLayoutHash": "00EB45B3",
+      "OldBaseRows": 12,
+      "NewBaseRows": 12,
+      "OldHotfixUpserts": 64,
+      "NewHotfixUpserts": 72,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 76,
+      "NewFinalRows": 84,
+      "LayoutChanged": false,
+      "RowDelta": 8
+    },
+    {
+      "TableName": "Cfg_GameRules",
+      "OldLayoutHash": "41B88A54",
+      "NewLayoutHash": "41B88A54",
+      "OldBaseRows": 228,
+      "NewBaseRows": 230,
+      "OldHotfixUpserts": 6,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 228,
+      "NewFinalRows": 230,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "ContentTuning",
+      "OldLayoutHash": "A3E13004",
+      "NewLayoutHash": "A3E13004",
+      "OldBaseRows": 102,
+      "NewBaseRows": 102,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 4,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 102,
+      "NewFinalRows": 103,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "ContentTuningXExpected",
+      "OldLayoutHash": "897A4313",
+      "NewLayoutHash": "897A4313",
+      "OldBaseRows": 31,
+      "NewBaseRows": 31,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 4,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 31,
+      "NewFinalRows": 33,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "CooldownSetLinkedSpell",
+      "OldLayoutHash": "11E4972F",
+      "NewLayoutHash": "11E4972F",
+      "OldBaseRows": 1906,
+      "NewBaseRows": 1903,
+      "OldHotfixUpserts": 69,
+      "NewHotfixUpserts": 69,
+      "OldHotfixDeletes": 4,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1903,
+      "NewFinalRows": 1903,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CooldownSetSpell",
+      "OldLayoutHash": "0AC7B8F5",
+      "NewLayoutHash": "0AC7B8F5",
+      "OldBaseRows": 609,
+      "NewBaseRows": 606,
+      "OldHotfixUpserts": 396,
+      "NewHotfixUpserts": 396,
+      "OldHotfixDeletes": 3,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 606,
+      "NewFinalRows": 606,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "CreatureDifficultyTreasure",
+      "OldLayoutHash": "75E963A9",
+      "NewLayoutHash": "75E963A9",
+      "OldBaseRows": 14271,
+      "NewBaseRows": 14271,
+      "OldHotfixUpserts": 390,
+      "NewHotfixUpserts": 407,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 14280,
+      "NewFinalRows": 14296,
+      "LayoutChanged": false,
+      "RowDelta": 16
+    },
+    {
+      "TableName": "CreatureXDisplayInfo",
+      "OldLayoutHash": "2EA19FCF",
+      "NewLayoutHash": "2EA19FCF",
+      "OldBaseRows": 185,
+      "NewBaseRows": 185,
+      "OldHotfixUpserts": 51,
+      "NewHotfixUpserts": 66,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 236,
+      "NewFinalRows": 251,
+      "LayoutChanged": false,
+      "RowDelta": 15
+    },
+    {
+      "TableName": "Criteria",
+      "OldLayoutHash": "53D03513",
+      "NewLayoutHash": "53D03513",
+      "OldBaseRows": 3305,
+      "NewBaseRows": 3341,
+      "OldHotfixUpserts": 16,
+      "NewHotfixUpserts": 52,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3305,
+      "NewFinalRows": 3341,
+      "LayoutChanged": false,
+      "RowDelta": 36
+    },
+    {
+      "TableName": "CriteriaTree",
+      "OldLayoutHash": "FF97AE12",
+      "NewLayoutHash": "FF97AE12",
+      "OldBaseRows": 6759,
+      "NewBaseRows": 6797,
+      "OldHotfixUpserts": 36,
+      "NewHotfixUpserts": 83,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6759,
+      "NewFinalRows": 6797,
+      "LayoutChanged": false,
+      "RowDelta": 38
+    },
+    {
+      "TableName": "Curve",
+      "OldLayoutHash": "D362535A",
+      "NewLayoutHash": "D362535A",
+      "OldBaseRows": 20329,
+      "NewBaseRows": 20329,
+      "OldHotfixUpserts": 797,
+      "NewHotfixUpserts": 804,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 20329,
+      "NewFinalRows": 20333,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "CurvePoint",
+      "OldLayoutHash": "7D4954A1",
+      "NewLayoutHash": "7D4954A1",
+      "OldBaseRows": 43168,
+      "NewBaseRows": 43168,
+      "OldHotfixUpserts": 1664,
+      "NewHotfixUpserts": 1687,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 3,
+      "OldFinalRows": 43168,
+      "NewFinalRows": 43176,
+      "LayoutChanged": false,
+      "RowDelta": 8
+    },
+    {
+      "TableName": "DungeonEncounter",
+      "OldLayoutHash": "35863DC4",
+      "NewLayoutHash": "35863DC4",
+      "OldBaseRows": 342,
+      "NewBaseRows": 342,
+      "OldHotfixUpserts": 5,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 343,
+      "NewFinalRows": 343,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ExpectedStatMod",
+      "OldLayoutHash": "8C41CCCE",
+      "NewLayoutHash": "8C41CCCE",
+      "OldBaseRows": 6,
+      "NewBaseRows": 6,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6,
+      "NewFinalRows": 7,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "Faction",
+      "OldLayoutHash": "6D443C38",
+      "NewLayoutHash": "6D443C38",
+      "OldBaseRows": 253,
+      "NewBaseRows": 253,
+      "OldHotfixUpserts": 0,
+      "NewHotfixUpserts": 2,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 253,
+      "NewFinalRows": 253,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "GameObjectDisplayInfo",
+      "OldLayoutHash": "16D1DD61",
+      "NewLayoutHash": "16D1DD61",
+      "OldBaseRows": 3262,
+      "NewBaseRows": 3266,
+      "OldHotfixUpserts": 28,
+      "NewHotfixUpserts": 28,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3266,
+      "NewFinalRows": 3266,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "GossipNPCOption",
+      "OldLayoutHash": "5247127B",
+      "NewLayoutHash": "5247127B",
+      "OldBaseRows": 1581,
+      "NewBaseRows": 1582,
+      "OldHotfixUpserts": 8,
+      "NewHotfixUpserts": 9,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1581,
+      "NewFinalRows": 1582,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "Item",
+      "OldLayoutHash": "9A2A4834",
+      "NewLayoutHash": "9A2A4834",
+      "OldBaseRows": 31982,
+      "NewBaseRows": 31984,
+      "OldHotfixUpserts": 8356,
+      "NewHotfixUpserts": 8455,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 31983,
+      "NewFinalRows": 31984,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "ItemEffect",
+      "OldLayoutHash": "4CA77678",
+      "NewLayoutHash": "4CA77678",
+      "OldBaseRows": 12673,
+      "NewBaseRows": 12672,
+      "OldHotfixUpserts": 69,
+      "NewHotfixUpserts": 69,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 12672,
+      "NewFinalRows": 12672,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemLimitCategory",
+      "OldLayoutHash": "B0A784BD",
+      "NewLayoutHash": "B0A784BD",
+      "OldBaseRows": 51,
+      "NewBaseRows": 52,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 51,
+      "NewFinalRows": 53,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "ItemModifiedAppearance",
+      "OldLayoutHash": "03A6C979",
+      "NewLayoutHash": "03A6C979",
+      "OldBaseRows": 16898,
+      "NewBaseRows": 16898,
+      "OldHotfixUpserts": 257,
+      "NewHotfixUpserts": 279,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 16898,
+      "NewFinalRows": 16898,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemSearchName",
+      "OldLayoutHash": "4516C8B0",
+      "NewLayoutHash": "4516C8B0",
+      "OldBaseRows": 6709,
+      "NewBaseRows": 6709,
+      "OldHotfixUpserts": 7309,
+      "NewHotfixUpserts": 7321,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 11581,
+      "NewFinalRows": 11581,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemSparse",
+      "OldLayoutHash": "6FCC3191",
+      "NewLayoutHash": "6FCC3191",
+      "OldBaseRows": 19374,
+      "NewBaseRows": 19377,
+      "OldHotfixUpserts": 8356,
+      "NewHotfixUpserts": 8455,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 24741,
+      "NewFinalRows": 24741,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ItemXItemEffect",
+      "OldLayoutHash": "96F083AD",
+      "NewLayoutHash": "96F083AD",
+      "OldBaseRows": 12665,
+      "NewBaseRows": 12664,
+      "OldHotfixUpserts": 42,
+      "NewHotfixUpserts": 42,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 12664,
+      "NewFinalRows": 12664,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "LightData",
+      "OldLayoutHash": "360DA016",
+      "NewLayoutHash": "360DA016",
+      "OldBaseRows": 6057,
+      "NewBaseRows": 6057,
+      "OldHotfixUpserts": 256,
+      "NewHotfixUpserts": 274,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6057,
+      "NewFinalRows": 6057,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "LightDataGlobalVolumeFog",
+      "OldLayoutHash": "24290E20",
+      "NewLayoutHash": "24290E20",
+      "OldBaseRows": 11633,
+      "NewBaseRows": 11633,
+      "OldHotfixUpserts": 638,
+      "NewHotfixUpserts": 654,
+      "OldHotfixDeletes": 13,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 11633,
+      "NewFinalRows": 11633,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "ModifierTree",
+      "OldLayoutHash": "F13BB1D8",
+      "NewLayoutHash": "F13BB1D8",
+      "OldBaseRows": 2876,
+      "NewBaseRows": 2883,
+      "OldHotfixUpserts": 50,
+      "NewHotfixUpserts": 54,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2879,
+      "NewFinalRows": 2883,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "NameGen",
+      "OldLayoutHash": "584300FA",
+      "NewLayoutHash": "584300FA",
+      "OldBaseRows": 2737,
+      "NewBaseRows": 2737,
+      "OldHotfixUpserts": 5,
+      "NewHotfixUpserts": 6,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2737,
+      "NewFinalRows": 2737,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "PlayerCondition",
+      "OldLayoutHash": "1D743D99",
+      "NewLayoutHash": "1D743D99",
+      "OldBaseRows": 1970,
+      "NewBaseRows": 1972,
+      "OldHotfixUpserts": 36,
+      "NewHotfixUpserts": 37,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1973,
+      "NewFinalRows": 1974,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "QuestV2",
+      "OldLayoutHash": "1854BDB9",
+      "NewLayoutHash": "1854BDB9",
+      "OldBaseRows": 6614,
+      "NewBaseRows": 6614,
+      "OldHotfixUpserts": 1257,
+      "NewHotfixUpserts": 1262,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6614,
+      "NewFinalRows": 6614,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SkillLineAbility",
+      "OldLayoutHash": "224F7EA0",
+      "NewLayoutHash": "224F7EA0",
+      "OldBaseRows": 7845,
+      "NewBaseRows": 7846,
+      "OldHotfixUpserts": 72,
+      "NewHotfixUpserts": 72,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 7846,
+      "NewFinalRows": 7846,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "Spell",
+      "OldLayoutHash": "E3D134FB",
+      "NewLayoutHash": "E3D134FB",
+      "OldBaseRows": 32135,
+      "NewBaseRows": 32143,
+      "OldHotfixUpserts": 1328,
+      "NewHotfixUpserts": 1380,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 32154,
+      "NewFinalRows": 32167,
+      "LayoutChanged": false,
+      "RowDelta": 13
+    },
+    {
+      "TableName": "SpellAuraOptions",
+      "OldLayoutHash": "95F4D5E1",
+      "NewLayoutHash": "95F4D5E1",
+      "OldBaseRows": 12765,
+      "NewBaseRows": 12758,
+      "OldHotfixUpserts": 87,
+      "NewHotfixUpserts": 90,
+      "OldHotfixDeletes": 6,
+      "NewHotfixDeletes": 5,
+      "OldFinalRows": 12760,
+      "NewFinalRows": 12755,
+      "LayoutChanged": false,
+      "RowDelta": -5
+    },
+    {
+      "TableName": "SpellAuraVisibility",
+      "OldLayoutHash": "BDBF86F9",
+      "NewLayoutHash": "BDBF86F9",
+      "OldBaseRows": 188,
+      "NewBaseRows": 189,
+      "OldHotfixUpserts": 3,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 189,
+      "NewFinalRows": 189,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellCastingRequirements",
+      "OldLayoutHash": "02074290",
+      "NewLayoutHash": "02074290",
+      "OldBaseRows": 3278,
+      "NewBaseRows": 3279,
+      "OldHotfixUpserts": 8,
+      "NewHotfixUpserts": 8,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3279,
+      "NewFinalRows": 3279,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellCategories",
+      "OldLayoutHash": "679EF94C",
+      "NewLayoutHash": "679EF94C",
+      "OldBaseRows": 10705,
+      "NewBaseRows": 10710,
+      "OldHotfixUpserts": 153,
+      "NewHotfixUpserts": 158,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 10710,
+      "NewFinalRows": 10713,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "SpellClassOptions",
+      "OldLayoutHash": "1F8E4FD7",
+      "NewLayoutHash": "1F8E4FD7",
+      "OldBaseRows": 6118,
+      "NewBaseRows": 6111,
+      "OldHotfixUpserts": 97,
+      "NewHotfixUpserts": 97,
+      "OldHotfixDeletes": 7,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6111,
+      "NewFinalRows": 6111,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellCooldowns",
+      "OldLayoutHash": "DC945B8C",
+      "NewLayoutHash": "DC945B8C",
+      "OldBaseRows": 4511,
+      "NewBaseRows": 4512,
+      "OldHotfixUpserts": 71,
+      "NewHotfixUpserts": 71,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 4512,
+      "NewFinalRows": 4512,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellDuration",
+      "OldLayoutHash": "4FDF0951",
+      "NewLayoutHash": "4FDF0951",
+      "OldBaseRows": 134,
+      "NewBaseRows": 135,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 3,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 134,
+      "NewFinalRows": 136,
+      "LayoutChanged": false,
+      "RowDelta": 2
+    },
+    {
+      "TableName": "SpellEffect",
+      "OldLayoutHash": "5362E3D4",
+      "NewLayoutHash": "5362E3D4",
+      "OldBaseRows": 43062,
+      "NewBaseRows": 43075,
+      "OldHotfixUpserts": 1098,
+      "NewHotfixUpserts": 1178,
+      "OldHotfixDeletes": 5,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 43076,
+      "NewFinalRows": 43105,
+      "LayoutChanged": false,
+      "RowDelta": 29
+    },
+    {
+      "TableName": "SpellEquippedItems",
+      "OldLayoutHash": "D9177916",
+      "NewLayoutHash": "D9177916",
+      "OldBaseRows": 1891,
+      "NewBaseRows": 1892,
+      "OldHotfixUpserts": 11,
+      "NewHotfixUpserts": 11,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 1892,
+      "NewFinalRows": 1892,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellInterrupts",
+      "OldLayoutHash": "6FFC0306",
+      "NewLayoutHash": "6FFC0306",
+      "OldBaseRows": 9929,
+      "NewBaseRows": 9916,
+      "OldHotfixUpserts": 49,
+      "NewHotfixUpserts": 52,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 9930,
+      "NewFinalRows": 9916,
+      "LayoutChanged": false,
+      "RowDelta": -14
+    },
+    {
+      "TableName": "SpellLabel",
+      "OldLayoutHash": "2B9F0138",
+      "NewLayoutHash": "2B9F0138",
+      "OldBaseRows": 4687,
+      "NewBaseRows": 4686,
+      "OldHotfixUpserts": 43,
+      "NewHotfixUpserts": 43,
+      "OldHotfixDeletes": 1,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 4686,
+      "NewFinalRows": 4686,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellLearnSpell",
+      "OldLayoutHash": "6B9C3AC9",
+      "NewLayoutHash": "6B9C3AC9",
+      "OldBaseRows": 52,
+      "NewBaseRows": 60,
+      "OldHotfixUpserts": 1,
+      "NewHotfixUpserts": 8,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 53,
+      "NewFinalRows": 60,
+      "LayoutChanged": false,
+      "RowDelta": 7
+    },
+    {
+      "TableName": "SpellLevels",
+      "OldLayoutHash": "7EB86FDC",
+      "NewLayoutHash": "7EB86FDC",
+      "OldBaseRows": 13006,
+      "NewBaseRows": 13009,
+      "OldHotfixUpserts": 91,
+      "NewHotfixUpserts": 95,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 13009,
+      "NewFinalRows": 13012,
+      "LayoutChanged": false,
+      "RowDelta": 3
+    },
+    {
+      "TableName": "SpellMisc",
+      "OldLayoutHash": "434B3607",
+      "NewLayoutHash": "434B3607",
+      "OldBaseRows": 32115,
+      "NewBaseRows": 32122,
+      "OldHotfixUpserts": 2037,
+      "NewHotfixUpserts": 2104,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 32122,
+      "NewFinalRows": 32138,
+      "LayoutChanged": false,
+      "RowDelta": 16
+    },
+    {
+      "TableName": "SpellName",
+      "OldLayoutHash": "782EE721",
+      "NewLayoutHash": "782EE721",
+      "OldBaseRows": 32135,
+      "NewBaseRows": 32143,
+      "OldHotfixUpserts": 1328,
+      "NewHotfixUpserts": 1380,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 32154,
+      "NewFinalRows": 32167,
+      "LayoutChanged": false,
+      "RowDelta": 13
+    },
+    {
+      "TableName": "SpellPower",
+      "OldLayoutHash": "61AD223F",
+      "NewLayoutHash": "61AD223F",
+      "OldBaseRows": 3481,
+      "NewBaseRows": 3482,
+      "OldHotfixUpserts": 55,
+      "NewHotfixUpserts": 55,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3482,
+      "NewFinalRows": 3482,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellReagents",
+      "OldLayoutHash": "FF40D202",
+      "NewLayoutHash": "FF40D202",
+      "OldBaseRows": 3299,
+      "NewBaseRows": 3299,
+      "OldHotfixUpserts": 6,
+      "NewHotfixUpserts": 10,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3299,
+      "NewFinalRows": 3299,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellShapeshift",
+      "OldLayoutHash": "E9111399",
+      "NewLayoutHash": "E9111399",
+      "OldBaseRows": 3466,
+      "NewBaseRows": 3461,
+      "OldHotfixUpserts": 20,
+      "NewHotfixUpserts": 20,
+      "OldHotfixDeletes": 5,
+      "NewHotfixDeletes": 2,
+      "OldFinalRows": 3461,
+      "NewFinalRows": 3459,
+      "LayoutChanged": false,
+      "RowDelta": -2
+    },
+    {
+      "TableName": "SpellTargetRestrictions",
+      "OldLayoutHash": "1EAB753E",
+      "NewLayoutHash": "1EAB753E",
+      "OldBaseRows": 4517,
+      "NewBaseRows": 4518,
+      "OldHotfixUpserts": 80,
+      "NewHotfixUpserts": 80,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 1,
+      "OldFinalRows": 4518,
+      "NewFinalRows": 4517,
+      "LayoutChanged": false,
+      "RowDelta": -1
+    },
+    {
+      "TableName": "SpellVisual",
+      "OldLayoutHash": "4B85C90F",
+      "NewLayoutHash": "4B85C90F",
+      "OldBaseRows": 6158,
+      "NewBaseRows": 6159,
+      "OldHotfixUpserts": 80,
+      "NewHotfixUpserts": 80,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 6160,
+      "NewFinalRows": 6160,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellVisualAnim",
+      "OldLayoutHash": "F233613A",
+      "NewLayoutHash": "F233613A",
+      "OldBaseRows": 2846,
+      "NewBaseRows": 2847,
+      "OldHotfixUpserts": 48,
+      "NewHotfixUpserts": 48,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 2847,
+      "NewFinalRows": 2847,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellVisualEffectName",
+      "OldLayoutHash": "2245CEE6",
+      "NewLayoutHash": "2245CEE6",
+      "OldBaseRows": 3001,
+      "NewBaseRows": 3003,
+      "OldHotfixUpserts": 42,
+      "NewHotfixUpserts": 42,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3003,
+      "NewFinalRows": 3003,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellVisualEvent",
+      "OldLayoutHash": "865F512E",
+      "NewLayoutHash": "865F512E",
+      "OldBaseRows": 15820,
+      "NewBaseRows": 15825,
+      "OldHotfixUpserts": 187,
+      "NewHotfixUpserts": 187,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 15825,
+      "NewFinalRows": 15825,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellVisualKit",
+      "OldLayoutHash": "C069D9C4",
+      "NewLayoutHash": "C069D9C4",
+      "OldBaseRows": 8068,
+      "NewBaseRows": 8071,
+      "OldHotfixUpserts": 114,
+      "NewHotfixUpserts": 114,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 8072,
+      "NewFinalRows": 8072,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellVisualKitEffect",
+      "OldLayoutHash": "E3206CA2",
+      "NewLayoutHash": "E3206CA2",
+      "OldBaseRows": 18468,
+      "NewBaseRows": 18474,
+      "OldHotfixUpserts": 248,
+      "NewHotfixUpserts": 248,
+      "OldHotfixDeletes": 3,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 18475,
+      "NewFinalRows": 18475,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellVisualKitModelAttach",
+      "OldLayoutHash": "02CF8554",
+      "NewLayoutHash": "02CF8554",
+      "OldBaseRows": 9082,
+      "NewBaseRows": 9086,
+      "OldHotfixUpserts": 140,
+      "NewHotfixUpserts": 140,
+      "OldHotfixDeletes": 3,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 9086,
+      "NewFinalRows": 9086,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "SpellXSpellVisual",
+      "OldLayoutHash": "7994A890",
+      "NewLayoutHash": "7994A890",
+      "OldBaseRows": 20522,
+      "NewBaseRows": 20527,
+      "OldHotfixUpserts": 175,
+      "NewHotfixUpserts": 191,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 20527,
+      "NewFinalRows": 20531,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "SummonProperties",
+      "OldLayoutHash": "A4CA5ECF",
+      "NewLayoutHash": "A4CA5ECF",
+      "OldBaseRows": 128,
+      "NewBaseRows": 128,
+      "OldHotfixUpserts": 2,
+      "NewHotfixUpserts": 4,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 128,
+      "NewFinalRows": 128,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TradeSkillItem",
+      "OldLayoutHash": "05D8D675",
+      "NewLayoutHash": "05D8D675",
+      "OldBaseRows": 3242,
+      "NewBaseRows": 3242,
+      "OldHotfixUpserts": 471,
+      "NewHotfixUpserts": 510,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 3242,
+      "NewFinalRows": 3242,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TraitDefinition",
+      "OldLayoutHash": "060A9F4C",
+      "NewLayoutHash": "060A9F4C",
+      "OldBaseRows": 665,
+      "NewBaseRows": 665,
+      "OldHotfixUpserts": 30,
+      "NewHotfixUpserts": 31,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 665,
+      "NewFinalRows": 665,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "TraitDefinitionEffectPoints",
+      "OldLayoutHash": "7E18C372",
+      "NewLayoutHash": "7E18C372",
+      "OldBaseRows": 664,
+      "NewBaseRows": 664,
+      "OldHotfixUpserts": 25,
+      "NewHotfixUpserts": 29,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 664,
+      "NewFinalRows": 668,
+      "LayoutChanged": false,
+      "RowDelta": 4
+    },
+    {
+      "TableName": "TraitNodeEntry",
+      "OldLayoutHash": "733B015D",
+      "NewLayoutHash": "733B015D",
+      "OldBaseRows": 666,
+      "NewBaseRows": 666,
+      "OldHotfixUpserts": 33,
+      "NewHotfixUpserts": 34,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 666,
+      "NewFinalRows": 666,
+      "LayoutChanged": false,
+      "RowDelta": 0
+    },
+    {
+      "TableName": "WorldEffect",
+      "OldLayoutHash": "B841BBEE",
+      "NewLayoutHash": "B841BBEE",
+      "OldBaseRows": 206,
+      "NewBaseRows": 206,
+      "OldHotfixUpserts": 21,
+      "NewHotfixUpserts": 22,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 206,
+      "NewFinalRows": 207,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    },
+    {
+      "TableName": "WorldStateExpression",
+      "OldLayoutHash": "CA33F540",
+      "NewLayoutHash": "CA33F540",
+      "OldBaseRows": 4003,
+      "NewBaseRows": 4003,
+      "OldHotfixUpserts": 31,
+      "NewHotfixUpserts": 32,
+      "OldHotfixDeletes": 0,
+      "NewHotfixDeletes": 0,
+      "OldFinalRows": 4003,
+      "NewFinalRows": 4004,
+      "LayoutChanged": false,
+      "RowDelta": 1
+    }
+  ],
+  "NewHotfixWaves": [
+    {
+      "PushId": 112709,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "BroadcastText"
+      ]
+    },
+    {
+      "PushId": 112744,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 3,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellEffect",
+        "SpellName",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 113969,
+      "AddedValidCount": 25,
+      "AddedDeleteCount": 3,
+      "AffectedTables": [
+        "AnimKitConfig",
+        "AnimKitConfigBoneSet",
+        "AnimKitSegment",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 114177,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "GlobalStrings"
+      ]
+    },
+    {
+      "PushId": 114213,
+      "AddedValidCount": 34,
+      "AddedDeleteCount": 24,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure",
+        "ItemLimitCategory",
+        "ItemModifiedAppearance",
+        "ItemModifiedAppearanceExtra",
+        "Spell",
+        "SpellEffect",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 114284,
+      "AddedValidCount": 16,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellDuration",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 114292,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure"
+      ]
+    },
+    {
+      "PushId": 114293,
+      "AddedValidCount": 8,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CriteriaTree"
+      ]
+    },
+    {
+      "PushId": 114300,
+      "AddedValidCount": 20,
+      "AddedDeleteCount": 2,
+      "AffectedTables": [
+        "SpellMisc",
+        "SpellScriptText"
+      ]
+    },
+    {
+      "PushId": 114305,
+      "AddedValidCount": 50,
+      "AddedDeleteCount": 4,
+      "AffectedTables": [
+        "Spell",
+        "SpellEffect",
+        "SpellLearnSpell",
+        "SpellMisc",
+        "SpellName",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 114311,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114319,
+      "AddedValidCount": 6,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 114324,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellReagents"
+      ]
+    },
+    {
+      "PushId": 114325,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114328,
+      "AddedValidCount": 29,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure",
+        "CreatureXDisplayInfo"
+      ]
+    },
+    {
+      "PushId": 114329,
+      "AddedValidCount": 79,
+      "AddedDeleteCount": 14,
+      "AffectedTables": [
+        "Spell",
+        "SpellEffect",
+        "SpellInterrupts",
+        "SpellMisc",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 114330,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114331,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "DungeonEncounter"
+      ]
+    },
+    {
+      "PushId": 114332,
+      "AddedValidCount": 50,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114334,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114338,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 114341,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 114342,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "DungeonEncounter"
+      ]
+    },
+    {
+      "PushId": 114344,
+      "AddedValidCount": 52,
+      "AddedDeleteCount": 4,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName",
+        "TraitDefinition",
+        "TraitDefinitionEffectPoints",
+        "TraitNodeEntry"
+      ]
+    },
+    {
+      "PushId": 114345,
+      "AddedValidCount": 13,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "CreatureDifficultyTreasure",
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114348,
+      "AddedValidCount": 8,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "Spell",
+        "SpellEffect",
+        "SpellMisc",
+        "SpellName",
+        "SpellTargetRestrictions",
+        "WorldEffect"
+      ]
+    },
+    {
+      "PushId": 114349,
+      "AddedValidCount": 9,
+      "AddedDeleteCount": 4,
+      "AffectedTables": [
+        "GossipNPCOption",
+        "ModifierTree",
+        "PlayerCondition",
+        "QuestPOIBlob",
+        "QuestPOIPoint",
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114353,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114356,
+      "AddedValidCount": 77,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Achievement",
+        "Criteria",
+        "CriteriaTree"
+      ]
+    },
+    {
+      "PushId": 114357,
+      "AddedValidCount": 36,
+      "AddedDeleteCount": 9,
+      "AffectedTables": [
+        "ContentTuning",
+        "ContentTuningXExpected",
+        "CreatureXDisplayInfo",
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellShapeshift",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 114359,
+      "AddedValidCount": 72,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 114360,
+      "AddedValidCount": 34,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "LightData",
+        "LightDataGlobalVolumeFog"
+      ]
+    },
+    {
+      "PushId": 114362,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellName"
+      ]
+    },
+    {
+      "PushId": 114365,
+      "AddedValidCount": 7,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Curve",
+        "CurvePoint",
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114371,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellCategories",
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114372,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 6,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellMisc",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellShapeshift",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 114374,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellCategories"
+      ]
+    },
+    {
+      "PushId": 114378,
+      "AddedValidCount": 4,
+      "AddedDeleteCount": 3,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellEffect",
+        "SpellName",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 114379,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "QuestV2"
+      ]
+    },
+    {
+      "PushId": 114380,
+      "AddedValidCount": 66,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 114382,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Faction"
+      ]
+    },
+    {
+      "PushId": 114386,
+      "AddedValidCount": 25,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Spell",
+        "SpellCategories",
+        "SpellEffect",
+        "SpellLevels",
+        "SpellMisc",
+        "SpellName",
+        "SpellXSpellVisual"
+      ]
+    },
+    {
+      "PushId": 114388,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Faction"
+      ]
+    },
+    {
+      "PushId": 114389,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellAuraOptions",
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114392,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellAuraOptions"
+      ]
+    },
+    {
+      "PushId": 114393,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114394,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114395,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "SpellEffect",
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114397,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114399,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114400,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114401,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114402,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellCategories",
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114403,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellDuration"
+      ]
+    },
+    {
+      "PushId": 114404,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 114405,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114406,
+      "AddedValidCount": 3,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114407,
+      "AddedValidCount": 5,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemLimitCategory",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114408,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellInterrupts"
+      ]
+    },
+    {
+      "PushId": 114410,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellReagents"
+      ]
+    },
+    {
+      "PushId": 114411,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSparse"
+      ]
+    },
+    {
+      "PushId": 114415,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellAuraOptions"
+      ]
+    },
+    {
+      "PushId": 114417,
+      "AddedValidCount": 0,
+      "AddedDeleteCount": 2,
+      "AffectedTables": [
+        "SpellScript"
+      ]
+    },
+    {
+      "PushId": 114420,
+      "AddedValidCount": 2,
+      "AddedDeleteCount": 1,
+      "AffectedTables": [
+        "SpellScript",
+        "SummonProperties"
+      ]
+    },
+    {
+      "PushId": 114429,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114431,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114433,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellMisc"
+      ]
+    },
+    {
+      "PushId": 114435,
+      "AddedValidCount": 9,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "ExpectedStatMod",
+        "SpellEffect",
+        "WorldStateExpression"
+      ]
+    },
+    {
+      "PushId": 114437,
+      "AddedValidCount": 20,
+      "AddedDeleteCount": 12,
+      "AffectedTables": [
+        "Spell",
+        "SpellAuraOptions",
+        "SpellCastingRequirements",
+        "SpellEffect",
+        "SpellEquippedItems",
+        "SpellMisc",
+        "SpellName",
+        "SpellPower",
+        "SpellPowerDifficulty",
+        "SpellTargetRestrictions"
+      ]
+    },
+    {
+      "PushId": 114440,
+      "AddedValidCount": 28,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "Item",
+        "ItemSearchName",
+        "ItemSparse",
+        "SpellEffect",
+        "TradeSkillItem"
+      ]
+    },
+    {
+      "PushId": 114441,
+      "AddedValidCount": 15,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "SpellEffect"
+      ]
+    },
+    {
+      "PushId": 114448,
+      "AddedValidCount": 1,
+      "AddedDeleteCount": 0,
+      "AffectedTables": [
+        "NameGen"
+      ]
+    }
+  ],
+  "AddedItems": [],
+  "RemovedItems": [],
+  "ModifiedItems": [
+    {
+      "Id": 2892,
+      "Name": "Deadly Poison",
+      "Quality": 1,
+      "ItemLevel": 30,
+      "RequiredLevel": 30,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 30 -> 0"
+    },
+    {
+      "Id": 2893,
+      "Name": "Deadly Poison II",
+      "Quality": 1,
+      "ItemLevel": 38,
+      "RequiredLevel": 38,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 55 -> 0"
+    },
+    {
+      "Id": 3775,
+      "Name": "Crippling Poison",
+      "Quality": 1,
+      "ItemLevel": 20,
+      "RequiredLevel": 20,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 13 -> 0"
+    },
+    {
+      "Id": 3776,
+      "Name": "Crippling Poison II",
+      "Quality": 1,
+      "ItemLevel": 50,
+      "RequiredLevel": 50,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 175 -> 0"
+    },
+    {
+      "Id": 5237,
+      "Name": "Mind-numbing Poison",
+      "Quality": 1,
+      "ItemLevel": 24,
+      "RequiredLevel": 24,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 18 -> 0"
+    },
+    {
+      "Id": 6947,
+      "Name": "Instant Poison",
+      "Quality": 1,
+      "ItemLevel": 20,
+      "RequiredLevel": 20,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 5 -> 0"
+    },
+    {
+      "Id": 6949,
+      "Name": "Instant Poison II",
+      "Quality": 1,
+      "ItemLevel": 28,
+      "RequiredLevel": 28,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 20 -> 0"
+    },
+    {
+      "Id": 6950,
+      "Name": "Instant Poison III",
+      "Quality": 1,
+      "ItemLevel": 36,
+      "RequiredLevel": 36,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 30 -> 0"
+    },
+    {
+      "Id": 6951,
+      "Name": "Mind-numbing Poison II",
+      "Quality": 1,
+      "ItemLevel": 38,
+      "RequiredLevel": 38,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 75 -> 0"
+    },
+    {
+      "Id": 8926,
+      "Name": "Instant Poison IV",
+      "Quality": 1,
+      "ItemLevel": 44,
+      "RequiredLevel": 44,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 75 -> 0"
+    },
+    {
+      "Id": 8927,
+      "Name": "Instant Poison V",
+      "Quality": 1,
+      "ItemLevel": 52,
+      "RequiredLevel": 52,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 100 -> 0"
+    },
+    {
+      "Id": 8928,
+      "Name": "Instant Poison VI",
+      "Quality": 1,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 125 -> 0"
+    },
+    {
+      "Id": 8984,
+      "Name": "Deadly Poison III",
+      "Quality": 1,
+      "ItemLevel": 46,
+      "RequiredLevel": 46,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 100 -> 0"
+    },
+    {
+      "Id": 8985,
+      "Name": "Deadly Poison IV",
+      "Quality": 1,
+      "ItemLevel": 54,
+      "RequiredLevel": 54,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 150 -> 0"
+    },
+    {
+      "Id": 9186,
+      "Name": "Mind-numbing Poison III",
+      "Quality": 1,
+      "ItemLevel": 52,
+      "RequiredLevel": 52,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 175 -> 0"
+    },
+    {
+      "Id": 10918,
+      "Name": "Wound Poison",
+      "Quality": 1,
+      "ItemLevel": 32,
+      "RequiredLevel": 32,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 42 -> 0"
+    },
+    {
+      "Id": 10920,
+      "Name": "Wound Poison II",
+      "Quality": 1,
+      "ItemLevel": 40,
+      "RequiredLevel": 40,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 67 -> 0"
+    },
+    {
+      "Id": 10921,
+      "Name": "Wound Poison III",
+      "Quality": 1,
+      "ItemLevel": 48,
+      "RequiredLevel": 48,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 125 -> 0"
+    },
+    {
+      "Id": 10922,
+      "Name": "Wound Poison IV",
+      "Quality": 1,
+      "ItemLevel": 56,
+      "RequiredLevel": 56,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 175 -> 0"
+    },
+    {
+      "Id": 20844,
+      "Name": "Deadly Poison V",
+      "Quality": 1,
+      "ItemLevel": 60,
+      "RequiredLevel": 60,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114380,
+      "ChangeDetails": "SellPrice: 150 -> 0"
+    },
+    {
+      "Id": 252027,
+      "Name": "Gustberry Juice",
+      "Quality": 1,
+      "ItemLevel": 15,
+      "RequiredLevel": 5,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114330,
+      "ChangeDetails": "SellPrice: 5 -> 6"
+    },
+    {
+      "Id": 272432,
+      "Name": "Totem of the Maelstrom",
+      "Quality": 3,
+      "ItemLevel": 65,
+      "RequiredLevel": 60,
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114311,
+      "ChangeDetails": "Name: 'Totem of the Storm' -> 'Totem of the Maelstrom'"
+    },
+    {
+      "Id": 274425,
+      "Name": "White Obsidian Wand",
+      "Quality": 3,
+      "ItemLevel": 44,
+      "RequiredLevel": 39,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051641,
+      "ChangeDetails": "SellPrice: 13687 -> 6844"
+    },
+    {
+      "Id": 274428,
+      "Name": "Dark Golem Breastplate",
+      "Quality": 3,
+      "ItemLevel": 44,
+      "RequiredLevel": 39,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051644,
+      "ChangeDetails": "SellPrice: 11986 -> 5993"
+    },
+    {
+      "Id": 274430,
+      "Name": "Rock Sentinel Slicer",
+      "Quality": 3,
+      "ItemLevel": 44,
+      "RequiredLevel": 39,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051646,
+      "ChangeDetails": "SellPrice: 21568 -> 10784"
+    },
+    {
+      "Id": 274485,
+      "Name": "Axe of Lingering Dread",
+      "Quality": 3,
+      "ItemLevel": 44,
+      "RequiredLevel": 39,
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 17051701,
+      "ChangeDetails": "SellPrice: 23400 -> 11700"
+    }
+  ],
+  "AddedSpells": [
+    {
+      "Id": 1285370,
+      "Name": "DNT",
+      "Subtext": "",
+      "Description": "Smites an enemy, inflicting Holy damage.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114348,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1333971,
+      "Name": "Alliance Alterac Valley",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114437,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1333976,
+      "Name": "Horde Alterac Valley",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114437,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1334174,
+      "Name": "Might of the Alliance",
+      "Subtext": "",
+      "Description": "Increases health by $s1%, Attack speed by $s2%, and Damage done by $s3%.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114357,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1334175,
+      "Name": "Might of the Horde",
+      "Subtext": "",
+      "Description": "Increases health by $s1%, Attack speed by $s2%, and Damage done by $s3%.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114357,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1334176,
+      "Name": "Remove Stack",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114357,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1334177,
+      "Name": "Remove Stack",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114357,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1334284,
+      "Name": "Cleave",
+      "Subtext": "",
+      "Description": "Inflicts normal damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114386,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1334285,
+      "Name": "Whirlwind",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114386,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1334295,
+      "Name": "Enrage",
+      "Subtext": "",
+      "Description": "Increases the caster's attack speed by $s2% and the Physical damage it deals by $s1 for $d.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114386,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1334297,
+      "Name": "Avatar",
+      "Subtext": "",
+      "Description": "Increases the Physical damage dealt by the caster by $s1% and enhances its armor by $s2% for $d.",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114386,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1334458,
+      "Name": "Alliance Alterac Valley",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114437,
+      "ChangeDetails": null
+    },
+    {
+      "Id": 1334459,
+      "Name": "Horde Alterac Valley",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "HotfixOnly",
+      "HotfixPushId": 114437,
+      "ChangeDetails": null
+    }
+  ],
+  "RemovedSpells": [],
+  "ModifiedSpells": [
+    {
+      "Id": 16814,
+      "Name": "Starlight Wrath",
+      "Subtext": "",
+      "Description": "Reduces the cast time of your Wrath and Starfire spells by $/1000;S1 sec and the Mana cost of your Wrath spell by $s2%.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114344,
+      "ChangeDetails": "Name: 'Improved Wrath' -> 'Starlight Wrath'; Beschreibung geaendert"
+    },
+    {
+      "Id": 16821,
+      "Name": "Moon and Stars",
+      "Subtext": "",
+      "Description": "Increases the damage and critical strike chance of your Moonfire spell by $s1% and gives your Starfire spell a $s4% chance not to lose casting time from taking damage.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114344,
+      "ChangeDetails": "Name: 'Improved Moonfire' -> 'Moon and Stars'; Beschreibung geaendert"
+    },
+    {
+      "Id": 16850,
+      "Name": "Improved Starfire",
+      "Subtext": "",
+      "Description": "Your Starfire spell has a $s2% chance to stun its target for $16922d.\r\n",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114344,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 16914,
+      "Name": "Hurricane",
+      "Subtext": "Rank 1",
+      "Description": "Creates a violent storm in the target area causing $1278965s1 Nature damage to enemies every $t3 sec, and increasing the time between attacks of enemies by $s2%. Lasts ${$d}. Druid must channel to maintain the spell.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114284,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 17401,
+      "Name": "Hurricane",
+      "Subtext": "Rank 2",
+      "Description": "Creates a violent storm in the target area causing $1278968s1 Nature damage to enemies every $t3 sec, and increasing the time between attacks by $s2%. Lasts ${$d}. Druid must channel to maintain the spell.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114284,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 17402,
+      "Name": "Hurricane",
+      "Subtext": "Rank 3",
+      "Description": "Creates a violent storm in the target area causing $1278759s1 Nature damage to enemies every $t3 sec, and increasing the time between attacks by $1278759s2%. Lasts ${$d}. Druid must channel to maintain the spell.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114284,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 24858,
+      "Name": "Moonkin Form",
+      "Subtext": "Shapeshift",
+      "Description": "Shapeshift into Moonkin Form, increasing Arcane and Nature damage done by $24905s4%, Omen of Clarity's chance to trigger by $s5%, Armor contribution from items by $24905s1%, and all party or raid members within $24907a1 yards have their Critical Strike chance increased by $24907s1%. Also protects the caster from Polymorph effects and prevents the use of healing spells.\r\n\r\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114344,
+      "ChangeDetails": "Beschreibung geaendert; Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 29166,
+      "Name": "Innervate",
+      "Subtext": "",
+      "Description": "Increases the target's Mana regeneration by $s2% and allows $s1% of the target's Mana regeneration to continue while casting.  Lasts $d.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114344,
+      "ChangeDetails": "Aura-Tooltip geaendert"
+    },
+    {
+      "Id": 408248,
+      "Name": "Eclipse",
+      "Subtext": "",
+      "Description": "Increases the critical strike chance of your Wrath spell by $s5%, and your Wrath spell reduces the cast time of your next $s3 Starfire spells by ${$m2/-1000}.2 sec. Stores up to $408255u charges. Lasts $408255d.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114344,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 408258,
+      "Name": "Dreamstate",
+      "Subtext": "",
+      "Description": "When you cast Innervate on a target other than yourself, you gain $s1% of the effect as well.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114344,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1300180,
+      "Name": "Stealth",
+      "Subtext": "",
+      "Description": "Stealth to sneak around, but reduce your movement speed by $s2%. Can only be used when out of combat. Lasts $d.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114362,
+      "ChangeDetails": "Beschreibung geaendert"
+    },
+    {
+      "Id": 1308764,
+      "Name": "Pauldrons of Shattered Summits",
+      "Subtext": "",
+      "Description": "Strength increased by $s1 in Mountainous areas.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114213,
+      "ChangeDetails": "Name: 'Might of Bedrock' -> 'Pauldrons of Shattered Summits'"
+    },
+    {
+      "Id": 1309241,
+      "Name": "Legwraps of Gathering Flame",
+      "Subtext": "",
+      "Description": "Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects. When you have not moved for $s3 sec, this effect is doubled.",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114213,
+      "ChangeDetails": "Name: 'Legwraps of Suspended Time' -> 'Legwraps of Gathering Flame'"
+    },
+    {
+      "Id": 1309243,
+      "Name": "Legwraps of Gathering Flame",
+      "Subtext": "",
+      "Description": "",
+      "DataSource": "Db2PlusHotfix",
+      "HotfixPushId": 114213,
+      "ChangeDetails": "Name: 'Legwraps of Suspended Time' -> 'Legwraps of Gathering Flame'"
+    }
+  ],
+  "AddedTitles": []
+}

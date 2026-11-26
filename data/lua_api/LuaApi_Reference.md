@@ -1,6 +1,6 @@
 # WoW Classic Forever (`Camelot`) — Lua API & UI Surface Reference
 
-- **Produkt / Build**: `wowf` — `1.60.1.71037` (`WOW-71037patch1.60.1_Retail`)
+- **Produkt / Build**: `wowf` — `1.60.1.71139` (`WOW-71139patch1.60.1_Retail`)
 - **Projekt-Konstante**: `WOW_PROJECT_CAMELOT = 18` (`WOW_PROJECT_ID = 18`)
 - **UI-Architektur**: `[Family] = Mainline` (`mainline`) | `[Game] = Camelot` (`camelot`)
 - **Dokumentierte API-Systeme**: **612** (`283` `C_*` Namespaces)

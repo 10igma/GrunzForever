@@ -2,6 +2,18 @@
 
 Alle relevanten Änderungen an **GrunzForever** und den dokumentierten **WoW: Classic Forever (`wowf` / `Camelot`)** Builds werden hier festgehalten.
 
+## [0.7.0] - 2026-11-26
+
+### Hinzugefügt
+- **Daten-Update (`wowf` Build `1.60.1.71139` + Live-Hotfixes bis `PushId 114448`):**
+  - Neuer Build-zu-Build-Diff [`docs/diffs/1.60.1.71037_to_1.60.1.71139.md`](docs/diffs/1.60.1.71037_to_1.60.1.71139.md) und Manifest [`data/manifests/_ExtractionManifest_1.60.1.71139.json`](data/manifests/_ExtractionManifest_1.60.1.71139.json) (`323` Tabellen / `+2` neu: `AnimKitConfig`, `AnimKitConfigBoneSet`, `1,502,345` Datensätze / `+690` Zeilen, `43,948` Valid- & `12,786` Delete-Hotfixes über `72` neue `PushId`-Wellen).
+  - Neue Basis-DB2-Einträge in `CriteriaTree` (`+38`), `Criteria` (`+36`), `SpellLearnSpell` (`+7`: `Reagent Economy` lehrt alle 7 Berufs-Passiva `1262636..1262662`, `Goblin Mortar` lehrt `The Mortar: Reloaded`), `ModifierTree` (`+4`), `Cfg_GameRules` (`+2`: `ID 276` & `277`) und `ItemLimitCategory` (`+1`: `ID 721` `Gift of the Wild Gods`).
+  - **Balance-Druiden / Moonkin-Rework (`PushId 114344`):** `Moonkin Form` (`24858`) erhöht nun zusätzlich Arkan- und Naturschaden; `Eclipse` (`408248`) erhöht zusätzlich die kritische Trefferchance von `Wrath`; `Dreamstate` (`408258`) gewährt beim Wirken von `Innervate` auf andere Ziele dem Druiden selbst `$s1%` des Effekts; `Improved Wrath` -> `Starlight Wrath` (`16814`, verkürzt Zauberzeit von `Wrath` und `Starfire`); `Improved Moonfire` -> `Moon and Stars` (`16821`, inkl. Pushback-Schutz für `Starfire`).
+  - **Alteractal-Update (`PushId 114357`, `114386`, `114435`, `114437`, `+13` neue Spells):** Neue stapelbare Marshall-/Kriegsmeisters-Buffs `Might of the Alliance` (`1334174`) & `Might of the Horde` (`1334175`, je +15 % Leben, Angriffstempo & Schaden pro Stapel + `Remove Stack`), Boss-Fähigkeiten (`Avatar`, `Enrage`, `Whirlwind`, `Cleave`, `Thunderclap`, `Stormbolt`) und Ruf-Zauber (`Alliance/Horde Alterac Valley`).
+  - **Weltbuffs & weitere Spells:** `Fengus' Ferocity` (`22817` / `1304759`, `PushId 114329`) gewährt zusätzlich zu `+200` Angriffskraft nun auch `+115` Zauberschaden und `+115` Heilung; alle 8 `Sayge's Dark Fortune`-Dunkelmond-Buffs überarbeitet; Updates für `Will of Shahram`/`Fist of Shahram` (`PushId 114378`), Paladin-/Hexenmeister-Epic-Mounts (`Summon Forsaken Charger`/`Charger`/`Teach Summon Dreadsteed`, `PushId 114349`), `Pauldrons of Shattered Summits`, `Legwraps of Gathering Flame`, `Stealth` & `Hurricane`.
+  - `26` modifizierte Items (`SellPrice -> 0` auf allen `20` klassischen Schurken-Giften, `-50 %` `SellPrice` auf Uldaman-Custom-Items `Axe of Lingering Dread`, `Rock Sentinel Slicer`, `Dark Golem Breastplate`, `White Obsidian Wand` via `PushId 114345`, Lockbox-/Grab-Bag-Pass via `PushId 114332` sowie Umbenennung von `272432` `Totem of the Storm` -> `Totem of the Maelstrom`).
+- **Build-Konfiguration (`global.json`):** `rollForward` auf `latestMajor` aktualisiert, damit das Projekt auch unter `.NET SDK 11.x` ohne Warnungen baut.
+
 ## [0.6.0] - 2026-11-21
 
 ### Hinzugefügt
